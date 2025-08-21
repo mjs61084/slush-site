@@ -1,73 +1,93 @@
-<!DOCTYPE html>
-
-<html lang="en">
-
-<head>
-
-  <meta charset="UTF-8" />
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <title>SlushIQ - SimpleLab</title>
-
-  <style>
-
-    body {
-
-      font-family: system-ui, sans-serif;
-
-      margin: 2rem;
-
-      background: #f5f7fa;
-
-      color: #333;
-
-      text-align: center;
-
-    }
-
-    .container {
-
-      max-width: 600px;
-
-      margin: auto;
-
-      padding: 2rem;
-
-      background: white;
-
-      border-radius: 12px;
-
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-
-    }
-
-    h1 {
-
-      color: #4a90e2;
-
-    }
-
-  </style>
-
-</head>
-
 <body>
-
   <div class="container">
-
     <h1>🥶 SlushIQ SimpleLab</h1>
-
     <p>Make the perfect drink every time.</p>
 
+    <form id="simplelab-form">
+      <label>
+        Serving Size (oz):
+        <input type="number" id="servingSize" value="16" step="0.1" required>
+      </label>
+      <br><br>
+      <label>
+        Sugar (grams):
+        <input type="number" id="sugarGrams" value="20" step="0.1" required>
+      </label>
+      <br><br>
+      <label>
+        Alcohol ABV (%):
+        <input type="number" id="liquorABV" value="40" step="0.1">
+      </label>
+      <br><br>
+      <label>
+        Include Alcohol?
+        <input type="checkbox" id="hasLiquor">
+      </label>
+      <br><br>
+      <button type="button" onclick="calculate()">Calculate</button>
+    </form>
 
+    <hr>
 
-    <!-- 👉 Your calculator code will go here -->
-
-    <p>[Calculator placeholder]</p>
-
+    <div id="results">
+      <h2>Results</h2>
+      <p>Brix: <span id="brix">0</span>%</p>
+      <p>ABV: <span id="abv">0</span>%</p>
+    </div>
   </div>
 
-</body>
+  <script>
+    function calculate() {
+      const servingSize = parseFloat(document.getElementById('servingSize').value) || 0;
+      const sugarGrams = parseFloat(document.getElementById('sugarGrams').value) || 0;
+      const liquorABV = parseFloat(document.getElementById('liquorABV').value) || 0;
+      const hasLiquor = document.getElementById('hasLiquor').checked;
 
-</html>
+      // Convert serving size from oz → mL (29.57 mL/oz)
+      const servingMl = servingSize * 29.57;
+
+      // Assume density of water (1 g/mL) for sugar calc
+      const brix = ((sugarGrams / servingMl) * 100).toFixed(1);
+
+      // ABV: only counts if liquor is checked
+      let abv = 0;
+      if (hasLiquor) {
+        abv = liquorABV.toFixed(1);
+      }
+
+      document.getElementById('brix').innerText = brix;
+      document.getElementById('abv').innerText = abv;
+    }
+  </script>
+
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      margin: 2rem;
+      background: #f5f7fa;
+      color: #333;
+      text-align: center;
+    }
+    .container {
+      max-width: 600px;
+      margin: auto;
+      padding: 2rem;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    input {
+      margin-top: 0.3rem;
+      padding: 0.3rem;
+    }
+    button {
+      margin-top: 1rem;
+      padding: 0.6rem 1.2rem;
+      border: none;
+      background: #4a90e2;
+      color: white;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+  </style>
+</body>
