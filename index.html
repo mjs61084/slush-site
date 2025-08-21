@@ -10,15 +10,15 @@
 <body>
   <header class="app-header">
     <h1>SimpleLAB</h1>
-    <p class="sub">Quick, reliable slush mix math — oz only inputs; outputs can show oz or mL.</p>
+    <p class="sub">Quick, reliable slush mix math. Inputs in oz+g, outputs toggle oz/mL.</p>
   </header>
 
   <!-- Units toggle -->
-  <section class="unit-toggle" aria-label="Output units">
+  <section class="unit-toggle">
     <span class="unit-label">Units</span>
-    <div class="segmented" role="tablist" aria-label="Choose output units">
-      <button type="button" id="u-oz" class="on" role="tab" aria-selected="true">oz</button>
-      <button type="button" id="u-ml" role="tab" aria-selected="false">mL</button>
+    <div class="segmented">
+      <button type="button" id="u-oz" class="on">oz</button>
+      <button type="button" id="u-ml">mL</button>
     </div>
   </section>
 
@@ -49,17 +49,17 @@
     <form id="slush-form" novalidate>
       <div class="field">
         <label for="batch">Batch size (oz)</label>
-        <input id="batch" name="batch" type="number" inputmode="decimal" step="0.5" min="0" placeholder="e.g., 64" required />
+        <input id="batch" type="number" step="0.5" min="0" placeholder="e.g., 64" required />
       </div>
 
       <div class="row">
         <div class="field half">
           <label for="serving">Label serving size (oz)</label>
-          <input id="serving" name="serving" type="number" inputmode="decimal" step="0.1" min="0" placeholder="e.g., 4" required />
+          <input id="serving" type="number" step="0.1" min="0" placeholder="e.g., 4" required />
         </div>
         <div class="field half">
           <label for="sugar">Sugar per serving (g)</label>
-          <input id="sugar" name="sugar" type="number" inputmode="decimal" step="0.1" min="0" placeholder="e.g., 28" required />
+          <input id="sugar" type="number" step="0.1" min="0" placeholder="e.g., 28" required />
         </div>
       </div>
 
@@ -70,7 +70,7 @@
 
       <div class="field" id="abv-field">
         <label for="abv">Liquor ABV (%)</label>
-        <input id="abv" name="abv" type="number" inputmode="decimal" step="1" min="1" max="96" placeholder="40" value="40" />
+        <input id="abv" type="number" step="1" min="1" max="96" placeholder="40" value="40" />
       </div>
 
       <div class="buttons">
@@ -78,12 +78,11 @@
         <button type="button" id="resetBtn" class="btn-secondary">Reset</button>
       </div>
 
-      <p class="hint">Inputs use ounces and grams (like most labels). Toggle only affects displayed results.</p>
-      <p class="footnote">SimpleLAB web mirrors app behavior: no °Brix/ABV UI, silent water add if too sweet, sugar-in-water guidance if too low.</p>
+      <p class="hint">Inputs use oz (volume) and g (sugar). Outputs can show oz or mL.</p>
     </form>
   </main>
 
-  <!-- Scripts (engine first, then UI) -->
+  <!-- Scripts -->
   <script src="simplelab.js" defer></script>
   <script src="script.js" defer></script>
 </body>
