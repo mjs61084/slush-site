@@ -8,51 +8,48 @@ export default function handler(req, res) {
   const ozToMl = 29.57;
   const rhoWater = 1.0;
 
-  // --- Convert batch size to mL ---
+  // Convert batch size to mL
   let batchSizeMl = unit === "oz" ? batchSize * ozToMl : batchSize;
 
-  // --- Current °Brix ---
+  // Current °Brix
   const currentBrix = (sugarGrams / (batchSizeMl * rhoWater)) * 100;
 
-  // --- Target baseline ---
+  // Target baseline
   const targetBrix = 12;
   const scale = targetBrix / currentBrix;
 
-  // --- Mixer & Water ---
+  // Mixer & Water
   let mixerMl = batchSizeMl * scale;
   let waterMl = batchSizeMl - mixerMl;
   let liquorMl = 0;
 
-  // --- Liquor logic ---
+  // Liquor logic
   let finalABV = 0;
   if (hasLiquor && liquorABV > 0) {
     const targetABV = 7; // %
     const liquorFraction = targetABV / liquorABV;
     liquorMl = batchSizeMl * liquorFraction;
     waterMl -= liquorMl;
-    finalABV = (liquorMl / batchSizeMl) * liquorABV; // actual resulting %ABV
+    finalABV = (liquorMl / batchSizeMl) * liquorABV;
   }
 
-  // --- Guidance Messages ---
+  // Guidance
   let guidance = [];
-
-  // Sugar checks
   if (currentBrix < 11) {
-    guidance.push("Low sugar: add more mixer.");
+    guidance.push("⚠️ Low sugar: add more mixer.");
   } else if (currentBrix > 13.5) {
-    guidance.push("High sugar: add more water.");
+    guidance.push("⚠️ High sugar: add more water.");
   } else {
-    guidance.push("Sugar level looks good ✅");
+    guidance.push("✅ Sugar level looks good.");
   }
 
-  // Alcohol checks
   if (hasLiquor) {
     if (finalABV < 5) {
-      guidance.push("Low alcohol: add more liquor.");
+      guidance.push("⚠️ Low alcohol: add more liquor.");
     } else if (finalABV > 9) {
-      guidance.push("High alcohol: dilute with water/mixer.");
+      guidance.push("⚠️ High alcohol: dilute with water/mixer.");
     } else {
-      guidance.push("Alcohol level looks good ✅");
+      guidance.push("✅ Alcohol level looks good.");
     }
   }
 
