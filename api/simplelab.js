@@ -3,22 +3,30 @@ export default function handler(req, res) {
     return res.status(405).json({ error: "Method not allowed" });
   }
 
-  const { servingSize, sugarGrams, liquorABV, hasLiquor } = req.body;
+  const { batchSize, sugarGrams, liquorABV, hasLiquor } = req.body;
 
-  // --- Your secret math goes here ---
+  // --- SimpleLab core logic (ported from your Swift math) ---
   const ozToMl = 29.57;
-  const servingMl = servingSize * ozToMl;
-  const targetBrix = 12;
+  const rhoWater = 1.0;
 
-  const currentBrix = (sugarGrams / servingMl) * 100;
+  // Volume in mL
+  const totalVolumeMl = batchSize * ozToMl;
+
+  // Current °Brix
+  const currentBrix = (sugarGrams / (totalVolumeMl * rhoWater)) * 100;
+
+  // Target range: ~12 °Brix baseline
+  const targetBrix = 12;
   const scale = targetBrix / currentBrix;
 
-  let mixer = servingSize * scale;
-  let water = servingSize - mixer;
+  // Mixer & Water calculation
+  let mixer = batchSize * scale;
+  let water = batchSize - mixer;
   let liquor = 0;
 
   if (hasLiquor) {
-    liquor = servingSize * 0.07; // ~7% ABV target
+    // Approximate ABV dial logic (7% target by volume)
+    liquor = (batchSize * 0.07);
     water -= liquor;
   }
 
