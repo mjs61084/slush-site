@@ -1,1 +1,87 @@
+/* Global */
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f7fa;
+  color: #333;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  margin-top: 2rem;
+}
+
+h1 {
+  text-align: center;
+  color: #4a90e2;
+  margin-bottom: 0.25rem;
+}
+
+.tagline {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Input fields */
+.field {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.8rem 0;
+  align-items: center;
+}
+
+.field input, .field select {
+  width: 140px;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+/* Results */
+.results {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.card {
+  background: #f9f9f9;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  text-align: center;
+  flex: 1 1 30%;
+}
+
+.card h2 {
+  margin: 0;
+  font-size: 1.6rem;
+  color: #4a90e2;
+}
+
+/* Mobile friendly */
+@media (max-width: 600px) {
+  .field {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .field input, .field select {
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+  .results {
+    flex-direction: column;
+  }
+}
 
