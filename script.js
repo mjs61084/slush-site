@@ -24,9 +24,24 @@ async function calculate() {
   }
 }
 
+// Reset form + outputs
+function resetForm() {
+  document.getElementById('batchSize').value = 16;
+  document.getElementById('unitSelect').value = "oz";
+  document.getElementById('sugarGrams').value = 21;
+  document.getElementById('liquorABV').value = 40;
+  document.getElementById('hasLiquor').checked = false;
+
+  document.getElementById('mixerOut').innerText = "0";
+  document.getElementById('waterOut').innerText = "0";
+  document.getElementById('liquorOut').innerText = "0";
+  document.getElementById('liquorCard').style.display = "none";
+}
+
 document.querySelectorAll("input, select").forEach(input => {
   input.addEventListener("input", calculate);
 });
 
-calculate();
+document.getElementById("resetBtn").addEventListener("click", resetForm);
 
+calculate();
