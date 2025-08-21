@@ -5,28 +5,33 @@ export default function handler(req, res) {
 
   const { batchSize, sugarGrams, liquorABV, hasLiquor } = req.body;
 
-  // --- SimpleLab core logic (ported from your Swift math) ---
+  // --- Constants ---
   const ozToMl = 29.57;
   const rhoWater = 1.0;
 
-  // Volume in mL
+  // --- Convert batch size to mL ---
   const totalVolumeMl = batchSize * ozToMl;
 
-  // Current °Brix
-  const currentBrix = (sugarGrams / (totalVolumeMl * rhoWater)) * 100;
+  // --- Calculate current °Brix ---
+  const totalSugar = sugarGrams;
+  const currentBrix = (totalSugar / (totalVolumeMl * rhoWater)) * 100;
 
-  // Target range: ~12 °Brix baseline
+  // --- Target baseline (same as app) ---
   const targetBrix = 12;
   const scale = targetBrix / currentBrix;
 
-  // Mixer & Water calculation
+  // --- Mixer & Water ---
   let mixer = batchSize * scale;
   let water = batchSize - mixer;
   let liquor = 0;
 
-  if (hasLiquor) {
-    // Approximate ABV dial logic (7% target by volume)
-    liquor = (batchSize * 0.07);
+  // --- Liquor logic with ABV dial ---
+  if (hasLiquor && liquorABV > 0) {
+    // target ~7% ABV by volume, scaled by actual ABV %
+    // stronger liquor → use less, weaker liquor → use more
+    const targetABV = 7; // %
+    const liquorFraction = targetABV / liquorABV;
+    liquor = batchSize * liquorFraction;
     water -= liquor;
   }
 
