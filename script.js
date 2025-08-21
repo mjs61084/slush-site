@@ -1,66 +1,86 @@
-async function calculate() {
-  const batchSize = parseFloat(document.getElementById('batchSize').value) || 0;
-  const sugarGrams = parseFloat(document.getElementById('sugarGrams').value) || 0;
-  const liquorABV = parseFloat(document.getElementById('liquorABV').value) || 0;
-  const hasLiquor = document.getElementById('hasLiquor').checked;
-  const unit = document.getElementById('unitSelect').value;
+(function () {
+  const $ = (sel) => document.querySelector(sel);
 
-  const response = await fetch('/api/simplelab', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ batchSize, sugarGrams, liquorABV, hasLiquor, unit })
-  });
+  const elMixer  = $("#out-mixer");
+  const elWater  = $("#out-water");
+  const elLiquor = $("#out-liquor");
+  const elWarns  = $("#warnings");
+  const form     = $("#slush-form");
 
-  const data = await response.json();
+  const hasLiquor = $("#hasLiquor");
+  const abvField  = $("#abv-field");
+  const abvInput  = $("#abv");
 
-  // Results
-  document.getElementById('mixerOut').innerText = `${data.mixer} ${unit}`;
-  document.getElementById('waterOut').innerText = `${data.water} ${unit}`;
-  document.getElementById('liquorOut').innerText = `${data.liquor} ${unit}`;
+  // UI state
+  function setResults(mixer, water, liquor) {
+    elMixer.textContent  = format1(mixer);
+    elWater.textContent  = format1(water);
+    elLiquor.textContent = format1(liquor);
+  }
+  function clearResults() { setResults(NaN, NaN, NaN); }
 
-  if (hasLiquor) {
-    document.getElementById('liquorCard').style.display = "block";
-  } else {
-    document.getElementById('liquorCard').style.display = "none";
+  function renderWarnings(list) {
+    elWarns.innerHTML = "";
+    if (!list || list.length === 0) {
+      elWarns.hidden = true;
+      return;
+    }
+    for (const w of list) {
+      const div = document.createElement("div");
+      div.className = "item";
+      div.textContent = w;
+      elWarns.appendChild(div);
+    }
+    elWarns.hidden = false;
   }
 
-  // Styled guidance bubbles
-  const guidanceBox = document.getElementById('guidance');
-  guidanceBox.innerHTML = "";
-  data.guidance.forEach(msg => {
-    const p = document.createElement("p");
-    if (msg.startsWith("✅")) {
-      p.classList.add("good");
-    } else if (msg.startsWith("⚠️")) {
-      p.classList.add("warn");
+  function format1(x) {
+    if (!isFinite(x)) return "—";
+    const v = Math.round(x * 10) / 10;
+    return Number.isInteger(v) ? String(v) : v.toFixed(1);
+  }
+
+  function parseNum(id) {
+    const v = parseFloat($(id).value);
+    return isNaN(v) ? 0 : v;
+  }
+
+  // Liquor toggle behavior
+  function syncLiquorUI() {
+    if (hasLiquor.checked) {
+      abvField.style.display = "";
+      if (!abvInput.value) abvInput.value = "40";
+    } else {
+      abvField.style.display = "none";
     }
-    p.innerText = msg;
-    guidanceBox.appendChild(p);
+  }
+  hasLiquor.addEventListener("change", syncLiquorUI);
+  syncLiquorUI();
+
+  // Submit handler
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    const batchOz   = parseNum("#batch");
+    const servingOz = parseNum("#serving");
+    const sugarG    = parseNum("#sugar");
+    const includeL  = hasLiquor.checked;
+    const liquorABV = includeL ? parseNum("#abv") : 0;
+
+    const res = window.calculateSimpleLab({
+      batchOz,
+      includeLiquor: includeL,
+      liquorABV,
+      servingSizeOz: servingOz,
+      sugarPerServingG: sugarG
+    });
+
+    if (!res.isValid) {
+      clearResults();
+      renderWarnings(res.warnings || ["Recipe Error — check your inputs."]);
+      return;
+    }
+
+    setResults(res.mixerOz, res.waterOz, res.liquorOz);
+    renderWarnings(res.warnings || []);
   });
-}
-
-function resetForm() {
-  document.getElementById('batchSize').value = 16;
-  document.getElementById('batchSlider').value = 16;
-  document.getElementById('unitSelect').value = "oz";
-  document.getElementById('sugarGrams').value = 21;
-  document.getElementById('liquorABV').value = 40;
-  document.getElementById('hasLiquor').checked = false;
-
-  document.getElementById('mixerOut').innerText = "0";
-  document.getElementById('waterOut').innerText = "0";
-  document.getElementById('liquorOut').innerText = "0";
-  document.getElementById('liquorCard').style.display = "none";
-  document.getElementById('guidance').innerHTML = "";
-}
-
-// Sync slider ↔ number input
-document.getElementById("batchSize").addEventListener("input", e => {
-  document.getElementById("batchSlider").value = e.target.value;
-});
-document.getElementById("batchSlider").addEventListener("input", e => {
-  document.getElementById("batchSize").value = e.target.value;
-});
-
-document.getElementById("calcBtn").addEventListener("click", calculate);
-document.getElementById("resetBtn").addEventListener("click", resetForm);
+})();
