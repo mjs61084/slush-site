@@ -6,43 +6,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="theme-color" content="#ffffff" />
   <style>
-    :root {
-      --bg: #ffffff; --fg: #0f172a; --muted: #64748b;
-      --accent: #0ea5e9; --border: #e2e8f0; --card: #f8fafc;
-    }
-    * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
-    body { margin: 0; font: 16px/1.4 -apple-system, system-ui, sans-serif; background: var(--bg); color: var(--fg); }
-    .app-header { text-align: center; padding: 16px; }
-    .app-header h1 { margin: 0; font-size: 22px; }
-    .app-header .sub { margin-top: 4px; font-size: 13px; color: var(--muted); }
-    .unit-toggle { display: flex; justify-content: center; gap: 8px; padding: 8px; }
-    .unit-label { font-size: 13px; color: var(--muted); }
-    .segmented { display: flex; border: 1px solid var(--border); border-radius: 999px; overflow: hidden; }
-    .segmented button { border: none; background: #fff; padding: 6px 14px; font-size: 14px; cursor: pointer; }
-    .segmented button.on { background: var(--accent); color: #fff; }
-    .results { display: grid; grid-template-columns: repeat(3,1fr); gap: 8px; padding: 12px; background: var(--bg); border-bottom: 1px solid var(--border); position: sticky; top: 0; }
-    .result-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; text-align: center; padding: 8px; }
-    .result-card .label { font-size: 12px; color: var(--muted); }
-    .result-card .value { font-size: 22px; font-weight: 700; }
-    .result-card .unit { font-size: 12px; color: var(--muted); }
-    .warnings { max-width: 640px; margin: 10px auto; padding: 0 12px; }
-    .warnings .item { background: #fff8eb; border: 1px solid #fde68a; color: #854d0e; border-radius: 10px; padding: 10px; margin-bottom: 6px; font-size: 14px; }
-    .container { max-width: 640px; margin: 0 auto; padding: 12px; }
-    .field { display: flex; flex-direction: column; margin-bottom: 12px; }
-    .field label { font-size: 13px; color: var(--muted); margin-bottom: 4px; }
-    .field input { padding: 12px; border: 1px solid var(--border); border-radius: 12px; font-size: 16px; }
-    .row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-    .switch { display: flex; align-items: center; gap: 8px; margin: 8px 0; }
-    .buttons { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 12px; }
-    .cta { background: var(--accent); color: white; border: none; padding: 14px; border-radius: 12px; font-size: 16px; font-weight: 700; cursor: pointer; }
-    .btn-secondary { border: 1px solid var(--border); background: #fff; padding: 14px; border-radius: 12px; font-size: 16px; cursor: pointer; }
-    .hint { text-align: center; font-size: 12px; color: var(--muted); margin-top: 10px; }
+    :root { --bg:#fff; --fg:#0f172a; --muted:#64748b; --accent:#0ea5e9; --border:#e2e8f0; --card:#f8fafc; }
+    *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+    body{margin:0;font:16px/1.4 -apple-system,system-ui,sans-serif;background:var(--bg);color:var(--fg)}
+    .app-header{text-align:center;padding:16px}.app-header h1{margin:0;font-size:22px}.app-header .sub{margin-top:4px;font-size:13px;color:var(--muted)}
+    .unit-toggle{display:flex;justify-content:center;gap:8px;padding:8px}.unit-label{font-size:13px;color:var(--muted)}
+    .segmented{display:flex;border:1px solid var(--border);border-radius:999px;overflow:hidden}
+    .segmented button{border:none;background:#fff;padding:6px 14px;font-size:14px;cursor:pointer}
+    .segmented button.on{background:var(--accent);color:#fff}
+    .results{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;padding:12px;background:var(--bg);border-bottom:1px solid var(--border);position:sticky;top:0}
+    .result-card{background:var(--card);border:1px solid var(--border);border-radius:12px;text-align:center;padding:8px}
+    .result-card .label{font-size:12px;color:var(--muted)}.result-card .value{font-size:22px;font-weight:700}.result-card .unit{font-size:12px;color:var(--muted)}
+    .warnings{max-width:640px;margin:10px auto;padding:0 12px}.warnings .item{background:#fff8eb;border:1px solid #fde68a;color:#854d0e;border-radius:10px;padding:10px;margin-bottom:6px;font-size:14px}
+    .container{max-width:640px;margin:0 auto;padding:12px}.field{display:flex;flex-direction:column;margin-bottom:12px}
+    .field label{font-size:13px;color:var(--muted);margin-bottom:4px}.field input{padding:12px;border:1px solid var(--border);border-radius:12px;font-size:16px}
+    .row{display:grid;grid-template-columns:1fr 1fr;gap:10px}.switch{display:flex;align-items:center;gap:8px;margin:8px 0}
+    .buttons{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px}
+    .cta{background:var(--accent);color:#fff;border:none;padding:14px;border-radius:12px;font-size:16px;font-weight:700;cursor:pointer}
+    .btn-secondary{border:1px solid var(--border);background:#fff;padding:14px;border-radius:12px;font-size:16px;cursor:pointer}
+    .hint{text-align:center;font-size:12px;color:var(--muted);margin-top:10px}
   </style>
 </head>
 <body>
   <header class="app-header">
     <h1>SimpleLAB</h1>
-    <p class="sub">Inputs in oz+g, outputs toggle oz/mL. Matches iOS behavior.</p>
+    <p class="sub">Inputs & outputs toggle oz ⇄ mL. Sugar stays in grams.</p>
   </header>
 
   <!-- Units toggle -->
@@ -55,7 +43,7 @@
   </section>
 
   <!-- Results -->
-  <section class="results" id="results">
+  <section class="results">
     <div class="result-card">
       <div class="label">Mixer</div>
       <div class="value" id="out-mixer">—</div>
@@ -79,17 +67,17 @@
   <main class="container">
     <form id="slush-form" novalidate>
       <div class="field">
-        <label for="batch">Batch size (oz)</label>
-        <input id="batch" type="number" step="0.5" min="0" placeholder="e.g., 64" required />
+        <label for="batch" id="lbl-batch">Batch size (oz)</label>
+        <input id="batch" type="number" step="0.5" min="0" required />
       </div>
       <div class="row">
         <div class="field half">
-          <label for="serving">Label serving size (oz)</label>
-          <input id="serving" type="number" step="0.1" min="0" placeholder="e.g., 4" required />
+          <label for="serving" id="lbl-serving">Label serving size (oz)</label>
+          <input id="serving" type="number" step="0.1" min="0" required />
         </div>
         <div class="field half">
           <label for="sugar">Sugar per serving (g)</label>
-          <input id="sugar" type="number" step="0.1" min="0" placeholder="e.g., 28" required />
+          <input id="sugar" type="number" step="0.1" min="0" required />
         </div>
       </div>
       <div class="switch">
@@ -98,7 +86,7 @@
       </div>
       <div class="field" id="abv-field">
         <label for="abv">Liquor ABV (%)</label>
-        <input id="abv" type="number" step="1" min="1" max="96" placeholder="40" value="40" />
+        <input id="abv" type="number" step="1" min="1" max="96" value="40" />
       </div>
       <div class="buttons">
         <button type="submit" class="cta">Calculate Slush</button>
@@ -109,54 +97,162 @@
   </main>
 
   <script>
-    /* === Math engine === */
-    (function () {
-      const OZ_TO_ML=29.5735, RHO_WATER=1, RHO_MIXER=1, RHO_LIQUOR=0.95;
-      const TARGET_ABV=7, TARGET_BRIX=11.8;
-      const BMIN_ALC=11.5, BMAX_ALC=12.5, BMIN_NO=10.5, BMAX_NO=11.2;
-      function rHalf(x){return Math.round(x*2)/2;} function rUpHalf(x){return Math.ceil(x*2)/2;}
-      function trim1(x){const v=Math.round(x*10)/10;return Number.isInteger(v)?String(v):v.toFixed(1);}
-      window.calculateSimpleLab=function(p){
-        const batch=+p.batchOz||0, liquorABV=+p.liquorABV||0, servOz=+p.servingSizeOz||0, sugarG=+p.sugarPerServingG||0;
-        const incl=p.includeLiquor;
-        if(batch<=0||servOz<=0||sugarG<=0) return {mixerOz:0,waterOz:0,liquorOz:0,warnings:["Recipe Error — check inputs."],isValid:false};
-        let L=0; if(incl&&liquorABV>0) L=Math.min(batch,(TARGET_ABV/100*batch)/(liquorABV/100));
-        const sugarConc=sugarG/servOz; const massEst=((batch-L)*OZ_TO_ML*RHO_WATER)+(L*OZ_TO_ML*RHO_LIQUOR);
-        const targetSugar=(TARGET_BRIX/100)*massEst; let M=targetSugar/sugarConc; M=Math.min(Math.max(M,0),batch-L);
-        let W=rHalf(batch-(L+M)); if(W<0)W=0;
-        const V=L+M+W, totMass=(L*OZ_TO_ML*RHO_LIQUOR)+(M*OZ_TO_ML*RHO_MIXER)+(W*OZ_TO_ML*RHO_WATER);
-        const sugarMass=sugarConc*M; const finalBrix=totMass>0?(sugarMass/totMass)*100:0;
-        const minB=incl?BMIN_ALC:BMIN_NO, maxB=incl?BMAX_ALC:BMAX_NO;
-        if(finalBrix>maxB){const add=((finalBrix-maxB)/finalBrix)*V; const addR=rHalf(add); if(addR>0)W=rHalf(W+addR);}
-        const warns=[]; if(finalBrix<minB&&V>0){const def=minB-finalBrix,sNeed=(def/100)*totMass;
-          if(sNeed>=0.5){const tbsp=Math.ceil((sNeed/12.5)*2)/2; let wOz=rUpHalf((sNeed/2)/OZ_TO_ML);
-            if(wOz<1){const tsp=Math.max(1,Math.round(wOz*6));warns.push(`Low sugar — dissolve ${trim1(tbsp)} Tbsp sugar in ${tsp} tsp warm water, mix in, then recalc.`);}
-            else warns.push(`Low sugar — dissolve ${trim1(tbsp)} Tbsp sugar in ${trim1(wOz)} oz warm water, mix in, then recalc.`);}}
-        return {mixerOz:M,waterOz:W,liquorOz:L,warnings:warns,isValid:true};
-      };
-    })();
+  /* === Math engine (oz base; returns numeric sugarGuide so UI can format per unit) === */
+  (function(){
+    const OZ_TO_ML=29.5735,RHO_WATER=1,RHO_MIXER=1,RHO_LIQUOR=0.95;
+    const TARGET_ABV=7,TARGET_BRIX=11.8;
+    const BMIN_ALC=11.5,BMAX_ALC=12.5,BMIN_NO=10.5,BMAX_NO=11.2;
+    function rHalf(x){return Math.round(x*2)/2;}function rUpHalf(x){return Math.ceil(x*2)/2;}
+    window.calculateSimpleLab=function(p){
+      const batch=+p.batchOz||0, liquorABV=+p.liquorABV||0, servOz=+p.servingSizeOz||0, sugarG=+p.sugarPerServingG||0;
+      const incl=p.includeLiquor;
+      if(batch<=0||servOz<=0||sugarG<=0) return {mixerOz:0,waterOz:0,liquorOz:0,warnings:["Recipe Error — check inputs."],isValid:false};
 
-    /* === UI logic === */
-    (function () {
-      const $=s=>document.querySelector(s),ozBtn=$("#u-oz"),mlBtn=$("#u-ml"),unitEls=document.querySelectorAll("[data-unit]");
-      const mEl=$("#out-mixer"),wEl=$("#out-water"),lEl=$("#out-liquor"),warnEl=$("#warnings"),form=$("#slush-form"),reset=$("#resetBtn");
-      const hasL=$("#hasLiquor"),abvF=$("#abv-field"),abv=$("#abv"); const OZ_TO_ML=29.5735;
-      let unit=localStorage.getItem("unitPref")==="ml"?"ml":"oz",last=null;
-      function toDisp(v){return unit==="oz"?v:v*OZ_TO_ML;} function fmt(x){if(!isFinite(x))return"—";const v=Math.round(x*10)/10;return Number.isInteger(v)?String(v):v.toFixed(1);}
-      function render(m,w,l){mEl.textContent=fmt(toDisp(m));wEl.textContent=fmt(toDisp(w));lEl.textContent=fmt(toDisp(l));last={m,w,l};}
-      function clear(){mEl.textContent=wEl.textContent=lEl.textContent="—";last=null;}
-      function warns(list){warnEl.innerHTML="";if(!list||!list.length){warnEl.hidden=true;return;}list.forEach(t=>{const d=document.createElement("div");d.className="item";d.textContent=t;warnEl.appendChild(d);});warnEl.hidden=false;}
-      function syncLiquor(){abvF.style.display=hasL.checked?"":"none";if(hasL.checked&&!abv.value)abv.value="40";}hasL.addEventListener("change",syncLiquor);syncLiquor();
-      function applyUnit(){if(unit==="oz"){ozBtn.classList.add("on");mlBtn.classList.remove("on");}else{mlBtn.classList.add("on");ozBtn.classList.remove("on");}
-        unitEls.forEach(e=>e.textContent=unit);if(last)render(last.m,last.w,last.l);}
-      ozBtn.addEventListener("click",()=>{unit="oz";localStorage.setItem("unitPref","oz");applyUnit();});
-      mlBtn.addEventListener("click",()=>{unit="ml";localStorage.setItem("unitPref","ml");applyUnit();});applyUnit();
-      form.addEventListener("submit",e=>{e.preventDefault();const res=window.calculateSimpleLab({
-        batchOz:+$("#batch").value||0,includeLiquor:hasL.checked,liquorABV:+$("#abv").value||0,
-        servingSizeOz:+$("#serving").value||0,sugarPerServingG:+$("#sugar").value||0});
-        if(!res.isValid){clear();warns(res.warnings);return;}render(res.mixerOz,res.waterOz,res.liquorOz);warns(res.warnings);});
-      reset.addEventListener("click",()=>{form.reset();syncLiquor();clear();warns([]);});
-    })();
+      // Liquor targeting
+      let L=0; if(incl&&liquorABV>0) L=Math.min(batch,(TARGET_ABV/100*batch)/(liquorABV/100));
+
+      // Sugar concentration from label (g/oz)
+      const sugarConc=sugarG/servOz;
+
+      // Mass estimate (g) at target batch
+      const massEst=((batch-L)*OZ_TO_ML*RHO_WATER)+(L*OZ_TO_ML*RHO_LIQUOR);
+      const targetSugar=(TARGET_BRIX/100)*massEst;
+
+      // Mixer to supply target sugar
+      let M=targetSugar/sugarConc; M=Math.min(Math.max(M,0),batch-L);
+
+      // Water remainder (0.5 oz rounding)
+      let W=rHalf(batch-(L+M)); if(W<0)W=0;
+
+      // Stats for guidance
+      const V=L+M+W, totMass=(L*OZ_TO_ML*RHO_LIQUOR)+(M*OZ_TO_ML*RHO_MIXER)+(W*OZ_TO_ML*RHO_WATER);
+      const sugarMass=sugarConc*M;
+      const finalBrix=totMass>0?(sugarMass/totMass)*100:0;
+
+      const minB=incl?BMIN_ALC:BMIN_NO, maxB=incl?BMAX_ALC:BMAX_NO;
+
+      // Too sweet → silently auto add water
+      if(finalBrix>maxB){
+        const add=((finalBrix-maxB)/finalBrix)*V; const addR=rHalf(add);
+        if(addR>0) W=rHalf(W+addR);
+      }
+
+      // Too low sugar → provide numeric guidance (UI will format per unit)
+      let sugarGuide=null;
+      if(finalBrix<minB && V>0){
+        const deficit=minB-finalBrix;
+        const sNeed=(deficit/100)*totMass; // grams
+        if(sNeed>=0.5){
+          const sugarTbsp=Math.ceil((sNeed/12.5)*2)/2; // nearest 0.5 Tbsp
+          let waterOz=rUpHalf((sNeed/2)/OZ_TO_ML);     // water to dissolve (oz), rounded up 0.5
+          sugarGuide={sugarTbsp, waterOz};
+        }
+      }
+
+      return {mixerOz:M, waterOz:W, liquorOz:L, warnings:[], sugarGuide, isValid:true};
+    };
+  })();
+
+  /* === UI (unit toggle controls inputs, outputs, and warning text) === */
+  (function(){
+    const OZ_TO_ML=29.5735,$=s=>document.querySelector(s);
+    const mEl=$("#out-mixer"),wEl=$("#out-water"),lEl=$("#out-liquor"),warnEl=$("#warnings"),form=$("#slush-form"),reset=$("#resetBtn");
+    const hasL=$("#hasLiquor"),abvF=$("#abv-field"),abv=$("#abv"),ozBtn=$("#u-oz"),mlBtn=$("#u-ml"),unitEls=document.querySelectorAll("[data-unit]");
+    const lblBatch=$("#lbl-batch"),lblServ=$("#lbl-serving"),inpBatch=$("#batch"),inpServ=$("#serving");
+
+    let unit=localStorage.getItem("unitPref")==="ml"?"ml":"oz";
+    let lastNumbers=null;   // {m,w,l} in oz
+    let lastResponse=null;  // full engine response (for warnings rebuild)
+
+    function toOz(v){return unit==="oz"?v:v/OZ_TO_ML;}
+    function fromOz(v){return unit==="oz"?v:v*OZ_TO_ML;}
+    function fmt1(x){if(!isFinite(x))return"—";const v=Math.round(x*10)/10;return Number.isInteger(v)?String(v):v.toFixed(1);}
+
+    function renderResults(m,w,l){ mEl.textContent=fmt1(fromOz(m)); wEl.textContent=fmt1(fromOz(w)); lEl.textContent=fmt1(fromOz(l)); lastNumbers={m,w,l}; }
+
+    function clearResults(){ mEl.textContent=wEl.textContent=lEl.textContent="—"; lastNumbers=null; }
+
+    function buildWarnings(res){
+      const out=[];
+      if(!res) return out;
+      // Any raw strings from engine (we're not using them except error case)
+      if(Array.isArray(res.warnings) && res.warnings.length) out.push(...res.warnings);
+      // Low-sugar numeric guidance → format per unit
+      if(res.sugarGuide){
+        const sTbsp = res.sugarGuide.sugarTbsp;
+        const wOz   = res.sugarGuide.waterOz;
+        if(unit==="ml"){
+          const wMl = Math.round(wOz * OZ_TO_ML); // integer mL
+          out.push(`Low sugar — dissolve ${fmt1(sTbsp)} Tbsp sugar in ${wMl} mL warm water, mix in, then recalc.`);
+        } else {
+          if(wOz < 1){
+            const tsp = Math.max(1, Math.round(wOz * 6)); // 1 oz = 6 tsp
+            out.push(`Low sugar — dissolve ${fmt1(sTbsp)} Tbsp sugar in ${tsp} tsp warm water, mix in, then recalc.`);
+          } else {
+            out.push(`Low sugar — dissolve ${fmt1(sTbsp)} Tbsp sugar in ${fmt1(wOz)} oz warm water, mix in, then recalc.`);
+          }
+        }
+      }
+      return out;
+    }
+
+    function renderWarningsFrom(res){
+      const list=buildWarnings(res);
+      warnEl.innerHTML="";
+      if(!list.length){ warnEl.hidden=true; return; }
+      list.forEach(t=>{ const d=document.createElement("div"); d.className="item"; d.textContent=t; warnEl.appendChild(d); });
+      warnEl.hidden=false;
+    }
+
+    function syncLiquor(){ abvF.style.display=hasL.checked?"":"none"; if(hasL.checked&&!abv.value) abv.value="40"; }
+    hasL.addEventListener("change", syncLiquor); syncLiquor();
+
+    function applyUnit(){
+      if(unit==="oz"){
+        ozBtn.classList.add("on"); mlBtn.classList.remove("on");
+        lblBatch.textContent="Batch size (oz)"; lblServ.textContent="Label serving size (oz)";
+      } else {
+        mlBtn.classList.add("on"); ozBtn.classList.remove("on");
+        lblBatch.textContent="Batch size (mL)"; lblServ.textContent="Label serving size (mL)";
+      }
+      unitEls.forEach(e=>e.textContent=unit);
+      // Convert existing inputs on toggle
+      if(inpBatch.value){ const v=+inpBatch.value; inpBatch.value = unit==="oz" ? fmt1(v/OZ_TO_ML) : fmt1(v*OZ_TO_ML); }
+      if(inpServ.value){  const v=+inpServ.value; inpServ.value  = unit==="oz" ? fmt1(v/OZ_TO_ML) : fmt1(v*OZ_TO_ML); }
+      // Re-render outputs & warnings in new unit
+      if(lastNumbers) renderResults(lastNumbers.m,lastNumbers.w,lastNumbers.l);
+      renderWarningsFrom(lastResponse);
+    }
+
+    ozBtn.addEventListener("click",()=>{ if(unit!=="oz"){ unit="oz"; localStorage.setItem("unitPref","oz"); applyUnit(); }});
+    mlBtn.addEventListener("click",()=>{ if(unit!=="ml"){ unit="ml"; localStorage.setItem("unitPref","ml"); applyUnit(); }});
+    applyUnit();
+
+    // Submit
+    document.getElementById("slush-form").addEventListener("submit",e=>{
+      e.preventDefault();
+      const res = window.calculateSimpleLab({
+        batchOz:        toOz(+inpBatch.value||0),
+        includeLiquor:  hasL.checked,
+        liquorABV:      +document.getElementById("abv").value||0,
+        servingSizeOz:  toOz(+inpServ.value||0),
+        sugarPerServingG:+document.getElementById("sugar").value||0
+      });
+      lastResponse=res;
+      if(!res.isValid){ clearResults(); renderWarningsFrom(res); return; }
+      renderResults(res.mixerOz,res.waterOz,res.liquorOz);
+      renderWarningsFrom(res);
+    });
+
+    // Reset
+    document.getElementById("resetBtn").addEventListener("click",()=>{
+      document.getElementById("slush-form").reset();
+      syncLiquor();
+      clearResults();
+      lastResponse=null;
+      renderWarningsFrom(null);
+    });
+  })();
   </script>
 </body>
 </html>
