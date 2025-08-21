@@ -41,6 +41,7 @@ async function calculate() {
 
 function resetForm() {
   document.getElementById('batchSize').value = 16;
+  document.getElementById('batchSlider').value = 16;
   document.getElementById('unitSelect').value = "oz";
   document.getElementById('sugarGrams').value = 21;
   document.getElementById('liquorABV').value = 40;
@@ -52,6 +53,14 @@ function resetForm() {
   document.getElementById('liquorCard').style.display = "none";
   document.getElementById('guidance').innerHTML = "";
 }
+
+// Sync slider ↔ number input
+document.getElementById("batchSize").addEventListener("input", e => {
+  document.getElementById("batchSlider").value = e.target.value;
+});
+document.getElementById("batchSlider").addEventListener("input", e => {
+  document.getElementById("batchSize").value = e.target.value;
+});
 
 document.getElementById("calcBtn").addEventListener("click", calculate);
 document.getElementById("resetBtn").addEventListener("click", resetForm);
