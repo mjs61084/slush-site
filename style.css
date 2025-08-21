@@ -130,3 +130,35 @@ h1 {
     flex-direction: column;
   }
 }
+/* Guidance Box */
+.guidanceBox {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #f5f7fa;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.guidanceBox p {
+  margin: 0;
+  padding: 0.6rem 0.9rem;
+  border-radius: 20px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  display: inline-block;
+  width: fit-content;
+}
+
+.guidanceBox p.good {
+  background: #e6f9e6;
+  color: #2d7a2d;
+  border: 1px solid #b5e6b5;
+}
+
+.guidanceBox p.warn {
+  background: #ffeaea;
+  color: #a33;
+  border: 1px solid #f2b5b5;
+}
