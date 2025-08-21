@@ -1,83 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SlushIQ SimpleLab</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SlushIQ — SimpleLAB (Web)</title>
+  <meta name="description" content="Quickly calculate °Brix, ABV, and slush consistency for any batch. SimpleLAB web companion." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="container">
-    <h1>🥶 SlushIQ SimpleLab</h1>
-    <p class="tagline">Make the perfect drink every time.</p>
+  <header class="site-header">
+    <div class="container header-row">
+      <div class="brand">
+        <span class="logo-dot"></span>
+        <h1>SlushIQ <span class="subtle">·</span> <span class="accent">SimpleLAB</span></h1>
+      </div>
+      <nav class="header-actions">
+        <button id="resetBtn" class="btn btn-ghost" title="Reset all inputs">Reset</button>
+        <button id="calcBtn" class="btn btn-primary">Calculate Slush</button>
+      </nav>
+    </div>
+  </header>
 
-    <!-- RESULTS -->
-    <div class="results">
-      <div class="card">
-        <h2 id="mixerOut">0</h2>
-        <p>🍹 Mixer</p>
+  <main class="container">
+    <!-- Results bar (sticky) -->
+    <section class="results-bar" id="resultsBar" aria-live="polite">
+      <div class="result-card">
+        <div class="label">Final °Brix</div>
+        <div class="value" id="finalBrix">—</div>
       </div>
-      <div class="card">
-        <h2 id="waterOut">0</h2>
-        <p>💧 Water</p>
+      <div class="result-card">
+        <div class="label">Final ABV%</div>
+        <div class="value" id="finalABV">—</div>
       </div>
-      <div class="card" id="liquorCard">
-        <h2 id="liquorOut">0</h2>
-        <p>🥃 Liquor</p>
+      <div class="result-card">
+        <div class="label">Consistency</div>
+        <div class="value" id="consistency">—</div>
+      </div>
+      <div class="result-card">
+        <div class="label">Status</div>
+        <div class="value" id="statusBadge">Waiting…</div>
+      </div>
+    </section>
+
+    <!-- Batch and settings -->
+    <section class="panel">
+      <div class="panel-header">
+        <h2>Batch Setup</h2>
+      </div>
+      <div class="panel-body grid-2">
+        <div class="field">
+          <label for="batchSizeOz">Batch Size (oz)</label>
+          <div class="stack-row">
+            <input type="number" id="batchSizeOz" inputmode="decimal" step="1" min="16" max="256" value="64" />
+            <input type="range" id="batchSizeSlider" min="16" max="128" value="64" />
+          </div>
+          <small class="hint">Tip: keep between 32–96 oz for most countertop machines.</small>
+        </div>
+
+        <div class="field">
+          <label>Water Fill</label>
+          <div class="switch-row">
+            <input type="checkbox" id="autoWater" checked aria-describedby="autoWaterNote" />
+            <label for="autoWater">Auto-calc water to fill batch</label>
+          </div>
+          <small id="autoWaterNote" class="hint">If enabled, water will be computed as <em>batch size − other liquids</em>.</small>
+        </div>
+      </div>
+
+      <details class="settings" id="settingsDetails">
+        <summary>Advanced targets (optional)</summary>
+        <div class="grid-3">
+          <div class="field">
+            <label for="brixMinNA">Non-alc target °Brix (min–max)</label>
+            <div class="stack-row">
+              <input type="number" id="brixMinNA" step="0.1" value="12.0" />
+              <input type="number" id="brixMaxNA" step="0.1" value="14.0" />
+            </div>
+          </div>
+          <div class="field">
+            <label for="brixMinAlc">Alcoholic target °Brix (min–max)</label>
+            <div class="stack-row">
+              <input type="number" id="brixMinAlc" step="0.1" value="13.0" />
+              <input type="number" id="brixMaxAlc" step="0.1" value="15.0" />
+            </div>
+          </div>
+          <div class="field">
+            <label for="idealABV">Typical ABV% (min–max)</label>
+            <div class="stack-row">
+              <input type="number" id="abvMin" step="0.1" value="4.0" />
+              <input type="number" id="abvMax" step="0.1" value="8.0" />
+            </div>
+          </div>
+        </div>
+        <small class="hint">Set these to match your rules. Defaults are common slush guidance; adjust to your playbook.</small>
+      </details>
+    </section>
+
+    <!-- Ingredients -->
+    <section class="panel">
+      <div class="panel-header split">
+        <h2>Ingredients</h2>
+        <div class="row-gap">
+          <button id="addRowBtn" class="btn btn-ghost">+ Add ingredient</button>
+        </div>
+      </div>
+      <div class="table" role="table" aria-label="Ingredients">
+        <div class="thead" role="rowgroup">
+          <div class="tr" role="row">
+            <div class="th name">Name</div>
+            <div class="th amount">Amount (oz)</div>
+            <div class="th sugar">Sugar (g/oz)</div>
+            <div class="th abv">% ABV</div>
+            <div class="th actions"></div>
+          </div>
+        </div>
+        <div class="tbody" id="ingredientsBody" role="rowgroup">
+          <!-- Rows injected here -->
+        </div>
+        <div class="tfoot" id="waterRowWrap">
+          <div class="tr tr-foot" role="row">
+            <div class="td name"><span class="badge">Auto</span> Water (calculated)</div>
+            <div class="td amount"><output id="waterOz">—</output></div>
+            <div class="td sugar">0</div>
+            <div class="td abv">0</div>
+            <div class="td actions"></div>
+          </div>
+        </div>
+      </div>
+      <small class="hint">For each non-water ingredient, enter its <strong>volume in oz</strong>, <strong>grams of sugar per oz</strong> (0 if none), and <strong>%ABV</strong> (0 if non-alcoholic). Water is auto-calculated.</small>
+    </section>
+
+    <!-- Alerts & suggestions -->
+    <section class="panel">
+      <div class="panel-header">
+        <h2>Alerts & Suggestions</h2>
+      </div>
+      <div id="alerts" class="alerts"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>SimpleLAB web companion · v1.0 · <a href="#" id="exportJson">Export mix</a> · <a href="#" id="importJson">Import</a></p>
+    </div>
+  </footer>
+
+  <template id="ingredientRowTemplate">
+    <div class="tr" role="row">
+      <div class="td name">
+        <input type="text" class="inp name" placeholder="e.g., Margarita Mix" />
+      </div>
+      <div class="td amount">
+        <input type="number" class="inp amount" inputmode="decimal" step="0.1" min="0" placeholder="oz" />
+      </div>
+      <div class="td sugar">
+        <input type="number" class="inp sugar" inputmode="decimal" step="0.1" min="0" placeholder="g/oz" />
+      </div>
+      <div class="td abv">
+        <input type="number" class="inp abv" inputmode="decimal" step="0.1" min="0" max="100" placeholder="%" />
+      </div>
+      <div class="td actions">
+        <button class="icon-btn remove" title="Remove row" aria-label="Remove row">✕</button>
       </div>
     </div>
+  </template>
 
-    <!-- Guidance Box -->
-    <div id="guidance" class="guidanceBox"></div>
-
-    <hr>
-
-    <!-- FORM -->
-    <form id="simplelab-form" onsubmit="return false;">
-      <!-- Batch size -->
-      <div class="field">
-        <label for="batchSize">Batch Size (16–96 oz):</label>
-        <input type="number" id="batchSize" value="16" step="1" min="16" max="96">
-      </div>
-      <div class="field">
-        <input type="range" id="batchSlider" min="16" max="96" value="16">
-      </div>
-
-      <!-- Units -->
-      <div class="field">
-        <label for="unitSelect">Units:</label>
-        <select id="unitSelect">
-          <option value="oz" selected>Ounces (oz)</option>
-          <option value="ml">Milliliters (mL)</option>
-        </select>
-      </div>
-
-      <!-- Sugar -->
-      <div class="field">
-        <label for="sugarGrams">Sugar (g per serving):</label>
-        <input type="number" id="sugarGrams" value="21" step="0.1">
-      </div>
-
-      <!-- Liquor ABV -->
-      <div class="field">
-        <label for="liquorABV">Liquor ABV (%):</label>
-        <input type="number" id="liquorABV" value="40" step="0.1">
-      </div>
-
-      <!-- Liquor toggle -->
-      <div class="field checkbox">
-        <label for="hasLiquor">Include Liquor?</label>
-        <input type="checkbox" id="hasLiquor">
-      </div>
-
-      <!-- Buttons -->
-      <div class="actions">
-        <button type="button" id="calcBtn">Calculate Slush</button>
-        <button type="button" id="resetBtn" class="reset">Reset</button>
-      </div>
-    </form>
-  </div>
-
-  <script src="script.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
