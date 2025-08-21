@@ -5,7 +5,6 @@
   <title>SimpleLAB — Slush Mix Calculator</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="theme-color" content="#ffffff" />
-  <link rel="preconnect" href="/" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -65,17 +64,20 @@
         <input id="abv" name="abv" type="number" inputmode="decimal" step="1" min="1" max="96" placeholder="40" value="40" />
       </div>
 
-      <button type="submit" class="cta">Calculate Slush</button>
-      <p class="hint">Mix thoroughly before freezing to prevent clumps.</p>
+      <div class="buttons">
+        <button type="submit" class="cta">Calculate Slush</button>
+        <button type="button" id="resetBtn" class="btn-secondary">Reset</button>
+      </div>
 
+      <p class="hint">Mix thoroughly before freezing to prevent clumps.</p>
       <p class="footnote">
         This minimal web version mirrors SimpleLAB math and warnings only (no °Brix/ABV display, no Rescue features).
       </p>
     </form>
   </main>
 
-  <!-- Scripts (API first, then UI) -->
-  <script src="api/simplelab.js"></script>
-  <script src="script.js"></script>
+  <!-- Scripts (engine first, then UI) -->
+  <script src="lib/simplelab.js" defer></script>
+  <script src="script.js" defer></script>
 </body>
 </html>
