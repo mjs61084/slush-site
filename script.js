@@ -15,16 +15,15 @@ async function calculate() {
 
   document.getElementById('mixerOut').innerText = `${data.mixer} ${unit}`;
   document.getElementById('waterOut').innerText = `${data.water} ${unit}`;
+  document.getElementById('liquorOut').innerText = `${data.liquor} ${unit}`;
 
   if (hasLiquor) {
     document.getElementById('liquorCard').style.display = "block";
-    document.getElementById('liquorOut').innerText = `${data.liquor} ${unit}`;
   } else {
     document.getElementById('liquorCard').style.display = "none";
   }
 }
 
-// Reset form + outputs
 function resetForm() {
   document.getElementById('batchSize').value = 16;
   document.getElementById('unitSelect').value = "oz";
@@ -38,10 +37,5 @@ function resetForm() {
   document.getElementById('liquorCard').style.display = "none";
 }
 
-document.querySelectorAll("input, select").forEach(input => {
-  input.addEventListener("input", calculate);
-});
-
+document.getElementById("calcBtn").addEventListener("click", calculate);
 document.getElementById("resetBtn").addEventListener("click", resetForm);
-
-calculate();
