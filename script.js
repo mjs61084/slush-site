@@ -13,6 +13,7 @@ async function calculate() {
 
   const data = await response.json();
 
+  // Results
   document.getElementById('mixerOut').innerText = `${data.mixer} ${unit}`;
   document.getElementById('waterOut').innerText = `${data.water} ${unit}`;
   document.getElementById('liquorOut').innerText = `${data.liquor} ${unit}`;
@@ -22,6 +23,15 @@ async function calculate() {
   } else {
     document.getElementById('liquorCard').style.display = "none";
   }
+
+  // Guidance messages
+  const guidanceBox = document.getElementById('guidance');
+  guidanceBox.innerHTML = "";
+  data.guidance.forEach(msg => {
+    const p = document.createElement("p");
+    p.innerText = msg;
+    guidanceBox.appendChild(p);
+  });
 }
 
 function resetForm() {
@@ -35,6 +45,7 @@ function resetForm() {
   document.getElementById('waterOut').innerText = "0";
   document.getElementById('liquorOut').innerText = "0";
   document.getElementById('liquorCard').style.display = "none";
+  document.getElementById('guidance').innerHTML = "";
 }
 
 document.getElementById("calcBtn").addEventListener("click", calculate);
