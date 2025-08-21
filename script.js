@@ -6,12 +6,12 @@
   const elLiquor = $("#out-liquor");
   const elWarns  = $("#warnings");
   const form     = $("#slush-form");
+  const resetBtn = $("#resetBtn");
 
   const hasLiquor = $("#hasLiquor");
   const abvField  = $("#abv-field");
   const abvInput  = $("#abv");
 
-  // UI state
   function setResults(mixer, water, liquor) {
     elMixer.textContent  = format1(mixer);
     elWater.textContent  = format1(water);
@@ -45,7 +45,6 @@
     return isNaN(v) ? 0 : v;
   }
 
-  // Liquor toggle behavior
   function syncLiquorUI() {
     if (hasLiquor.checked) {
       abvField.style.display = "";
@@ -57,9 +56,22 @@
   hasLiquor.addEventListener("change", syncLiquorUI);
   syncLiquorUI();
 
+  // Friendly error if the math engine didn't load
+  function ensureEngine() {
+    if (typeof window.calculateSimpleLab === "function") return true;
+    renderWarnings([
+      "Error: math engine not loaded. Ensure file is at lib/simplelab.js and the script tag path matches."
+    ]);
+    clearResults();
+    return false;
+  }
+
   // Submit handler
   form.addEventListener("submit", function (e) {
     e.preventDefault();
+
+    if (!ensureEngine()) return;
+
     const batchOz   = parseNum("#batch");
     const servingOz = parseNum("#serving");
     const sugarG    = parseNum("#sugar");
@@ -82,5 +94,13 @@
 
     setResults(res.mixerOz, res.waterOz, res.liquorOz);
     renderWarnings(res.warnings || []);
+  });
+
+  // Reset handler
+  resetBtn.addEventListener("click", function () {
+    form.reset();         // resets inputs to initial attributes (ABV -> 40)
+    syncLiquorUI();       // ensure ABV field visibility matches toggle
+    clearResults();       // set results to dashes
+    renderWarnings([]);   // hide warnings
   });
 })();
