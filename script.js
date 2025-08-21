@@ -12,12 +12,56 @@
   const abvField  = $("#abv-field");
   const abvInput  = $("#abv");
 
-  function setResults(mixer, water, liquor) {
-    elMixer.textContent  = format1(mixer);
-    elWater.textContent  = format1(water);
-    elLiquor.textContent = format1(liquor);
+  const uOzBtn = $("#u-oz");
+  const uMlBtn = $("#u-ml");
+  const unitEls = document.querySelectorAll("[data-unit]");
+
+  // State
+  let unit = (localStorage.getItem("unitPref") === "ml") ? "ml" : "oz";
+  let lastResult = null; // store oz results from engine so we can re-render in either unit
+
+  // Helpers
+  const OZ_TO_ML = 29.5735;
+
+  function toDisplay(valOz) {
+    if (!isFinite(valOz)) return NaN;
+    return unit === "oz" ? valOz : valOz * OZ_TO_ML;
   }
-  function clearResults() { setResults(NaN, NaN, NaN); }
+
+  function format1(x) {
+    if (!isFinite(x)) return "—";
+    const v = Math.round(x * 10) / 10;
+    return Number.isInteger(v) ? String(v) : v.toFixed(1);
+  }
+
+  function applyUnitUI() {
+    // toggle button styles + aria
+    if (unit === "oz") {
+      uOzBtn.classList.add("on"); uOzBtn.setAttribute("aria-selected","true");
+      uMlBtn.classList.remove("on"); uMlBtn.setAttribute("aria-selected","false");
+    } else {
+      uMlBtn.classList.add("on"); uMlBtn.setAttribute("aria-selected","true");
+      uOzBtn.classList.remove("on"); uOzBtn.setAttribute("aria-selected","false");
+    }
+    // update small unit labels on cards
+    unitEls.forEach(el => el.textContent = (unit === "oz" ? "oz" : "mL"));
+    // re-render outputs in new unit without re-calculating
+    if (lastResult) setResults(lastResult.mixerOz, lastResult.waterOz, lastResult.liquorOz);
+  }
+
+  function setResults(mixerOz, waterOz, liquorOz) {
+    // keep oz internally; convert for display
+    elMixer.textContent  = format1(toDisplay(mixerOz));
+    elWater.textContent  = format1(toDisplay(waterOz));
+    elLiquor.textContent = format1(toDisplay(liquorOz));
+    lastResult = { mixerOz, waterOz, liquorOz };
+  }
+  function clearResults() {
+    elMixer.textContent = "—";
+    elWater.textContent = "—";
+    elLiquor.textContent = "—";
+    lastResult = null;
+  }
 
   function renderWarnings(list) {
     elWarns.innerHTML = "";
@@ -28,16 +72,10 @@
     for (const w of list) {
       const div = document.createElement("div");
       div.className = "item";
-      div.textContent = w;
+      div.textContent = w; // warnings remain in US customary text (matches app)
       elWarns.appendChild(div);
     }
     elWarns.hidden = false;
-  }
-
-  function format1(x) {
-    if (!isFinite(x)) return "—";
-    const v = Math.round(x * 10) / 10;
-    return Number.isInteger(v) ? String(v) : v.toFixed(1);
   }
 
   function parseNum(id) {
@@ -60,11 +98,16 @@
   function ensureEngine() {
     if (typeof window.calculateSimpleLab === "function") return true;
     renderWarnings([
-      "Error: math engine not loaded. Ensure file is at lib/simplelab.js and the script tag path matches."
+      "Error: math engine not loaded. Ensure simplelab.js is present and the script tag path matches."
     ]);
     clearResults();
     return false;
   }
+
+  // Unit toggle handlers
+  uOzBtn.addEventListener("click", () => { unit = "oz"; localStorage.setItem("unitPref","oz"); applyUnitUI(); });
+  uMlBtn.addEventListener("click", () => { unit = "ml"; localStorage.setItem("unitPref","ml"); applyUnitUI(); });
+  applyUnitUI(); // initialize
 
   // Submit handler
   form.addEventListener("submit", function (e) {
@@ -98,9 +141,9 @@
 
   // Reset handler
   resetBtn.addEventListener("click", function () {
-    form.reset();         // resets inputs to initial attributes (ABV -> 40)
-    syncLiquorUI();       // ensure ABV field visibility matches toggle
-    clearResults();       // set results to dashes
-    renderWarnings([]);   // hide warnings
+    form.reset();
+    syncLiquorUI();
+    clearResults();
+    renderWarnings([]);
   });
 })();
