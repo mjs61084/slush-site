@@ -11,6 +11,24 @@
     <h1>🥶 SlushIQ SimpleLab</h1>
     <p class="tagline">Make the perfect drink every time.</p>
 
+    <!-- RESULTS ALWAYS VISIBLE -->
+    <div class="results">
+      <div class="card">
+        <h2 id="mixerOut">0</h2>
+        <p>Mixer</p>
+      </div>
+      <div class="card">
+        <h2 id="waterOut">0</h2>
+        <p>Water</p>
+      </div>
+      <div class="card" id="liquorCard">
+        <h2 id="liquorOut">0</h2>
+        <p>Liquor</p>
+      </div>
+    </div>
+
+    <hr>
+
     <!-- FORM -->
     <form id="simplelab-form" onsubmit="return false;">
       <!-- Batch size -->
@@ -52,24 +70,6 @@
         <button type="button" id="resetBtn" class="reset">Reset</button>
       </div>
     </form>
-
-    <hr>
-
-    <!-- Results -->
-    <div id="resultsSection" class="results" style="display:none;">
-      <div class="card">
-        <h2 id="mixerOut">0</h2>
-        <p>Mixer</p>
-      </div>
-      <div class="card">
-        <h2 id="waterOut">0</h2>
-        <p>Water</p>
-      </div>
-      <div class="card" id="liquorCard" style="display:none;">
-        <h2 id="liquorOut">0</h2>
-        <p>Liquor</p>
-      </div>
-    </div>
   </div>
 
   <script src="script.js"></script>
