@@ -39,6 +39,7 @@
   <header class="app-header">
     <h1>SimpleLAB</h1>
     <p class="sub">Inputs & outputs toggle oz ⇄ mL. Sugar stays in grams.</p>
+    <p class="sub" id="rangeNote">Batch size: 16–96 oz</p>
   </header>
 
   <!-- Units toggle -->
@@ -137,44 +138,52 @@
     const hasL=$("#hasLiquor"),abvF=$("#abv-field"),abv=$("#abv");
     const ozBtn=$("#u-oz"),mlBtn=$("#u-ml"),unitEls=document.querySelectorAll("[data-unit]");
     const lblBatch=$("#lbl-batch"),lblServ=$("#lbl-serving"),inpBatch=$("#batch"),inpServ=$("#serving"),inpSugar=$("#sugar");
+    const rangeNote=$("#rangeNote");
+
+    // Batch size constraints (canonical in oz)
+    const BATCH_MIN_OZ=16, BATCH_MAX_OZ=96;
+    const BATCH_MIN_ML=Math.round(BATCH_MIN_OZ*OZ_TO_ML); // 473
+    const BATCH_MAX_ML=Math.round(BATCH_MAX_OZ*OZ_TO_ML); // 2840
 
     let unit=localStorage.getItem("unitPref")==="ml"?"ml":"oz";
     let lastNumbers=null,lastRes=null;
 
     // Helpers
-    function toOz(v){return unit==="oz"?v:v/OZ_TO_ML;}
+    function toOzInput(v){return unit==="oz"?v:v/OZ_TO_ML;}
     function fromOz(v){return unit==="oz"?v:v*OZ_TO_ML;}
     function fmt1(x){if(!isFinite(x))return"—";const v=Math.round(x*10)/10;return Number.isInteger(v)?String(v):v.toFixed(1);}
     function clearResults(){mEl.textContent=wEl.textContent=lEl.textContent="—";lastNumbers=null;}
     function render(m,w,l){mEl.textContent=fmt1(fromOz(m));wEl.textContent=fmt1(fromOz(w));lEl.textContent=fmt1(fromOz(l));lastNumbers={m,w,l};}
-
+    function pushWarn(msg){const d=document.createElement("div");d.className="item";d.textContent=msg;warnEl.appendChild(d);}
+    function clearWarns(){warnEl.innerHTML="";warnEl.hidden=true;}
     function renderWarnings(){
-      warnEl.innerHTML="";
-      if(!lastRes){warnEl.hidden=true;return;}
-      const out=[];
+      clearWarns();
+      if(!lastRes){return;}
       if(lastRes.sugarGuide){
         const {sugarTbsp,waterOz}=lastRes.sugarGuide;
         if(unit==="ml"){
           const wMl=Math.round(waterOz*OZ_TO_ML);
-          out.push(`Low sugar — dissolve ${fmt1(sugarTbsp)} Tbsp sugar in ${wMl} mL warm water, mix in, then recalc.`);
+          pushWarn(`Low sugar — dissolve ${fmt1(sugarTbsp)} Tbsp sugar in ${wMl} mL warm water, mix in, then recalc.`);
         } else {
-          if(waterOz<1){const tsp=Math.max(1,Math.round(waterOz*6));out.push(`Low sugar — dissolve ${fmt1(sugarTbsp)} Tbsp sugar in ${tsp} tsp warm water, mix in, then recalc.`);}
-          else out.push(`Low sugar — dissolve ${fmt1(sugarTbsp)} Tbsp sugar in ${fmt1(waterOz)} oz warm water, mix in, then recalc.`);
+          if(waterOz<1){const tsp=Math.max(1,Math.round(waterOz*6));pushWarn(`Low sugar — dissolve ${fmt1(sugarTbsp)} Tbsp sugar in ${tsp} tsp warm water, mix in, then recalc.`);}
+          else pushWarn(`Low sugar — dissolve ${fmt1(sugarTbsp)} Tbsp sugar in ${fmt1(waterOz)} oz warm water, mix in, then recalc.`);
         }
       }
-      if(out.length){out.forEach(t=>{const d=document.createElement("div");d.className="item";d.textContent=t;warnEl.appendChild(d);});warnEl.hidden=false;}else warnEl.hidden=true;
+      if(warnEl.children.length) warnEl.hidden=false;
     }
 
     function syncLiquor(){abvF.style.display=hasL.checked?"":"none";if(hasL.checked&&!abv.value)abv.value="40";}
     hasL.addEventListener("change",syncLiquor);
 
-    function setInputStepsAndPlaceholders(){
+    function setInputStepsPlaceholdersAndRange(){
       if(unit==="oz"){
-        inpBatch.step="0.5"; inpBatch.min="0"; inpBatch.placeholder="e.g., 64";
-        inpServ.step="0.1";  inpServ.min="0";  inpServ.placeholder="e.g., 4";
+        inpBatch.step="0.5"; inpBatch.min=String(BATCH_MIN_OZ); inpBatch.max=String(BATCH_MAX_OZ); inpBatch.placeholder="e.g., 64";
+        inpServ.step="0.1";  inpServ.min="0";                   inpServ.placeholder="e.g., 4";
+        rangeNote.textContent="Batch size: 16–96 oz";
       } else {
-        inpBatch.step="50";  inpBatch.min="0"; inpBatch.placeholder="e.g., 2000";
-        inpServ.step="5";    inpServ.min="0";  inpServ.placeholder="e.g., 120";
+        inpBatch.step="50";  inpBatch.min=String(BATCH_MIN_ML); inpBatch.max=String(BATCH_MAX_ML); inpBatch.placeholder="e.g., 2000";
+        inpServ.step="5";    inpServ.min="0";                   inpServ.placeholder="e.g., 120";
+        rangeNote.textContent="Batch size: 473–2840 mL";
       }
     }
 
@@ -184,21 +193,21 @@
       syncLiquor();
       clearResults();
       lastRes=null;
-      renderWarnings();
+      clearWarns();
     }
 
     function applyUnit(){
-      // toggle UI
+      // toggle UI state
       if(unit==="oz"){ozBtn.classList.add("on");mlBtn.classList.remove("on");}
       else{mlBtn.classList.add("on");ozBtn.classList.remove("on");}
-      // update tiny unit labels on result cards
+      // small unit labels on result cards
       unitEls.forEach(e=>e.textContent=unit);
-      // ensure labels have NO unit text
+      // labels stay unitless (per your request)
       lblBatch.textContent="Batch size";
       lblServ.textContent="Label serving size";
-      // set steps/placeholders for the active unit
-      setInputStepsAndPlaceholders();
-      // per your request: reset values when toggling units
+      // steps/placeholders/range + header note
+      setInputStepsPlaceholdersAndRange();
+      // reset values when toggling units (prevents double conversion issues)
       resetFormValues();
       // remember preference
       localStorage.setItem("unitPref", unit);
@@ -214,13 +223,33 @@
     // Submit
     form.addEventListener("submit",e=>{
       e.preventDefault();
+      clearWarns();
+
+      const batchDisplay = +inpBatch.value || 0;
+      const servingDisplay = +inpServ.value || 0;
+
+      // Convert displayed values → oz for the engine
+      const batchOz = toOzInput(batchDisplay);
+      const servingOz = toOzInput(servingDisplay);
+
+      // Enforce batch size range (16–96 oz or 473–2840 mL)
+      if (batchOz < BATCH_MIN_OZ || batchOz > BATCH_MAX_OZ) {
+        pushWarn(unit==="oz"
+          ? "Batch size must be between 16–96 oz."
+          : "Batch size must be between 473–2840 mL.");
+        warnEl.hidden = false;
+        clearResults();
+        return;
+      }
+
       const res=window.calculateSimpleLab({
-        batchOz:         toOz(+inpBatch.value||0),
+        batchOz:         batchOz,
         includeLiquor:   hasL.checked,
         liquorABV:       +document.getElementById("abv").value||0,
-        servingSizeOz:   toOz(+inpServ.value||0),
-        sugarPerServingG:+inpSugar.value||0
+        servingSizeOz:   servingOz,
+        sugarPerServingG:+document.getElementById("sugar").value||0
       });
+
       lastRes=res;
       if(!res.isValid){ clearResults(); renderWarnings(); return; }
       render(res.mixerOz,res.waterOz,res.liquorOz);
