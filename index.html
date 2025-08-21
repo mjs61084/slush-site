@@ -11,19 +11,19 @@
     <h1>🥶 SlushIQ SimpleLab</h1>
     <p class="tagline">Make the perfect drink every time.</p>
 
-    <!-- RESULTS ALWAYS VISIBLE -->
+    <!-- RESULTS -->
     <div class="results">
       <div class="card">
         <h2 id="mixerOut">0</h2>
-        <p>Mixer</p>
+        <p>🍹 Mixer</p>
       </div>
       <div class="card">
         <h2 id="waterOut">0</h2>
-        <p>Water</p>
+        <p>💧 Water</p>
       </div>
       <div class="card" id="liquorCard">
         <h2 id="liquorOut">0</h2>
-        <p>Liquor</p>
+        <p>🥃 Liquor</p>
       </div>
     </div>
 
@@ -36,8 +36,11 @@
     <form id="simplelab-form" onsubmit="return false;">
       <!-- Batch size -->
       <div class="field">
-        <label for="batchSize">Batch Size:</label>
-        <input type="number" id="batchSize" value="16" step="0.1">
+        <label for="batchSize">Batch Size (16–96 oz):</label>
+        <input type="number" id="batchSize" value="16" step="1" min="16" max="96">
+      </div>
+      <div class="field">
+        <input type="range" id="batchSlider" min="16" max="96" value="16">
       </div>
 
       <!-- Units -->
