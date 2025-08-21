@@ -24,11 +24,16 @@ async function calculate() {
     document.getElementById('liquorCard').style.display = "none";
   }
 
-  // Guidance messages
+  // Styled guidance bubbles
   const guidanceBox = document.getElementById('guidance');
   guidanceBox.innerHTML = "";
   data.guidance.forEach(msg => {
     const p = document.createElement("p");
+    if (msg.startsWith("✅")) {
+      p.classList.add("good");
+    } else if (msg.startsWith("⚠️")) {
+      p.classList.add("warn");
+    }
     p.innerText = msg;
     guidanceBox.appendChild(p);
   });
