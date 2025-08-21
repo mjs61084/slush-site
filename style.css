@@ -102,6 +102,21 @@ h1 {
   color: #4a90e2;
 }
 
+/* Guidance Box */
+.guidanceBox {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #eef6ff;
+  border: 1px solid #bcdcff;
+  border-radius: 8px;
+  color: #333;
+  font-size: 0.95rem;
+}
+.guidanceBox p {
+  margin: 0.4rem 0;
+}
+
+/* Mobile friendly */
 @media (max-width: 600px) {
   .field {
     flex-direction: column;
