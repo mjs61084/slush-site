@@ -51,8 +51,7 @@
       padding:12px; border:1px solid var(--border);
       border-radius:12px; font-size:16px;
     }
-
-    input, button { max-width:100%; } /* prevent any element overflow */
+    input, button { max-width:100%; }
 
     .row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
     .switch{display:flex;align-items:center;gap:8px;margin:8px 0}
@@ -60,6 +59,14 @@
     .buttons{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px}
     .cta{border:0;padding:14px;border-radius:12px;font-size:16px;font-weight:800;cursor:pointer;color:#fff;background:var(--grad-accent)}
     .btn-secondary{border:1px solid var(--border);background:#fff;padding:14px;border-radius:12px;font-size:16px;cursor:pointer}
+
+    .store-badge { text-align:center; margin:30px 0 10px; }
+    .store-badge img { height:40px; }
+
+    .disclaimer {
+      text-align:center; font-size:12px; color:var(--muted);
+      max-width:640px; margin:10px auto 30px; padding:0 12px;
+    }
   </style>
 </head>
 <body>
@@ -132,9 +139,152 @@
     </form>
   </main>
 
-  <!-- Math + UI scripts (same logic from previous working version) -->
+  <!-- App Store badge + disclaimer -->
+  <div class="store-badge">
+    <a href="https://apps.apple.com/us/app/slushiq/id6749187530" target="_blank" rel="noopener">
+      <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83"
+           alt="Download on the App Store" />
+    </a>
+  </div>
+  <p class="disclaimer">
+    SimpleLAB LITE and the SlushIQ app are independent tools created to help you get slush mixes right.  
+    We are not affiliated with Ninja® or Ninja SLUSHi™, but if you’ve struggled with those machines,  
+    this calculator is designed to make dialing in the mix easier.
+  </p>
+
+  <!-- Math + UI scripts -->
   <script>
-    /* Math + UI from the last working build — unchanged except now with CSS preventing input overflow */
+  /* === Math engine (always oz) === */
+  (function(){
+    const OZ_TO_ML=29.5735,RHO_WATER=1,RHO_MIXER=1,RHO_LIQUOR=0.95;
+    const TARGET_ABV=7,TARGET_BRIX=11.8;
+    const BMIN_ALC=11.5,BMAX_ALC=12.5,BMIN_NO=10.5,BMAX_NO=11.2;
+    function rHalf(x){return Math.round(x*2)/2;}function rUpHalf(x){return Math.ceil(x*2)/2;}
+    window.calculateSimpleLab=function(p){
+      const batch=+p.batchOz||0, liquorABV=+p.liquorABV||0, servOz=+p.servingSizeOz||0, sugarG=+p.sugarPerServingG||0;
+      const incl=p.includeLiquor;
+      if(batch<=0||servOz<=0||sugarG<=0) return {mixerOz:0,waterOz:0,liquorOz:0,warnings:["Recipe Error — check inputs."],isValid:false};
+      let L=0;if(incl&&liquorABV>0)L=Math.min(batch,(TARGET_ABV/100*batch)/(liquorABV/100));
+      const sugarConc=sugarG/servOz;
+      const massEst=((batch-L)*OZ_TO_ML*RHO_WATER)+(L*OZ_TO_ML*RHO_LIQUOR);
+      const targetSugar=(TARGET_BRIX/100)*massEst; let M=targetSugar/sugarConc; M=Math.min(Math.max(M,0),batch-L);
+      let W=rHalf(batch-(L+M)); if(W<0)W=0;
+      const V=L+M+W,totMass=(L*OZ_TO_ML*RHO_LIQUOR)+(M*OZ_TO_ML*RHO_MIXER)+(W*OZ_TO_ML*RHO_WATER);
+      const sugarMass=sugarConc*M; const finalBrix=totMass>0?(sugarMass/totMass)*100:0;
+      const minB=incl?BMIN_ALC:BMIN_NO,maxB=incl?BMAX_ALC:BMAX_NO;
+      if(finalBrix>maxB){const add=((finalBrix-maxB)/finalBrix)*V;const addR=rHalf(add);if(addR>0)W=rHalf(W+addR);}
+      let sugarGuide=null;
+      if(finalBrix<minB&&V>0){
+        const deficit=minB-finalBrix;
+        const sNeed=(deficit/100)*totMass;
+        if(sNeed>=0.5){
+          const sugarTbsp=Math.ceil((sNeed/12.5)*2)/2;
+          let waterOz=rUpHalf((sNeed/2)/OZ_TO_ML);
+          sugarGuide={sugarTbsp,waterOz};
+        }
+      }
+      return {mixerOz:M,waterOz:W,liquorOz:L,warnings:[],sugarGuide,isValid:true};
+    };
+  })();
+
+  /* === UI === */
+  (function(){
+    const OZ_TO_ML=29.5735,$=s=>document.querySelector(s);
+    const mEl=$("#out-mixer"),wEl=$("#out-water"),lEl=$("#out-liquor"),warnEl=$("#warnings");
+    const form=$("#slush-form"),reset=$("#resetBtn");
+    const hasL=$("#hasLiquor"),abvF=$("#abv-field"),abv=$("#abv");
+    const ozBtn=$("#u-oz"),mlBtn=$("#u-ml"),unitEls=document.querySelectorAll("[data-unit]");
+    const lblBatch=$("#lbl-batch"),lblServ=$("#lbl-serving"),inpBatch=$("#batch"),inpServ=$("#serving"),inpSugar=$("#sugar");
+    const rangeNote=$("#rangeNote");
+
+    const BATCH_MIN_OZ=16,BATCH_MAX_OZ=96;
+    const BATCH_MIN_ML=Math.round(BATCH_MIN_OZ*OZ_TO_ML);
+    const BATCH_MAX_ML=Math.round(BATCH_MAX_OZ*OZ_TO_ML);
+
+    let unit=localStorage.getItem("unitPref")==="ml"?"ml":"oz";
+    let last=null,lastRes=null;
+
+    function toOzInput(v){return unit==="oz"?v:v/OZ_TO_ML;}
+    function fromOz(v){return unit==="oz"?v:v*OZ_TO_ML;}
+    function fmt1(x){if(!isFinite(x))return"—";const v=Math.round(x*10)/10;return Number.isInteger(v)?String(v):v.toFixed(1);}
+    function clearResults(){mEl.textContent=wEl.textContent=lEl.textContent="—";last=null;}
+    function pushWarn(msg){const d=document.createElement("div");d.className="item";d.textContent=msg;warnEl.appendChild(d);}
+    function clearWarns(){warnEl.innerHTML="";warnEl.hidden=true;}
+    function render(m,w,l){mEl.textContent=fmt1(fromOz(m));wEl.textContent=fmt1(fromOz(w));lEl.textContent=fmt1(fromOz(l));last={m,w,l};}
+    function renderWarnings(){
+      clearWarns(); if(!lastRes) return;
+      if(lastRes.sugarGuide){
+        const {sugarTbsp,waterOz}=lastRes.sugarGuide;
+        if(unit==="ml"){
+          const wMl=Math.round(waterOz*OZ_TO_ML);
+          pushWarn(`Low sugar — dissolve ${fmt1(sugarTbsp)} Tbsp sugar in ${wMl} mL warm water, mix in, then recalc.`);
+        } else {
+          if(waterOz<1){const tsp=Math.max(1,Math.round(waterOz*6));pushWarn(`Low sugar — dissolve ${fmt1(sugarTbsp)} Tbsp sugar in ${tsp} tsp warm water, mix in, then recalc.`);}
+          else pushWarn(`Low sugar — dissolve ${fmt1(sugarTbsp)} Tbsp sugar in ${fmt1(waterOz)} oz warm water, mix in, then recalc.`);
+        }
+        warnEl.hidden=false;
+      }
+    }
+
+    function syncLiquor(){abvF.style.display=hasL.checked?"":"none";if(hasL.checked&&!abv.value)abv.value="40";}
+    hasL.addEventListener("change",syncLiquor);
+
+    function setInputStepsPlaceholdersAndRange(){
+      if(unit==="oz"){
+        inpBatch.step="0.5"; inpBatch.min=String(BATCH_MIN_OZ); inpBatch.max=String(BATCH_MAX_OZ); inpBatch.placeholder="e.g., 64";
+        inpServ.step="0.1";  inpServ.min="0";                   inpServ.placeholder="e.g., 4";
+        rangeNote.textContent="Batch size: 16–96 oz";
+      } else {
+        inpBatch.step="50";  inpBatch.min=String(BATCH_MIN_ML); inpBatch.max=String(BATCH_MAX_ML); inpBatch.placeholder="e.g., 2000";
+        inpServ.step="5";    inpServ.min="0";                   inpServ.placeholder="e.g., 120";
+        rangeNote.textContent="Batch size: 473–2840 mL";
+      }
+    }
+
+    function resetFormValues(){
+      form.reset(); syncLiquor(); clearResults(); lastRes=null; clearWarns();
+    }
+
+    function applyUnit(){
+      if(unit==="oz"){ozBtn.classList.add("on");mlBtn.classList.remove("on");}
+      else{mlBtn.classList.add("on");ozBtn.classList.remove("on");}
+      unitEls.forEach(e=>e.textContent=unit);
+      lblBatch.textContent="Batch size"; lblServ.textContent="Label serving size";
+      setInputStepsPlaceholdersAndRange();
+      resetFormValues();
+      localStorage.setItem("unitPref",unit);
+    }
+
+    ozBtn.addEventListener("click",()=>{ if(unit!=="oz"){ unit="oz"; applyUnit(); }});
+    mlBtn.addEventListener("click",()=>{ if(unit!=="ml"){ unit="ml"; applyUnit(); }});
+    applyUnit();
+
+    form.addEventListener("submit",e=>{
+      e.preventDefault();
+      clearWarns();
+      const batchDisplay=+inpBatch.value||0;
+      const servingDisplay=+inpServ.value||0;
+      const batchOz=toOzInput(batchDisplay);
+      const servingOz=toOzInput(servingDisplay);
+      if(batchOz < BATCH_MIN_OZ || batchOz > BATCH_MAX_OZ){
+        pushWarn(unit==="oz" ? "Batch size must be between 16–96 oz." : "Batch size must be between 473–2840 mL.");
+        warnEl.hidden=false; clearResults(); return;
+      }
+      const res=window.calculateSimpleLab({
+        batchOz:batchOz,
+        includeLiquor:hasL.checked,
+        liquorABV:+abv.value||0,
+        servingSizeOz:servingOz,
+        sugarPerServingG:+inpSugar.value||0
+      });
+      lastRes=res;
+      if(!res.isValid){ clearResults(); renderWarnings(); return; }
+      render(res.mixerOz,res.waterOz,res.liquorOz);
+      renderWarnings();
+    });
+
+    reset.addEventListener("click", resetFormValues);
+  })();
   </script>
 </body>
 </html>
