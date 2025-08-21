@@ -1,15 +1,15 @@
 <body>
   <div class="container">
     <h1>🥶 SlushIQ SimpleLab</h1>
-    <p>Make the perfect drink every time.</p>
+    <p>Enter your serving info — get the perfect mix instantly.</p>
 
     <form id="simplelab-form">
       <div class="field">
-        <label>Batch Size (oz):</label>
-        <input type="number" id="batchSize" value="16" step="0.1">
+        <label>Serving Size (oz):</label>
+        <input type="number" id="servingSize" value="16" step="0.1">
       </div>
       <div class="field">
-        <label>Sugar (grams):</label>
+        <label>Sugar per Serving (g):</label>
         <input type="number" id="sugarGrams" value="21" step="0.1">
       </div>
       <div class="field">
@@ -26,42 +26,65 @@
 
     <div class="results">
       <div class="card">
-        <h2 id="brix">0%</h2>
-        <p>°Brix</p>
+        <h2 id="mixerOut">0 oz</h2>
+        <p>Mixer</p>
       </div>
       <div class="card">
-        <h2 id="abv">0%</h2>
-        <p>ABV</p>
+        <h2 id="waterOut">0 oz</h2>
+        <p>Water</p>
+      </div>
+      <div class="card" id="liquorCard" style="display:none;">
+        <h2 id="liquorOut">0 oz</h2>
+        <p>Liquor</p>
       </div>
     </div>
   </div>
 
   <script>
     function calculate() {
-      const batchSize = parseFloat(document.getElementById('batchSize').value) || 0;
+      const servingSize = parseFloat(document.getElementById('servingSize').value) || 0;
       const sugarGrams = parseFloat(document.getElementById('sugarGrams').value) || 0;
       const liquorABV = parseFloat(document.getElementById('liquorABV').value) || 0;
       const hasLiquor = document.getElementById('hasLiquor').checked;
 
+      // --- Simplified SimpleLab logic ---
+      // Assume target ~12 °Brix (like the app baseline)
+      const targetBrix = 12;
+
+      // Volume in mL
       const ozToMl = 29.57;
-      const rhoWater = 1.0;
+      const servingMl = servingSize * ozToMl;
 
-      const totalVolumeMl = batchSize * ozToMl;
-      const totalSugar = sugarGrams;
+      // Current brix
+      const currentBrix = (sugarGrams / servingMl) * 100;
 
-      const finalBrix = ((totalSugar / (totalVolumeMl * rhoWater)) * 100).toFixed(1);
+      // Scale factor to reach ~12 brix
+      const scale = targetBrix / currentBrix;
 
-      let finalABV = 0;
+      // Outputs
+      let mixer = servingSize * scale;    // oz mixer
+      let water = servingSize - mixer;    // oz water
+      let liquor = 0;
+
       if (hasLiquor) {
-        // simplified: ABV dial logic can be expanded
-        finalABV = ((batchSize * (liquorABV / 100)) / batchSize * 100).toFixed(1);
+        // liquor is taken as fraction of serving
+        liquor = servingSize * 0.07; // ~7% ABV target
+        water -= liquor;
       }
 
-      document.getElementById('brix').innerText = `${finalBrix}%`;
-      document.getElementById('abv').innerText = `${finalABV}%`;
+      // Update UI
+      document.getElementById('mixerOut').innerText = `${mixer.toFixed(2)} oz`;
+      document.getElementById('waterOut').innerText = `${water.toFixed(2)} oz`;
+
+      if (hasLiquor) {
+        document.getElementById('liquorCard').style.display = "block";
+        document.getElementById('liquorOut').innerText = `${liquor.toFixed(2)} oz`;
+      } else {
+        document.getElementById('liquorCard').style.display = "none";
+      }
     }
 
-    // recalc anytime inputs change
+    // Recalculate on input change
     document.querySelectorAll("input").forEach(input => {
       input.addEventListener("input", calculate);
     });
@@ -107,7 +130,7 @@
       border-radius: 10px;
       box-shadow: 0 2px 6px rgba(0,0,0,0.08);
       text-align: center;
-      width: 40%;
+      width: 30%;
     }
     .card h2 {
       margin: 0;
