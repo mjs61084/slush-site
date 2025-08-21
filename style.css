@@ -43,8 +43,12 @@ form { margin-top: 10px; }
 .switch input { width: 20px; height: 20px; }
 .switch label { font-size: 15px; }
 
+.buttons { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 6px; }
 .cta { width: 100%; border: 0; background: var(--accent); color: white; padding: 14px 16px; border-radius: 14px; font-size: 16px; font-weight: 700; cursor: pointer; }
 .cta:active { opacity: .9; transform: translateY(1px); }
+
+.btn-secondary { width: 100%; border: 1px solid var(--border); background: #fff; color: var(--fg); padding: 14px 16px; border-radius: 14px; font-size: 16px; font-weight: 600; cursor: pointer; }
+.btn-secondary:active { opacity: .95; transform: translateY(1px); }
 
 .hint { color: var(--muted); font-size: 12px; text-align: center; margin: 10px 0 0; }
 .footnote { color: var(--muted); font-size: 12px; margin: 14px 0 0; text-align: center; }
