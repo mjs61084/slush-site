@@ -1,363 +1,150 @@
-// Math constants
-const OZ_TO_ML = 29.5735;       // milliliters per fluid ounce
-const RHO_WATER = 1.0;          // g/mL, approximation used in SimpleLAB
-const SUGAR_PER_OZ_2TO1 = 26.7; // g sugar per oz of 2:1 syrup (by weight)
+/* SimpleLAB math — faithful port of your MixCalculator + RescueAdvisor (web-only, oz units) */
+(function () {
+  const OZ_TO_ML = 29.5735;
 
-// DOM elements
-const ingredientsBody = document.getElementById('ingredientsBody');
-const rowTemplate = document.getElementById('ingredientRowTemplate');
-const waterOzOut = document.getElementById('waterOz');
+  // Densities (g/mL)
+  const RHO_WATER  = 1.0;
+  const RHO_MIXER  = 1.0;
+  const RHO_LIQUOR = 0.95;
 
-const batchSizeOzEl = document.getElementById('batchSizeOz');
-const batchSizeSlider = document.getElementById('batchSizeSlider');
-const autoWaterEl = document.getElementById('autoWater');
+  // Math targets (CalcConstants)
+  const TARGET_ABV  = 7.0;   // %
+  const TARGET_BRIX = 11.8;  // %
 
-const finalBrixEl = document.getElementById('finalBrix');
-const finalABVEl = document.getElementById('finalABV');
-const consistencyEl = document.getElementById('consistency');
-const statusBadgeEl = document.getElementById('statusBadge');
-const alertsEl = document.getElementById('alerts');
+  // RescueAdvisor Brix bands
+  const BRIX_MIN_WITH_ALC = 11.5;
+  const BRIX_MAX_WITH_ALC = 12.5;
+  const BRIX_MIN_NO_ALC   = 10.5;
+  const BRIX_MAX_NO_ALC   = 11.2;
 
-const brixMinNAEl = document.getElementById('brixMinNA');
-const brixMaxNAEl = document.getElementById('brixMaxNA');
-const brixMinAlcEl = document.getElementById('brixMinAlc');
-const brixMaxAlcEl = document.getElementById('brixMaxAlc');
-const abvMinEl = document.getElementById('abvMin');
-const abvMaxEl = document.getElementById('abvMax');
+  function roundToHalf(x) { return Math.round(x * 2) / 2; }
+  function roundUpToHalf(x) { return Math.ceil(x * 2) / 2; }
+  function trim1(x) {
+    if (!isFinite(x)) return "—";
+    const v = Math.round(x * 10) / 10;
+    return Number.isInteger(v) ? String(v) : v.toFixed(1);
+  }
 
-const resetBtn = document.getElementById('resetBtn');
-const calcBtn = document.getElementById('calcBtn');
-const addRowBtn = document.getElementById('addRowBtn');
+  function clamp(x, lo, hi) { return Math.min(Math.max(x, lo), hi); }
 
-const exportBtn = document.getElementById('exportJson');
-const importBtn = document.getElementById('importJson');
+  function calculateSimpleLab(params) {
+    const batchOz      = Math.max(0, Number(params.batchOz || 0));
+    const includeLiquor = !!params.includeLiquor;
+    const liquorABV    = Math.max(0, Number(params.liquorABV || 0));
+    const servingOz    = Math.max(0, Number(params.servingSizeOz || 0));
+    const sugarPerServG= Math.max(0, Number(params.sugarPerServingG || 0));
 
-// --- Helpers ---
-function clamp(n, a, b){ return Math.max(a, Math.min(b, n)); }
+    const warnings = [];
+    let isValid = true;
 
-function numberOrZero(v){
-  const x = parseFloat(v);
-  return Number.isFinite(x) ? x : 0;
-}
-
-function fmt(n, digits = 2){
-  if (!Number.isFinite(n)) return '—';
-  return n.toFixed(digits);
-}
-
-function readTargets(finalABV){
-  const abvMin = numberOrZero(abvMinEl.value);
-  const abvMax = numberOrZero(abvMaxEl.value);
-  const brixMinNA = numberOrZero(brixMinNAEl.value);
-  const brixMaxNA = numberOrZero(brixMaxNAEl.value);
-  const brixMinAlc = numberOrZero(brixMinAlcEl.value);
-  const brixMaxAlc = numberOrZero(brixMaxAlcEl.value);
-
-  const alcoholic = finalABV >= 0.5;
-  const brixMin = alcoholic ? brixMinAlc : brixMinNA;
-  const brixMax = alcoholic ? brixMaxAlc : brixMaxNA;
-  return { abvMin, abvMax, brixMin, brixMax, alcoholic };
-}
-
-function getRows(){
-  return Array.from(ingredientsBody.querySelectorAll('.tr')).map(tr => {
-    const name = tr.querySelector('.inp.name')?.value?.trim() || '';
-    const oz   = numberOrZero(tr.querySelector('.inp.amount')?.value);
-    const sug  = numberOrZero(tr.querySelector('.inp.sugar')?.value);
-    const abv  = numberOrZero(tr.querySelector('.inp.abv')?.value);
-    return { name, oz, sugarPerOz: sug, abvPct: abv };
-  });
-}
-
-function saveState(){
-  const state = {
-    batchSize: numberOrZero(batchSizeOzEl.value),
-    autoWater: !!autoWaterEl.checked,
-    rows: getRows(),
-    targets: {
-      brixMinNA: numberOrZero(brixMinNAEl.value),
-      brixMaxNA: numberOrZero(brixMaxNAEl.value),
-      brixMinAlc: numberOrZero(brixMinAlcEl.value),
-      brixMaxAlc: numberOrZero(brixMaxAlcEl.value),
-      abvMin: numberOrZero(abvMinEl.value),
-      abvMax: numberOrZero(abvMaxEl.value),
+    if (batchOz <= 0 || servingOz <= 0 || sugarPerServG <= 0) {
+      return {
+        mixerOz: 0, waterOz: 0, liquorOz: 0,
+        warnings: ["Recipe Error — please enter batch size, serving size (oz), and sugar per serving (g)."],
+        isValid: false
+      };
     }
-  };
-  localStorage.setItem('simplelab_state', JSON.stringify(state));
-}
 
-function loadState(){
-  try{
-    const s = JSON.parse(localStorage.getItem('simplelab_state') || '{}');
-    if (s.batchSize) {
-      batchSizeOzEl.value = s.batchSize;
-      batchSizeSlider.value = clamp(s.batchSize, Number(batchSizeSlider.min), Number(batchSizeSlider.max));
+    // 1) Liquor targeting
+    const targetABVFrac = TARGET_ABV / 100.0;
+    const liquorFrac    = liquorABV / 100.0;
+    let L = 0; // liquor oz
+    if (includeLiquor && liquorFrac > 0) {
+      L = Math.min(batchOz, (targetABVFrac * batchOz) / liquorFrac);
     }
-    if (typeof s.autoWater === 'boolean') autoWaterEl.checked = s.autoWater;
-    if (s.targets){
-      brixMinNAEl.value = s.targets.brixMinNA ?? brixMinNAEl.value;
-      brixMaxNAEl.value = s.targets.brixMaxNA ?? brixMaxNAEl.value;
-      brixMinAlcEl.value = s.targets.brixMinAlc ?? brixMinAlcEl.value;
-      brixMaxAlcEl.value = s.targets.brixMaxAlc ?? brixMaxAlcEl.value;
-      abvMinEl.value = s.targets.abvMin ?? abvMinEl.value;
-      abvMaxEl.value = s.targets.abvMax ?? abvMaxEl.value;
+
+    // 2) Sugar concentration from label (g/oz)
+    const sugarConc_gPerOz = servingOz > 0 ? (sugarPerServG / servingOz) : 0;
+
+    // 3) Mass estimate (g) of solution at target batch
+    const massEstimateG =
+      ((batchOz - L) * OZ_TO_ML * RHO_WATER) +
+      (L * OZ_TO_ML * RHO_LIQUOR);
+
+    // 4) Target sugar (g) for target °Brix
+    const targetSugarG = (TARGET_BRIX / 100.0) * massEstimateG;
+
+    // 5) Mixer volume required to supply that sugar
+    let M = 0;
+    if (sugarConc_gPerOz > 0) {
+      M = targetSugarG / sugarConc_gPerOz;
     }
-    if (Array.isArray(s.rows) && s.rows.length){
-      ingredientsBody.innerHTML = '';
-      s.rows.forEach(addRow);
-    } else {
-      // initial two rows
-      ingredientsBody.innerHTML = '';
-      addRow({ name: 'Margarita mix', oz: 24, sugarPerOz: 10, abvPct: 0 });
-      addRow({ name: 'Tequila', oz: 8, sugarPerOz: 0, abvPct: 40 });
-    }
-  }catch(e){
-    console.warn('load state error', e);
-  }
-}
+    M = clamp(M, 0, Math.max(0, batchOz - L));
 
-function addRow(data){
-  const frag = rowTemplate.content.cloneNode(true);
-  const tr = frag.querySelector('.tr');
+    // 6) Water remainder (rounded to nearest 0.5 oz)
+    const rawWater = batchOz - (L + M);
+    let W = Math.max(0, roundToHalf(rawWater));
 
-  const nameEl = tr.querySelector('.inp.name');
-  const ozEl   = tr.querySelector('.inp.amount');
-  const sugEl  = tr.querySelector('.inp.sugar');
-  const abvEl  = tr.querySelector('.inp.abv');
-  const rmBtn  = tr.querySelector('.icon-btn.remove');
+    // 7) Compute final stats for warnings (not displayed)
+    const V = L + M + W; // total volume
+    const liqMass   = L * OZ_TO_ML * RHO_LIQUOR;
+    const mixMass   = M * OZ_TO_ML * RHO_MIXER;
+    const waterMass = W * OZ_TO_ML * RHO_WATER;
+    const density   = V > 0 ? (liqMass + mixMass + waterMass) / (V * OZ_TO_ML) : RHO_WATER;
 
-  if (data){
-    nameEl.value = data.name ?? '';
-    if (Number.isFinite(data.oz)) ozEl.value = data.oz;
-    if (Number.isFinite(data.sugarPerOz)) sugEl.value = data.sugarPerOz;
-    if (Number.isFinite(data.abvPct)) abvEl.value = data.abvPct;
-  }
+    const sugarMass = sugarConc_gPerOz * M; // g
+    const finalBrix = V > 0 ? (sugarMass / (V * OZ_TO_ML * density)) * 100.0 : 0;
+    const finalABV  = (includeLiquor && V > 0 && liquorFrac > 0) ? (L * liquorFrac / V) * 100.0 : 0;
 
-  rmBtn.addEventListener('click', () => {
-    tr.remove();
-    saveState();
-  });
+    // 8) RescueAdvisor logic (web port)
+    const minBrix = includeLiquor ? BRIX_MIN_WITH_ALC : BRIX_MIN_NO_ALC;
+    const maxBrix = includeLiquor ? BRIX_MAX_WITH_ALC : BRIX_MAX_NO_ALC;
 
-  [nameEl, ozEl, sugEl, abvEl].forEach(el => el.addEventListener('input', saveState));
-
-  ingredientsBody.appendChild(frag);
-}
-
-function clearAlerts(){
-  alertsEl.innerHTML = '';
-}
-function pushAlert(kind, title, msg){
-  const div = document.createElement('div');
-  div.className = `alert ${kind}`;
-  div.innerHTML = `<h3>${title}</h3><p>${msg}</p>`;
-  alertsEl.appendChild(div);
-}
-
-function calc(){
-  clearAlerts();
-  const batchSize = numberOrZero(batchSizeOzEl.value);
-  const rows = getRows();
-
-  // Sum non-water
-  let volOther = 0, sugarG = 0, ethanolOz = 0;
-  for (const r of rows){
-    volOther += r.oz;
-    sugarG   += r.oz * r.sugarPerOz;
-    ethanolOz+= r.oz * (r.abvPct/100);
-  }
-
-  // Auto water
-  let waterOz = 0;
-  if (autoWaterEl.checked){
-    waterOz = clamp(batchSize - volOther, 0, 10_000);
-  }
-
-  const totalVolOz = volOther + waterOz;
-
-  // Guard
-  if (totalVolOz <= 0){
-    finalBrixEl.textContent = '—';
-    finalABVEl.textContent = '—';
-    consistencyEl.textContent = '—';
-    statusBadgeEl.textContent = 'Add ingredients';
-    waterOzOut.textContent = '—';
-    pushAlert('warn', 'Nothing to calculate', 'Enter at least one ingredient amount (oz).');
-    return;
-  }
-
-  // Warnings: overfill / underfill
-  if (!autoWaterEl.checked){
-    if (Math.abs(totalVolOz - batchSize) > 0.01){
-      pushAlert('warn', 'Batch size mismatch',
-        `Your ingredients total ${fmt(totalVolOz,1)} oz but batch size is ${fmt(batchSize,1)} oz. Adjust or enable auto-water.`);
-    }
-  } else {
-    if (volOther > batchSize){
-      pushAlert('bad', 'Too much liquid',
-        `Non-water ingredients are ${fmt(volOther,1)} oz which exceeds the batch size (${fmt(batchSize,1)} oz). Reduce amounts or increase batch size.`);
-    }
-  }
-
-  // Compute °Brix and ABV%
-  // °Brix ≈ (sugar grams / total solution grams) * 100
-  const solutionG = totalVolOz * OZ_TO_ML * RHO_WATER;
-  const finalBrix = (sugarG / solutionG) * 100;
-  const finalABV  = (ethanolOz / totalVolOz) * 100;
-
-  finalBrixEl.textContent = fmt(finalBrix, 2);
-  finalABVEl.textContent  = fmt(finalABV, 2);
-
-  // Targets
-  const { abvMin, abvMax, brixMin, brixMax, alcoholic } = readTargets(finalABV);
-
-  // Consistency label (simple heuristic)
-  let consistency = '—';
-  if (finalBrix < brixMin) consistency = 'Too thin';
-  else if (finalBrix > brixMax) consistency = 'Too thick';
-  else consistency = 'On point';
-  consistencyEl.textContent = consistency;
-
-  // Status badge
-  let statusClass = 'status-good';
-  let statusText  = 'Ready';
-  if (finalBrix < brixMin){
-    statusClass = 'status-warn'; statusText = 'Low sugar';
-  } else if (finalBrix > brixMax){
-    statusClass = 'status-warn'; statusText = 'High sugar';
-  }
-  if (finalABV > abvMax + 0.1){
-    statusClass = 'status-bad'; statusText = 'ABV too high';
-  }
-  statusBadgeEl.className = statusClass;
-  statusBadgeEl.textContent = statusText;
-
-  // Update water output
-  waterOzOut.textContent = fmt(waterOz, 2);
-
-  // Alerts & lightweight suggestions
-  if (finalBrix < brixMin){
-    // Suggest oz of 2:1 syrup to reach brixMin
-    const a = (brixMin/100) * OZ_TO_ML; // g sugar per oz of solution at target
-    const V = totalVolOz;
-    const S = sugarG;
-    const s = SUGAR_PER_OZ_2TO1;
-    const x = Math.max(0, (a*V - S) / (s - a)); // oz of 2:1
-    pushAlert('warn', 'Under-sugared',
-      `At ${fmt(finalBrix,2)}°Bx (target ${fmt(brixMin,1)}–${fmt(brixMax,1)}), slush may be runny. Add ≈ <strong>${fmt(x,2)} oz</strong> of 2:1 simple syrup, then recalc.`);
-  } else if (finalBrix > brixMax){
-    // Suggest oz of water to dilute down to brixMax
-    const V = totalVolOz, S = sugarG, t = brixMax;
-    const Vtarget = (S*100) / (t * OZ_TO_ML);
-    const w = Math.max(0, Vtarget - V);
-    pushAlert('warn', 'Over-sugared',
-      `At ${fmt(finalBrix,2)}°Bx (target ${fmt(brixMin,1)}–${fmt(brixMax,1)}), mix may freeze too hard. Add ≈ <strong>${fmt(w,2)} oz</strong> water, then recalc.`);
-  } else {
-    pushAlert('good', 'Sugar looks good', `You're within the target °Brix range (${fmt(brixMin,1)}–${fmt(brixMax,1)}).`);
-  }
-
-  if (finalABV < abvMin && alcoholic){
-    pushAlert('warn', 'Low ABV',
-      `ABV is ${fmt(finalABV,2)}% (typical ${fmt(abvMin,1)}–${fmt(abvMax,1)}%). Flavor may be light; consider increasing spirits or reducing batch size.`);
-  }
-  if (finalABV > abvMax){
-    pushAlert('bad', 'ABV too high',
-      `ABV is ${fmt(finalABV,2)}% (typical ${fmt(abvMin,1)}–${fmt(abvMax,1)}%). High alcohol can prevent freezing; reduce spirits or increase mix.`);
-  }
-
-  // Save state
-  saveState();
-}
-
-// --- Wire up UI ---
-batchSizeOzEl.addEventListener('input', () => {
-  batchSizeSlider.value = clamp(numberOrZero(batchSizeOzEl.value), Number(batchSizeSlider.min), Number(batchSizeSlider.max));
-  saveState();
-});
-batchSizeSlider.addEventListener('input', () => {
-  batchSizeOzEl.value = batchSizeSlider.value;
-  saveState();
-});
-autoWaterEl.addEventListener('change', saveState);
-
-addRowBtn.addEventListener('click', () => {
-  addRow({});
-  saveState();
-});
-
-resetBtn.addEventListener('click', () => {
-  if (!confirm('Reset all inputs?')) return;
-  localStorage.removeItem('simplelab_state');
-  ingredientsBody.innerHTML = '';
-  addRow({ name: 'Margarita mix', oz: 24, sugarPerOz: 10, abvPct: 0 });
-  addRow({ name: 'Tequila', oz: 8, sugarPerOz: 0, abvPct: 40 });
-  batchSizeOzEl.value = 64;
-  batchSizeSlider.value = 64;
-  autoWaterEl.checked = true;
-  calc();
-});
-
-calcBtn.addEventListener('click', calc);
-
-// Export / Import (JSON)
-exportBtn.addEventListener('click', (e) => {
-  e.preventDefault();
-  const data = {
-    batchSize: numberOrZero(batchSizeOzEl.value),
-    autoWater: !!autoWaterEl.checked,
-    rows: getRows(),
-    settings: {
-      brixMinNA: numberOrZero(brixMinNAEl.value),
-      brixMaxNA: numberOrZero(brixMaxNAEl.value),
-      brixMinAlc: numberOrZero(brixMinAlcEl.value),
-      brixMaxAlc: numberOrZero(brixMaxAlcEl.value),
-      abvMin: numberOrZero(abvMinEl.value),
-      abvMax: numberOrZero(abvMaxEl.value),
-    }
-  };
-  const blob = new Blob([JSON.stringify(data,null,2)], { type: 'application/json' });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement('a');
-  a.href = url; a.download = 'simplelab-mix.json';
-  document.body.appendChild(a); a.click(); a.remove();
-  URL.revokeObjectURL(url);
-});
-
-importBtn.addEventListener('click', async (e) => {
-  e.preventDefault();
-  const inp = document.createElement('input');
-  inp.type = 'file';
-  inp.accept = 'application/json';
-  inp.onchange = async () => {
-    const file = inp.files?.[0];
-    if (!file) return;
-    const txt = await file.text();
-    try{
-      const data = JSON.parse(txt);
-      // basic restore
-      batchSizeOzEl.value = data.batchSize ?? batchSizeOzEl.value;
-      batchSizeSlider.value = clamp(numberOrZero(batchSizeOzEl.value), Number(batchSizeSlider.min), Number(batchSizeSlider.max));
-      autoWaterEl.checked = !!data.autoWater;
-      if (Array.isArray(data.rows)){
-        ingredientsBody.innerHTML = '';
-        data.rows.forEach(addRow);
+    // Too sweet → auto-dilute with water now (and warn)
+    if (finalBrix > maxBrix && finalBrix > 0) {
+      const excess = finalBrix - maxBrix;
+      const addWater = (excess / finalBrix) * V; // oz to get down to the band upper bound
+      const addWaterRounded = roundToHalf(addWater);
+      if (addWaterRounded > 0) {
+        W = roundToHalf(W + addWaterRounded);
+        warnings.push(`Too sweet — added ${trim1(addWaterRounded)} oz water to bring sugar into range.`);
       }
-      if (data.settings){
-        brixMinNAEl.value = data.settings.brixMinNA ?? brixMinNAEl.value;
-        brixMaxNAEl.value = data.settings.brixMaxNA ?? brixMaxNAEl.value;
-        brixMinAlcEl.value = data.settings.brixMinAlc ?? brixMinAlcEl.value;
-        brixMaxAlcEl.value = data.settings.brixMaxAlc ?? brixMaxAlcEl.value;
-        abvMinEl.value = data.settings.abvMin ?? abvMinEl.value;
-        abvMaxEl.value = data.settings.abvMax ?? abvMaxEl.value;
-      }
-      saveState();
-      calc();
-    }catch(err){
-      alert('Invalid file');
     }
-  };
-  inp.click();
-});
 
-// Initialize
-loadState();
-calc();
+    // Too low sugar → show “dissolve sugar in water” guidance (do NOT auto-change W)
+    if (finalBrix < minBrix && V > 0) {
+      const deficit = minBrix - finalBrix;
+      // grams sugar needed for the whole batch to hit the band lower bound
+      const sugarGramsNeeded = (deficit / 100.0) * (V * OZ_TO_ML);
+
+      if (sugarGramsNeeded >= 0.5) {
+        // Tbsp sugar: 1 Tbsp ≈ 12.5 g (match your app)
+        const sugarTbspRaw = sugarGramsNeeded / 12.5;
+        const sugarTbsp = Math.ceil(sugarTbspRaw * 2) / 2; // round up to nearest 0.5 Tbsp
+
+        // Water for dissolving: ~ 2 g sugar per 1 mL water (your advisor logic)
+        let waterOzNeeded = (sugarGramsNeeded / 2.0) / OZ_TO_ML;
+        waterOzNeeded = roundUpToHalf(waterOzNeeded);
+
+        if (waterOzNeeded < 1) {
+          // tsp water (1 oz = 6 tsp)
+          const teaspoons = Math.max(1, Math.round(waterOzNeeded * 6));
+          warnings.push(
+            `Low sugar — dissolve ${trim1(sugarTbsp)} Tbsp sugar in ${teaspoons} tsp warm water, mix in, then recalc.`
+          );
+        } else {
+          warnings.push(
+            `Low sugar — dissolve ${trim1(sugarTbsp)} Tbsp sugar in ${trim1(waterOzNeeded)} oz warm water, mix in, then recalc.`
+          );
+        }
+
+        if (sugarTbsp < 0.5 || waterOzNeeded < (1.0 / 6.0)) {
+          warnings.push(`Tip: Consider making a larger batch size; very small batches don’t slush reliably.`);
+        }
+      } else {
+        // Tiny correction — effectively a rounding no-op; suggest a splash of water only if you want (keeping quiet here).
+      }
+    }
+
+    return {
+      mixerOz: M,
+      waterOz: W,
+      liquorOz: L,
+      warnings,
+      isValid: isFinite(M) && isFinite(W) && isFinite(L)
+    };
+  }
+
+  // Expose globally for script.js
+  window.calculateSimpleLab = calculateSimpleLab;
+})();
