@@ -4,60 +4,69 @@
     <p>Make the perfect drink every time.</p>
 
     <form id="simplelab-form">
-      <label>
-        Serving Size (oz):
-        <input type="number" id="servingSize" value="16" step="0.1" required>
-      </label>
-      <br><br>
-      <label>
-        Sugar (grams):
-        <input type="number" id="sugarGrams" value="20" step="0.1" required>
-      </label>
-      <br><br>
-      <label>
-        Alcohol ABV (%):
+      <div class="field">
+        <label>Batch Size (oz):</label>
+        <input type="number" id="batchSize" value="16" step="0.1">
+      </div>
+      <div class="field">
+        <label>Sugar (grams):</label>
+        <input type="number" id="sugarGrams" value="21" step="0.1">
+      </div>
+      <div class="field">
+        <label>Liquor ABV (%):</label>
         <input type="number" id="liquorABV" value="40" step="0.1">
-      </label>
-      <br><br>
-      <label>
-        Include Alcohol?
+      </div>
+      <div class="field checkbox">
+        <label>Include Liquor?</label>
         <input type="checkbox" id="hasLiquor">
-      </label>
-      <br><br>
-      <button type="button" onclick="calculate()">Calculate</button>
+      </div>
     </form>
 
     <hr>
 
-    <div id="results">
-      <h2>Results</h2>
-      <p>Brix: <span id="brix">0</span>%</p>
-      <p>ABV: <span id="abv">0</span>%</p>
+    <div class="results">
+      <div class="card">
+        <h2 id="brix">0%</h2>
+        <p>°Brix</p>
+      </div>
+      <div class="card">
+        <h2 id="abv">0%</h2>
+        <p>ABV</p>
+      </div>
     </div>
   </div>
 
   <script>
     function calculate() {
-      const servingSize = parseFloat(document.getElementById('servingSize').value) || 0;
+      const batchSize = parseFloat(document.getElementById('batchSize').value) || 0;
       const sugarGrams = parseFloat(document.getElementById('sugarGrams').value) || 0;
       const liquorABV = parseFloat(document.getElementById('liquorABV').value) || 0;
       const hasLiquor = document.getElementById('hasLiquor').checked;
 
-      // Convert serving size from oz → mL (29.57 mL/oz)
-      const servingMl = servingSize * 29.57;
+      const ozToMl = 29.57;
+      const rhoWater = 1.0;
 
-      // Assume density of water (1 g/mL) for sugar calc
-      const brix = ((sugarGrams / servingMl) * 100).toFixed(1);
+      const totalVolumeMl = batchSize * ozToMl;
+      const totalSugar = sugarGrams;
 
-      // ABV: only counts if liquor is checked
-      let abv = 0;
+      const finalBrix = ((totalSugar / (totalVolumeMl * rhoWater)) * 100).toFixed(1);
+
+      let finalABV = 0;
       if (hasLiquor) {
-        abv = liquorABV.toFixed(1);
+        // simplified: ABV dial logic can be expanded
+        finalABV = ((batchSize * (liquorABV / 100)) / batchSize * 100).toFixed(1);
       }
 
-      document.getElementById('brix').innerText = brix;
-      document.getElementById('abv').innerText = abv;
+      document.getElementById('brix').innerText = `${finalBrix}%`;
+      document.getElementById('abv').innerText = `${finalABV}%`;
     }
+
+    // recalc anytime inputs change
+    document.querySelectorAll("input").forEach(input => {
+      input.addEventListener("input", calculate);
+    });
+
+    calculate();
   </script>
 
   <style>
@@ -66,7 +75,6 @@
       margin: 2rem;
       background: #f5f7fa;
       color: #333;
-      text-align: center;
     }
     .container {
       max-width: 600px;
@@ -76,18 +84,34 @@
       border-radius: 12px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
-    input {
-      margin-top: 0.3rem;
-      padding: 0.3rem;
+    .field {
+      display: flex;
+      justify-content: space-between;
+      margin: 0.8rem 0;
     }
-    button {
-      margin-top: 1rem;
-      padding: 0.6rem 1.2rem;
-      border: none;
-      background: #4a90e2;
-      color: white;
-      border-radius: 6px;
-      cursor: pointer;
+    .field input {
+      width: 120px;
+      padding: 0.4rem;
+    }
+    .checkbox {
+      align-items: center;
+    }
+    .results {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 2rem;
+    }
+    .card {
+      background: #f9f9f9;
+      padding: 1rem 2rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+      text-align: center;
+      width: 40%;
+    }
+    .card h2 {
+      margin: 0;
+      color: #4a90e2;
     }
   </style>
 </body>
