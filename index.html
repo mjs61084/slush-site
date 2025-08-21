@@ -1,22 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SlushIQ SimpleLab</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      margin: 2rem;
+      background: #f5f7fa;
+      color: #333;
+    }
+    .container {
+      max-width: 600px;
+      margin: auto;
+      padding: 2rem;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #4a90e2;
+    }
+    .field {
+      display: flex;
+      justify-content: space-between;
+      margin: 0.8rem 0;
+    }
+    .field input {
+      width: 120px;
+      padding: 0.4rem;
+    }
+    .results {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 2rem;
+      flex-wrap: wrap;
+    }
+    .card {
+      background: #f9f9f9;
+      padding: 1rem 2rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+      text-align: center;
+      margin: 0.5rem;
+      flex: 1 1 30%;
+    }
+    .card h2 {
+      margin: 0;
+      color: #4a90e2;
+    }
+  </style>
+</head>
 <body>
   <div class="container">
     <h1>🥶 SlushIQ SimpleLab</h1>
-    <p>Enter your serving info — get the perfect mix instantly.</p>
+    <p style="text-align:center;">Make the perfect drink every time.</p>
 
     <form id="simplelab-form">
       <div class="field">
-        <label>Serving Size (oz):</label>
-        <input type="number" id="servingSize" value="16" step="0.1">
+        <label>Batch Size (oz):</label>
+        <input type="number" id="batchSize" value="16" step="0.1">
       </div>
       <div class="field">
-        <label>Sugar per Serving (g):</label>
+        <label>Sugar (g per serving):</label>
         <input type="number" id="sugarGrams" value="21" step="0.1">
       </div>
       <div class="field">
         <label>Liquor ABV (%):</label>
         <input type="number" id="liquorABV" value="40" step="0.1">
       </div>
-      <div class="field checkbox">
+      <div class="field">
         <label>Include Liquor?</label>
         <input type="checkbox" id="hasLiquor">
       </div>
@@ -41,100 +96,36 @@
   </div>
 
   <script>
-    function calculate() {
-      const servingSize = parseFloat(document.getElementById('servingSize').value) || 0;
+    async function calculate() {
+      const batchSize = parseFloat(document.getElementById('batchSize').value) || 0;
       const sugarGrams = parseFloat(document.getElementById('sugarGrams').value) || 0;
       const liquorABV = parseFloat(document.getElementById('liquorABV').value) || 0;
       const hasLiquor = document.getElementById('hasLiquor').checked;
 
-      // --- Simplified SimpleLab logic ---
-      // Assume target ~12 °Brix (like the app baseline)
-      const targetBrix = 12;
+      const response = await fetch('/api/simplelab', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ batchSize, sugarGrams, liquorABV, hasLiquor })
+      });
 
-      // Volume in mL
-      const ozToMl = 29.57;
-      const servingMl = servingSize * ozToMl;
+      const data = await response.json();
 
-      // Current brix
-      const currentBrix = (sugarGrams / servingMl) * 100;
-
-      // Scale factor to reach ~12 brix
-      const scale = targetBrix / currentBrix;
-
-      // Outputs
-      let mixer = servingSize * scale;    // oz mixer
-      let water = servingSize - mixer;    // oz water
-      let liquor = 0;
-
-      if (hasLiquor) {
-        // liquor is taken as fraction of serving
-        liquor = servingSize * 0.07; // ~7% ABV target
-        water -= liquor;
-      }
-
-      // Update UI
-      document.getElementById('mixerOut').innerText = `${mixer.toFixed(2)} oz`;
-      document.getElementById('waterOut').innerText = `${water.toFixed(2)} oz`;
+      document.getElementById('mixerOut').innerText = `${data.mixer} oz`;
+      document.getElementById('waterOut').innerText = `${data.water} oz`;
 
       if (hasLiquor) {
         document.getElementById('liquorCard').style.display = "block";
-        document.getElementById('liquorOut').innerText = `${liquor.toFixed(2)} oz`;
+        document.getElementById('liquorOut').innerText = `${data.liquor} oz`;
       } else {
         document.getElementById('liquorCard').style.display = "none";
       }
     }
 
-    // Recalculate on input change
     document.querySelectorAll("input").forEach(input => {
       input.addEventListener("input", calculate);
     });
 
     calculate();
   </script>
-
-  <style>
-    body {
-      font-family: system-ui, sans-serif;
-      margin: 2rem;
-      background: #f5f7fa;
-      color: #333;
-    }
-    .container {
-      max-width: 600px;
-      margin: auto;
-      padding: 2rem;
-      background: white;
-      border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    }
-    .field {
-      display: flex;
-      justify-content: space-between;
-      margin: 0.8rem 0;
-    }
-    .field input {
-      width: 120px;
-      padding: 0.4rem;
-    }
-    .checkbox {
-      align-items: center;
-    }
-    .results {
-      display: flex;
-      justify-content: space-around;
-      margin-top: 2rem;
-    }
-    .card {
-      background: #f9f9f9;
-      padding: 1rem 2rem;
-      border-radius: 10px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-      text-align: center;
-      width: 30%;
-    }
-    .card h2 {
-      margin: 0;
-      color: #4a90e2;
-    }
-  </style>
 </body>
+</html>
