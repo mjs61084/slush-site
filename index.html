@@ -10,25 +10,34 @@
 <body>
   <header class="app-header">
     <h1>SimpleLAB</h1>
-    <p class="sub">Quick, reliable slush mix math — oz only.</p>
+    <p class="sub">Quick, reliable slush mix math — oz only inputs; outputs can show oz or mL.</p>
   </header>
+
+  <!-- Units toggle -->
+  <section class="unit-toggle" aria-label="Output units">
+    <span class="unit-label">Units</span>
+    <div class="segmented" role="tablist" aria-label="Choose output units">
+      <button type="button" id="u-oz" class="on" role="tab" aria-selected="true">oz</button>
+      <button type="button" id="u-ml" role="tab" aria-selected="false">mL</button>
+    </div>
+  </section>
 
   <!-- Results -->
   <section class="results" id="results">
     <div class="result-card">
       <div class="label">Mixer</div>
       <div class="value" id="out-mixer">—</div>
-      <div class="unit">oz</div>
+      <div class="unit" data-unit>oz</div>
     </div>
     <div class="result-card">
       <div class="label">Water</div>
       <div class="value" id="out-water">—</div>
-      <div class="unit">oz</div>
+      <div class="unit" data-unit>oz</div>
     </div>
     <div class="result-card">
       <div class="label">Liquor</div>
       <div class="value" id="out-liquor">—</div>
-      <div class="unit">oz</div>
+      <div class="unit" data-unit>oz</div>
     </div>
   </section>
 
@@ -69,15 +78,13 @@
         <button type="button" id="resetBtn" class="btn-secondary">Reset</button>
       </div>
 
-      <p class="hint">Mix thoroughly before freezing to prevent clumps.</p>
-      <p class="footnote">
-        This minimal web version mirrors SimpleLAB math and warnings only (no °Brix/ABV display, no Rescue features).
-      </p>
+      <p class="hint">Inputs use ounces and grams (like most labels). Toggle only affects displayed results.</p>
+      <p class="footnote">SimpleLAB web mirrors app behavior: no °Brix/ABV UI, silent water add if too sweet, sugar-in-water guidance if too low.</p>
     </form>
   </main>
 
   <!-- Scripts (engine first, then UI) -->
-  <script src="lib/simplelab.js" defer></script>
+  <script src="simplelab.js" defer></script>
   <script src="script.js" defer></script>
 </body>
 </html>
