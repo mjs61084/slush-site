@@ -7,13 +7,10 @@ export default function handler(req, res) {
 
   // --- Constants ---
   const ozToMl = 29.57;
-  const cupToMl = 236.588;
   const rhoWater = 1.0;
 
   // Convert batch size to mL
-  let batchSizeMl = batchSize;
-  if (unit === "oz") batchSizeMl = batchSize * ozToMl;
-  if (unit === "cups") batchSizeMl = batchSize * cupToMl;
+  let batchSizeMl = unit === "oz" ? batchSize * ozToMl : batchSize;
 
   // --- Calculate current °Brix ---
   const currentBrix = (sugarGrams / (batchSizeMl * rhoWater)) * 100;
@@ -36,9 +33,7 @@ export default function handler(req, res) {
   }
 
   // Convert back to selected unit
-  let divider = 1;
-  if (unit === "oz") divider = ozToMl;
-  if (unit === "cups") divider = cupToMl;
+  let divider = unit === "oz" ? ozToMl : 1;
 
   res.status(200).json({
     mixer: (mixerMl / divider).toFixed(2),
