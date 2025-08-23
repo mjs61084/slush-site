@@ -1,11 +1,67 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Test Page</title>
+  <meta charset="utf-8" />
+  <title>SimpleLAB LITE</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 <body>
-  <h1>Hello, SlushIQ!</h1>
-  <p>If you see this, hosting works fine.</p>
+  <h1>SimpleLAB LITE</h1>
+
+  <form id="slush-form">
+    <label>Batch size (oz): <input id="batch" type="number" /></label><br>
+    <label>Serving size (oz): <input id="serving" type="number" /></label><br>
+    <label>Sugar per serving (g): <input id="sugar" type="number" /></label><br>
+    <label><input id="hasLiquor" type="checkbox"> Include liquor</label><br>
+    <label>Liquor ABV (%): <input id="abv" type="number" value="40" /></label><br>
+    <button type="submit">Calculate Slush</button>
+  </form>
+
+  <h2>Results</h2>
+  <p>Mixer: <span id="out-mixer">—</span> oz</p>
+  <p>Water: <span id="out-water">—</span> oz</p>
+  <p>Liquor: <span id="out-liquor">—</span> oz</p>
+  <div id="warnings"></div>
+
+<script>
+(function(){
+  const form = document.getElementById("slush-form");
+  const outMixer = document.getElementById("out-mixer");
+  const outWater = document.getElementById("out-water");
+  const outLiquor = document.getElementById("out-liquor");
+  const warningsEl = document.getElementById("warnings");
+
+  function roundHalf(x){ return Math.round(x*2)/2; }
+
+  form.addEventListener("submit", e => {
+    e.preventDefault();
+    const batch = parseFloat(document.getElementById("batch").value);
+    const serving = parseFloat(document.getElementById("serving").value);
+    const sugar = parseFloat(document.getElementById("sugar").value);
+    const hasLiquor = document.getElementById("hasLiquor").checked;
+    const abv = parseFloat(document.getElementById("abv").value) || 40;
+
+    if(!batch || !serving || !sugar) return;
+
+    const sugarPerOz = sugar/serving;
+    const targetBrix = 11.75, targetABV = 7.0;
+
+    let liquorVol = hasLiquor ? (batch * targetABV / abv) : 0;
+    let mixerVol = (batch * targetBrix * 29.5735 / 100) / sugarPerOz;
+    if(mixerVol+liquorVol > batch) mixerVol = batch-liquorVol;
+    let waterVol = batch - mixerVol - liquorVol;
+
+    mixerVol=roundHalf(mixerVol);
+    waterVol=roundHalf(waterVol);
+    liquorVol=roundHalf(liquorVol);
+
+    outMixer.textContent=mixerVol;
+    outWater.textContent=waterVol;
+    outLiquor.textContent=liquorVol;
+
+    warningsEl.textContent = (waterVol < 0) ? "⚠️ Not enough water space." : "";
+  });
+})();
+</script>
 </body>
 </html>
