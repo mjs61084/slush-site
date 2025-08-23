@@ -1,226 +1,189 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <title>SimpleLAB LITE — Slush Mix Calculator</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <style>
-    :root {
-      --bg-grad: linear-gradient(180deg,#f8fafc,#ffffff);
-      --fg:#0f172a; --muted:#64748b;
-      --accent1:#0ea5e9; --accent2:#3b82f6;
-      --border:#e2e8f0;
-      --grad-accent: linear-gradient(90deg,var(--accent1),var(--accent2));
-    }
-    body{margin:0;font:16px/1.4 -apple-system,system-ui,sans-serif;background:var(--bg-grad);color:var(--fg)}
-    h1,h2{margin:0}
+<style>
+  :root {
+    /* Dark background + cyan accent to match the app */
+    --bg-grad: linear-gradient(180deg, #12161c, #1a1f27);
+    --fg: #ffffff;
+    --muted: rgba(255,255,255,0.6);
 
-    .app-header{text-align:center;padding:20px 16px 8px}
-    .app-header h1{
-      font-size:24px;font-weight:800;
-      background:var(--grad-accent);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
-    }
-    .app-header .sub{margin:6px 0 0;font-size:13px;color:var(--muted)}
-    .accent-bar{height:3px;background:var(--grad-accent)}
+    --accent1: #06b6d4; /* cyan */
+    --accent2: #22d3ee;
+    --border: rgba(255,255,255,0.15);
 
-    .unit-toggle{display:flex;justify-content:center;gap:8px;padding:12px}
-    .segmented{display:flex;border:1px solid var(--border);border-radius:999px;overflow:hidden;background:#fff}
-    .segmented button{border:0;background:#fff;padding:6px 14px;font-size:14px;cursor:pointer}
-    .segmented button.on{color:#fff;background:var(--grad-accent)}
-
-    .results{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;padding:12px}
-    .result-card{
-      border-radius:14px;padding:12px;text-align:center;
-      background:linear-gradient(#fff,#fff) padding-box, var(--grad-accent) border-box;
-      border:1px solid transparent;
-    }
-    .result-card .label{font-size:12px;color:var(--muted)}
-    .result-card .value{font-size:22px;font-weight:800}
-    .result-card .unit{font-size:12px;color:var(--muted)}
-
-    .container{max-width:640px;margin:0 auto;padding:12px}
-    .field{display:flex;flex-direction:column;margin-bottom:12px}
-    .field label{font-size:13px;color:var(--muted);margin-bottom:4px}
-    .field input{padding:12px;border:1px solid var(--border);border-radius:12px;font-size:16px}
-
-    .switch{display:flex;align-items:center;gap:8px;margin:8px 0}
-
-    .buttons{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px}
-    .cta{border:0;padding:14px;border-radius:12px;font-size:16px;font-weight:800;cursor:pointer;color:#fff;background:var(--grad-accent)}
-    .btn-secondary{border:1px solid var(--border);background:#fff;padding:14px;border-radius:12px;font-size:16px;cursor:pointer}
-
-    .warnings{max-width:640px;margin:12px auto;padding:0 12px}
-    .warnings .item{background:#fff8eb;border:1px solid #fde68a;color:#854d0e;border-radius:10px;padding:10px;margin-bottom:6px;font-size:14px}
-
-    .store-badge { text-align:center; margin:30px 0 10px; }
-    .store-badge img { height:40px; }
-
-    .disclaimer { text-align:center;font-size:12px;color:var(--muted);max-width:640px;margin:10px auto 30px;padding:0 12px }
-  </style>
-</head>
-<body>
-  <header class="app-header">
-    <h1>SimpleLAB LITE</h1>
-    <p class="sub">Inputs & outputs toggle oz ⇄ mL. Sugar stays in grams.</p>
-    <p class="sub" id="rangeNote">Batch size: 16–96 oz</p>
-  </header>
-  <div class="accent-bar"></div>
-
-  <!-- Units toggle -->
-  <section class="unit-toggle">
-    <div class="segmented">
-      <button type="button" id="u-oz" class="on">oz</button>
-      <button type="button" id="u-ml">mL</button>
-    </div>
-  </section>
-
-  <!-- Results -->
-  <section class="results">
-    <div class="result-card">
-      <div class="label">Mixer</div>
-      <div class="value" id="out-mixer">—</div>
-      <div class="unit" data-unit>oz</div>
-    </div>
-    <div class="result-card">
-      <div class="label">Water</div>
-      <div class="value" id="out-water">—</div>
-      <div class="unit" data-unit>oz</div>
-    </div>
-    <div class="result-card">
-      <div class="label">Liquor</div>
-      <div class="value" id="out-liquor">—</div>
-      <div class="unit" data-unit>oz</div>
-    </div>
-  </section>
-
-  <section class="warnings" id="warnings" hidden></section>
-
-  <!-- Form -->
-  <main class="container">
-    <form id="slush-form" novalidate>
-      <div class="field">
-        <label for="batch">Batch size</label>
-        <input id="batch" type="number" required />
-      </div>
-      <div class="field">
-        <label for="serving">Label serving size</label>
-        <input id="serving" type="number" required />
-      </div>
-      <div class="field">
-        <label for="sugar">Sugar per serving (g)</label>
-        <input id="sugar" type="number" step="0.1" min="0" required />
-      </div>
-      <div class="switch">
-        <input id="hasLiquor" type="checkbox" />
-        <label for="hasLiquor">Include liquor</label>
-      </div>
-      <div class="field" id="abv-field" style="display:none">
-        <label for="abv">Liquor ABV (%)</label>
-        <input id="abv" type="number" step="1" min="1" max="96" value="40" />
-      </div>
-      <div class="buttons">
-        <button type="submit" class="cta">Calculate Slush</button>
-        <button type="button" id="resetBtn" class="btn-secondary">Reset</button>
-      </div>
-    </form>
-  </main>
-
-  <!-- Store badge -->
-  <div class="store-badge">
-    <a href="https://apps.apple.com/us/app/slushiq/id6749187530" target="_blank" rel="noopener">
-      <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83"
-           alt="Download on the App Store" />
-    </a>
-  </div>
-  <p class="disclaimer">
-    SimpleLAB LITE is a free companion to SlushIQ. Not affiliated with Ninja® or Ninja SLUSHi™.
-  </p>
-
-<script>
-(function(){
-  const form = document.getElementById("slush-form");
-  const outputs = {
-    mixer: document.getElementById("out-mixer"),
-    water: document.getElementById("out-water"),
-    liquor: document.getElementById("out-liquor"),
-    units: document.querySelectorAll("[data-unit]")
-  };
-  const unitButtons = { oz: document.getElementById("u-oz"), ml: document.getElementById("u-ml") };
-  const abvField = document.getElementById("abv-field");
-  const warningsEl = document.getElementById("warnings");
-  let unit = "oz";
-
-  // unit toggle
-  unitButtons.oz.addEventListener("click",()=>setUnit("oz"));
-  unitButtons.ml.addEventListener("click",()=>setUnit("ml"));
-  function setUnit(u){
-    unit=u;
-    unitButtons.oz.classList.toggle("on",u==="oz");
-    unitButtons.ml.classList.toggle("on",u==="ml");
-    outputs.units.forEach(el=>el.textContent=u);
+    --grad-accent: linear-gradient(90deg, var(--accent1), var(--accent2));
+    --card-fill: #242830;
   }
 
-  // liquor toggle
-  document.getElementById("hasLiquor").addEventListener("change",e=>{
-    abvField.style.display=e.target.checked?"block":"none";
-  });
-
-  // helpers
-  function toML(oz){return oz*29.5735}
-  function displayVal(val){return unit==="oz"?val.toFixed(1):toML(val).toFixed(0)}
-  function roundHalf(x){return Math.round(x*2)/2}
-
-  // form
-  form.addEventListener("submit",e=>{
-    e.preventDefault();
-    calculate();
-  });
-  document.getElementById("resetBtn").addEventListener("click",()=>{
-    form.reset(); clearResults();
-  });
-
-  function clearResults(){
-    [outputs.mixer,outputs.water,outputs.liquor].forEach(el=>el.textContent="—");
-    warningsEl.hidden=true; warningsEl.innerHTML="";
+  body {
+    margin: 0;
+    font: 16px/1.4 -apple-system, system-ui, sans-serif;
+    background: var(--bg-grad);
+    color: var(--fg);
   }
 
-  function calculate(){
-    const batch=parseFloat(document.getElementById("batch").value);
-    const serving=parseFloat(document.getElementById("serving").value);
-    const sugar=parseFloat(document.getElementById("sugar").value);
-    const hasLiquor=document.getElementById("hasLiquor").checked;
-    const abv=parseFloat(document.getElementById("abv").value)||40;
-    if(!batch||!serving||!sugar) return;
+  h1, h2 { margin: 0 }
 
-    const targetBrix=11.75,targetABV=7.0;
-    const sugarPerOz=sugar/serving;
-    let liquorVol=hasLiquor?(batch*targetABV/abv):0;
-    let mixerVol=(batch*targetBrix*29.5735/100)/sugarPerOz;
-    if(mixerVol+liquorVol>batch) mixerVol=batch-liquorVol;
-    let waterVol=batch-mixerVol-liquorVol;
-
-    mixerVol=roundHalf(mixerVol);
-    waterVol=roundHalf(waterVol);
-    liquorVol=roundHalf(liquorVol);
-
-    outputs.mixer.textContent=displayVal(mixerVol);
-    outputs.water.textContent=displayVal(waterVol);
-    outputs.liquor.textContent=displayVal(liquorVol);
-
-    warningsEl.innerHTML="";
-    if(waterVol<0) addWarning("Not enough water space. Add less liquor/sugar.");
-    if(mixerVol<=0) addWarning("Mixer volume too low. Check sugar per serving.");
-    if(hasLiquor&&liquorVol<=0) addWarning("Liquor volume too low to hit ABV.");
-    warningsEl.hidden=warningsEl.innerHTML==="";
+  .app-header {
+    text-align: center;
+    padding: 20px 16px 8px;
+  }
+  .app-header h1 {
+    font-size: 24px;
+    font-weight: 800;
+    background: var(--grad-accent);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .app-header .sub {
+    margin: 6px 0 0;
+    font-size: 13px;
+    color: var(--muted);
+  }
+  .accent-bar {
+    height: 3px;
+    background: var(--grad-accent);
   }
 
-  function addWarning(msg){
-    const item=document.createElement("div");
-    item.className="item";
-    item.textContent=msg;
-    warningsEl.appendChild(item);
+  .unit-toggle {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px;
   }
-})();
-</script>
-</body>
-</html>
+  .segmented {
+    display: flex;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    overflow: hidden;
+    background: var(--card-fill);
+  }
+  .segmented button {
+    border: 0;
+    background: transparent;
+    padding: 6px 14px;
+    font-size: 14px;
+    cursor: pointer;
+    color: var(--muted);
+  }
+  .segmented button.on {
+    color: #000;
+    background: var(--grad-accent);
+    font-weight: 600;
+  }
+
+  .results {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    padding: 12px;
+  }
+  .result-card {
+    border-radius: 14px;
+    padding: 12px;
+    text-align: center;
+    background: var(--card-fill);
+    border: 1px solid var(--border);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  }
+  .result-card .label {
+    font-size: 12px;
+    color: var(--muted);
+  }
+  .result-card .value {
+    font-size: 22px;
+    font-weight: 800;
+    color: var(--fg);
+  }
+  .result-card .unit {
+    font-size: 12px;
+    color: var(--muted);
+  }
+
+  .container {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 12px;
+  }
+  .field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+  }
+  .field label {
+    font-size: 13px;
+    color: var(--muted);
+    margin-bottom: 4px;
+  }
+  .field input {
+    padding: 12px;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    font-size: 16px;
+    background: var(--card-fill);
+    color: var(--fg);
+  }
+
+  .switch {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 8px 0;
+    color: var(--muted);
+  }
+
+  .buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 14px;
+  }
+  .cta {
+    border: 0;
+    padding: 14px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 800;
+    cursor: pointer;
+    color: #000;
+    background: var(--grad-accent);
+  }
+  .btn-secondary {
+    border: 1px solid var(--border);
+    background: var(--card-fill);
+    padding: 14px;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    color: var(--fg);
+  }
+
+  .warnings {
+    max-width: 640px;
+    margin: 12px auto;
+    padding: 0 12px;
+  }
+  .warnings .item {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid #fde68a;
+    color: #fcd34d;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 6px;
+    font-size: 14px;
+  }
+
+  .store-badge {
+    text-align: center;
+    margin: 30px 0 10px;
+  }
+  .store-badge img { height: 40px; }
+
+  .disclaimer {
+    text-align: center;
+    font-size: 12px;
+    color: var(--muted);
+    max-width: 640px;
+    margin: 10px auto 30px;
+    padding: 0 12px;
+  }
+</style>
