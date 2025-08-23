@@ -1,180 +1,121 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <title>SimpleLAB LITE — Slush Mix Calculator</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <meta name="theme-color" content="#ffffff" />
+<script>
+(function() {
+  const form = document.getElementById("slush-form");
+  const resetBtn = document.getElementById("resetBtn");
+  const unitButtons = { oz: document.getElementById("u-oz"), ml: document.getElementById("u-ml") };
+  const outputs = {
+    mixer: document.getElementById("out-mixer"),
+    water: document.getElementById("out-water"),
+    liquor: document.getElementById("out-liquor"),
+    units: document.querySelectorAll("[data-unit]")
+  };
+  const abvField = document.getElementById("abv-field");
+  const warningsEl = document.getElementById("warnings");
 
-  <!-- SEO + Social Meta -->
-  <meta name="description" content="SimpleLAB LITE — a free slush mix calculator that makes getting the perfect mix easy. Toggle oz ⇄ mL. Download SlushIQ on the App Store." />
+  let unit = "oz"; // default
 
-  <!-- Open Graph -->
-  <meta property="og:title" content="SimpleLAB LITE — Slush Mix Calculator" />
-  <meta property="og:description" content="A free slush mix calculator. Toggle oz ⇄ mL. Download SlushIQ on the App Store." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://apps.apple.com/us/app/slushiq/id6749187530" />
-  <meta property="og:image" content="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/67/4d/55/674d55ec-27fb-233a-6f85-6ee36871a45e/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/600x600bb.png" />
+  // --- Unit toggle ---
+  unitButtons.oz.addEventListener("click", () => setUnit("oz"));
+  unitButtons.ml.addEventListener("click", () => setUnit("ml"));
+  function setUnit(u) {
+    unit = u;
+    unitButtons.oz.classList.toggle("on", u === "oz");
+    unitButtons.ml.classList.toggle("on", u === "ml");
+    outputs.units.forEach(el => el.textContent = u);
+  }
 
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="SimpleLAB LITE — Slush Mix Calculator" />
-  <meta name="twitter:description" content="A free slush mix calculator. Toggle oz ⇄ mL. Download SlushIQ on the App Store." />
-  <meta name="twitter:image" content="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/67/4d/55/674d55ec-27fb-233a-6f85-6ee36871a45e/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/600x600bb.png" />
+  // --- Liquor toggle ---
+  document.getElementById("hasLiquor").addEventListener("change", e => {
+    abvField.style.display = e.target.checked ? "block" : "none";
+  });
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png" />
+  // --- Form submit ---
+  form.addEventListener("submit", e => {
+    e.preventDefault();
+    calculate();
+  });
 
-  <style>
-    :root {
-      --bg-grad: linear-gradient(180deg,#f8fafc,#ffffff);
-      --fg:#0f172a; --muted:#64748b;
-      --accent1:#0ea5e9; --accent2:#3b82f6;
-      --border:#e2e8f0; --card:#ffffff;
-      --grad-accent: linear-gradient(90deg,var(--accent1),var(--accent2));
+  // --- Reset ---
+  resetBtn.addEventListener("click", () => {
+    form.reset();
+    clearResults();
+  });
+
+  function clearResults() {
+    [outputs.mixer, outputs.water, outputs.liquor].forEach(el => el.textContent = "—");
+    warningsEl.hidden = true;
+    warningsEl.innerHTML = "";
+  }
+
+  // --- Conversion helpers ---
+  function toML(oz) { return oz * 29.5735; }
+  function toOz(ml) { return ml / 29.5735; }
+  function displayVal(val) {
+    return unit === "oz" ? val.toFixed(1) : toML(val).toFixed(0);
+  }
+
+  // Round to nearest 0.5 oz
+  function roundHalf(x) { return Math.round(x * 2) / 2; }
+
+  // --- Main SimpleLAB math ---
+  function calculate() {
+    const batch = parseFloat(document.getElementById("batch").value);
+    const serving = parseFloat(document.getElementById("serving").value);
+    const sugar = parseFloat(document.getElementById("sugar").value);
+    const hasLiquor = document.getElementById("hasLiquor").checked;
+    const abv = parseFloat(document.getElementById("abv").value);
+
+    if (!batch || !serving || !sugar) return;
+
+    // Constants
+    const targetBrix = 11.75;
+    const targetABV = 7.0;
+
+    // Sugar density (g/oz mixer)
+    const sugarPerOz = sugar / serving;
+
+    // If liquor, compute needed oz to reach ~7% ABV
+    let liquorVol = 0;
+    if (hasLiquor) {
+      liquorVol = (batch * targetABV) / (abv || 40);
     }
-    *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
-    body{margin:0;font:16px/1.4 -apple-system,system-ui,sans-serif;background:var(--bg-grad);color:var(--fg)}
 
-    .app-header{text-align:center;padding:20px 16px 8px}
-    .app-header h1{
-      margin:0;font-size:24px;font-weight:800;letter-spacing:.2px;
-      background:var(--grad-accent);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
+    // Mixer: enough to hit sugar target
+    const totalSugarTarget = batch * targetBrix * 29.5735 / 100; // g sugar
+    let mixerVol = totalSugarTarget / sugarPerOz;
+
+    // Prevent overshoot if liquor takes too much space
+    if (mixerVol + liquorVol > batch) {
+      mixerVol = batch - liquorVol;
     }
-    .app-header .sub{margin:6px 0 0;font-size:13px;color:var(--muted)}
-    .accent-bar{height:3px;width:100%;background:var(--grad-accent)}
 
-    .unit-toggle{display:flex;justify-content:center;gap:8px;padding:12px}
-    .unit-label{font-size:13px;color:var(--muted)}
-    .segmented{display:flex;border:1px solid var(--border);border-radius:999px;overflow:hidden;background:#fff}
-    .segmented button{border:0;background:#fff;padding:6px 14px;font-size:14px;cursor:pointer}
-    .segmented button.on{color:#fff;background:var(--grad-accent)}
+    // Water = remainder
+    let waterVol = batch - mixerVol - liquorVol;
 
-    .results{position:sticky;top:0;z-index:2;display:grid;grid-template-columns:repeat(3,1fr);gap:10px;padding:12px;background:var(--bg-grad);border-bottom:1px solid var(--border)}
-    .result-card{
-      border-radius:14px;padding:12px;text-align:center;
-      background:linear-gradient(#fff,#fff) padding-box, var(--grad-accent) border-box;
-      border:1px solid transparent;
-    }
-    .result-card .label{font-size:12px;color:var(--muted)}
-    .result-card .value{font-size:22px;font-weight:800}
-    .result-card .unit{font-size:12px;color:var(--muted)}
+    // Round to 0.5 oz
+    mixerVol = roundHalf(mixerVol);
+    waterVol = roundHalf(waterVol);
+    liquorVol = roundHalf(liquorVol);
 
-    .warnings{max-width:640px;margin:12px auto;padding:0 12px}
-    .warnings .item{background:#fff8eb;border:1px solid #fde68a;color:#854d0e;border-radius:10px;padding:10px;margin-bottom:6px;font-size:14px}
+    // --- Update outputs ---
+    outputs.mixer.textContent = displayVal(mixerVol);
+    outputs.water.textContent = displayVal(waterVol);
+    outputs.liquor.textContent = displayVal(liquorVol);
 
-    .container{max-width:640px;margin:0 auto;padding:12px}
-    .field{display:flex;flex-direction:column;margin-bottom:12px}
-    .field label{font-size:13px;color:var(--muted);margin-bottom:4px}
-    .field input{
-      width:100%; max-width:100%;
-      padding:12px; border:1px solid var(--border);
-      border-radius:12px; font-size:16px;
-    }
-    input, button { max-width:100%; }
+    // --- Warnings ---
+    warningsEl.innerHTML = "";
+    if (waterVol < 0) addWarning("Not enough water space. Lower sugar or batch size.");
+    if (mixerVol <= 0) addWarning("Mixer volume too low. Check sugar per serving.");
+    if (hasLiquor && liquorVol <= 0) addWarning("Liquor volume too low to hit ABV.");
+    warningsEl.hidden = warningsEl.innerHTML === "";
+  }
 
-    .row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-    .switch{display:flex;align-items:center;gap:8px;margin:8px 0}
+  function addWarning(msg) {
+    const item = document.createElement("div");
+    item.className = "item";
+    item.textContent = msg;
+    warningsEl.appendChild(item);
+  }
 
-    .buttons{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px}
-    .cta{border:0;padding:14px;border-radius:12px;font-size:16px;font-weight:800;cursor:pointer;color:#fff;background:var(--grad-accent)}
-    .btn-secondary{border:1px solid var(--border);background:#fff;padding:14px;border-radius:12px;font-size:16px;cursor:pointer}
-
-    .store-badge { text-align:center; margin:30px 0 10px; }
-    .store-badge img { height:40px; }
-
-    .disclaimer {
-      text-align:center; font-size:12px; color:var(--muted);
-      max-width:640px; margin:10px auto 30px; padding:0 12px;
-    }
-  </style>
-</head>
-<body>
-  <header class="app-header">
-    <h1>SimpleLAB LITE</h1>
-    <p class="sub">Inputs & outputs toggle oz ⇄ mL. Sugar stays in grams.</p>
-    <p class="sub" id="rangeNote">Batch size: 16–96 oz</p>
-  </header>
-  <div class="accent-bar" aria-hidden="true"></div>
-
-  <!-- Units toggle -->
-  <section class="unit-toggle" aria-label="Units">
-    <span class="unit-label">Units</span>
-    <div class="segmented" role="tablist">
-      <button type="button" id="u-oz" class="on" role="tab" aria-selected="true">oz</button>
-      <button type="button" id="u-ml" role="tab" aria-selected="false">mL</button>
-    </div>
-  </section>
-
-  <!-- Results -->
-  <section class="results">
-    <div class="result-card">
-      <div class="label">Mixer</div>
-      <div class="value" id="out-mixer">—</div>
-      <div class="unit" data-unit>oz</div>
-    </div>
-    <div class="result-card">
-      <div class="label">Water</div>
-      <div class="value" id="out-water">—</div>
-      <div class="unit" data-unit>oz</div>
-    </div>
-    <div class="result-card">
-      <div class="label">Liquor</div>
-      <div class="value" id="out-liquor">—</div>
-      <div class="unit" data-unit>oz</div>
-    </div>
-  </section>
-
-  <section class="warnings" id="warnings" hidden></section>
-
-  <!-- Form -->
-  <main class="container">
-    <form id="slush-form" novalidate>
-      <div class="field">
-        <label for="batch" id="lbl-batch">Batch size</label>
-        <input id="batch" type="number" required />
-      </div>
-      <div class="row">
-        <div class="field half">
-          <label for="serving" id="lbl-serving">Label serving size</label>
-          <input id="serving" type="number" required />
-        </div>
-        <div class="field half">
-          <label for="sugar">Sugar per serving (g)</label>
-          <input id="sugar" type="number" step="0.1" min="0" required />
-        </div>
-      </div>
-      <div class="switch">
-        <input id="hasLiquor" type="checkbox" />
-        <label for="hasLiquor">Include liquor</label>
-      </div>
-      <div class="field" id="abv-field">
-        <label for="abv">Liquor ABV (%)</label>
-        <input id="abv" type="number" step="1" min="1" max="96" value="40" />
-      </div>
-      <div class="buttons">
-        <button type="submit" class="cta">Calculate Slush</button>
-        <button type="button" id="resetBtn" class="btn-secondary">Reset</button>
-      </div>
-    </form>
-  </main>
-
-  <!-- App Store badge + disclaimer -->
-  <div class="store-badge">
-    <a href="https://apps.apple.com/us/app/slushiq/id6749187530" target="_blank" rel="noopener">
-      <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83"
-           alt="Download on the App Store" />
-    </a>
-  </div>
-  <p class="disclaimer">
-    SimpleLAB LITE and the SlushIQ app are independent tools created to help you get slush mixes right.  
-    We are not affiliated with Ninja® or Ninja SLUSHi™, but if you’ve struggled with those machines,  
-    this calculator is designed to make dialing in the mix easier.
-  </p>
-
-  <!-- Math + UI scripts -->
-  <script>
-    /* Math + UI logic from your last working version remains here */
-  </script>
-</body>
-</html>
+})();
+</script>
