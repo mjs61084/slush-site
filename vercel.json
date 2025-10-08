@@ -1,11 +1,16 @@
 {
-  "rewrites": [
+  "routes": [
     {
-      "source": "/(lab|rescue|admin)(/.*)?",
-      "destination": "/index.html",
+      "src": "/(lab|rescue|admin)(/.*)?",
       "headers": {
         "WWW-Authenticate": "Basic realm=\"SlushIQ Test\""
-      }
+      },
+      "status": 401,
+      "dest": "/lab/index.html"
+    },
+    {
+      "src": "/.*",
+      "dest": "/index.html"
     }
   ]
 }
