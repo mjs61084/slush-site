@@ -1,9 +1,10 @@
 [
   {
-    "name": "Brixley's Classic Margarita Slush",
+    "name": "Brixley's Classic Margarita Slushy",
     "category": "topMade",
-    "ingredients": ["2 cups Margarita Mix (bottled)", "1/2 cup Tequila", "2 tbsp Lime Juice (bottled)"],
-    "instructions": "Combine and pour into machine. Press the Spiked Slush button."
+    "ingredients": ["1¼ cups Tequila", "¼ cup Orange Liqueur", "1¼ cups Lime Juice", "1½ cups 2:1 Simple Syrup", "3¾ cups Water"]
+    "instructions": "Combine and pour into machine, and press the Spiked Slush button." 
+    "stats": ["7.5% ABV", "64oz"]
   },
   {
     "name": "Chocolate Frosty",
