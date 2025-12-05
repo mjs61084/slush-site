@@ -1,16 +1,16 @@
 {
   "routes": [
     {
+      "src": "/(.+\\.json)$",
+      "dest": "/$1"
+    },
+    {
       "src": "/(lab|rescue|admin)(/.*)?",
       "headers": {
         "WWW-Authenticate": "Basic realm=\"SlushIQ Test\""
       },
       "status": 401,
       "dest": "/lab/index.html"
-    },
-    {
-      "src": "/(.+\\.json)$",
-      "dest": "/$1"
     },
     {
       "src": "/.*",
