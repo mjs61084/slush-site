@@ -9,6 +9,10 @@
       "dest": "/lab/index.html"
     },
     {
+      "src": "/(.+\\.json)$",
+      "dest": "/$1"
+    },
+    {
       "src": "/.*",
       "dest": "/index.html"
     }
