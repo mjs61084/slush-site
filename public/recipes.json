@@ -20,7 +20,6 @@
     "instructions": "Mix and pour into machine. Press the Spiked Slush button.",
     "stats": ["65 oz", "7.4% ABV"]
   },
-
   {
     "name": "Pumpkin Spice Slush",
     "category": "seasonal",
@@ -40,7 +39,7 @@
     "category": "seasonal",
     "ingredients": ["5 cups Orange Juice", "2½ cups Grapefruit Juice", "3 oz Ginger Syrup", "1 oz Water"],
     "instructions": "Mix and pour into machine. Press the Frozen Drink button.",
-    "stats": ["63 oz", "0% ABV"]
+    "stats": ["64 oz", "0% ABV"]
   },
   {
     "name": "Maple Pear Chill",
@@ -77,7 +76,6 @@
     "instructions": "Mix and pour into machine. Press the Frozen Drink button.",
     "stats": ["64 oz", "0% ABV"]
   },
-
   {
     "name": "Classic Lemon-Lime",
     "category": "slush",
@@ -134,7 +132,6 @@
     "instructions": "Mix and pour into machine. Press the Slush button.",
     "stats": ["64 oz", "0% ABV"]
   },
-
   {
     "name": "Frozen Margarita (Store Mixer)",
     "category": "spikedSlush",
@@ -198,7 +195,6 @@
     "instructions": "Mix and pour into machine. Press the Spiked Slush button.",
     "stats": ["64 oz", "0% ABV"]
   },
-
   {
     "name": "Mocha Frappe",
     "category": "frappe",
@@ -255,7 +251,6 @@
     "instructions": "Mix and pour into machine. Press the Frappe button.",
     "stats": ["64 oz", "0% ABV"]
   },
-
   {
     "name": "Classic Vanilla Shake",
     "category": "milkshake",
@@ -314,35 +309,35 @@
   },
   {
   "name": "Coconut Vanilla Cream Soda Slush",
-  "category": "topmade",
+  "category": "topMade",
   "ingredients": ["6 cups Cream Soda", "1 cup Coconut Milk (light)", "1 tsp Vanilla Extract"],
   "instructions": "Mix and pour into machine. Press the Slush button.",
   "stats": ["64 oz", "0% ABV"]
   },
   {
   "name": "Blood Orange Margarita Slush",
-  "category": "topmade",
+  "category": "topMade",
   "ingredients": ["2 cups Orange Juice", "2 cups Tequila Blanco", "1 cup Triple Sec", "1 cup Lime Juice", "2 cups Water"],
   "instructions": "Mix and pour into machine. Press the Spiked Slush button.",
   "stats": ["64 oz", "7.4% ABV"]
   },
   {
   "name": "Marylynn's Strawberry Gin Colada Slush",
-  "category": "topmade",
+  "category": "topMade",
   "ingredients": ["2 cups Gin", "2 cups Piña Colada Mix", "1 cup Strawberry Purée", "1 cup Lemon Juice", "2 cups Water"],
   "instructions": "Mix and pour into machine. Press the Spiked Slush button.",
   "stats": ["64 oz", "8.2% ABV"]
   },
   {
   "name": "Cran-Apple Gin Cooler Slush",
-  "category": "topmade",
+  "category": "topMade",
   "ingredients": ["2½ cups Gin", "1½ cups Cranberry Juice", "1½ cups Apple Juice", "1 cup Lime Juice", "1½ cups Water"],
   "instructions": "Mix and pour into machine. Press the Spiked Slush button.",
   "stats": ["64 oz", "8.0% ABV"]
   },
   {
   "name": "Strawberry Apple Gin Slush",
-  "category": "topmade",
+  "category": "topMade",
   "ingredients": ["2 cups Gin", "1½ cups Strawberry Purée", "1 cup Apple Juice", "1 cup Lemon Juice", "2½ cups Water"],
   "instructions": "Mix and pour into machine. Press the Spiked Slush button.",
   "stats": ["64 oz", "5.9% ABV"]
