@@ -62,12 +62,13 @@
       color: var(--accent2);
     }
 
+    /* NEW subtle divider */
     .accent-bar {
-      height: 3px;
+      height: 1px;
       margin: 24px auto 30px;
-      width: 140px;
+      width: 160px;
+      background: rgba(255,255,255,0.12);
       border-radius: 999px;
-      background: var(--grad-accent);
     }
 
     .reddit-link {
@@ -78,7 +79,7 @@
       text-decoration: none;
     }
 
-    /* Store button row under hero */
+    /* Store buttons */
     .store-buttons {
       display: flex;
       justify-content: center;
@@ -226,13 +227,7 @@
       Join our Reddit community → r/slushiq
     </a>
 
-    .accent-bar {
-  height: 2px;
-  margin: 24px auto 30px;
-  width: 160px;
-  background: rgba(34, 211, 238, 0.25); /* soft cyan */
-  border-radius: 999px;
-}
+    <div class="accent-bar"></div>
   </header>
 
   <!-- App Store buttons -->
