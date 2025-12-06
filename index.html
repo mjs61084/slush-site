@@ -64,10 +64,18 @@
 
     .accent-bar {
       height: 3px;
-      margin: 24px auto 40px;
+      margin: 24px auto 30px;
       width: 140px;
       border-radius: 999px;
       background: var(--grad-accent);
+    }
+
+    .reddit-link {
+      margin-top: 10px;
+      color: var(--accent2);
+      font-size: 14px;
+      font-weight: 600;
+      text-decoration: none;
     }
 
     /* Store button row under hero */
@@ -188,18 +196,17 @@
       color: black;
     }
 
-    .reddit-link {
-      margin-top: 10px;
-      color: var(--accent2);
-      font-size: 14px;
-      font-weight: 600;
-    }
-
     footer {
       margin: 50px 0 20px;
       font-size: 12px;
       color: var(--muted);
     }
+
+    footer a {
+      color: var(--accent2);
+      text-decoration: none;
+    }
+
   </style>
 </head>
 
@@ -207,6 +214,7 @@
 
   <header>
     <h1>SlushIQ</h1>
+
     <p class="tagline">
       The ultimate frozen drink calculator — perfect for Ninja SLUSHi™, Iceman Slush-Ease™, 
       and home slush machines. Dial in exact Brix, ABV, and freeze-ready balance every time.
@@ -303,7 +311,7 @@
       New recipes, tips, and feature releases.
     </p>
 
-    <form action="https://formspree.io/f/manbevab" method="POST">
+    <form action="https://formspree.io/f/YOUR_FORMSPREE_ID_HERE" method="POST">
       <input type="email" name="email" required placeholder="you@example.com">
       <br>
       <button type="submit">Subscribe</button>
@@ -312,6 +320,8 @@
 
   <footer>
     © 2025 SlushIQ. Not affiliated with Ninja® or Iceman Slush-Ease™.
+    <br>
+    <a href="https://sites.google.com/view/slushiq/home" target="_blank">Privacy Policy</a>
   </footer>
 
 </body>
