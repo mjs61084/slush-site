@@ -16,259 +16,301 @@
   {
     "name": "Tres Agaves Margarita",
     "category": "topMade",
-    "ingredients": ["1-1/4 cups Tres Agaves", "3 oz Tequila", "3 oz Water"],
-    "instructions": "Mix and pour into machine. Press the Spiked Slush button."
+    "ingredients": ["5 cups Tres Agaves Margarita Mix", "12 oz Tequila", "12 oz Water", "1¼ oz 2:1 Syrup"],
+    "instructions": "Mix and pour into machine. Press the Spiked Slush button.",
+    "stats": ["65 oz", "7.4% ABV"]
   },
 
   {
     "name": "Pumpkin Spice Slush",
     "category": "seasonal",
-    "ingredients": ["2 cups Apple Cider", "1/2 cup Pumpkin Puree (canned, thinned with 1/2 cup Water)", "2 tbsp Brown Sugar Syrup", "1/2 tsp Pumpkin Pie Spice"],
-    "instructions": "Combine and pour into machine. Press the Frozen Drink button."
+    "ingredients": ["6 cups Apple Cider", "1½ cups Pumpkin Purée (thinned with 1½ cups Water)", "2 oz Brown Sugar Syrup", "1 tsp Pumpkin Pie Spice"],
+    "instructions": "Combine and pour into machine. Press the Frozen Drink button.",
+    "stats": ["64 oz", "0% ABV"]
   },
   {
     "name": "Holiday Cran-Apple",
     "category": "seasonal",
-    "ingredients": ["2 cups Cranberry Juice Cocktail", "1 cup Apple Juice", "2 tbsp Simple Syrup"],
-    "instructions": "Mix and pour into machine. Press the Frozen Drink button."
+    "ingredients": ["5 cups Cranberry Juice Cocktail", "2¾ cups Apple Juice", "3 oz Simple Syrup"],
+    "instructions": "Mix and pour into machine. Press the Frozen Drink button.",
+    "stats": ["64 oz", "0% ABV"]
   },
   {
     "name": "Citrus Ginger Cooler",
     "category": "seasonal",
-    "ingredients": ["2 cups Orange Juice", "1 cup Grapefruit Juice", "2 tbsp Ginger Syrup"],
-    "instructions": "Mix and pour into machine. Press the Frozen Drink button."
+    "ingredients": ["5 cups Orange Juice", "2½ cups Grapefruit Juice", "3 oz Ginger Syrup", "1 oz Water"],
+    "instructions": "Mix and pour into machine. Press the Frozen Drink button.",
+    "stats": ["63 oz", "0% ABV"]
   },
   {
     "name": "Maple Pear Chill",
     "category": "seasonal",
-    "ingredients": ["2 cups Pear Nectar", "2 tbsp Maple Syrup", "1/2 cup Water"],
-    "instructions": "Mix and pour into machine. Press the Frozen Drink button."
+    "ingredients": ["5 cups Pear Nectar", "3 oz Maple Syrup", "2½ cups Water"],
+    "instructions": "Mix and pour into machine. Press the Frozen Drink button.",
+    "stats": ["64 oz", "0% ABV"]
   },
   {
     "name": "Candy Cane Cocoa Slush",
     "category": "seasonal",
-    "ingredients": ["2 cups Peppermint Hot Cocoa (prepared)", "1/2 cup Milk"],
-    "instructions": "Mix and pour into machine. Press the Frozen Drink button."
+    "ingredients": ["6½ cups Peppermint Hot Cocoa (prepared and cooled)", "1½ cups Milk"],
+    "instructions": "Mix and pour into machine. Press the Frozen Drink button.",
+    "stats": ["64 oz", "0% ABV"]
   },
   {
     "name": "Autumn Spiced Grape",
     "category": "seasonal",
-    "ingredients": ["2 cups Grape Juice", "1 tsp Cinnamon Syrup", "1/2 tsp Nutmeg"],
-    "instructions": "Mix and pour into machine. Press the Frozen Drink button."
+   "ingredients": ["7 cups Grape Juice", "1 oz Cinnamon Syrup", "1/2 tsp Nutmeg"],
+    "instructions": "Mix and pour into machine. Press the Frozen Drink button.",
+    "stats": ["64 oz", "0% ABV"]
   },
   {
     "name": "Apple Pie Slush",
     "category": "seasonal",
-    "ingredients": ["2 cups Apple Juice", "2 tbsp Caramel Syrup", "1/2 tsp Cinnamon"],
-    "instructions": "Mix and pour into machine. Press the Frozen Drink button."
+    "ingredients": ["7½ cups Apple Juice", "3 oz Caramel Syrup", "1 oz Water", "1/2 tsp Cinnamon"],
+    "instructions": "Mix and pour into machine. Press the Frozen Drink button.",
+    "stats": ["64 oz", "0% ABV"]
   },
   {
     "name": "Pineapple Holiday Punch",
     "category": "seasonal",
-    "ingredients": ["2 cups Pineapple Juice", "1 cup Orange Juice", "2 tbsp Grenadine"],
-    "instructions": "Mix and pour into machine. Press the Frozen Drink button."
+    "ingredients": ["5¾ cups Pineapple Juice", "2¾ cups Orange Juice", "3 oz Grenadine", "1 oz Water"],
+    "instructions": "Mix and pour into machine. Press the Frozen Drink button.",
+    "stats": ["64 oz", "0% ABV"]
   },
 
   {
     "name": "Classic Lemon-Lime",
     "category": "slush",
-    "ingredients": ["3 cups Lemon-Lime Soda", "2 tbsp Simple Syrup (optional)"],
-    "instructions": "Pour soda (and syrup if using) into machine. Press the Slush button."
+    "ingredients": ["7¾ cups Lemon-Lime Soda", "1 oz Simple Syrup"],
+    "instructions": "Pour soda (and syrup if using) into machine. Press the Slush button.",
+    "stats": ["64 oz", "0% ABV"]
   },
   {
     "name": "Blue Raspberry Slush",
     "category": "slush",
-    "ingredients": ["2 cups Lemonade", "1/2 cup Blue Raspberry Syrup", "1/2 cup Water"],
-    "instructions": "Mix and pour into machine. Press the Slush button."
+   "ingredients": ["5 cups Lemonade", "1½ cups Blue Raspberry Syrup", "1½ cups Water"],
+    "instructions": "Mix and pour into machine. Press the Slush button.",
+    "stats": ["64 oz", "0% ABV"]
   },
   {
     "name": "Tropical Mango Slush",
     "category": "slush",
-    "ingredients": ["2 cups Mango Nectar", "1 cup Pineapple Juice", "2 tbsp Lime Juice"],
-    "instructions": "Mix and pour into machine. Press the Slush button."
+   "ingredients": ["6 cups Mango Nectar", "3 cups Pineapple Juice", "3 oz Lime Juice"],
+    "instructions": "Mix and pour into machine. Press the Slush button.",
+    "stats": ["64 oz", "0% ABV"]
   },
   {
     "name": "Cherry Cola Slush",
     "category": "slush",
-    "ingredients": ["2 1/2 cups Cola", "1/2 cup Cherry Syrup"],
-    "instructions": "Mix and pour into machine. Press the Slush button."
+   "ingredients": ["6¾ cups Cola", "1¼ cups Cherry Syrup"],
+    "instructions": "Mix and pour into machine. Press the Slush button.",
+    "stats": ["64 oz", "0% ABV"]
   },
   {
     "name": "Grape Soda Slush",
     "category": "slush",
-    "ingredients": ["3 cups Grape Soda"],
-    "instructions": "Pour soda into machine. Press the Slush button."
+   "ingredients": ["8 cups Grape Soda"],
+    "instructions": "Pour soda into machine. Press the Slush button.",
+    "stats": ["64 oz", "0% ABV"]
   },
   {
     "name": "Orange Cream Slush",
     "category": "slush",
-    "ingredients": ["2 cups Orange Soda", "1 cup Whole Milk"],
-    "instructions": "Mix and pour into machine. Press the Slush button."
+   "ingredients": ["5 cups Orange Soda", "2½ cups Whole Milk", "3 oz Simple Syrup", "1 oz Water"],
+    "instructions": "Mix and pour into machine. Press the Slush button.",
+    "stats": ["64 oz", "0% ABV"]
   },
   {
     "name": "Strawberry Lemonade Slush",
     "category": "slush",
-    "ingredients": ["2 cups Strawberry Lemonade", "1/2 cup Water"],
-    "instructions": "Mix and pour into machine. Press the Slush button."
+    "ingredients": ["6½ cups Strawberry Lemonade", "1½ cups Water", "2 oz Simple Syrup"],
+    "instructions": "Mix and pour into machine. Press the Slush button.",
+    "stats": ["64 oz", "0% ABV"]
   },
   {
     "name": "Root Beer Float Slush",
     "category": "slush",
-    "ingredients": ["2 1/2 cups Root Beer", "1/2 cup Milk"],
-    "instructions": "Mix and pour into machine. Press the Slush button."
+    "ingredients": ["6 cups Root Beer", "1½ cups Milk", "2 oz Simple Syrup"],
+    "instructions": "Mix and pour into machine. Press the Slush button.",
+    "stats": ["64 oz", "0% ABV"]
   },
 
   {
-    "name": "Frozen Margarita",
+    "name": "Frozen Margarita (Store Mixer)",
     "category": "spikedSlush",
-    "ingredients": ["2 cups Margarita Mix (bottled)", "1/2 cup Tequila", "2 tbsp Lime Juice (bottled)"],
-    "instructions": "Mix and pour into machine. Press the Spiked Slush button."
+    "ingredients": ["6 cups Margarita Mix (bottled)", "12 oz Tequila", "3 oz Lime Juice (bottled)", "1 oz Water"],
+    "instructions": "Mix and pour into machine. Press the Spiked Slush button.",
+    "stats": ["64 oz", "7.5% ABV"]
   },
   {
     "name": "Mudslide",
     "category": "spikedSlush",
-    "ingredients": ["7 oz Chi-Chi's Mudslide", "9 oz Water"],
-    "instructions": "Mix and pour into machine. Press the Spiked Slush button."
+    "ingredients": ["5 cups Chi-Chi's Mudslide Mix", "3 cups Water"],
+    "instructions": "Mix and pour into machine. Press the Spiked Slush button.",
+    "stats": ["64 oz", "7.8% ABV"]
   },
   {
     "name": "Rum & Cola Slush",
     "category": "spikedSlush",
-    "ingredients": ["2 1/2 cups Cola", "1/2 cup White Rum"],
-    "instructions": "Mix and pour into machine. Press the Spiked Slush button."
+    "ingredients": ["6¾ cups Cola", "12 oz White Rum"],
+    "instructions": "Mix and pour into machine. Press the Spiked Slush button.",
+    "stats": ["64 oz", "7.5% ABV"]
   },
   {
     "name": "Vodka Lemonade Slush",
     "category": "spikedSlush",
-    "ingredients": ["2 cups Lemonade", "1/2 cup Vodka", "1/2 cup Water"],
-    "instructions": "Mix and pour into machine. Press the Spiked Slush button."
+    "ingredients": ["5¼ cups Lemonade", "12 oz Vodka", "5 oz 2:1 Syrup", "5 oz Water"],
+    "instructions": "Mix and pour into machine. Press the Spiked Slush button.",
+    "stats": ["64 oz", "7.5% ABV"]
   },
   {
     "name": "Frosé",
     "category": "spikedSlush",
-    "ingredients": ["2 1/2 cups Rosé Wine", "1/2 cup Strawberry Syrup"],
-    "instructions": "Mix and pour into machine. Press the Spiked Slush button."
+    "ingredients": ["5¼ cups Rosé Wine", "1¼ cups Strawberry Syrup", "1½ cups Water"],
+    "instructions": "Mix and pour into machine. Press the Spiked Slush button.",
+    "stats": ["64 oz", "7.9% ABV"]
   },
   {
     "name": "Whiskey Ginger Slush",
     "category": "spikedSlush",
-    "ingredients": ["2 cups Ginger Ale", "1/2 cup Whiskey"],
-    "instructions": "Mix and pour into machine. Press the Spiked Slush button."
+    "ingredients": ["5¾ cups Ginger Ale", "12 oz Whiskey", "5 oz 2:1 Syrup"],
+    "instructions": "Mix and pour into machine. Press the Spiked Slush button.",
+    "stats": ["64 oz", "7.5% ABV"]
   },
   {
     "name": "Tequila Sunrise Slush",
     "category": "spikedSlush",
-    "ingredients": ["2 cups Orange Juice", "1/2 cup Tequila", "2 tbsp Grenadine"],
-    "instructions": "Mix and pour into machine. Press the Spiked Slush button."
+    "ingredients": ["6 cups Orange Juice", "12 oz Tequila", "3 oz Grenadine", "1 oz Water"],
+    "instructions": "Mix and pour into machine. Press the Spiked Slush button.",
+    "stats": ["64 oz", "7.5% ABV"]
   },
   {
     "name": "Sangria Slush",
     "category": "spikedSlush",
-    "ingredients": ["2 1/2 cups Red Wine", "1/2 cup Orange Juice", "2 tbsp Simple Syrup"],
-    "instructions": "Mix and pour into machine. Press the Spiked Slush button."
+    "ingredients": ["5 cups Red Wine", "1¼ cups Orange Juice", "3 oz Simple Syrup", "11 oz Water"],
+    "instructions": "Mix and pour into machine. Press the Spiked Slush button.",
+    "stats": ["64 oz", "7.5% ABV"]
   },
   {
     "name": "Peach Bellini Slush",
     "category": "spikedSlush",
-    "ingredients": ["2 cups Peach Nectar", "1 cup Sparkling Wine"],
-    "instructions": "Mix and pour into machine. Press the Spiked Slush button."
+    "ingredients": ["5½ cups Peach Nectar", "3 cups Sparkling Wine", "1 oz Water"],
+    "instructions": "Mix and pour into machine. Press the Spiked Slush button.",
+    "stats": ["64 oz", "0% ABV"]
   },
 
   {
     "name": "Mocha Frappe",
     "category": "frappe",
-    "ingredients": ["2 cups Cold Brew Coffee", "1 cup Chocolate Milk", "2 tbsp Sugar Syrup"],
-    "instructions": "Mix and pour into machine. Press the Frappe button."
+    "ingredients": ["5 cups Cold Brew Coffee", "2¾ cups Chocolate Milk", "5 oz Sugar Syrup"],
+    "instructions": "Mix and pour into machine. Press the Frappe button.",
+    "stats": ["64 oz", "0% ABV"]
   },
   {
     "name": "Vanilla Latte Frappe",
     "category": "frappe",
-    "ingredients": ["2 cups Cold Brew Coffee", "1 cup Milk", "2 tbsp Vanilla Syrup"],
-    "instructions": "Mix and pour into machine. Press the Frappe button."
+    "ingredients": ["5 cups Cold Brew Coffee", "2¾ cups Milk", "5 oz Vanilla Syrup"],
+    "instructions": "Mix and pour into machine. Press the Frappe button.",
+    "stats": ["64 oz", "0% ABV"]
   },
   {
     "name": "Caramel Coffee Frappe",
     "category": "frappe",
-    "ingredients": ["2 cups Cold Brew Coffee", "1 cup Milk", "2 tbsp Caramel Syrup"],
-    "instructions": "Mix and pour into machine. Press the Frappe button."
+    "ingredients": ["5 cups Cold Brew Coffee", "2¾ cups Milk", "5 oz Caramel Syrup"],
+    "instructions": "Mix and pour into machine. Press the Frappe button.",
+    "stats": ["64 oz", "0% ABV"]
   },
   {
     "name": "Iced Chai Frappe",
     "category": "frappe",
-    "ingredients": ["2 cups Chai Tea Concentrate", "1 cup Whole Milk"],
-    "instructions": "Mix and pour into machine. Press the Frappe button."
+    "ingredients": ["5½ cups Chai Tea Concentrate", "2½ cups Whole Milk"],
+    "instructions": "Mix and pour into machine. Press the Frappe button.",
+    "stats": ["64 oz", "0% ABV"]
   },
   {
     "name": "Hazelnut Mocha Frappe",
     "category": "frappe",
-    "ingredients": ["2 cups Cold Brew Coffee", "1 cup Chocolate Milk", "2 tbsp Hazelnut Syrup"],
-    "instructions": "Mix and pour into machine. Press the Frappe button."
+    "ingredients": ["5 cups Cold Brew Coffee", "2¾ cups Chocolate Milk", "5 oz Hazelnut Syrup"],
+    "instructions": "Mix and pour into machine. Press the Frappe button.",
+    "stats": ["64 oz", "0% ABV"]
   },
   {
     "name": "Coconut Vanilla Frappe",
     "category": "frappe",
-    "ingredients": ["2 cups Cold Brew Coffee", "1 cup Coconut Milk", "2 tbsp Vanilla Syrup"],
-    "instructions": "Mix and pour into machine. Press the Frappe button."
+    "ingredients": ["5 cups Cold Brew Coffee", "2¾ cups Coconut Milk", "5 oz Vanilla Syrup"],
+    "instructions": "Mix and pour into machine. Press the Frappe button.",
+    "stats": ["64 oz", "0% ABV"]
   },
   {
     "name": "White Chocolate Frappe",
     "category": "frappe",
-    "ingredients": ["2 cups Cold Brew Coffee", "1 cup Milk", "2 tbsp White Chocolate Syrup"],
-    "instructions": "Mix and pour into machine. Press the Frappe button."
+    "ingredients": ["5 cups Cold Brew Coffee", "2¾ cups Milk", "5 oz White Chocolate Syrup"],
+    "instructions": "Mix and pour into machine. Press the Frappe button.",
+    "stats": ["64 oz", "0% ABV"]
   },
   {
     "name": "Toffee Crunch Frappe",
     "category": "frappe",
-    "ingredients": ["2 cups Cold Brew Coffee", "1 cup Milk", "2 tbsp Toffee Syrup"],
-    "instructions": "Mix and pour into machine. Press the Frappe button."
+    "ingredients": ["5 cups Cold Brew Coffee", "2¾ cups Milk", "5 oz Toffee Syrup"],
+    "instructions": "Mix and pour into machine. Press the Frappe button.",
+    "stats": ["64 oz", "0% ABV"]
   },
 
   {
     "name": "Classic Vanilla Shake",
     "category": "milkshake",
-    "ingredients": ["2 cups Whole Milk", "1 cup Vanilla Syrup"],
-    "instructions": "Mix and pour into machine. Press the Milkshake button."
+    "ingredients": ["5½ cups Whole Milk", "1¼ cups Vanilla Syrup", "1¼ cups Whipped Topping"],
+    "instructions": "Mix and pour into machine. Press the Milkshake button.",
+    "stats": ["64 oz", "0% ABV"]
   },
   {
     "name": "Chocolate Fudge Shake",
     "category": "milkshake",
-    "ingredients": ["2 cups Chocolate Milk", "2 tbsp Fudge Sauce"],
-    "instructions": "Mix and pour into machine. Press the Milkshake button."
+    "ingredients": ["5½ cups Chocolate Milk", "¾ cup Fudge Sauce", "1¼ cups Whipped Topping"],
+    "instructions": "Mix and pour into machine. Press the Milkshake button.",
+    "stats": ["64 oz", "0% ABV"]
   },
   {
     "name": "Strawberry Milkshake",
     "category": "milkshake",
-    "ingredients": ["2 cups Strawberry Milk", "2 tbsp Simple Syrup"],
-    "instructions": "Mix and pour into machine. Press the Milkshake button."
+    "ingredients": ["5¼ cups Strawberry Milk", "1¼ cups Sweetened Condensed Milk", "1¼ cups Whipped Topping"],
+    "instructions": "Mix and pour into machine. Press the Milkshake button.",
+    "stats": ["64 oz", "0% ABV"]
   },
   {
     "name": "Coffee Cabinet Shake",
     "category": "milkshake",
-    "ingredients": ["2 cups Coffee Milk", "2 tbsp Coffee Syrup"],
-    "instructions": "Mix and pour into machine. Press the Milkshake button."
+    "ingredients": ["5½ cups Coffee Milk", "¾ cup Coffee Syrup", "1¼ cups Whipped Topping"],
+    "instructions": "Mix and pour into machine. Press the Milkshake button.",
+    "stats": ["64 oz", "0% ABV"]
   },
   {
     "name": "Peanut Butter Cup Shake",
     "category": "milkshake",
-    "ingredients": ["2 cups Chocolate Milk", "2 tbsp Peanut Butter Syrup"],
-    "instructions": "Mix and pour into machine. Press the Milkshake button."
+    "ingredients": ["5½ cups Chocolate Milk", "¾ cup Peanut Butter Syrup", "1¼ cups Whipped Topping"],
+    "instructions": "Mix and pour into machine. Press the Milkshake button.",
+    "stats": ["64 oz", "0% ABV"]
   },
   {
     "name": "Banana Cream Shake",
     "category": "milkshake",
-    "ingredients": ["2 cups Banana Milk", "2 tbsp Vanilla Syrup"],
-    "instructions": "Mix and pour into machine. Press the Milkshake button."
+    "ingredients": ["5½ cups Banana Milk", "¾ cup Vanilla Syrup", "1¼ cups Whipped Topping"],
+    "instructions": "Mix and pour into machine. Press the Milkshake button.",
+    "stats": ["64 oz", "0% ABV"]
   },
   {
     "name": "Cookies & Cream Shake",
     "category": "milkshake",
-    "ingredients": ["2 cups Cookies & Cream Milk", "2 tbsp Chocolate Syrup"],
-    "instructions": "Mix and pour into machine. Press the Milkshake button."
+    "ingredients": ["5½ cups Cookies & Cream Milk", "¾ cup Chocolate Syrup", "1¼ cups Whipped Topping"],
+    "instructions": "Mix and pour into machine. Press the Milkshake button.",
+    "stats": ["64 oz", "0% ABV"]
   },
   {
     "name": "Caramel Swirl Shake",
     "category": "milkshake",
-    "ingredients": ["2 cups Whole Milk", "2 tbsp Caramel Syrup"],
-    "instructions": "Mix and pour into machine. Press the Milkshake button."
+    "ingredients": ["5½ cups Whole Milk", "¾ cup Caramel Syrup", "1¼ cups Whipped Topping"],
+    "instructions": "Mix and pour into machine. Press the Milkshake button.",
+    "stats": ["64 oz", "0% ABV"]
   }
 ]
 
