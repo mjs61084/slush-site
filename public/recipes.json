@@ -7,10 +7,11 @@
     "stats": ["64oz", "7.5% ABV"]
   },
   {
-    "name": "Chocolate Frosty",
+    "name": "Brixley's Chocolate Milkshake",
     "category": "topMade",
-    "ingredients": ["2 cups Chocolate Milk", "1/2 cup Sweetened Condensed Milk", "1/2 cup Whipped Topping"],
+    "ingredients": ["2¾ cups Chocolate Milk", "½ cup Sweetened Condensed Milk", "½ cup Whipped Topping", "4¼ cups Water"],
     "instructions": "Mix well and pour into machine. Press the Milkshake button."
+    "stats": ["64oz", "0% ABV"]
   },
   {
     "name": "Tres Agaves Margarita",
