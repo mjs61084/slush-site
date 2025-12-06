@@ -1,6 +1,6 @@
 [
   {
-    "name": "Brixley's Classic Margarita Slushy",
+    "name": "Brixley's Classic Margarita Slush",
     "category": "topMade",
     "ingredients": ["1¼ cups Tequila", "¼ cup Orange Liqueur", "1¼ cups Lime Juice", "1½ cups 2:1 Simple Syrup", "3¾ cups Water"],
     "instructions": "Combine and pour into machine, and press the Spiked Slush button.",
@@ -14,7 +14,7 @@
     "stats": ["64oz", "0% ABV"]
   },
   {
-    "name": "Tres Agaves Margarita",
+    "name": "Steph's Tres Agaves Margarita",
     "category": "topMade",
     "ingredients": ["5 cups Tres Agaves Margarita Mix", "12 oz Tequila", "12 oz Water", "1¼ oz 2:1 Syrup"],
     "instructions": "Mix and pour into machine. Press the Spiked Slush button.",
@@ -311,6 +311,41 @@
     "ingredients": ["5½ cups Whole Milk", "¾ cup Caramel Syrup", "1¼ cups Whipped Topping"],
     "instructions": "Mix and pour into machine. Press the Milkshake button.",
     "stats": ["64 oz", "0% ABV"]
+  },
+  {
+  "name": "Coconut Vanilla Cream Soda Slush",
+  "category": "topmade",
+  "ingredients": ["6 cups Cream Soda", "1 cup Coconut Milk (light)", "1 tsp Vanilla Extract"],
+  "instructions": "Mix and pour into machine. Press the Slush button.",
+  "stats": ["64 oz", "0% ABV"]
+  },
+  {
+  "name": "Blood Orange Margarita Slush",
+  "category": "topmade",
+  "ingredients": ["2 cups Orange Juice", "2 cups Tequila Blanco", "1 cup Triple Sec", "1 cup Lime Juice", "2 cups Water"],
+  "instructions": "Mix and pour into machine. Press the Spiked Slush button.",
+  "stats": ["64 oz", "7.4% ABV"]
+  },
+  {
+  "name": "Marylynn's Strawberry Gin Colada Slush",
+  "category": "topmade",
+  "ingredients": ["2 cups Gin", "2 cups Piña Colada Mix", "1 cup Strawberry Purée", "1 cup Lemon Juice", "2 cups Water"],
+  "instructions": "Mix and pour into machine. Press the Spiked Slush button.",
+  "stats": ["64 oz", "8.2% ABV"]
+  },
+  {
+  "name": "Cran-Apple Gin Cooler Slush",
+  "category": "topmade",
+  "ingredients": ["2½ cups Gin", "1½ cups Cranberry Juice", "1½ cups Apple Juice", "1 cup Lime Juice", "1½ cups Water"],
+  "instructions": "Mix and pour into machine. Press the Spiked Slush button.",
+  "stats": ["64 oz", "8.0% ABV"]
+  },
+  {
+  "name": "Strawberry Apple Gin Slush",
+  "category": "topmade",
+  "ingredients": ["2 cups Gin", "1½ cups Strawberry Purée", "1 cup Apple Juice", "1 cup Lemon Juice", "2½ cups Water"],
+  "instructions": "Mix and pour into machine. Press the Spiked Slush button.",
+  "stats": ["64 oz", "5.9% ABV"]
   }
 ]
 
