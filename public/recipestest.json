@@ -59,7 +59,7 @@
   {
     "name": "Coconut Vanilla Cream Soda Slush",
     "category": "topMade",
-    "image": null,
+    "image": "https://slushiq.com/public/images/coconutvanilla.png",
     "volume": "64oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -77,7 +77,7 @@
   {
     "name": "Blood Orange Margarita Slush",
     "category": "topMade",
-    "image": null,
+    "image": "https://slushiq.com/public/images/bloodorangemarg.png",
     "volume": "64oz",
     "abv": "7.4% ABV",
     "difficulty": "Easy",
@@ -97,7 +97,7 @@
   {
     "name": "Marylynn's Strawberry Gin Colada Slush",
     "category": "topMade",
-    "image": null,
+    "image": "https://slushiq.com/public/images/strawberrygincolada.png",
     "volume": "64oz",
     "abv": "8.2% ABV",
     "difficulty": "Easy",
@@ -117,7 +117,7 @@
   {
     "name": "Cran-Apple Gin Cooler Slush",
     "category": "topMade",
-    "image": null,
+    "image": "https://slushiq.com/public/images/cranapplegin.png",
     "volume": "64oz",
     "abv": "8.0% ABV",
     "difficulty": "Easy",
@@ -137,7 +137,7 @@
   {
     "name": "Strawberry Apple Gin Slush",
     "category": "topMade",
-    "image": null,
+    "image": "https://slushiq.com/public/images/strawberryapplegin.png",
     "volume": "64oz",
     "abv": "5.9% ABV",
     "difficulty": "Easy",
@@ -157,7 +157,7 @@
   {
     "name": "Pumpkin Spice Slush",
     "category": "seasonal",
-    "image": null,
+    "image": "https://slushiq.com/public/images/pumpkinspiceslush.png",
     "volume": "64oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -176,7 +176,7 @@
   {
     "name": "Holiday Cran-Apple",
     "category": "seasonal",
-    "image": null,
+    "image": "https://slushiq.com/public/images/holidaycranappleslush.png",
     "volume": "64oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -194,7 +194,7 @@
   {
     "name": "Citrus Ginger Cooler",
     "category": "seasonal",
-    "image": null,
+    "image": "https://slushiq.com/public/images/citrusgincooler.png",
     "volume": "64oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -213,7 +213,7 @@
   {
     "name": "Maple Pear Chill",
     "category": "seasonal",
-    "image": null,
+    "image": "https://slushiq.com/public/images/maplepearslush.png",
     "volume": "64oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -231,7 +231,7 @@
   {
     "name": "Candy Cane Cocoa Slush",
     "category": "seasonal",
-    "image": null,
+    "image": "https://slushiq.com/public/images/candycanecocoaslush.png",
     "volume": "64oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
