@@ -611,7 +611,7 @@
   {
     "name": "Hazelnut Mocha Frappe",
     "category": "frappe",
-    "image": null,
+    "image": "https://slushiq.com/public/images/hazelnutmochafrappe.png",
     "volume": "64oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -629,7 +629,7 @@
   {
     "name": "Coconut Vanilla Frappe",
     "category": "frappe",
-    "image": null,
+    "image": "https://slushiq.com/public/images/coconutvanilla.png",
     "volume": "64oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -647,7 +647,7 @@
   {
     "name": "White Chocolate Frappe",
     "category": "frappe",
-    "image": null,
+    "image": "https://slushiq.com/public/images/whitechocolatefrappe.png",
     "volume": "64oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
