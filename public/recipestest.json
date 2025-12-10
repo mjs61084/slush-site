@@ -248,7 +248,7 @@
   {
     "name": "Autumn Spiced Grape",
     "category": "seasonal",
-    "image": null,
+    "image": "https://slushiq.com/public/images/autumnspicedgrape.png",
     "volume": "64oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -266,7 +266,7 @@
   {
     "name": "Apple Pie Slush",
     "category": "seasonal",
-    "image": null,
+    "image": "https://slushiq.com/public/images/applepieslush.png",
     "volume": "64oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
