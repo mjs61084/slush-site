@@ -558,7 +558,7 @@
   {
     "name": "Vanilla Latte Frappe",
     "category": "frappe",
-    "image": null,
+    "image": "https://slushiq.com/public/images/vanillalattefrappe.png",
     "volume": "64oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -576,7 +576,7 @@
   {
     "name": "Caramel Coffee Frappe",
     "category": "frappe",
-    "image": null,
+    "image": "https://slushiq.com/public/images/carmelcoffeefrappe.png",
     "volume": "64oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -594,7 +594,7 @@
   {
     "name": "Iced Chai Frappe",
     "category": "frappe",
-    "image": null,
+    "image": "https://slushiq.com/public/images/icedchai.png",
     "volume": "64oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
