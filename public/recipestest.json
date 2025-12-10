@@ -522,7 +522,7 @@
   {
     "name": "Peach Bellini Slush",
     "category": "spikedSlush",
-    "image": null,
+    "image": "https://slushiq.com/public/images/peachbellini.png",
     "volume": "64oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -540,7 +540,7 @@
   {
     "name": "Mocha Frappe",
     "category": "frappe",
-    "image": null,
+    "image": "https://slushiq.com/public/images/mochafrappe.png",
     "volume": "64oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
