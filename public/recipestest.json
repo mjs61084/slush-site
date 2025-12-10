@@ -737,7 +737,7 @@
   {
     "name": "Coffee Cabinet Shake",
     "category": "milkshake",
-    "image": null,
+    "image": "https://slushiq.com/public/images/coffeecabinetmilkshake.png",
     "volume": "64oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -755,7 +755,7 @@
   {
     "name": "Peanut Butter Cup Shake",
     "category": "milkshake",
-    "image": null,
+    "image": "https://slushiq.com/public/images/peanutbuttermilkshake.png",
     "volume": "64oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -773,7 +773,7 @@
   {
     "name": "Banana Cream Shake",
     "category": "milkshake",
-    "image": null,
+    "image": "https://slushiq.com/public/images/bananamilkshake.png",
     "volume": "64oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -791,7 +791,7 @@
   {
     "name": "Cookies & Cream Shake",
     "category": "milkshake",
-    "image": null,
+    "image": "https://slushiq.com/public/images/cookiesandcreammilkshake.png",
     "volume": "64oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -809,7 +809,7 @@
   {
     "name": "Caramel Swirl Shake",
     "category": "milkshake",
-    "image": null,
+    "image": "https://slushiq.com/public/images/carmelswirlmilkshake.png",
     "volume": "64oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
