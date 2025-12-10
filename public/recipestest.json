@@ -153,8 +153,10 @@
       "Pour into your machine.",
       "Press the Spiked Slush button."
     ]
-  }
-[
+  },
+
+  /* ---- SEASONAL ---- */
+
   {
     "name": "Pumpkin Spice Slush",
     "category": "seasonal",
@@ -301,8 +303,10 @@
       "Pour into your machine.",
       "Press the Frozen Drink button."
     ]
-  }
-[
+  },
+
+  /* ---- SLUSH ---- */
+
   {
     "name": "Classic Lemon-Lime",
     "category": "slush",
@@ -442,8 +446,10 @@
       "Pour into your machine.",
       "Press the Slush button."
     ]
-  }
-[
+  },
+
+  /* ---- SPIKED SLUSH ---- */
+
   {
     "name": "Frozen Margarita (Store Mixer)",
     "category": "spikedSlush",
@@ -607,8 +613,10 @@
       "Pour into your machine.",
       "Press the Spiked Slush button."
     ]
-  }
-[
+  },
+
+  /* ---- FRAPPE ---- */
+
   {
     "name": "Mocha Frappe",
     "category": "frappe",
@@ -650,7 +658,7 @@
     "category": "frappe",
     "image": null,
     "volume": "64oz",
-    "abv": "0% ABV",
+    "abb": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
       "5 cups Cold Brew Coffee",
@@ -752,6 +760,9 @@
       "Press the Frappe button."
     ]
   },
+
+  /* ---- MILKSHAKES ---- */
+
   {
     "name": "Classic Vanilla Shake",
     "category": "milkshake",
