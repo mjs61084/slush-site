@@ -665,7 +665,7 @@
   {
     "name": "Toffee Crunch Frappe",
     "category": "frappe",
-    "image": null,
+    "image": "https://slushiq.com/public/images/toffeecrunchfrappe.png",
     "volume": "64oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -683,7 +683,7 @@
   {
     "name": "Classic Vanilla Shake",
     "category": "milkshake",
-    "image": null,
+    "image": "https://slushiq.com/public/images/classicvanillamilkshake.png",
     "volume": "64oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -701,7 +701,7 @@
   {
     "name": "Chocolate Fudge Shake",
     "category": "milkshake",
-    "image": null,
+    "image": "https://slushiq.com/public/images/chocolatefudgemilkshake.png",
     "volume": "64oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -719,7 +719,7 @@
   {
     "name": "Strawberry Milkshake",
     "category": "milkshake",
-    "image": null,
+    "image": "https://slushiq.com/public/images/strawberrymilkshake.png",
     "volume": "64oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
