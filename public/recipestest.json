@@ -40,7 +40,7 @@
   {
     "name": "Steph's Tres Agaves Margarita",
     "category": "topMade",
-    "image": null,
+    "image": "https://slushiq.com/public/images/tresagaves.png",
     "volume": "64oz",
     "abv": "7.4% ABV",
     "difficulty": "Easy",
@@ -429,7 +429,7 @@
   {
     "name": "Vodka Lemonade Slush",
     "category": "spikedSlush",
-    "image": null,
+    "image": "https://slushiq.com/public/images/vodkalemonadeslush.png",
     "volume": "64oz",
     "abv": "7.5% ABV",
     "difficulty": "Easy",
@@ -448,7 +448,7 @@
   {
     "name": "Frosé",
     "category": "spikedSlush",
-    "image": null,
+    "image": "https://slushiq.com/public/images/frose.png",
     "volume": "64oz",
     "abv": "7.9% ABV",
     "difficulty": "Easy",
@@ -466,7 +466,7 @@
   {
     "name": "Whiskey Ginger Slush",
     "category": "spikedSlush",
-    "image": null,
+    "image": "https://slushiq.com/public/images/whiskeygingerslush.png",
     "volume": "64oz",
     "abv": "7.5% ABV",
     "difficulty": "Easy",
@@ -484,7 +484,7 @@
   {
     "name": "Tequila Sunrise Slush",
     "category": "spikedSlush",
-    "image": null,
+    "image": "https://slushiq.com/public/images/tequilasunriseslush.png",
     "volume": "64oz",
     "abv": "7.5% ABV",
     "difficulty": "Easy",
@@ -503,7 +503,7 @@
   {
     "name": "Sangria Slush",
     "category": "spikedSlush",
-    "image": null,
+    "image": "https://slushiq.com/public/images/sangriaslush.png",
     "volume": "64oz",
     "abv": "7.5% ABV",
     "difficulty": "Easy",
