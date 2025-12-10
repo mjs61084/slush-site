@@ -1,19 +1,899 @@
 [
   {
-    "name": "Blue Raspberry Slush",
-    "image": "https://slushiq.com/public/images/ChatGPT%20Image%20Dec%209%2C%202025%20at%2009_47_28%20PM.png",
-    "volume": "64 oz",
+    "name": "Brixley's Classic Margarita Slush",
+    "category": "topMade",
+    "image": null,
+    "volume": "64oz",
+    "abv": "7.5% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "1¼ cups Tequila",
+      "¼ cup Orange Liqueur",
+      "1¼ cups Lime Juice",
+      "1½ cups 2:1 Simple Syrup",
+      "3¾ cups Water"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Spiked Slush button."
+    ]
+  },
+  {
+    "name": "Brixley's Chocolate Milkshake",
+    "category": "topMade",
+    "image": null,
+    "volume": "64oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "1/2 cup blue raspberry syrup",
-      "2 tablespoons lemon juice",
-      "8 cups ice"
+      "5¼ cups Chocolate Milk",
+      "1¼ cups Sweetened Condensed Milk",
+      "1¼ cups Whipped Topping"
     ],
     "instructions": [
-      "Add the syrup, lemon juice, and ice to a blender.",
-      "Blend until smooth.",
-      "Pour into your slush machine and enjoy!"
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Milkshake button."
+    ]
+  },
+  {
+    "name": "Steph's Tres Agaves Margarita",
+    "category": "topMade",
+    "image": null,
+    "volume": "64oz",
+    "abv": "7.4% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "5 cups Tres Agaves Margarita Mix",
+      "12 oz Tequila",
+      "12 oz Water",
+      "1¼ oz 2:1 Syrup"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Spiked Slush button."
+    ]
+  },
+  {
+    "name": "Coconut Vanilla Cream Soda Slush",
+    "category": "topMade",
+    "image": null,
+    "volume": "64oz",
+    "abv": "0% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "6 cups Cream Soda",
+      "1 cup Coconut Milk (light)",
+      "1 tsp Vanilla Extract"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Slush button."
+    ]
+  },
+  {
+    "name": "Blood Orange Margarita Slush",
+    "category": "topMade",
+    "image": null,
+    "volume": "64oz",
+    "abv": "7.4% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "2 cups Orange Juice",
+      "2 cups Tequila Blanco",
+      "1 cup Triple Sec",
+      "1 cup Lime Juice",
+      "2 cups Water"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Spiked Slush button."
+    ]
+  },
+  {
+    "name": "Marylynn's Strawberry Gin Colada Slush",
+    "category": "topMade",
+    "image": null,
+    "volume": "64oz",
+    "abv": "8.2% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "2 cups Gin",
+      "2 cups Piña Colada Mix",
+      "1 cup Strawberry Purée",
+      "1 cup Lemon Juice",
+      "2 cups Water"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Spiked Slush button."
+    ]
+  },
+  {
+    "name": "Cran-Apple Gin Cooler Slush",
+    "category": "topMade",
+    "image": null,
+    "volume": "64oz",
+    "abv": "8.0% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "2½ cups Gin",
+      "1½ cups Cranberry Juice",
+      "1½ cups Apple Juice",
+      "1 cup Lime Juice",
+      "1½ cups Water"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Spiked Slush button."
+    ]
+  },
+  {
+    "name": "Strawberry Apple Gin Slush",
+    "category": "topMade",
+    "image": null,
+    "volume": "64oz",
+    "abv": "5.9% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "2 cups Gin",
+      "1½ cups Strawberry Purée",
+      "1 cup Apple Juice",
+      "1 cup Lemon Juice",
+      "2½ cups Water"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Spiked Slush button."
+    ]
+  }
+[
+  {
+    "name": "Pumpkin Spice Slush",
+    "category": "seasonal",
+    "image": null,
+    "volume": "64oz",
+    "abv": "0% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "6 cups Apple Cider",
+      "1½ cups Pumpkin Purée (thinned with 1½ cups Water)",
+      "2 oz Brown Sugar Syrup",
+      "1 tsp Pumpkin Pie Spice"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Frozen Drink button."
+    ]
+  },
+  {
+    "name": "Holiday Cran-Apple",
+    "category": "seasonal",
+    "image": null,
+    "volume": "64oz",
+    "abv": "0% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "5 cups Cranberry Juice Cocktail",
+      "2¾ cups Apple Juice",
+      "3 oz Simple Syrup"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Frozen Drink button."
+    ]
+  },
+  {
+    "name": "Citrus Ginger Cooler",
+    "category": "seasonal",
+    "image": null,
+    "volume": "64oz",
+    "abv": "0% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "5 cups Orange Juice",
+      "2½ cups Grapefruit Juice",
+      "3 oz Ginger Syrup",
+      "1 oz Water"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Frozen Drink button."
+    ]
+  },
+  {
+    "name": "Maple Pear Chill",
+    "category": "seasonal",
+    "image": null,
+    "volume": "64oz",
+    "abv": "0% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "5 cups Pear Nectar",
+      "3 oz Maple Syrup",
+      "2½ cups Water"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Frozen Drink button."
+    ]
+  },
+  {
+    "name": "Candy Cane Cocoa Slush",
+    "category": "seasonal",
+    "image": null,
+    "volume": "64oz",
+    "abv": "0% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "6½ cups Peppermint Hot Cocoa (prepared and cooled)",
+      "1½ cups Milk"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Frozen Drink button."
+    ]
+  },
+  {
+    "name": "Autumn Spiced Grape",
+    "category": "seasonal",
+    "image": null,
+    "volume": "64oz",
+    "abv": "0% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "7 cups Grape Juice",
+      "1 oz Cinnamon Syrup",
+      "1/2 tsp Nutmeg"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Frozen Drink button."
+    ]
+  },
+  {
+    "name": "Apple Pie Slush",
+    "category": "seasonal",
+    "image": null,
+    "volume": "64oz",
+    "abv": "0% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "7½ cups Apple Juice",
+      "3 oz Caramel Syrup",
+      "1 oz Water",
+      "1/2 tsp Cinnamon"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Frozen Drink button."
+    ]
+  },
+  {
+    "name": "Pineapple Holiday Punch",
+    "category": "seasonal",
+    "image": null,
+    "volume": "64oz",
+    "abv": "0% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "5¾ cups Pineapple Juice",
+      "2¾ cups Orange Juice",
+      "3 oz Grenadine",
+      "1 oz Water"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Frozen Drink button."
+    ]
+  }
+[
+  {
+    "name": "Classic Lemon-Lime",
+    "category": "slush",
+    "image": null,
+    "volume": "64oz",
+    "abv": "0% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "7¾ cups Lemon-Lime Soda",
+      "1 oz Simple Syrup"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Slush button."
+    ]
+  },
+  {
+    "name": "Blue Raspberry Slush",
+    "category": "slush",
+    "image": null,
+    "volume": "64oz",
+    "abv": "0% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "5 cups Lemonade",
+      "1½ cups Blue Raspberry Syrup",
+      "1½ cups Water"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Slush button."
+    ]
+  },
+  {
+    "name": "Tropical Mango Slush",
+    "category": "slush",
+    "image": null,
+    "volume": "64oz",
+    "abv": "0% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "6 cups Mango Nectar",
+      "3 cups Pineapple Juice",
+      "3 oz Lime Juice"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Slush button."
+    ]
+  },
+  {
+    "name": "Cherry Cola Slush",
+    "category": "slush",
+    "image": null,
+    "volume": "64oz",
+    "abv": "0% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "6¾ cups Cola",
+      "1¼ cups Cherry Syrup"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Slush button."
+    ]
+  },
+  {
+    "name": "Grape Soda Slush",
+    "category": "slush",
+    "image": null,
+    "volume": "64oz",
+    "abv": "0% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "8 cups Grape Soda"
+    ],
+    "instructions": [
+      "Pour into your machine.",
+      "Press the Slush button."
+    ]
+  },
+  {
+    "name": "Orange Cream Slush",
+    "category": "slush",
+    "image": null,
+    "volume": "64oz",
+    "abv": "0% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "5 cups Orange Soda",
+      "2½ cups Whole Milk",
+      "3 oz Simple Syrup",
+      "1 oz Water"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Slush button."
+    ]
+  },
+  {
+    "name": "Strawberry Lemonade Slush",
+    "category": "slush",
+    "image": null,
+    "volume": "64oz",
+    "abv": "0% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "6½ cups Strawberry Lemonade",
+      "1½ cups Water",
+      "2 oz Simple Syrup"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Slush button."
+    ]
+  },
+  {
+    "name": "Root Beer Float Slush",
+    "category": "slush",
+    "image": null,
+    "volume": "64oz",
+    "abv": "0% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "6 cups Root Beer",
+      "1½ cups Milk",
+      "2 oz Simple Syrup"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Slush button."
+    ]
+  }
+[
+  {
+    "name": "Frozen Margarita (Store Mixer)",
+    "category": "spikedSlush",
+    "image": null,
+    "volume": "64oz",
+    "abv": "7.5% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "6 cups Margarita Mix (bottled)",
+      "12 oz Tequila",
+      "3 oz Lime Juice (bottled)",
+      "1 oz Water"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Spiked Slush button."
+    ]
+  },
+  {
+    "name": "Mudslide",
+    "category": "spikedSlush",
+    "image": null,
+    "volume": "64oz",
+    "abv": "7.8% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "5 cups Chi-Chi's Mudslide Mix",
+      "3 cups Water"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Spiked Slush button."
+    ]
+  },
+  {
+    "name": "Rum & Cola Slush",
+    "category": "spikedSlush",
+    "image": null,
+    "volume": "64oz",
+    "abv": "7.5% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "6¾ cups Cola",
+      "12 oz White Rum"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Spiked Slush button."
+    ]
+  },
+  {
+    "name": "Vodka Lemonade Slush",
+    "category": "spikedSlush",
+    "image": null,
+    "volume": "64oz",
+    "abv": "7.5% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "5¼ cups Lemonade",
+      "12 oz Vodka",
+      "5 oz 2:1 Syrup",
+      "5 oz Water"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Spiked Slush button."
+    ]
+  },
+  {
+    "name": "Frosé",
+    "category": "spikedSlush",
+    "image": null,
+    "volume": "64oz",
+    "abv": "7.9% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "5¼ cups Rosé Wine",
+      "1¼ cups Strawberry Syrup",
+      "1½ cups Water"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Spiked Slush button."
+    ]
+  },
+  {
+    "name": "Whiskey Ginger Slush",
+    "category": "spikedSlush",
+    "image": null,
+    "volume": "64oz",
+    "abv": "7.5% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "5¾ cups Ginger Ale",
+      "12 oz Whiskey",
+      "5 oz 2:1 Syrup"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Spiked Slush button."
+    ]
+  },
+  {
+    "name": "Tequila Sunrise Slush",
+    "category": "spikedSlush",
+    "image": null,
+    "volume": "64oz",
+    "abv": "7.5% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "6 cups Orange Juice",
+      "12 oz Tequila",
+      "3 oz Grenadine",
+      "1 oz Water"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Spiked Slush button."
+    ]
+  },
+  {
+    "name": "Sangria Slush",
+    "category": "spikedSlush",
+    "image": null,
+    "volume": "64oz",
+    "abv": "7.5% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "5 cups Red Wine",
+      "1¼ cups Orange Juice",
+      "3 oz Simple Syrup",
+      "11 oz Water"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Spiked Slush button."
+    ]
+  },
+  {
+    "name": "Peach Bellini Slush",
+    "category": "spikedSlush",
+    "image": null,
+    "volume": "64oz",
+    "abv": "0% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "5½ cups Peach Nectar",
+      "3 cups Sparkling Wine",
+      "1 oz Water"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Spiked Slush button."
+    ]
+  }
+[
+  {
+    "name": "Mocha Frappe",
+    "category": "frappe",
+    "image": null,
+    "volume": "64oz",
+    "abv": "0% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "5 cups Cold Brew Coffee",
+      "2¾ cups Chocolate Milk",
+      "5 oz Sugar Syrup"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Frappe button."
+    ]
+  },
+  {
+    "name": "Vanilla Latte Frappe",
+    "category": "frappe",
+    "image": null,
+    "volume": "64oz",
+    "abv": "0% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "5 cups Cold Brew Coffee",
+      "2¾ cups Milk",
+      "5 oz Vanilla Syrup"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Frappe button."
+    ]
+  },
+  {
+    "name": "Caramel Coffee Frappe",
+    "category": "frappe",
+    "image": null,
+    "volume": "64oz",
+    "abv": "0% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "5 cups Cold Brew Coffee",
+      "2¾ cups Milk",
+      "5 oz Caramel Syrup"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Frappe button."
+    ]
+  },
+  {
+    "name": "Iced Chai Frappe",
+    "category": "frappe",
+    "image": null,
+    "volume": "64oz",
+    "abv": "0% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "5½ cups Chai Tea Concentrate",
+      "2½ cups Whole Milk"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Frappe button."
+    ]
+  },
+  {
+    "name": "Hazelnut Mocha Frappe",
+    "category": "frappe",
+    "image": null,
+    "volume": "64oz",
+    "abv": "0% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "5 cups Cold Brew Coffee",
+      "2¾ cups Chocolate Milk",
+      "5 oz Hazelnut Syrup"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Frappe button."
+    ]
+  },
+  {
+    "name": "Coconut Vanilla Frappe",
+    "category": "frappe",
+    "image": null,
+    "volume": "64oz",
+    "abv": "0% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "5 cups Cold Brew Coffee",
+      "2¾ cups Coconut Milk",
+      "5 oz Vanilla Syrup"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Frappe button."
+    ]
+  },
+  {
+    "name": "White Chocolate Frappe",
+    "category": "frappe",
+    "image": null,
+    "volume": "64oz",
+    "abv": "0% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "5 cups Cold Brew Coffee",
+      "2¾ cups Milk",
+      "5 oz White Chocolate Syrup"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Frappe button."
+    ]
+  },
+  {
+    "name": "Toffee Crunch Frappe",
+    "category": "frappe",
+    "image": null,
+    "volume": "64oz",
+    "abv": "0% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "5 cups Cold Brew Coffee",
+      "2¾ cups Milk",
+      "5 oz Toffee Syrup"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Frappe button."
+    ]
+  },
+  {
+    "name": "Classic Vanilla Shake",
+    "category": "milkshake",
+    "image": null,
+    "volume": "64oz",
+    "abv": "0% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "5½ cups Whole Milk",
+      "1¼ cups Vanilla Syrup",
+      "1¼ cups Whipped Topping"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Milkshake button."
+    ]
+  },
+  {
+    "name": "Chocolate Fudge Shake",
+    "category": "milkshake",
+    "image": null,
+    "volume": "64oz",
+    "abv": "0% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "5½ cups Chocolate Milk",
+      "¾ cup Fudge Sauce",
+      "1¼ cups Whipped Topping"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Milkshake button."
+    ]
+  },
+  {
+    "name": "Strawberry Milkshake",
+    "category": "milkshake",
+    "image": null,
+    "volume": "64oz",
+    "abv": "0% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "5¼ cups Strawberry Milk",
+      "1¼ cups Sweetened Condensed Milk",
+      "1¼ cups Whipped Topping"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Milkshake button."
+    ]
+  },
+  {
+    "name": "Coffee Cabinet Shake",
+    "category": "milkshake",
+    "image": null,
+    "volume": "64oz",
+    "abv": "0% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "5½ cups Coffee Milk",
+      "¾ cup Coffee Syrup",
+      "1¼ cups Whipped Topping"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Milkshake button."
+    ]
+  },
+  {
+    "name": "Peanut Butter Cup Shake",
+    "category": "milkshake",
+    "image": null,
+    "volume": "64oz",
+    "abv": "0% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "5½ cups Chocolate Milk",
+      "¾ cup Peanut Butter Syrup",
+      "1¼ cups Whipped Topping"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Milkshake button."
+    ]
+  },
+  {
+    "name": "Banana Cream Shake",
+    "category": "milkshake",
+    "image": null,
+    "volume": "64oz",
+    "abv": "0% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "5½ cups Banana Milk",
+      "¾ cup Vanilla Syrup",
+      "1¼ cups Whipped Topping"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Milkshake button."
+    ]
+  },
+  {
+    "name": "Cookies & Cream Shake",
+    "category": "milkshake",
+    "image": null,
+    "volume": "64oz",
+    "abv": "0% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "5½ cups Cookies & Cream Milk",
+      "¾ cup Chocolate Syrup",
+      "1¼ cups Whipped Topping"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Milkshake button."
+    ]
+  },
+  {
+    "name": "Caramel Swirl Shake",
+    "category": "milkshake",
+    "image": null,
+    "volume": "64oz",
+    "abv": "0% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "5½ cups Whole Milk",
+      "¾ cup Caramel Syrup",
+      "1¼ cups Whipped Topping"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Milkshake button."
     ]
   }
 ]
