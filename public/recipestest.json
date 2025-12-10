@@ -285,7 +285,7 @@
   {
     "name": "Pineapple Holiday Punch",
     "category": "seasonal",
-    "image": null,
+    "image": "https://slushiq.com/public/images/pineappleholidaypunch.png",
     "volume": "64oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -302,26 +302,9 @@
     ]
   },
   {
-    "name": "Classic Lemon-Lime",
-    "category": "slush",
-    "image": null,
-    "volume": "64oz",
-    "abv": "0% ABV",
-    "difficulty": "Easy",
-    "ingredients": [
-      "7¾ cups Lemon-Lime Soda",
-      "1 oz Simple Syrup"
-    ],
-    "instructions": [
-      "Mix all ingredients together.",
-      "Pour into your machine.",
-      "Press the Slush button."
-    ]
-  },
-  {
     "name": "Blue Raspberry Slush",
     "category": "slush",
-    "image": null,
+    "image": "https://slushiq.com/public/images/blueraspberryslush.png",
     "volume": "64oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -339,7 +322,7 @@
   {
     "name": "Tropical Mango Slush",
     "category": "slush",
-    "image": null,
+    "image": "https://slushiq.com/public/images/tropicalmangoslush.png",
     "volume": "64oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -357,7 +340,7 @@
   {
     "name": "Cherry Cola Slush",
     "category": "slush",
-    "image": null,
+    "image": "https://slushiq.com/public/images/cherrycolaslush.png",
     "volume": "64oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -372,24 +355,9 @@
     ]
   },
   {
-    "name": "Grape Soda Slush",
-    "category": "slush",
-    "image": null,
-    "volume": "64oz",
-    "abv": "0% ABV",
-    "difficulty": "Easy",
-    "ingredients": [
-      "8 cups Grape Soda"
-    ],
-    "instructions": [
-      "Pour into your machine.",
-      "Press the Slush button."
-    ]
-  },
-  {
     "name": "Orange Cream Slush",
     "category": "slush",
-    "image": null,
+    "image": "https://slushiq.com/public/images/creamyorangeslush.png",
     "volume": "64oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -408,7 +376,7 @@
   {
     "name": "Strawberry Lemonade Slush",
     "category": "slush",
-    "image": null,
+    "image": "https://slushiq.com/public/images/strawberrylemonadeslush.png",
     "volume": "64oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -426,7 +394,7 @@
   {
     "name": "Root Beer Float Slush",
     "category": "slush",
-    "image": null,
+    "image": "https://slushiq.com/public/images/rootbeerfloatslush.png",
     "volume": "64oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -442,45 +410,9 @@
     ]
   },
   {
-    "name": "Frozen Margarita (Store Mixer)",
-    "category": "spikedSlush",
-    "image": null,
-    "volume": "64oz",
-    "abv": "7.5% ABV",
-    "difficulty": "Easy",
-    "ingredients": [
-      "6 cups Margarita Mix (bottled)",
-      "12 oz Tequila",
-      "3 oz Lime Juice (bottled)",
-      "1 oz Water"
-    ],
-    "instructions": [
-      "Mix all ingredients together.",
-      "Pour into your machine.",
-      "Press the Spiked Slush button."
-    ]
-  },
-  {
-    "name": "Mudslide",
-    "category": "spikedSlush",
-    "image": null,
-    "volume": "64oz",
-    "abv": "7.8% ABV",
-    "difficulty": "Easy",
-    "ingredients": [
-      "5 cups Chi-Chi's Mudslide Mix",
-      "3 cups Water"
-    ],
-    "instructions": [
-      "Mix all ingredients together.",
-      "Pour into your machine.",
-      "Press the Spiked Slush button."
-    ]
-  },
-  {
     "name": "Rum & Cola Slush",
     "category": "spikedSlush",
-    "image": null,
+    "image": "https://slushiq.com/public/images/rumcolaslush.png",
     "volume": "64oz",
     "abv": "7.5% ABV",
     "difficulty": "Easy",
