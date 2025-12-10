@@ -5,6 +5,10 @@
       "dest": "/$1"
     },
     {
+      "src": "/(.*\\.(?:png|jpg|jpeg|gif|webp|svg))$",
+      "dest": "/$1"
+    },
+    {
       "src": "/(lab|rescue|admin)(/.*)?",
       "headers": {
         "WWW-Authenticate": "Basic realm=\"SlushIQ Test\""
