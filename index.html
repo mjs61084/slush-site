@@ -32,6 +32,50 @@
       padding: 0 20px;
     }
 
+    /* ========================= */
+    /*       NAVIGATION BAR      */
+    /* ========================= */
+    .nav {
+      width: 100%;
+      padding: 16px 0;
+      background: rgba(0,0,0,0.25);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 999;
+    }
+    .nav-inner {
+      max-width: 1100px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+    }
+    .nav-logo {
+      font-size: 22px;
+      font-weight: 800;
+      background: var(--grad-accent);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-decoration: none;
+    }
+    .nav-links {
+      display: flex;
+      gap: 18px;
+    }
+    .nav-item {
+      color: var(--muted);
+      font-size: 14px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color .2s;
+    }
+    .nav-item:hover {
+      color: var(--accent2);
+    }
+
     header {
       padding: 48px 0 10px;
     }
@@ -62,7 +106,6 @@
       color: var(--accent2);
     }
 
-    /* NEW subtle divider */
     .accent-bar {
       height: 1px;
       margin: 18px auto 12px;
@@ -79,7 +122,7 @@
       text-decoration: none;
     }
 
-    /* Store buttons */
+    /* App Store buttons */
     .store-buttons {
       display: flex;
       justify-content: center;
@@ -124,7 +167,7 @@
       line-height: 1.5;
     }
 
-    /* What is Brix */
+    /* Brix Section */
     .brix-section {
       max-width: 700px;
       margin: 60px auto;
@@ -207,11 +250,25 @@
       color: var(--accent2);
       text-decoration: none;
     }
-
   </style>
 </head>
 
 <body>
+
+  <!-- NAV BAR -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="/" class="nav-logo">SlushIQ</a>
+
+      <div class="nav-links">
+        <a href="/" class="nav-item">Home</a>
+        <a href="/privacy" class="nav-item">Privacy</a>
+        <a href="/terms" class="nav-item">Terms</a>
+        <a href="/support" class="nav-item">Support</a>
+        <a href="https://www.reddit.com/r/slushiq" target="_blank" class="nav-item">Community</a>
+      </div>
+    </div>
+  </nav>
 
   <header>
     <h1>SlushIQ</h1>
@@ -305,11 +362,24 @@
     </div>
   </section>
 
+  <!-- EMAIL SIGNUP BOX -->
+  <section class="email-box" id="signup">
+    <h3>Get SlushIQ Updates</h3>
+    <p style="color: var(--muted); margin-bottom: 12px;">
+      New recipes, tips, and feature releases.
+    </p>
+
+    <form action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST">
+      <input type="email" name="email" required placeholder="you@example.com">
+      <br>
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+
   <footer>
     © 2025 SlushIQ. Not affiliated with Ninja® or Iceman Slush-Ease™.
     <br><br>
 
-    <!-- Footer Navigation Links -->
     <a href="/privacy" target="_blank">Privacy Policy</a>
     &nbsp;•&nbsp;
     <a href="/terms" target="_blank">Terms of Service</a>
@@ -321,4 +391,3 @@
 
 </body>
 </html>
-
