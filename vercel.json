@@ -1,17 +1,27 @@
 {
   "routes": [
     {
-      "src": "/privacy$",
+      "src": "^/privacy$",
       "dest": "/privacy.html"
     },
+    {
+      "src": "^/terms$",
+      "dest": "/terms.html"
+    },
+    {
+      "src": "^/support$",
+      "dest": "/support.html"
+    },
+
     {
       "src": "/(.+\\.json)$",
       "dest": "/$1"
     },
     {
-      "src": "/(.*\\.(?:png|jpg|jpeg|gif|webp|svg|html))$",
+      "src": "/(.*\\.(?:png|jpg|jpeg|gif|webp|svg))$",
       "dest": "/$1"
     },
+
     {
       "src": "/(lab|rescue|admin)(/.*)?",
       "headers": {
@@ -20,6 +30,7 @@
       "status": 401,
       "dest": "/lab/index.html"
     },
+
     {
       "src": "/.*",
       "dest": "/index.html"
