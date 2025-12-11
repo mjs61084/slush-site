@@ -1,6 +1,10 @@
 {
   "routes": [
     {
+      "src": "/privacy$",
+      "dest": "/privacy"
+    },
+    {
       "src": "/(.+\\.json)$",
       "dest": "/$1"
     },
