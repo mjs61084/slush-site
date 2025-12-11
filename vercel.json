@@ -1,16 +1,15 @@
 {
-  "version": 2,
   "routes": [
     {
-      "src": "^/privacy$",
+      "src": "/privacy$",
       "dest": "/privacy.html"
     },
     {
-      "src": "^/terms$",
+      "src": "/terms$",
       "dest": "/terms.html"
     },
     {
-      "src": "^/support$",
+      "src": "/support$",
       "dest": "/support.html"
     },
 
@@ -18,8 +17,9 @@
       "src": "/(.+\\.json)$",
       "dest": "/$1"
     },
+
     {
-      "src": "/(.*\\.(?:png|jpg|jpeg|gif|webp|svg))$",
+      "src": "/(.*\\.(?:png|jpg|jpeg|gif|webp|svg|html))$",
       "dest": "/$1"
     },
 
