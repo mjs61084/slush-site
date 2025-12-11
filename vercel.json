@@ -18,7 +18,7 @@
       "dest": "/$1"
     },
     {
-      "src": "/(.*\\.(?:png|jpg|jpeg|gif|webp|svg|html))$",
+      "src": "/(.*\\.(?:png|jpg|jpeg|gif|webp|svg))$",
       "dest": "/$1"
     },
 
