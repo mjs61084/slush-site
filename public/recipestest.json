@@ -822,6 +822,26 @@
       "Mix all ingredients together.",
       "Pour into your machine.",
       "Press the Milkshake button."
+      ]
+  },
+  {
+    "name": "Mudslide",
+    "category": "topMade",
+    "image": "https://slushiq.com/public/images/carmelswirlmilkshake.png",
+    "volume": "52oz",
+    "abv": "0% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "4 cups Chocolate Milk",
+      "1 cup Heavy Cream",
+      "½ cup Vodka"
+      "½ cup Coffee Liqueur"
+      "½ cup Irish Cream Liqueur"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Milkshake button."
     ]
   }
 ]
