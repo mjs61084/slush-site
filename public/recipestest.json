@@ -23,7 +23,7 @@
     "name": "Brixley's Chocolate Milkshake",
     "category": "topMade",
     "image": "https://slushiq.com/public/images/brixleychocolateshake.png",
-    "volume": "64oz",
+    "volume": "62oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
@@ -41,13 +41,13 @@
     "name": "Steph's Tres Agaves Margarita",
     "category": "topMade",
     "image": "https://slushiq.com/public/images/tresagaves.png",
-    "volume": "64oz",
+    "volume": "65oz",
     "abv": "7.4% ABV",
     "difficulty": "Easy",
     "ingredients": [
       "5 cups Tres Agaves Margarita Mix",
-      "12 oz Tequila",
-      "12 oz Water",
+      "1½ cups Tequila",
+      "1½ cups Water",
       "1¼ oz 2:1 Syrup"
     ],
     "instructions": [
@@ -60,7 +60,7 @@
     "name": "Coconut Vanilla Cream Soda Slush",
     "category": "topMade",
     "image": "https://slushiq.com/public/images/coconutvanilla.png",
-    "volume": "64oz",
+    "volume": "56oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
@@ -158,7 +158,7 @@
     "name": "Pumpkin Spice Slush",
     "category": "seasonal",
     "image": "https://slushiq.com/public/images/pumpkinspiceslush.png",
-    "volume": "64oz",
+    "volume": "74oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
@@ -177,7 +177,7 @@
     "name": "Holiday Cran-Apple",
     "category": "seasonal",
     "image": "https://slushiq.com/public/images/holidaycranberryappleslush.png",
-    "volume": "64oz",
+    "volume": "65oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
@@ -214,7 +214,7 @@
     "name": "Maple Pear Chill",
     "category": "seasonal",
     "image": "https://slushiq.com/public/images/maplepearslush.png",
-    "volume": "64oz",
+    "volume": "63oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
@@ -249,7 +249,7 @@
     "name": "Autumn Spiced Grape",
     "category": "seasonal",
     "image": "https://slushiq.com/public/images/autumnspicedgrape.png",
-    "volume": "64oz",
+    "volume": "57oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
@@ -286,7 +286,7 @@
     "name": "Pineapple Holiday Punch",
     "category": "seasonal",
     "image": "https://slushiq.com/public/images/pineappleholidaypunch.png",
-    "volume": "64oz",
+    "volume": "72oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
@@ -323,7 +323,7 @@
     "name": "Tropical Mango Slush",
     "category": "slush",
     "image": "https://slushiq.com/public/images/tropicalmangoslush.png",
-    "volume": "64oz",
+    "volume": "75oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
@@ -377,7 +377,7 @@
     "name": "Strawberry Lemonade Slush",
     "category": "slush",
     "image": "https://slushiq.com/public/images/strawberrylemonadeslush.png",
-    "volume": "64oz",
+    "volume": "66oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
@@ -395,7 +395,7 @@
     "name": "Root Beer Float Slush",
     "category": "slush",
     "image": "https://slushiq.com/public/images/rootbeerfloatslush.png",
-    "volume": "64oz",
+    "volume": "62oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
@@ -413,12 +413,12 @@
     "name": "Rum & Cola Slush",
     "category": "spikedSlush",
     "image": "https://slushiq.com/public/images/rumcolaslush.png",
-    "volume": "64oz",
+    "volume": "66oz",
     "abv": "7.5% ABV",
     "difficulty": "Easy",
     "ingredients": [
       "6¾ cups Cola",
-      "12 oz White Rum"
+      "1½ cups White Rum"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -435,7 +435,7 @@
     "difficulty": "Easy",
     "ingredients": [
       "5¼ cups Lemonade",
-      "12 oz Vodka",
+      "1½ cups Vodka",
       "5 oz 2:1 Syrup",
       "5 oz Water"
     ],
@@ -467,7 +467,7 @@
     "name": "Whiskey Ginger Slush",
     "category": "spikedSlush",
     "image": "https://slushiq.com/public/images/whiskeygingerslush.png",
-    "volume": "64oz",
+    "volume": "63oz",
     "abv": "7.5% ABV",
     "difficulty": "Easy",
     "ingredients": [
@@ -490,7 +490,7 @@
     "difficulty": "Easy",
     "ingredients": [
       "6 cups Orange Juice",
-      "12 oz Tequila",
+      "1½ cups Tequila",
       "3 oz Grenadine",
       "1 oz Water"
     ],
@@ -504,14 +504,14 @@
     "name": "Sangria Slush",
     "category": "spikedSlush",
     "image": "https://slushiq.com/public/images/sangriaslush.png",
-    "volume": "64oz",
+    "volume": "65oz",
     "abv": "7.5% ABV",
     "difficulty": "Easy",
     "ingredients": [
       "5 cups Red Wine",
       "1¼ cups Orange Juice",
       "3 oz Simple Syrup",
-      "11 oz Water"
+      "1½ cups Water"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -523,7 +523,7 @@
     "name": "Peach Bellini Slush",
     "category": "spikedSlush",
     "image": "https://slushiq.com/public/images/peachbellini.png",
-    "volume": "64oz",
+    "volume": "69oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
@@ -541,7 +541,7 @@
     "name": "Mocha Frappe",
     "category": "frappe",
     "image": "https://slushiq.com/public/images/mochafrappe.png",
-    "volume": "64oz",
+    "volume": "67oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
@@ -559,7 +559,7 @@
     "name": "Vanilla Latte Frappe",
     "category": "frappe",
     "image": "https://slushiq.com/public/images/vanillalattefrappe.png",
-    "volume": "64oz",
+    "volume": "67oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
@@ -577,7 +577,7 @@
     "name": "Caramel Coffee Frappe",
     "category": "frappe",
     "image": "https://slushiq.com/public/images/carmelcoffeefrappe.png",
-    "volume": "64oz",
+    "volume": "67oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
@@ -612,7 +612,7 @@
     "name": "Hazelnut Mocha Frappe",
     "category": "frappe",
     "image": "https://slushiq.com/public/images/hazelnutmochafrappe.png",
-    "volume": "64oz",
+    "volume": "67oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
@@ -630,7 +630,7 @@
     "name": "Coconut Vanilla Frappe",
     "category": "frappe",
     "image": "https://slushiq.com/public/images/coconutvanilla.png",
-    "volume": "64oz",
+    "volume": "67oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
@@ -648,7 +648,7 @@
     "name": "White Chocolate Frappe",
     "category": "frappe",
     "image": "https://slushiq.com/public/images/whitechocolatefrappe.png",
-    "volume": "64oz",
+    "volume": "67oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
@@ -666,7 +666,7 @@
     "name": "Toffee Crunch Frappe",
     "category": "frappe",
     "image": "https://slushiq.com/public/images/toffeecrunchfrappe.png",
-    "volume": "64oz",
+    "volume": "67oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
@@ -702,7 +702,7 @@
     "name": "Chocolate Fudge Shake",
     "category": "milkshake",
     "image": "https://slushiq.com/public/images/chocolatefudgemilkshake.png",
-    "volume": "64oz",
+    "volume": "60oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
@@ -720,7 +720,7 @@
     "name": "Strawberry Milkshake",
     "category": "milkshake",
     "image": "https://slushiq.com/public/images/strawberrymilkshake.png",
-    "volume": "64oz",
+    "volume": "62oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
@@ -738,7 +738,7 @@
     "name": "Coffee Cabinet Shake",
     "category": "milkshake",
     "image": "https://slushiq.com/public/images/coffeecabinetmilkshake.png",
-    "volume": "64oz",
+    "volume": "60oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
@@ -756,7 +756,7 @@
     "name": "Peanut Butter Cup Shake",
     "category": "milkshake",
     "image": "https://slushiq.com/public/images/peanutbuttermilkshake.png",
-    "volume": "64oz",
+    "volume": "60oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
@@ -774,7 +774,7 @@
     "name": "Banana Cream Shake",
     "category": "milkshake",
     "image": "https://slushiq.com/public/images/bananamilkshake.png",
-    "volume": "64oz",
+    "volume": "60oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
@@ -792,7 +792,7 @@
     "name": "Cookies & Cream Shake",
     "category": "milkshake",
     "image": "https://slushiq.com/public/images/cookiesandcreammilkshake.png",
-    "volume": "64oz",
+    "volume": "60oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
@@ -810,7 +810,7 @@
     "name": "Caramel Swirl Shake",
     "category": "milkshake",
     "image": "https://slushiq.com/public/images/carmelswirlmilkshake.png",
-    "volume": "64oz",
+    "volume": "60oz",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
