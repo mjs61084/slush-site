@@ -76,7 +76,7 @@
   },
   {
     "name": "Blood Orange Margarita Slush",
-    "category": "slush",
+    "category": "spikedSlush",
     "image": "https://slushiq.com/public/images/bloodorangemarg.png",
     "volume": "64oz",
     "abv": "7.4% ABV",
@@ -116,7 +116,7 @@
   },
   {
     "name": "Cran-Apple Gin Cooler Slush",
-    "category": "slush",
+    "category": "spikedSlush",
     "image": "https://slushiq.com/public/images/cranapplegin.png",
     "volume": "64oz",
     "abv": "8.0% ABV",
@@ -136,7 +136,7 @@
   },
   {
     "name": "Strawberry Apple Gin Slush",
-    "category": "slush",
+    "category": "spikedSlush",
     "image": "https://slushiq.com/public/images/strawberryapplegin.png",
     "volume": "64oz",
     "abv": "5.9% ABV",
