@@ -39,7 +39,7 @@
   },
   {
     "name": "Steph's Tres Agaves Margarita",
-    "category": "topMade",
+    "category": "spikedSlush",
     "image": "https://slushiq.com/public/images/tresagaves.png",
     "volume": "65oz",
     "abv": "7.4% ABV",
@@ -58,7 +58,7 @@
   },
   {
     "name": "Coconut Vanilla Cream Soda Slush",
-    "category": "topMade",
+    "category": "slush",
     "image": "https://slushiq.com/public/images/coconutvanilla.png",
     "volume": "56oz",
     "abv": "0% ABV",
@@ -76,7 +76,7 @@
   },
   {
     "name": "Blood Orange Margarita Slush",
-    "category": "slush",
+    "category": "spikedSlush",
     "image": "https://slushiq.com/public/images/bloodorangemarg.png",
     "volume": "64oz",
     "abv": "7.4% ABV",
@@ -96,7 +96,7 @@
   },
   {
     "name": "Marylynn's Strawberry Gin Colada Slush",
-    "category": "topMade",
+    "category": "spikedSlush",
     "image": "https://slushiq.com/public/images/strawberrygincolada.png",
     "volume": "64oz",
     "abv": "8.2% ABV",
@@ -116,7 +116,7 @@
   },
   {
     "name": "Cran-Apple Gin Cooler Slush",
-    "category": "slush",
+    "category": "spikedSlush",
     "image": "https://slushiq.com/public/images/cranapplegin.png",
     "volume": "64oz",
     "abv": "8.0% ABV",
@@ -136,7 +136,7 @@
   },
   {
     "name": "Strawberry Apple Gin Slush",
-    "category": "slush",
+    "category": "spikedSlush",
     "image": "https://slushiq.com/public/images/strawberryapplegin.png",
     "volume": "64oz",
     "abv": "5.9% ABV",
@@ -817,6 +817,25 @@
       "5½ cups Whole Milk",
       "¾ cup Caramel Syrup",
       "1¼ cups Whipped Topping"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Milkshake button."
+      ]
+  },
+  {
+    "name": "Mudslide",
+    "category": "topMade",
+    "image": "https://slushiq.com/public/images/Mudslide.png",
+    "volume": "46oz",
+    "abv": "0% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "4½ cups Chocolate Milk",
+      "½ cup Coffee Liqueur",
+      "½ cup Irish Cream Liqueur",
+      "¼ cup Sweetened Condensed Milk"
     ],
     "instructions": [
       "Mix all ingredients together.",
