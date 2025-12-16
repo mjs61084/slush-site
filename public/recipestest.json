@@ -859,6 +859,24 @@
       "Mix all ingredients together.",
       "Pour into your machine.",
       "Press the Slush button."
+    },
+  {
+    "name": "Arctic Sleigh Ride",
+    "category": "topMade",
+    "image": "https://slushiq.com/public/images/grinchmas2.png",
+    "volume": "66oz",
+    "abv": "5.4% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "1 cup Vodka",
+      "½ cup Blue Curacao",
+      "1 cup Pineapple Juice",
+      "6 cups Lemon-Lime Soda"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Slush button."
     ]
   }
 ]
