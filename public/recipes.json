@@ -826,7 +826,7 @@
   },
   {
     "name": "Mudslide",
-    "category": "topMade",
+    "category": "milkshake",
     "image": "https://slushiq.com/public/images/Mudslide.png",
     "volume": "46oz",
     "abv": "0% ABV",
@@ -841,6 +841,24 @@
       "Mix all ingredients together.",
       "Pour into your machine.",
       "Press the Milkshake button."
+      ]
+  },
+  {
+    "name": "Brixley's Grinchmas Slush",
+    "category": "topMade",
+    "image": "https://slushiq.com/public/images/grinchmas.png",
+    "volume": "64oz",
+    "abv": "0% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "1½ cups Green Hawaiian Punch",
+      "3 cups Pineapple Juice",
+      "3 cups Lemon-Lime Soda",
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Slush button."
     ]
   }
 ]
