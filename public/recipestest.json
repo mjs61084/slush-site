@@ -859,7 +859,8 @@
       "Mix all ingredients together.",
       "Pour into your machine.",
       "Press the Slush button."
-    },
+      ]
+  },
   {
     "name": "Arctic Sleigh Ride",
     "category": "topMade",
