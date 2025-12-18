@@ -156,7 +156,7 @@
   },
   {
     "name": "Pumpkin Spice Slush",
-    "category": "seasonal",
+    "category": "slush",
     "image": "https://slushiq.com/public/images/pumpkinspiceslush.png",
     "volume": "74oz",
     "abv": "0% ABV",
@@ -193,7 +193,7 @@
   },
   {
     "name": "Citrus Ginger Cooler",
-    "category": "seasonal",
+    "category": "slush",
     "image": "https://slushiq.com/public/images/citrusgingercooler.png",
     "volume": "64oz",
     "abv": "0% ABV",
@@ -212,7 +212,7 @@
   },
   {
     "name": "Maple Pear Chill",
-    "category": "seasonal",
+    "category": "slush",
     "image": "https://slushiq.com/public/images/maplepearslush.png",
     "volume": "63oz",
     "abv": "0% ABV",
@@ -247,7 +247,7 @@
   },
   {
     "name": "Autumn Spiced Grape",
-    "category": "seasonal",
+    "category": "slush",
     "image": "https://slushiq.com/public/images/autumnspicedgrape.png",
     "volume": "57oz",
     "abv": "0% ABV",
@@ -265,7 +265,7 @@
   },
   {
     "name": "Apple Pie Slush",
-    "category": "seasonal",
+    "category": "slush",
     "image": "https://slushiq.com/public/images/applepieslush.png",
     "volume": "64oz",
     "abv": "0% ABV",
@@ -521,7 +521,7 @@
   },
   {
     "name": "Peach Bellini Slush",
-    "category": "spikedSlush",
+    "category": "slush",
     "image": "https://slushiq.com/public/images/peachbellini.png",
     "volume": "69oz",
     "abv": "0% ABV",
