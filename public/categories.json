@@ -3,42 +3,42 @@
     "id": "topMade",
     "title": "Featured",
     "subtitle": "Brixley favorites",
-    "image": "https://slushiq.com/public/images/brixleychocolateshake.png",
+    "image": "https://slushiq.com/public/images/featured.png",
     "order": 1
   },
   {
     "id": "seasonal",
     "title": "Seasonal",
     "subtitle": "Limited-time favorites",
-    "image": "https://slushiq.com/public/images/brixleychocolateshake.png",
+    "image": "https://slushiq.com/public/images/Seasonal.png",
     "order": 2
   },
   {
     "id": "slush",
     "title": "Slush",
     "subtitle": "Classic frozen drinks",
-    "image": "https://slushiq.com/public/images/brixleychocolateshake.png",
+    "image": "https://slushiq.com/public/images/slush.png",
     "order": 3
   },
   {
     "id": "spikedSlush",
     "title": "Spiked Slush",
     "subtitle": "Alcoholic frozen drinks",
-    "image": "https://slushiq.com/public/images/brixleychocolateshake.png",
+    "image": "https://slushiq.com/public/images/spikedslush.png",
     "order": 4
   },
   {
     "id": "frappe",
     "title": "Frappe",
     "subtitle": "Coffeehouse style",
-    "image": "https://slushiq.com/public/images/brixleychocolateshake.png",
+    "image": "https://slushiq.com/public/images/frappe.png",
     "order": 5
   },
   {
     "id": "milkshake",
     "title": "Milkshake",
     "subtitle": "Creamy & indulgent",
-    "image": "https://slushiq.com/public/images/brixleychocolateshake.png",
+    "image": "https://slushiq.com/public/images/milkshake",
     "order": 6
   }
 ]
