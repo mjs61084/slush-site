@@ -301,16 +301,17 @@
     ]
   },
   {
-    "name": "Blue Raspberry Slush",
-    "category": "slush",
+    "name": "North Pole Express",
+    "category": "topMade",
     "image": "https://slushiq.com/public/images/blueraspberryslush.png",
     "volume": "64oz",
-    "abv": "0% ABV",
+    "abv": "7.5% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "5 cups Lemonade",
-      "1½ cups Blue Raspberry Syrup",
-      "1½ cups Water"
+      "1½ cups Vodka",
+      "3½ cups Lemonade",
+      "¾ cups Blue Raspberry Syrup",
+      "2¼ cups Water"
     ],
     "instructions": [
       "Mix all ingredients together.",
