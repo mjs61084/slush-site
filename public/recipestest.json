@@ -169,7 +169,7 @@
     "instructions": [
       "Mix all ingredients together.",
       "Pour into your machine.",
-      "Press the Frozen Drink button."
+      "Press the Slush button."
     ]
   },
   {
@@ -187,7 +187,7 @@
     "instructions": [
       "Mix all ingredients together.",
       "Pour into your machine.",
-      "Press the Frozen Drink button."
+      "Press the Slush button."
     ]
   },
   {
@@ -206,7 +206,7 @@
     "instructions": [
       "Mix all ingredients together.",
       "Pour into your machine.",
-      "Press the Frozen Drink button."
+      "Press the Slush button."
     ]
   },
   {
@@ -224,7 +224,7 @@
     "instructions": [
       "Mix all ingredients together.",
       "Pour into your machine.",
-      "Press the Frozen Drink button."
+      "Press the Slush button."
     ]
   },
   {
@@ -241,7 +241,7 @@
     "instructions": [
       "Mix all ingredients together.",
       "Pour into your machine.",
-      "Press the Frozen Drink button."
+      "Press the Slush button."
     ]
   },
   {
@@ -259,7 +259,7 @@
     "instructions": [
       "Mix all ingredients together.",
       "Pour into your machine.",
-      "Press the Frozen Drink button."
+      "Press the Slush button."
     ]
   },
   {
@@ -278,7 +278,7 @@
     "instructions": [
       "Mix all ingredients together.",
       "Pour into your machine.",
-      "Press the Frozen Drink button."
+      "Press the Slush button."
     ]
   },
   {
@@ -297,7 +297,7 @@
     "instructions": [
       "Mix all ingredients together.",
       "Pour into your machine.",
-      "Press the Frozen Drink button."
+      "Press the Slush button."
     ]
   },
   {
@@ -316,7 +316,7 @@
     "instructions": [
       "Mix all ingredients together.",
       "Pour into your machine.",
-      "Press the Slush button."
+      "Press the Spiked Slush button."
     ]
   },
   {
@@ -534,7 +534,7 @@
     "instructions": [
       "Mix all ingredients together.",
       "Pour into your machine.",
-      "Press the Spiked Slush button."
+      "Press the Slush button."
     ]
   },
   {
@@ -877,7 +877,27 @@
     "instructions": [
       "Mix all ingredients together.",
       "Pour into your machine.",
-      "Press the Slush button."
+      "Press the Spiked Slush button."
+    ]
+  },
+  {
+    "name": "Winter Ice Vodka Slush",
+    "category": "topMade",
+    "image": "https://slushiq.com/public/images/wintericevodka.png",
+    "volume": "57oz (1.7L)",
+    "abv": "5.6% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "3 cups Lemonade (720ml)",
+      "2 cups Citrus Soda (480ml)",
+      "1 cup Vodka (240ml)",
+      "1 cup Blue Hawaiian Punch (240ml)",
+      "1½ oz 2:1 Simple Syrup (45ml)"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Spike Slush button."
     ]
   }
 ]
