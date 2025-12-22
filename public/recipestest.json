@@ -899,5 +899,24 @@
       "Pour into your machine.",
       "Press the Spike Slush button."
     ]
+  },
+  {
+    "name": "Coconut Bay Freeze",
+    "category": "topMade",
+    "image": "https://slushiq.com/public/images/coconutbayfreeze.png",
+    "volume": "72oz (2.1L)",
+    "abv": "7% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "3 cups Malibu Rum (700ml)",
+      "3 cups Pineapple Juice (700ml)",
+      "2 cups Coconut Milk (500ml)",
+      "1 cup 2:1 Simple Syrup (250ml)"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Spike Slush button."
+    ]
   }
 ]
