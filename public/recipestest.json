@@ -3,14 +3,14 @@
     "name": "Brixley's Classic Margarita Slush",
     "category": "topMade",
     "image": "https://slushiq.com/public/images/ChatGPT%20Image%20Dec%209%2C%202025%20at%2009_47_28%20PM.png",
-    "volume": "64oz",
+    "volume": "64oz (1.9L)",
     "abv": "7.5% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "1¼ cups Tequila",
-      "¼ cup Orange Liqueur",
-      "1¼ cups Lime Juice",
-      "1¼ cups 2:1 Simple Syrup",
+      "1¼ cups Tequila (300ml)",
+      "¼ cup Orange Liqueur (60ml)",
+      "1¼ cups Lime Juice (300ml)",
+      "1¼ cups 2:1 Simple Syrup (300ml)",
       "4 cups Water"
     ],
     "instructions": [
@@ -23,13 +23,13 @@
     "name": "Brixley's Chocolate Milkshake",
     "category": "topMade",
     "image": "https://slushiq.com/public/images/brixleychocolateshake.png",
-    "volume": "62oz",
+    "volume": "62oz (1.9L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "5¼ cups Chocolate Milk",
-      "1¼ cups Sweetened Condensed Milk",
-      "1¼ cups Whipped Topping"
+      "5¼ cups Chocolate Milk (1.25L)",
+      "1¼ cups Sweetened Condensed Milk (300ml)",
+      "1¼ cups Whipped Topping (300ml)"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -41,13 +41,13 @@
     "name": "Steph's Tres Agaves Margarita",
     "category": "spikedSlush",
     "image": "https://slushiq.com/public/images/tresagaves.png",
-    "volume": "64oz",
+    "volume": "64oz (1.9L)",
     "abv": "8% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "5 cups Tres Agaves Margarita Mix",
-      "1½ cups Tequila",
-      "1½ cups Water"
+      "5 cups Tres Agaves Margarita Mix (1.2L)",
+      "1½ cups Tequila (360ml)",
+      "1½ cups Water (360ml)"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -59,13 +59,13 @@
     "name": "Coconut Vanilla Cream Soda Slush",
     "category": "slush",
     "image": "https://slushiq.com/public/images/coconutvanilla.png",
-    "volume": "56oz",
+    "volume": "56oz (1.7L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "6 cups Cream Soda",
-      "1 cup Coconut Milk (light)",
-      "1 tsp Vanilla Extract"
+      "6 cups Cream Soda (1.4L)",
+      "1 cup Light Coconut Milk (240ml)",
+      "1 tsp Vanilla Extract (5ml)"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -77,15 +77,15 @@
     "name": "Blood Orange Margarita Slush",
     "category": "spikedSlush",
     "image": "https://slushiq.com/public/images/bloodorangemarg.png",
-    "volume": "64oz",
+    "volume": "64oz (1.9L)",
     "abv": "7.4% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "2 cups Orange Juice",
-      "2 cups Tequila Blanco",
-      "1 cup Triple Sec",
-      "1 cup Lime Juice",
-      "2 cups Water"
+      "2 cups Orange Juice (480ml)",
+      "2 cups Tequila Blanco (480ml)",
+      "1 cup Triple Sec (240ml)",
+      "1 cup Lime Juice (240ml)",
+      "2 cups Water (480ml)"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -97,15 +97,15 @@
     "name": "Marylynn's Strawberry Gin Colada Slush",
     "category": "spikedSlush",
     "image": "https://slushiq.com/public/images/strawberrygincolada.png",
-    "volume": "64oz",
+    "volume": "64oz (1.9L)",
     "abv": "8.2% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "2 cups Gin",
-      "2 cups Piña Colada Mix",
-      "1 cup Strawberry Purée",
-      "1 cup Lemon Juice",
-      "2 cups Water"
+      "2 cups Gin (480ml)",
+      "2 cups Piña Colada Mix (480ml)",
+      "1 cup Strawberry Purée (240ml)",
+      "1 cup Lemon Juice (240ml)",
+      "2 cups Water (480ml)"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -117,15 +117,15 @@
     "name": "Cran-Apple Gin Cooler Slush",
     "category": "spikedSlush",
     "image": "https://slushiq.com/public/images/cranapplegin.png",
-    "volume": "64oz",
+    "volume": "64oz (1.9L)",
     "abv": "8.0% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "2½ cups Gin",
-      "1½ cups Cranberry Juice",
-      "1½ cups Apple Juice",
-      "1 cup Lime Juice",
-      "1½ cups Water"
+      "2½ cups Gin (600ml)",
+      "1½ cups Cranberry Juice (360ml)",
+      "1½ cups Apple Juice (360ml)",
+      "1 cup Lime Juice (240ml)",
+      "1½ cups Water (360ml)"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -137,15 +137,15 @@
     "name": "Strawberry Apple Gin Slush",
     "category": "spikedSlush",
     "image": "https://slushiq.com/public/images/strawberryapplegin.png",
-    "volume": "64oz",
+    "volume": "64oz (1.9L)",
     "abv": "5.9% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "2 cups Gin",
-      "1½ cups Strawberry Purée",
-      "1 cup Apple Juice",
-      "1 cup Lemon Juice",
-      "2½ cups Water"
+      "2 cups Gin (480ml)",
+      "1½ cups Strawberry Purée (360ml)",
+      "1 cup Apple Juice (240ml)",
+      "1 cup Lemon Juice (240ml)",
+      "2½ cups Water (600ml)"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -157,14 +157,14 @@
     "name": "Pumpkin Spice Slush",
     "category": "slush",
     "image": "https://slushiq.com/public/images/pumpkinspiceslush.png",
-    "volume": "74oz",
+    "volume": "74oz (2.2L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "6 cups Apple Cider",
+      "6 cups Apple Cider (1.4L)",
       "1½ cups Pumpkin Purée (thinned with 1½ cups Water)",
-      "2 oz Brown Sugar Syrup",
-      "1 tsp Pumpkin Pie Spice"
+      "2 oz Brown Sugar Syrup (60ml)",
+      "1 tsp Pumpkin Pie Spice (2.5g)"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -176,13 +176,13 @@
     "name": "Holiday Cran-Apple",
     "category": "seasonal",
     "image": "https://slushiq.com/public/images/holidaycranberryappleslush.png",
-    "volume": "65oz",
+    "volume": "65oz (1.9L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "5 cups Cranberry Juice Cocktail",
-      "2¾ cups Apple Juice",
-      "3 oz Simple Syrup"
+      "5 cups Cranberry Juice Cocktail (1.2L)",
+      "2¾ cups Apple Juice (660ml)",
+      "3 oz Simple Syrup (90ml)"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -194,14 +194,14 @@
     "name": "Citrus Ginger Cooler",
     "category": "slush",
     "image": "https://slushiq.com/public/images/citrusgingercooler.png",
-    "volume": "64oz",
+    "volume": "64oz (1.9L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "5 cups Orange Juice",
-      "2½ cups Grapefruit Juice",
-      "3 oz Ginger Syrup",
-      "1 oz Water"
+      "5 cups Orange Juice (1.2L)",
+      "2½ cups Grapefruit Juice (600ml)",
+      "3 oz Ginger Syrup (90ml)",
+      "1 oz Water (30ml)"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -213,13 +213,13 @@
     "name": "Maple Pear Chill",
     "category": "slush",
     "image": "https://slushiq.com/public/images/maplepearslush.png",
-    "volume": "63oz",
+    "volume": "63oz (1.9L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "5 cups Pear Nectar",
-      "3 oz Maple Syrup",
-      "2½ cups Water"
+      "5 cups Pear Nectar (1.2L)",
+      "3 oz Maple Syrup (90ml)",
+      "2½ cups Water (600ml)"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -231,12 +231,12 @@
     "name": "Candy Cane Cocoa Slush",
     "category": "topMade",
     "image": "https://slushiq.com/public/images/candycanecocoaslush.png",
-    "volume": "64oz",
+    "volume": "64oz (1.9L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "6½ cups Peppermint Hot Cocoa (prepared and cooled)",
-      "1½ cups Milk"
+      "6½ cups Peppermint Hot Cocoa prepared and cooled (1.55L)",
+      "1½ cups Milk (360ml)"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -248,13 +248,13 @@
     "name": "Autumn Spiced Grape",
     "category": "slush",
     "image": "https://slushiq.com/public/images/autumnspicedgrape.png",
-    "volume": "57oz",
+    "volume": "57oz (1.7L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "7 cups Grape Juice",
-      "1 oz Cinnamon Syrup",
-      "1/2 tsp Nutmeg"
+      "7 cups Grape Juice (1.65L)",
+      "1 oz Cinnamon Syrup (30ml)",
+      "1/2 tsp Nutmeg (1.2g)"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -266,14 +266,14 @@
     "name": "Apple Pie Slush",
     "category": "slush",
     "image": "https://slushiq.com/public/images/applepieslush.png",
-    "volume": "64oz",
+    "volume": "64oz (1.9L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "7½ cups Apple Juice",
-      "3 oz Caramel Syrup",
-      "1 oz Water",
-      "1/2 tsp Cinnamon"
+      "7½ cups Apple Juice (1.8L)",
+      "3 oz Caramel Syrup (90ml)",
+      "1 oz Water (30ml)",
+      "1/2 tsp Cinnamon (1.3g)"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -285,14 +285,14 @@
     "name": "Pineapple Holiday Punch",
     "category": "seasonal",
     "image": "https://slushiq.com/public/images/pineappleholidaypunch.png",
-    "volume": "72oz",
+    "volume": "72oz (2.1L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "5¾ cups Pineapple Juice",
-      "2¾ cups Orange Juice",
-      "3 oz Grenadine",
-      "1 oz Water"
+      "5¾ cups Pineapple Juice (1.4L)",
+      "2¾ cups Orange Juice (660ml)",
+      "3 oz Grenadine (90ml)",
+      "1 oz Water (30ml)"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -304,14 +304,14 @@
     "name": "North Pole Express",
     "category": "topMade",
     "image": "https://slushiq.com/public/images/blueraspberryslush.png",
-    "volume": "64oz",
+    "volume": "64oz (1.9L)",
     "abv": "7.5% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "1½ cups Vodka",
-      "3½ cups Lemonade",
-      "¾ cups Blue Raspberry Syrup",
-      "2¼ cups Water"
+      "1½ cups Vodka (360ml)",
+      "3½ cups Lemonade (840ml)",
+      "¾ cups Blue Raspberry Syrup (180ml)",
+      "2¼ cups Water (540ml)"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -323,13 +323,13 @@
     "name": "Tropical Mango Slush",
     "category": "slush",
     "image": "https://slushiq.com/public/images/tropicalmangoslush.png",
-    "volume": "75oz",
+    "volume": "75oz (2.2L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "6 cups Mango Nectar",
-      "3 cups Pineapple Juice",
-      "3 oz Lime Juice"
+      "6 cups Mango Nectar (1.4L)",
+      "3 cups Pineapple Juice (720ml)",
+      "3 oz Lime Juice (90ml)"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -341,12 +341,12 @@
     "name": "Cherry Cola Slush",
     "category": "slush",
     "image": "https://slushiq.com/public/images/cherrycolaslush.png",
-    "volume": "64oz",
+    "volume": "64oz (1.9L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "6¾ cups Cola",
-      "1¼ cups Cherry Syrup"
+      "6¾ cups Cola (1.6L)",
+      "1¼ cups Cherry Syrup (300ml)"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -358,14 +358,14 @@
     "name": "Orange Cream Slush",
     "category": "slush",
     "image": "https://slushiq.com/public/images/creamyorangeslush.png",
-    "volume": "64oz",
+    "volume": "64oz (1.9L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "5 cups Orange Soda",
-      "2½ cups Whole Milk",
-      "3 oz Simple Syrup",
-      "1 oz Water"
+      "5 cups Orange Soda (1.2L)",
+      "2½ cups Whole Milk (600ml)",
+      "3 oz Simple Syrup (90ml)",
+      "1 oz Water (30ml)"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -377,13 +377,13 @@
     "name": "Strawberry Lemonade Slush",
     "category": "slush",
     "image": "https://slushiq.com/public/images/strawberrylemonadeslush.png",
-    "volume": "66oz",
+    "volume": "66oz (2L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "6½ cups Strawberry Lemonade",
-      "1½ cups Water",
-      "2 oz Simple Syrup"
+      "6½ cups Strawberry Lemonade (1.55L)",
+      "1½ cups Water (360ml)",
+      "2 oz Simple Syrup (60ml)"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -395,13 +395,13 @@
     "name": "Root Beer Float Slush",
     "category": "slush",
     "image": "https://slushiq.com/public/images/rootbeerfloatslush.png",
-    "volume": "62oz",
+    "volume": "62oz (1.9L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "6 cups Root Beer",
-      "1½ cups Milk",
-      "2 oz Simple Syrup"
+      "6 cups Root Beer (1.4L)",
+      "1½ cups Milk (360ml)",
+      "2 oz Simple Syrup (60ml)"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -413,12 +413,12 @@
     "name": "Rum & Cola Slush",
     "category": "spikedSlush",
     "image": "https://slushiq.com/public/images/rumcolaslush.png",
-    "volume": "66oz",
+    "volume": "66oz (2L)",
     "abv": "7.5% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "6¾ cups Cola",
-      "1½ cups White Rum"
+      "6¾ cups Cola (1.6L)",
+      "1½ cups White Rum (360ml)"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -430,14 +430,14 @@
     "name": "Vodka Lemonade Slush",
     "category": "spikedSlush",
     "image": "https://slushiq.com/public/images/vodkalemonadeslush.png",
-    "volume": "64oz",
+    "volume": "64oz (1.9L)",
     "abv": "7.5% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "5¼ cups Lemonade",
-      "1½ cups Vodka",
-      "5 oz 2:1 Syrup",
-      "5 oz Water"
+      "5¼ cups Lemonade (1.25L)",
+      "1½ cups Vodka (360ml)",
+      "5 oz 2:1 Syrup (150ml)",
+      "5 oz Water (150ml)"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -449,13 +449,13 @@
     "name": "Frosé",
     "category": "spikedSlush",
     "image": "https://slushiq.com/public/images/frose.png",
-    "volume": "64oz",
+    "volume": "64oz (1.9L)",
     "abv": "7.9% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "5¼ cups Rosé Wine",
-      "1¼ cups Strawberry Syrup",
-      "1½ cups Water"
+      "5¼ cups Rosé Wine (1.25L)",
+      "1¼ cups Strawberry Syrup (300ml)",
+      "1½ cups Water (360ml)"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -467,13 +467,13 @@
     "name": "Whiskey Ginger Slush",
     "category": "spikedSlush",
     "image": "https://slushiq.com/public/images/whiskeygingerslush.png",
-    "volume": "63oz",
+    "volume": "63oz (1.9L)",
     "abv": "7.5% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "5¾ cups Ginger Ale",
-      "1½ cups Whiskey",
-      "5 oz 2:1 Syrup"
+      "5¾ cups Ginger Ale (1.4L)",
+      "1½ cups Whiskey (360ml)",
+      "5 oz 2:1 Syrup (150ml)"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -485,14 +485,14 @@
     "name": "Tequila Sunrise Slush",
     "category": "spikedSlush",
     "image": "https://slushiq.com/public/images/tequilasunriseslush.png",
-    "volume": "64oz",
+    "volume": "64oz (1.9L)",
     "abv": "7.5% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "6 cups Orange Juice",
-      "1½ cups Tequila",
-      "3 oz Grenadine",
-      "1 oz Water"
+      "6 cups Orange Juice (1.4L)",
+      "1½ cups Tequila (360ml)",
+      "3 oz Grenadine (90ml)",
+      "1 oz Water (30ml)"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -504,14 +504,14 @@
     "name": "Sangria Slush",
     "category": "spikedSlush",
     "image": "https://slushiq.com/public/images/sangriaslush.png",
-    "volume": "65oz",
+    "volume": "65oz (1.9L)",
     "abv": "7.5% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "5 cups Red Wine",
-      "1¼ cups Orange Juice",
-      "3 oz Simple Syrup",
-      "1½ cups Water"
+      "5 cups Red Wine (1.2L)",
+      "1¼ cups Orange Juice (300ml)",
+      "3 oz Simple Syrup (90ml)",
+      "1½ cups Water (360ml)"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -523,13 +523,13 @@
     "name": "Peach Bellini Slush",
     "category": "slush",
     "image": "https://slushiq.com/public/images/peachbellini.png",
-    "volume": "69oz",
+    "volume": "69oz (2L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "5½ cups Peach Nectar",
-      "3 cups Sparkling Wine",
-      "1 oz Water"
+      "5½ cups Peach Nectar (1.3L)",
+      "3 cups Sparkling Wine (720ml)",
+      "1 oz Water (30ml)"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -541,13 +541,13 @@
     "name": "Mocha Frappe",
     "category": "frappe",
     "image": "https://slushiq.com/public/images/mochafrappe.png",
-    "volume": "67oz",
+    "volume": "67oz (2L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "5 cups Cold Brew Coffee",
-      "2¾ cups Chocolate Milk",
-      "5 oz Sugar Syrup"
+      "5 cups Cold Brew Coffee (1.2L)",
+      "2¾ cups Chocolate Milk (660ml)",
+      "5 oz Sugar Syrup (150ml)"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -559,13 +559,13 @@
     "name": "Vanilla Latte Frappe",
     "category": "frappe",
     "image": "https://slushiq.com/public/images/vanillalattefrappe.png",
-    "volume": "67oz",
+    "volume": "67oz (2L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "5 cups Cold Brew Coffee",
-      "2¾ cups Milk",
-      "5 oz Vanilla Syrup"
+      "5 cups Cold Brew Coffee (1.2L)",
+      "2¾ cups Milk (660ml)",
+      "5 oz Vanilla Syrup (150ml)"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -577,13 +577,13 @@
     "name": "Caramel Coffee Frappe",
     "category": "frappe",
     "image": "https://slushiq.com/public/images/carmelcoffeefrappe.png",
-    "volume": "67oz",
+    "volume": "67oz (2L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "5 cups Cold Brew Coffee",
-      "2¾ cups Milk",
-      "5 oz Caramel Syrup"
+      "5 cups Cold Brew Coffee (1.2L)",
+      "2¾ cups Milk (660ml)",
+      "5 oz Caramel Syrup (150ml)"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -595,12 +595,12 @@
     "name": "Iced Chai Frappe",
     "category": "frappe",
     "image": "https://slushiq.com/public/images/icedchai.png",
-    "volume": "64oz",
+    "volume": "64oz (1.9L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "5½ cups Chai Tea Concentrate",
-      "2½ cups Whole Milk"
+      "5½ cups Chai Tea Concentrate (1.3L)",
+      "2½ cups Whole Milk (600ml)"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -612,13 +612,13 @@
     "name": "Hazelnut Mocha Frappe",
     "category": "frappe",
     "image": "https://slushiq.com/public/images/hazelnutmochafrappe.png",
-    "volume": "67oz",
+    "volume": "67oz (2L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "5 cups Cold Brew Coffee",
-      "2¾ cups Chocolate Milk",
-      "5 oz Hazelnut Syrup"
+      "5 cups Cold Brew Coffee (1.2L)",
+      "2¾ cups Chocolate Milk (660ml)",
+      "5 oz Hazelnut Syrup (150ml)"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -630,13 +630,13 @@
     "name": "Coconut Vanilla Frappe",
     "category": "frappe",
     "image": "https://slushiq.com/public/images/coconutvanilla.png",
-    "volume": "67oz",
+    "volume": "67oz (2L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "5 cups Cold Brew Coffee",
-      "2¾ cups Coconut Milk",
-      "5 oz Vanilla Syrup"
+      "5 cups Cold Brew Coffee (1.2L)",
+      "2¾ cups Coconut Milk (660ml)",
+      "5 oz Vanilla Syrup (150ml)"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -648,13 +648,13 @@
     "name": "White Chocolate Frappe",
     "category": "frappe",
     "image": "https://slushiq.com/public/images/whitechocolatefrappe.png",
-    "volume": "67oz",
+    "volume": "67oz (2L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "5 cups Cold Brew Coffee",
-      "2¾ cups Milk",
-      "5 oz White Chocolate Syrup"
+      "5 cups Cold Brew Coffee (1.2L)",
+      "2¾ cups Milk (660ml)",
+      "5 oz White Chocolate Syrup (150ml)"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -666,13 +666,13 @@
     "name": "Toffee Crunch Frappe",
     "category": "frappe",
     "image": "https://slushiq.com/public/images/toffeecrunchfrappe.png",
-    "volume": "67oz",
+    "volume": "67oz (2L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "5 cups Cold Brew Coffee",
-      "2¾ cups Milk",
-      "5 oz Toffee Syrup"
+      "5 cups Cold Brew Coffee (1.2L)",
+      "2¾ cups Milk (660ml)",
+      "5 oz Toffee Syrup (150ml)"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -684,13 +684,13 @@
     "name": "Classic Vanilla Shake",
     "category": "milkshake",
     "image": "https://slushiq.com/public/images/classicvanillamilkshake.png",
-    "volume": "64oz",
+    "volume": "64oz (1.9L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "5½ cups Whole Milk",
-      "1¼ cups Vanilla Syrup",
-      "1¼ cups Whipped Topping"
+      "5½ cups Whole Milk (1.3L)",
+      "1¼ cups Vanilla Syrup (300ml)",
+      "1¼ cups Whipped Topping (300ml)"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -702,13 +702,13 @@
     "name": "Chocolate Fudge Shake",
     "category": "milkshake",
     "image": "https://slushiq.com/public/images/chocolatefudgemilkshake.png",
-    "volume": "60oz",
+    "volume": "60oz (1.8L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "5½ cups Chocolate Milk",
-      "¾ cup Fudge Sauce",
-      "1¼ cups Whipped Topping"
+      "5½ cups Chocolate Milk (1.3L)",
+      "¾ cup Fudge Sauce (180ml)",
+      "1¼ cups Whipped Topping (300ml)"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -720,13 +720,13 @@
     "name": "Strawberry Milkshake",
     "category": "milkshake",
     "image": "https://slushiq.com/public/images/strawberrymilkshake.png",
-    "volume": "62oz",
+    "volume": "62oz (1.9L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "5¼ cups Strawberry Milk",
-      "1¼ cups Sweetened Condensed Milk",
-      "1¼ cups Whipped Topping"
+      "5¼ cups Strawberry Milk (1.25L)",
+      "1¼ cups Sweetened Condensed Milk (300ml)",
+      "1¼ cups Whipped Topping (300ml)"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -738,13 +738,13 @@
     "name": "Coffee Cabinet Shake",
     "category": "milkshake",
     "image": "https://slushiq.com/public/images/coffeecabinetmilkshake.png",
-    "volume": "60oz",
+    "volume": "60oz (1.8L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "5½ cups Coffee Milk",
-      "¾ cup Coffee Syrup",
-      "1¼ cups Whipped Topping"
+      "5½ cups Coffee Milk (1.3L)",
+      "¾ cup Coffee Syrup (180ml)",
+      "1¼ cups Whipped Topping (300ml)"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -756,13 +756,13 @@
     "name": "Peanut Butter Cup Shake",
     "category": "milkshake",
     "image": "https://slushiq.com/public/images/peanutbuttermilkshake.png",
-    "volume": "60oz",
+    "volume": "60oz (1.8L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "5½ cups Chocolate Milk",
-      "¾ cup Peanut Butter Syrup",
-      "1¼ cups Whipped Topping"
+      "5½ cups Chocolate Milk (1.3L)",
+      "¾ cup Peanut Butter Syrup (180ml)",
+      "1¼ cups Whipped Topping (300ml)"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -774,13 +774,13 @@
     "name": "Banana Cream Shake",
     "category": "milkshake",
     "image": "https://slushiq.com/public/images/bananamilkshake.png",
-    "volume": "60oz",
+    "volume": "60oz (1.8L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "5½ cups Banana Milk",
-      "¾ cup Vanilla Syrup",
-      "1¼ cups Whipped Topping"
+      "5½ cups Banana Milk (1.3L)",
+      "¾ cup Vanilla Syrup (180ml)",
+      "1¼ cups Whipped Topping (300ml)"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -792,13 +792,13 @@
     "name": "Cookies & Cream Shake",
     "category": "milkshake",
     "image": "https://slushiq.com/public/images/cookiesandcreammilkshake.png",
-    "volume": "60oz",
+    "volume": "60oz (1.8L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "5½ cups Cookies & Cream Milk",
-      "¾ cup Chocolate Syrup",
-      "1¼ cups Whipped Topping"
+      "5½ cups Cookies & Cream Milk (1.3L)",
+      "¾ cup Chocolate Syrup (180ml)",
+      "1¼ cups Whipped Topping (300ml)"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -810,13 +810,13 @@
     "name": "Caramel Swirl Shake",
     "category": "milkshake",
     "image": "https://slushiq.com/public/images/carmelswirlmilkshake.png",
-    "volume": "60oz",
+    "volume": "60oz (1.8L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "5½ cups Whole Milk",
-      "¾ cup Caramel Syrup",
-      "1¼ cups Whipped Topping"
+      "5½ cups Whole Milk (1.3L)",
+      "¾ cup Caramel Syrup (180ml)",
+      "1¼ cups Whipped Topping (300ml)"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -828,14 +828,14 @@
     "name": "Mudslide",
     "category": "milkshake",
     "image": "https://slushiq.com/public/images/Mudslide.png",
-    "volume": "46oz",
+    "volume": "46oz (1.4L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "4½ cups Chocolate Milk",
-      "½ cup Coffee Liqueur",
-      "½ cup Irish Cream Liqueur",
-      "¼ cup Sweetened Condensed Milk"
+      "4½ cups Chocolate Milk (1.1L)",
+      "½ cup Coffee Liqueur (120ml)",
+      "½ cup Irish Cream Liqueur (120ml)",
+      "¼ cup Sweetened Condensed Milk (60ml)"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -847,13 +847,13 @@
     "name": "Brixley's Grinchmas Slush",
     "category": "topMade",
     "image": "https://slushiq.com/public/images/grinchmas.png",
-    "volume": "64oz",
+    "volume": "64oz (1.9L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "1½ cups Green Hawaiian Punch",
-      "3 cups Pineapple Juice",
-      "3 cups Lemon-Lime Soda"
+      "1½ cups Green Hawaiian Punch (360ml)",
+      "3 cups Pineapple Juice (720ml)",
+      "3 cups Lemon-Lime Soda (720ml)"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -865,14 +865,14 @@
     "name": "Arctic Sleigh Ride",
     "category": "topMade",
     "image": "https://slushiq.com/public/images/arcticsleighride.png",
-    "volume": "66oz",
+    "volume": "66oz (2L)",
     "abv": "5.4% ABV",
     "difficulty": "Easy",
     "ingredients": [
-      "1 cup Vodka",
-      "½ cup Blue Curacao",
-      "1 cup Pineapple Juice",
-      "6 cups Lemon-Lime Soda"
+      "1 cup Vodka (240ml)",
+      "½ cup Blue Curacao (120ml)",
+      "1 cup Pineapple Juice (240ml)",
+      "6 cups Lemon-Lime Soda (1.4L)"
     ],
     "instructions": [
       "Mix all ingredients together.",
