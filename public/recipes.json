@@ -213,7 +213,7 @@
   },
   {
     "name": "North Pole Express",
-    "category": "topMade",
+    "category": "seasonal",
     "image": "https://slushiq.com/public/images/blueraspberryslush.png",
     "volume": "64oz (1.9L)",
     "abv": "7.5% ABV",
@@ -704,7 +704,7 @@
   },
   {
     "name": "Arctic Sleigh Ride",
-    "category": "topMade",
+    "category": "seasonal",
     "image": "https://slushiq.com/public/images/arcticsleighride.png",
     "volume": "66oz (2L)",
     "abv": "5.4% ABV",
@@ -743,7 +743,7 @@
   },
   {
     "name": "Coconut Bay Freeze",
-    "category": "topMade",
+    "category": "spikedSlush",
     "image": "https://slushiq.com/public/images/coconutbayfreeze.png",
     "volume": "68oz (2.1L)",
     "abv": "7% ABV",
@@ -753,6 +753,88 @@
       "3 cups Pineapple Juice (700ml)",
       "3 cups Coconut Milk (750ml)",
       "½ cup 2:1 Simple Syrup (125ml)"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Spiked Slush button."
+    ]
+  },
+  {
+    "name": "Midnight Lagoon",
+    "category": "topMade",
+    "image": "https://slushiq.com/public/images/midnightlagoon.png",
+    "volume": "44oz (1.3L)",
+    "abv": "6% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "½ cup Midori (120ml)",
+      "½ cup Blue Curaçao (120ml)",
+      "1½ cups Pineapple Juice (360ml)",
+      "¾ cup Sprite (180ml)",
+      "½ cup Pineapple Cîroc (120ml)",
+      "1½ cups Water (360ml)",
+      "¼ cup 2:1 Simple Syrup (60ml)"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Spiked Slush button."
+    ]
+  },
+  {
+    "name": "Blue Crush Margarita",
+    "category": "topMade",
+    "image": "https://slushiq.com/public/images/bluecrushmargarita.png",
+    "volume": "64oz (2.1L)",
+    "abv": "8% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "1½ cups tequila (360ml)",
+      "¾ cup blue curaçao (180ml)",
+      "1½ cups lime juice (360ml)",
+      "¾ cup 2:1 simple syrup (180ml)",
+      "4½ cups cold water (1,080ml)"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Spiked Slush button."
+    ]
+  },
+  {
+    "name": "Electric Frostbite",
+    "category": "topMade",
+    "image": "https://slushiq.com/public/images/electricfrostbite.png",
+    "volume": "56oz (1.6L)",
+    "abv": "7% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "1 cup Vodka — (240ml)",
+      "¾ cup White Cranberry Juice — (180ml)",
+      "¾ cup Lemon Juice — (180ml)",
+      "¼ cup Orange Liqueur — (60ml)",
+      "¾ cup 2:1 Simple Syrup — (180ml)",
+      "3½ cups Cold Water — (840ml)"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Spiked Slush button."
+    ]
+  },
+  {
+    "name": "Pineapple Drift",
+    "category": "topMade",
+    "image": "https://slushiq.com/public/images/pineappledrift.png",
+    "volume": "48oz (1.4L)",
+    "abv": "5.3% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "1½ cups Malibu (360ml)",
+      "2 cups pineapple juice (480ml)",
+      "2 cups coconut milk (480ml)",
+      "½ cup 2:1 simple syrup (120ml)"
     ],
     "instructions": [
       "Mix all ingredients together.",
