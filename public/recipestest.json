@@ -213,7 +213,7 @@
   },
   {
     "name": "North Pole Express",
-    "category": "topMade",
+    "category": "seasonal",
     "image": "https://slushiq.com/public/images/blueraspberryslush.png",
     "volume": "64oz (1.9L)",
     "abv": "7.5% ABV",
@@ -704,7 +704,7 @@
   },
   {
     "name": "Arctic Sleigh Ride",
-    "category": "topMade",
+    "category": "seasonal",
     "image": "https://slushiq.com/public/images/arcticsleighride.png",
     "volume": "66oz (2L)",
     "abv": "5.4% ABV",
@@ -723,7 +723,7 @@
   },
   {
     "name": "Winter Ice Vodka Slush",
-    "category": "topMade",
+    "category": "seasonal",
     "image": "https://slushiq.com/public/images/wintericevodka.png",
     "volume": "59oz (1.7L)",
     "abv": "6% ABV",
@@ -743,7 +743,7 @@
   },
   {
     "name": "Coconut Bay Freeze",
-    "category": "topMade",
+    "category": "spikedSlush",
     "image": "https://slushiq.com/public/images/coconutbayfreeze.png",
     "volume": "68oz (2.1L)",
     "abv": "7% ABV",
