@@ -841,5 +841,119 @@
       "Pour into your machine.",
       "Press the Spiked Slush button."
     ]
+  },
+  {
+    "name": "Classic Strawberry Daiquiri",
+    "category": "topMade",
+    "image": "https://slushiq.com/public/images/classicstrawberrydaquiri.png",
+    "volume": "64oz (1.9L)",
+    "abv": "8% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "1½ cups Rum (355ml)",
+      "3 cups Strawberry Daiquiri Mix (710ml)",
+      "4 cups Water (946ml)"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Spiked Slush button."
+    ]
+  },
+  {
+    "name": "Classic Pina Colada",
+    "category": "topMade",
+    "image": "https://slushiq.com/public/images/classicpinacolada.png",
+    "volume": "64oz (1.9L)",
+    "abv": "8% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "1½ cups Rum (355ml)",
+      "3 cups Pina Colada Mix (710ml)",
+      "4 cups Water (946ml)"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Spiked Slush button."
+    ]
+  },
+  {
+    "name": "Lemon Drop",
+    "category": "topMade",
+    "image": "https://slushiq.com/public/images/lemondrop.png",
+    "volume": "64oz (1.9L)",
+    "abv": "8% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "3 cups Lemonade (710ml)",
+      "¾ cup Sweet & Sour Mix (180ml)",
+      "1¼ cups Triple Sec (300ml)",
+      "1½ cups Tequila (355ml)",
+      "2½ cups Water (590ml)"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Spiked Slush button."
+    ]
+  },
+  {
+    "name": "Sex on the Beach",
+    "category": "topMade",
+    "image": "https://slushiq.com/public/images/sexonthebeach.png",
+    "volume": "64oz (1.9L)",
+    "abv": "8% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "1 cup Vodka (235ml)",
+      "1 cup Malibu Rum (235ml)",
+      "½ cup Peach Schnapps (120ml)",
+      "2½ cups Cranberry Juice (590ml)",
+      "2½ cups Orange Juice (590ml)",
+      "1 cup Water (235ml)"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Spiked Slush button."
+    ]
+  },
+  {
+    "name": "Brixley’s Chocolate Milkshake Spiked",
+    "category": "topMade",
+    "image": "https://slushiq.com/public/images/spikedmilkshake.png",
+    "volume": "70oz (2.1L)",
+    "abv": "5% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "5¼ cups Chocolate Milk (1,240ml)",
+      "1¼ cups Sweetened Condensed Milk (295ml)",
+      "1¼ cups Whipped Topping (295ml)",
+      "2 cups Vodka - Plain or Vanilla (475ml)"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Milkshake button."
+    ]
+  },
+  {
+    "name": "Brixley’s Cran-Apple Cocktail",
+    "category": "topMade",
+    "image": "https://slushiq.com/public/images/cranapplecocktail.png",
+    "volume": "88oz (2.6L)",
+    "abv": "8% ABV",
+    "difficulty": "Easy",
+    "ingredients": [
+      "7½ cups Cran-Apple Cocktail (1,775ml)",
+      "1¼ cups Water (295ml)",
+      "2¼ cups Vodka (530ml)"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Spiked Slush button."
+    ]
   }
 ]
