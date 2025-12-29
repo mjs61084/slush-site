@@ -1,6 +1,6 @@
 [
   {
-    "id": "featured",
+    "id": "topMade",
     "title": "Featured",
     "subtitle": "Brixley favorites",
     "image": "https://slushiq.com/public/images/featured.png",
@@ -21,8 +21,8 @@
     "order": 3
   },
   {
-    "id": "classics",
-    "title": "Classics",
+    "id": "spikedSlush",
+    "title": "Spiked Slush",
     "subtitle": "Alcoholic frozen drinks",
     "image": "https://slushiq.com/public/images/spikedslush.png",
     "order": 4
