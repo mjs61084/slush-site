@@ -51,14 +51,14 @@
     "image": "https://slushiq.com/public/images/tresagaves.png",
     "difficulty": "Easy",
     "variants": {
-      "nonAlcoholic": {
+      "alcoholic": {
         "ingredients": [
           "5¾ cups Tres Agaves Margarita Mix (1.3L)",
           "1½ cups Tequila (360ml)",
           "¾ cups Water (180ml)"
         ]
       },
-      "alcoholic": {
+      "nonAlcoholic": {
         "ingredients": [
           "5¾ cups Tres Agaves Margarita Mix (1.3L)",
           "1¼ cups Water (300ml)"
@@ -107,7 +107,7 @@
     "image": "https://slushiq.com/public/images/bloodorangemarg.png",
     "difficulty": "Easy",
     "variants": {
-      "nonAlcoholic": {
+      "alcoholic": {
         "ingredients": [
           "2 cups Orange Juice (480ml)",
           "1¼ cups Tequila Blanco (300ml)",
@@ -117,7 +117,7 @@
           "¾ cup 2:1 Simple Syrup (180ml)"
         ]
       },
-      "alcoholic": {
+      "nonAlcoholic": {
         "ingredients": [
           "2 cups Orange Juice (480ml)",
           "1 cup Lime Juice (240ml)",
@@ -138,7 +138,7 @@
     "image": "https://slushiq.com/public/images/strawberrygincolada.png",
     "difficulty": "Easy",
     "variants": {
-      "nonAlcoholic": {
+      "alcoholic": {
         "ingredients": [
           "1 cup Gin (240ml)",
           "1½ cups Piña Colada Mix (360ml)",
@@ -147,7 +147,7 @@
           "1¼ cups Water (300ml)"
         ]
       },
-      "alcoholic": {
+      "nonAlcoholic": {
         "ingredients": [
           "1½ cups Piña Colada Mix (360ml)",
           "½ cup Strawberry Purée (120ml)",
@@ -168,7 +168,7 @@
     "image": "https://slushiq.com/public/images/cranapplegin.png",
     "difficulty": "Easy",
     "variants": {
-      "nonAlcoholic": {
+      "alcoholic": {
         "ingredients": [
           "1¼ cups Gin (300ml)",
           "1½ cups Cranberry Juice (360ml)",
@@ -178,7 +178,7 @@
           "¼ cup Water (60ml)"
         ]
       },
-      "alcoholic": {
+      "nonAlcoholic": {
         "ingredients": [
           "1½ cups Cranberry Juice (360ml)",
           "1½ cups Apple Juice (360ml)",
@@ -200,7 +200,7 @@
     "image": "https://slushiq.com/public/images/strawberryapplegin.png",
     "difficulty": "Easy",
     "variants": {
-      "nonAlcoholic": {
+      "alcoholic": {
         "ingredients": [
           "1¼ cups Gin (300ml)",
           "¾ cup Strawberry Purée (180ml)",
@@ -209,7 +209,7 @@
           "3 cups Water (720ml)"
         ]
       },
-      "alcoholic": {
+      "nonAlcoholic": {
         "ingredients": [
           "¾ cup Strawberry Purée (180ml)",
           "1 cup Apple Juice (240ml)",
@@ -288,7 +288,7 @@
     "image": "https://slushiq.com/public/images/blueraspberryslush.png",
     "difficulty": "Easy",
     "variants": {
-      "nonAlcoholic": {
+      "alcoholic": {
         "ingredients": [
           "1½ cups Vodka (360ml)",
           "3½ cups Lemonade (840ml)",
@@ -296,7 +296,7 @@
           "2¼ cups Water (540ml)"
         ]
       },
-      "alcoholic": {
+      "nonAlcoholic": {
         "ingredients": [
           "3½ cups Lemonade (840ml)",
           "¾ cup Blue Raspberry Syrup (180ml)",
@@ -456,14 +456,14 @@
   "image": "https://slushiq.com/public/images/rumcolaslush.png",
   "difficulty": "Easy",
   "variants": {
-    "nonAlcoholic": {
+    "alcoholic": {
       "ingredients": [
         "8 cups Cola (1.9L)",
         "1 cup White Rum (300ml)",
         "1 cup Water (240ml)"
       ]
     },
-    "alcoholic": {
+    "nonAlcoholic": {
       "ingredients": [
         "7 cups Cola (1.6L)",
         "1¼ cups Cold Water (300 ml)"
@@ -482,7 +482,7 @@
   "image": "https://slushiq.com/public/images/vodkalemonadeslush.png",
   "difficulty": "Easy",
   "variants": {
-    "nonAlcoholic": {
+    "alcoholic": {
       "ingredients": [
         "5¼ cups Lemonade (1.25L)",
         "1½ cups Vodka (360ml)",
@@ -490,7 +490,7 @@
         "6½ oz Water (195ml)"
       ]
     },
-    "alcoholic": {
+    "nonAlcoholic": {
       "ingredients": [
         "5¼ cups Lemonade (1.25L)",
         "3½ oz 2:1 Syrup (105ml)",
@@ -526,14 +526,14 @@
   "image": "https://slushiq.com/public/images/whiskeygingerslush.png",
   "difficulty": "Easy",
   "variants": {
-    "nonAlcoholic": {
+    "alcoholic": {
       "ingredients": [
         "8 cups Ginger Ale (1.9L)",
         "1 cup Whiskey (240ml)",
         "3 oz 2:1 Simple Syrup (90ml)"
       ]
     },
-    "alcoholic": {
+    "nonAlcoholic": {
       "ingredients": [
         "7 cups Ginger Ale (1.65 L)",
         "1¼ cups Cold Water (300 ml)",
@@ -553,7 +553,7 @@
   "image": "https://slushiq.com/public/images/tequilasunriseslush.png",
   "difficulty": "Easy",
   "variants": {
-    "nonAlcoholic": {
+    "alcoholic": {
       "ingredients": [
         "6½ cups Orange Juice (1.5L)",
         "1 cup Tequila (240ml)",
@@ -561,7 +561,7 @@
         "½ cup Water (120ml)"
       ]
     },
-    "alcoholic": {
+    "nonAlcoholic": {
       "ingredients": [
         "6½ cups Orange Juice (1.5L)",
         "3 oz Grenadine (90ml)",
@@ -598,14 +598,14 @@
   "image": "https://slushiq.com/public/images/peachbellini.png",
   "difficulty": "Easy",
   "variants": {
-    "nonAlcoholic": {
+    "alcoholic": {
       "ingredients": [
         "5½ cups Peach Nectar (1.3L)",
         "3 cups Dry Sparkling Wine (720ml)",
         "5 oz 2:1 Simple Syrup (150ml)"
       ]
     },
-    "alcoholic": {
+    "nonAlcoholic": {
       "ingredients": [
         "5½ cups Peach Nectar (1.3L)",
         "1¾ cups Water (420ml)",
@@ -625,7 +625,7 @@
   "image": "https://slushiq.com/public/images/mochafrappe.png",
   "difficulty": "Easy",
   "variants": {
-    "nonAlcoholic": {
+    "alcoholic": {
       "ingredients": [
         "4½ cups Cold Brew Coffee (1.0L)",
         "2¾ cups Chocolate Milk (660ml)",
@@ -633,7 +633,7 @@
         "5 oz 2:1 Simple Syrup (150ml)"
       ]
     },
-    "alcoholic": {
+    "nonAlcoholic": {
       "ingredients": [
         "5 cups Cold Brew Coffee (1.2L)",
         "2¾ cups Chocolate Milk (660ml)",
@@ -933,7 +933,7 @@
   "image": "https://slushiq.com/public/images/Mudslide.png",
   "difficulty": "Easy",
   "variants": {
-    "nonAlcoholic": {
+    "alcoholic": {
       "ingredients": [
         "4½ cups Chocolate Milk (1.1L)",
         "½ cup Coffee Liqueur (120ml)",
@@ -941,7 +941,7 @@
         "¼ cup Sweetened Condensed Milk (60ml)"
       ]
     },
-    "alcoholic": {
+    "nonAlcoholic": {
       "ingredients": [
         "4½ cups Chocolate Milk (1.1L)",
         "¼ cup Coffee Concentrate Syrup (60ml)",
@@ -992,7 +992,7 @@
   "image": "https://slushiq.com/public/images/arcticsleighride.png",
   "difficulty": "Easy",
   "variants": {
-    "nonAlcoholic": {
+    "alcoholic": {
       "ingredients": [
         "1 cup Vodka (240ml)",
         "½ cup Blue Curacao (120ml)",
@@ -1000,7 +1000,7 @@
         "6 cups Lemon-Lime Soda (1.4L)"
       ]
     },
-    "alcoholic": {
+    "nonAlcoholic": {
       "ingredients": [
         "¼ cup Blue Raspberry Syrup (60ml)",
         "1 cup Pineapple Juice (240ml)",
@@ -1023,7 +1023,7 @@
   "abv": "6% ABV",
   "difficulty": "Easy",
   "variants": {
-    "nonAlcoholic": {
+    "alcoholic": {
       "ingredients": [
         "3 cups Lemonade (720ml)",
         "2 cups Citrus Soda (480ml)",
@@ -1032,7 +1032,7 @@
         "3½ oz 2:1 Simple Syrup (105ml)"
       ]
     },
-    "alcoholic": {
+    "nonAlcoholic": {
       "ingredients": [
         "3 cups Lemonade (720ml)",
         "2 cups Citrus Soda (480ml)",
@@ -1056,7 +1056,7 @@
   "abv": "7% ABV",
   "difficulty": "Easy",
   "variants": {
-    "nonAlcoholic": {
+    "alcoholic": {
       "ingredients": [
         "2 cups Malibu Rum (480ml)",
         "3 cups Pineapple Juice (700ml)",
@@ -1064,7 +1064,7 @@
         "½ cup 2:1 Simple Syrup (125ml)"
       ]
     },
-    "alcoholic": {
+    "nonAlcoholic": {
       "ingredients": [
         "3 cups Pineapple Juice (720ml)",
         "3 cups Coconut Milk (720ml)",
@@ -1087,7 +1087,7 @@
   "abv": "6% ABV",
   "difficulty": "Easy",
   "variants": {
-    "nonAlcoholic": {
+    "alcoholic": {
       "ingredients": [
         "½ cup Midori (120ml)",
         "½ cup Blue Curaçao (120ml)",
@@ -1098,7 +1098,7 @@
         "¼ cup 2:1 Simple Syrup (60ml)"
       ]
     },
-    "alcoholic": {
+    "nonAlcoholic": {
       "ingredients": [
         "1½ cups Pineapple Juice (360ml)",
         "¾ cup Lemon-Lime Soda (180ml)",
@@ -1142,7 +1142,7 @@
   "abv": "7% ABV",
   "difficulty": "Easy",
   "variants": {
-    "nonAlcoholic": {
+    "alcoholic": {
       "ingredients": [
         "1 cup Vodka — (240ml)",
         "¾ cup White Cranberry Juice — (180ml)",
@@ -1152,7 +1152,7 @@
         "3½ cups Cold Water — (840ml)"
       ]
     },
-    "alcoholic": {
+    "nonAlcoholic": {
       "ingredients": [
         "¾ cup White Cranberry Juice — (180ml)",
         "¾ cup Lemon Juice — (180ml)",
@@ -1175,7 +1175,7 @@
   "abv": "5.3% ABV",
   "difficulty": "Easy",
   "variants": {
-    "nonAlcoholic": {
+    "alcoholic": {
       "ingredients": [
         "1½ cups Malibu (360ml)",
         "2 cups pineapple juice (480ml)",
@@ -1183,7 +1183,7 @@
         "½ cup 2:1 simple syrup (120ml)"
       ]
     },
-    "alcoholic": {
+    "nonAlcoholic": {
       "ingredients": [
         "2 cups pineapple juice (480ml)",
         "2 cups coconut milk (480ml)",
@@ -1200,20 +1200,20 @@
 },
   {
   "name": "Classic Strawberry Daiquiri",
-  "category": "featured",
+  "category": "classics",
   "image": "https://slushiq.com/public/images/classicstrawberrydaquiri.png",
   "volume": "64oz (1.9L)",
   "abv": "8% ABV",
   "difficulty": "Easy",
   "variants": {
-    "nonAlcoholic": {
+    "alcoholic": {
       "ingredients": [
         "1½ cups Rum (355ml)",
         "3 cups Strawberry Daiquiri Mix (710ml)",
         "4 cups Water (946ml)"
       ]
     },
-    "alcoholic": {
+    "nonAlcoholic": {
       "ingredients": [
         "3 cups Strawberry Daiquiri Mix (710ml)",
         "5½ cups Cold Water (1.3L)"
@@ -1228,20 +1228,20 @@
 },
 {
   "name": "Classic Pina Colada",
-  "category": "featured",
+  "category": "classics",
   "image": "https://slushiq.com/public/images/classicpinacolada.png",
   "volume": "64oz (1.9L)",
   "abv": "8% ABV",
   "difficulty": "Easy",
   "variants": {
-    "nonAlcoholic": {
+    "alcoholic": {
       "ingredients": [
         "1½ cups Rum (355ml)",
         "3 cups Pina Colada Mix (710ml)",
         "4 cups Water (946ml)"
       ]
     },
-    "alcoholic": {
+    "nonAlcoholic": {
       "ingredients": [
         "3 cups Pina Colada Mix (710ml)",
         "5½ cups Cold Water (1.3L)"
@@ -1262,7 +1262,7 @@
   "abv": "8% ABV",
   "difficulty": "Easy",
   "variants": {
-    "nonAlcoholic": {
+    "alcoholic": {
       "ingredients": [
         "3 cups Lemonade (710ml)",
         "¾ cup Sweet & Sour Mix (180ml)",
@@ -1271,7 +1271,7 @@
         "2½ cups Water (590ml)"
       ]
     },
-    "alcoholic": {
+    "nonAlcoholic": {
       "ingredients": [
         "3 cups Lemonade (710ml)",
         "¾ cup Sweet & Sour Mix (180ml)",
@@ -1294,7 +1294,7 @@
   "abv": "8% ABV",
   "difficulty": "Easy",
   "variants": {
-    "nonAlcoholic": {
+    "alcoholic": {
       "ingredients": [
         "1 cup Vodka (235ml)",
         "1 cup Malibu Rum (235ml)",
@@ -1304,7 +1304,7 @@
         "1 cup Water (235ml)"
       ]
     },
-    "alcoholic": {
+    "nonAlcoholic": {
       "ingredients": [
         "2½ cups Cranberry Juice (590ml)",
         "2½ cups Orange Juice (590ml)",
@@ -1327,14 +1327,14 @@
   "abv": "8% ABV",
   "difficulty": "Easy",
   "variants": {
-    "nonAlcoholic": {
+    "alcoholic": {
       "ingredients": [
         "7½ cups Cran-Apple Cocktail (1.7L)",
         "1¼ cups Water (295ml)",
         "2¼ cups Vodka (530ml)"
       ]
     },
-    "alcoholic": {
+    "nonAlcoholic": {
       "ingredients": [
         "7½ cups Cran-Apple Cocktail (1.7L)",
         "3½ cups Cold Water (830ml)"
