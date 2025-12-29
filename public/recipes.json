@@ -4,15 +4,13 @@
     "category": "topMade",
     "image": "https://slushiq.com/public/images/ChatGPT%20Image%20Dec%209%2C%202025%20at%2009_47_28%20PM.png",
     "difficulty": "Easy",
-        "ingredients": [
-          "1¼ cups Tequila (300ml)",
-          "¼ cup Orange Liqueur (60ml)",
-          "1¼ cups Lime Juice (300ml)",
-          "1¼ cups 2:1 Simple Syrup (300ml)",
-          "4 cups Water"
-        ]
-      }
-    },
+    "ingredients": [
+      "1¼ cups Tequila (300ml)",
+      "¼ cup Orange Liqueur (60ml)",
+      "1¼ cups Lime Juice (300ml)",
+      "1¼ cups 2:1 Simple Syrup (300ml)",
+      "4 cups Water"
+    ],
     "instructions": [
       "Mix all ingredients together.",
       "Pour into your machine.",
