@@ -1,7 +1,7 @@
 [
   {
     "name": "Brixley's Classic Margarita Slush",
-    "category": "topMade",
+    "category": "featured",
     "image": "https://slushiq.com/public/images/ChatGPT%20Image%20Dec%209%2C%202025%20at%2009_47_28%20PM.png",
     "difficulty": "Easy",
     "ingredients": [
@@ -19,7 +19,7 @@
   },
   {
     "name": "Brixley's Chocolate Milkshake",
-    "category": "topMade",
+    "category": "featured",
     "image": "https://slushiq.com/public/images/brixleychocolateshake.png",
     "difficulty": "Easy",
     "variants": {
@@ -47,7 +47,7 @@
   },
   {
     "name": "Steph's Tres Agaves Margarita",
-    "category": "spikedSlush",
+    "category": "slush",
     "image": "https://slushiq.com/public/images/tresagaves.png",
     "difficulty": "Easy",
     "variants": {
@@ -103,7 +103,7 @@
   },
   {
     "name": "Blood Orange Margarita Slush",
-    "category": "spikedSlush",
+    "category": "slush",
     "image": "https://slushiq.com/public/images/bloodorangemarg.png",
     "difficulty": "Easy",
     "variants": {
@@ -134,7 +134,7 @@
   },
   {
     "name": "Marylynn's Strawberry Gin Colada Slush",
-    "category": "spikedSlush",
+    "category": "slush",
     "image": "https://slushiq.com/public/images/strawberrygincolada.png",
     "difficulty": "Easy",
     "variants": {
@@ -164,7 +164,7 @@
   },
   {
     "name": "Cran-Apple Gin Cooler Slush",
-    "category": "spikedSlush",
+    "category": "slush",
     "image": "https://slushiq.com/public/images/cranapplegin.png",
     "difficulty": "Easy",
     "variants": {
@@ -196,7 +196,7 @@
   },
   {
     "name": "Strawberry Apple Gin Slush",
-    "category": "spikedSlush",
+    "category": "slush",
     "image": "https://slushiq.com/public/images/strawberryapplegin.png",
     "difficulty": "Easy",
     "variants": {
@@ -226,7 +226,7 @@
   },
   {
     "name": "Candy Cane Cocoa Slush",
-    "category": "topMade",
+    "category": "featured",
     "image": "https://slushiq.com/public/images/candycanecocoaslush.png",
     "difficulty": "Easy",
     "variants": {
@@ -452,7 +452,7 @@
 },
 {
   "name": "Rum & Cola Slush",
-  "category": "spikedSlush",
+  "category": "slush",
   "image": "https://slushiq.com/public/images/rumcolaslush.png",
   "difficulty": "Easy",
   "variants": {
@@ -478,7 +478,7 @@
 },
 {
   "name": "Vodka Lemonade Slush",
-  "category": "spikedSlush",
+  "category": "slush",
   "image": "https://slushiq.com/public/images/vodkalemonadeslush.png",
   "difficulty": "Easy",
   "variants": {
@@ -506,7 +506,7 @@
 },
 {
   "name": "Frosé",
-  "category": "spikedSlush",
+  "category": "slush",
   "image": "https://slushiq.com/public/images/frose.png",
   "difficulty": "Easy",
   "variants": {
@@ -526,7 +526,7 @@
 },
 {
   "name": "Whiskey Ginger Slush",
-  "category": "spikedSlush",
+  "category": "slush",
   "image": "https://slushiq.com/public/images/whiskeygingerslush.png",
   "difficulty": "Easy",
   "variants": {
@@ -553,7 +553,7 @@
 },
 {
   "name": "Tequila Sunrise Slush",
-  "category": "spikedSlush",
+  "category": "slush",
   "image": "https://slushiq.com/public/images/tequilasunriseslush.png",
   "difficulty": "Easy",
   "variants": {
@@ -581,7 +581,7 @@
 },
   {
   "name": "Sangria Slush",
-  "category": "spikedSlush",
+  "category": "slush",
   "image": "https://slushiq.com/public/images/sangriaslush.png",
   "difficulty": "Easy",
   "variants": {
@@ -602,7 +602,7 @@
 },
 {
   "name": "Peach Bellini Slush",
-  "category": "spikedSlush",
+  "category": "slush",
   "image": "https://slushiq.com/public/images/peachbellini.png",
   "difficulty": "Easy",
   "variants": {
@@ -966,7 +966,7 @@
 },
 {
   "name": "Brixley's Grinchmas Slush",
-  "category": "topMade",
+  "category": "featured",
   "image": "https://slushiq.com/public/images/grinchmas.png",
   "difficulty": "Easy",
   "variants": {
@@ -1025,7 +1025,7 @@
 },
 {
   "name": "Winter Ice Vodka Slush",
-  "category": "topMade",
+  "category": "featured",
   "image": "https://slushiq.com/public/images/wintericevodka.png",
   "volume": "59oz (1.7L)",
   "abv": "6% ABV",
@@ -1058,7 +1058,7 @@
 },
 {
   "name": "Coconut Bay Freeze",
-  "category": "spikedSlush",
+  "category": "slush",
   "image": "https://slushiq.com/public/images/coconutbayfreeze.png",
   "volume": "68oz (2.1L)",
   "abv": "7% ABV",
@@ -1089,7 +1089,7 @@
 },
 {
   "name": "Midnight Lagoon",
-  "category": "topMade",
+  "category": "featured",
   "image": "https://slushiq.com/public/images/midnightlagoon.png",
   "volume": "44oz (1.3L)",
   "abv": "6% ABV",
@@ -1124,7 +1124,7 @@
 },
 {
   "name": "Blue Crush Margarita",
-  "category": "topMade",
+  "category": "featured",
   "image": "https://slushiq.com/public/images/bluecrushmargarita.png",
   "volume": "64oz (2.1L)",
   "abv": "8% ABV",
@@ -1148,7 +1148,7 @@
 },
 {
   "name": "Electric Frostbite",
-  "category": "topMade",
+  "category": "featured",
   "image": "https://slushiq.com/public/images/electricfrostbite.png",
   "volume": "56oz (1.6L)",
   "abv": "7% ABV",
@@ -1181,7 +1181,7 @@
 },
 {
   "name": "Pineapple Drift",
-  "category": "topMade",
+  "category": "featured",
   "image": "https://slushiq.com/public/images/pineappledrift.png",
   "volume": "48oz (1.4L)",
   "abv": "5.3% ABV",
@@ -1212,7 +1212,7 @@
 },
   {
   "name": "Classic Strawberry Daiquiri",
-  "category": "topMade",
+  "category": "featured",
   "image": "https://slushiq.com/public/images/classicstrawberrydaquiri.png",
   "volume": "64oz (1.9L)",
   "abv": "8% ABV",
@@ -1240,7 +1240,7 @@
 },
 {
   "name": "Classic Pina Colada",
-  "category": "topMade",
+  "category": "featured",
   "image": "https://slushiq.com/public/images/classicpinacolada.png",
   "volume": "64oz (1.9L)",
   "abv": "8% ABV",
@@ -1268,7 +1268,7 @@
 },
 {
   "name": "Lemon Drop",
-  "category": "topMade",
+  "category": "featured",
   "image": "https://slushiq.com/public/images/lemondrop.png",
   "volume": "64oz (1.9L)",
   "abv": "8% ABV",
@@ -1300,7 +1300,7 @@
 },
 {
   "name": "Sex on the Beach",
-  "category": "topMade",
+  "category": "featured",
   "image": "https://slushiq.com/public/images/sexonthebeach.png",
   "volume": "64oz (1.9L)",
   "abv": "8% ABV",
@@ -1333,7 +1333,7 @@
 },
 {
   "name": "Brixley’s Cran-Apple Cocktail",
-  "category": "topMade",
+  "category": "featured",
   "image": "https://slushiq.com/public/images/cranapplecocktail.png",
   "volume": "88oz (2.6L)",
   "abv": "8% ABV",
