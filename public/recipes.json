@@ -509,15 +509,11 @@
   "category": "slush",
   "image": "https://slushiq.com/public/images/frose.png",
   "difficulty": "Easy",
-  "variants": {
-    "nonAlcoholic": {
-      "ingredients": [
-        "5¾ cups Sweet Rosé Wine (1.35L)",
-        "1¼ cups Strawberry Syrup (300ml)",
-        "1¾ cups Water (420ml)"
-      ]
-    }
-  },
+  "ingredients": [
+    "5¾ cups Sweet Rosé Wine (1.35L)",
+    "1¼ cups Strawberry Syrup (300ml)",
+    "1¾ cups Water (420ml)"
+  ],
   "instructions": [
     "Mix all ingredients together.",
     "Pour into your machine.",
@@ -584,16 +580,12 @@
   "category": "slush",
   "image": "https://slushiq.com/public/images/sangriaslush.png",
   "difficulty": "Easy",
-  "variants": {
-    "nonAlcoholic": {
-      "ingredients": [
-        "5 cups Sweet Red Wine (1.2L)",
-        "1¼ cups Orange Juice (300ml)",
-        "3 oz 2:1 Simple Syrup (90ml)",
-        "2 cups Water (480ml)"
-      ]
-    }
-  },
+  "ingredients": [
+    "5 cups Sweet Red Wine (1.2L)",
+    "1¼ cups Orange Juice (300ml)",
+    "3 oz 2:1 Simple Syrup (90ml)",
+    "2 cups Water (480ml)"
+  ],
   "instructions": [
     "Mix all ingredients together.",
     "Pour into your machine.",
@@ -1129,17 +1121,13 @@
   "volume": "64oz (2.1L)",
   "abv": "8% ABV",
   "difficulty": "Easy",
-  "variants": {
-    "nonAlcoholic": {
-      "ingredients": [
-        "1½ cups tequila (360ml)",
-        "¾ cup blue curaçao (180ml)",
-        "1½ cups lime juice (360ml)",
-        "¾ cup 2:1 simple syrup (180ml)",
-        "4½ cups cold water (1,080ml)"
-      ]
-    }
-  },
+  "ingredients": [
+    "1½ cups tequila (360ml)",
+    "¾ cup blue curaçao (180ml)",
+    "1½ cups lime juice (360ml)",
+    "¾ cup 2:1 simple syrup (180ml)",
+    "4½ cups cold water (1,080ml)"
+  ],
   "instructions": [
     "Mix all ingredients together.",
     "Pour into your machine.",
