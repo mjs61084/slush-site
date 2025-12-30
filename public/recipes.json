@@ -1452,5 +1452,21 @@
     "Pour into your machine.",
     "Press the appropriate Slush button on your machine."
   ]
+},
+{
+    "id": "7F4C5B1E-6A0E-4C9A-9B3C-5F8E9D3E9F2A",
+    "name": "Emerald Punch Freeze",
+    "category": "classics",
+    "image": "https://slushiq.com/public/images/emeraldpunchfreeze.png",
+    "difficulty": "Easy",
+    "ingredients": [
+      "8 cups Green Hawaiian Punch (1.9L)",
+      "4 oz 2:1 Simple Syrup (120ml)"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the appropriate Slush button on your machine."
+    ]
 }
 ]
