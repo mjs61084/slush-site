@@ -1403,17 +1403,17 @@
   "variants": {
     "alcoholic": {
       "ingredients": [
-        "1½ cups vodka (360 mL)",
-        "6 cups lemon-lime soda (1,420 mL)",
-        "¾ cup grenadine (180 mL)",
-        "1 cup cold water (240 mL)"
+        "1½ cups Vodka (360 mL)",
+        "6 cups Lemon-lime Soda (1,420 mL)",
+        "¾ cup Grenadine (180 mL)",
+        "1 cup Water (240 mL)"
       ]
     },
     "nonAlcoholic": {
       "ingredients": [
-        "7 cups lemon-lime soda (1,650 mL)",
-        "¾ cup grenadine (180 mL)",
-        "1¼ cups cold water (300 mL)"
+        "7 cups Lemon-lime Soda (1,650 mL)",
+        "¾ cup Grenadine (180 mL)",
+        "1¼ cups Water (300 mL)"
       ]
     }
   },
