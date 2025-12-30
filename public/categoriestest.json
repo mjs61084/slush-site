@@ -3,7 +3,7 @@
     "id": "featured",
     "title": "Featured",
     "subtitle": "Brixley favorites",
-    "image": "https://slushiq.com/public/images/featured.png",
+    "image": "https://slushiq.com/public/images/midnightlagoon.png",
     "order": 1
   },
   {
@@ -17,21 +17,21 @@
     "id": "slush",
     "title": "Slush",
     "subtitle": "Classic frozen drinks",
-    "image": "https://slushiq.com/public/images/slush.png",
+    "image": "https://slushiq.com/public/images/tresagaves.png",
     "order": 4
   },
   {
     "id": "classics",
     "title": "Classics",
     "subtitle": "Alcoholic frozen drinks",
-    "image": "https://slushiq.com/public/images/spikedslush.png",
+    "image": "https://slushiq.com/public/images/lemondrop.png",
     "order": 2
   },
   {
     "id": "frappe",
     "title": "Frappe",
     "subtitle": "Coffeehouse style",
-    "image": "https://slushiq.com/public/images/frappe.png",
+    "image": "https://slushiq.com/public/images/coconutvanilla.png",
     "order": 5
   },
   {
