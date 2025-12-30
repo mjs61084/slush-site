@@ -1394,5 +1394,33 @@
     "Pour into your machine.",
     "Press the appropriate Slush button on your machine."
   ]
+},
+{
+  "id": "9A3F6C21-4D8E-4B7A-92F1-5E7C0B8D6A44",
+  "name": "Brixley’s Dirty Shirley Temple",
+  "category": "featured",
+  "image": "https://slushiq.com/public/images/dirtyshirley.png",
+  "variants": {
+    "alcoholic": {
+      "ingredients": [
+        "1½ cups vodka (360 mL)",
+        "6 cups lemon-lime soda (1,420 mL)",
+        "¾ cup grenadine (180 mL)",
+        "1 cup cold water (240 mL)"
+      ]
+    },
+    "nonAlcoholic": {
+      "ingredients": [
+        "7 cups lemon-lime soda (1,650 mL)",
+        "¾ cup grenadine (180 mL)",
+        "1¼ cups cold water (300 mL)"
+      ]
+    }
+  },
+  "instructions": [
+    "Mix all ingredients together.",
+    "Pour into your machine.",
+    "Press the appropriate Slush button on your machine."
+  ]
 }
 ]
