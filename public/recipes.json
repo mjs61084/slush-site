@@ -1422,5 +1422,35 @@
     "Pour into your machine.",
     "Press the appropriate Slush button on your machine."
   ]
+},
+{
+  "id": "9A3F6C21-4D8E-4B7A-92F1-5E7C0B8D6A44",
+  "name": "Brixley’s Blue Coconut Slush",
+  "category": "featured",
+  "image": "https://slushiq.com/public/images/bluecoconut.png",
+  "variants": {
+    "alcoholic": {
+      "ingredients": [
+        "1 cup Coconut Rum (240 mL)",
+        "1 cup Blue Curaçao (240 mL)",
+        "2 cups Pineapple Juice (480 mL)",
+        "½ cup Cream of Coconut (120 mL)",
+        "2½ cups Water (600 mL)"
+      ]
+    },
+    "nonAlcoholic": {
+      "ingredients": [
+        "2 cups Pineapple Juice (480 mL)",
+        "½ cup Cream of Coconut (120 mL)",
+        "½ cup Blue Curaçao Syrup (120 mL)",
+        "3 cups Water (720 mL)"
+      ]
+    }
+  },
+  "instructions": [
+    "Mix all ingredients together.",
+    "Pour into your machine.",
+    "Press the appropriate Slush button on your machine."
+  ]
 }
 ]
