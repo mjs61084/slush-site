@@ -296,7 +296,7 @@
     "id": "8C2A9E4F-6D1B-4E75-9A30-F5B7C2D68194",
     "name": "North Pole Express",
     "category": "seasonal",
-    "image": "https://slushiq.com/public/images/blueraspberryslush.png",
+    "image": "https://slushiq.com/public/images/arcticsleighride1.jpg",
     "difficulty": "Easy",
     "variants": {
       "alcoholic": {
@@ -1026,7 +1026,7 @@
   "id": "6D2F9C7B-5A14-4E83-9A60-1E8C4BD725F9",
   "name": "Arctic Sleigh Ride",
   "category": "seasonal",
-  "image": "https://slushiq.com/public/images/arcticsleighride1.png",
+  "image": "https://slushiq.com/public/images/arcticsleighride.png",
   "difficulty": "Easy",
   "variants": {
     "alcoholic": {
