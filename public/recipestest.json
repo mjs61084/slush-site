@@ -2,7 +2,7 @@
   {
     "name": "Brixley's Classic Margarita Slush",
     "category": "topMade",
-    "image": "https://slushiq.com/public/images/ChatGPT%20Image%20Dec%209%2C%202025%20at%2009_47_28%20PM.png",
+    "image": "https://slushiq.com/public/images/ChatGPT%20Image%20Dec%209%2C%202025%20at%2009_47_28%20PM.jpg",
     "volume": "64oz (1.9L)",
     "abv": "7.5% ABV",
     "difficulty": "Easy",
@@ -22,7 +22,7 @@
   {
     "name": "Brixley's Chocolate Milkshake",
     "category": "topMade",
-    "image": "https://slushiq.com/public/images/brixleychocolateshake.png",
+    "image": "https://slushiq.com/public/images/brixleychocolateshake.jpg",
     "volume": "62oz (1.9L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -46,7 +46,7 @@
   {
     "name": "Steph's Tres Agaves Margarita",
     "category": "spikedSlush",
-    "image": "https://slushiq.com/public/images/tresagaves.png",
+    "image": "https://slushiq.com/public/images/tresagaves.jpg",
     "volume": "64oz (1.9L)",
     "abv": "8% ABV",
     "difficulty": "Easy",
@@ -64,7 +64,7 @@
   {
     "name": "Coconut Vanilla Cream Soda Slush",
     "category": "slush",
-    "image": "https://slushiq.com/public/images/coconutvanilla.png",
+    "image": "https://slushiq.com/public/images/coconutvanilla.jpg",
     "volume": "59oz (1.7L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -83,7 +83,7 @@
   {
     "name": "Blood Orange Margarita Slush",
     "category": "spikedSlush",
-    "image": "https://slushiq.com/public/images/bloodorangemarg.png",
+    "image": "https://slushiq.com/public/images/bloodorangemarg.jpg",
     "volume": "70oz (2.0L)",
     "abv": "8% ABV",
     "difficulty": "Easy",
@@ -104,7 +104,7 @@
   {
     "name": "Marylynn's Strawberry Gin Colada Slush",
     "category": "spikedSlush",
-    "image": "https://slushiq.com/public/images/strawberrygincolada.png",
+    "image": "https://slushiq.com/public/images/strawberrygincolada.jpg",
     "volume": "64oz (1.9L)",
     "abv": "7.5% ABV",
     "difficulty": "Easy",
@@ -124,7 +124,7 @@
   {
     "name": "Cran-Apple Gin Cooler Slush",
     "category": "spikedSlush",
-    "image": "https://slushiq.com/public/images/cranapplegin.png",
+    "image": "https://slushiq.com/public/images/cranapplegin.jpg",
     "volume": "64oz (1.9L)",
     "abv": "6.0% ABV",
     "difficulty": "Easy",
@@ -145,7 +145,7 @@
   {
     "name": "Strawberry Apple Gin Slush",
     "category": "spikedSlush",
-    "image": "https://slushiq.com/public/images/strawberryapplegin.png",
+    "image": "https://slushiq.com/public/images/strawberryapplegin.jpg",
     "volume": "56oz (1.6L)",
     "abv": "7.5% ABV",
     "difficulty": "Easy",
@@ -165,7 +165,7 @@
   {
     "name": "Holiday Cran-Apple",
     "category": "seasonal",
-    "image": "https://slushiq.com/public/images/holidaycranberryappleslush.png",
+    "image": "https://slushiq.com/public/images/holidaycranberryappleslush.jpg",
     "volume": "68oz (2L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -183,7 +183,7 @@
   {
     "name": "Candy Cane Cocoa Slush",
     "category": "topMade",
-    "image": "https://slushiq.com/public/images/candycanecocoaslush.png",
+    "image": "https://slushiq.com/public/images/candycanecocoaslush.jpg",
     "volume": "66oz (1.9L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -201,7 +201,7 @@
   {
     "name": "Pineapple Holiday Punch",
     "category": "seasonal",
-    "image": "https://slushiq.com/public/images/pineappleholidaypunch.png",
+    "image": "https://slushiq.com/public/images/pineappleholidaypunch.jpg",
     "volume": "88oz (2.6L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -220,7 +220,7 @@
   {
     "name": "North Pole Express",
     "category": "seasonal",
-    "image": "https://slushiq.com/public/images/blueraspberryslush.png",
+    "image": "https://slushiq.com/public/images/blueraspberryslush.jpg",
     "volume": "64oz (1.9L)",
     "abv": "7.5% ABV",
     "difficulty": "Easy",
@@ -239,7 +239,7 @@
   {
     "name": "Tropical Mango Slush",
     "category": "slush",
-    "image": "https://slushiq.com/public/images/tropicalmangoslush.png",
+    "image": "https://slushiq.com/public/images/tropicalmangoslush.jpg",
     "volume": "75oz (2.2L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -258,7 +258,7 @@
   {
     "name": "Cherry Cola Slush",
     "category": "slush",
-    "image": "https://slushiq.com/public/images/cherrycolaslush.png",
+    "image": "https://slushiq.com/public/images/cherrycolaslush.jpg",
     "volume": "76oz (2.2L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -275,7 +275,7 @@
   {
     "name": "Orange Cream Slush",
     "category": "slush",
-    "image": "https://slushiq.com/public/images/creamyorangeslush.png",
+    "image": "https://slushiq.com/public/images/creamyorangeslush.jpg",
     "volume": "64oz (1.9L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -293,7 +293,7 @@
   {
     "name": "Strawberry Lemonade Slush",
     "category": "slush",
-    "image": "https://slushiq.com/public/images/strawberrylemonadeslush.png",
+    "image": "https://slushiq.com/public/images/strawberrylemonadeslush.jpg",
     "volume": "69oz (2L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -311,7 +311,7 @@
   {
     "name": "Root Beer Float Slush",
     "category": "slush",
-    "image": "https://slushiq.com/public/images/rootbeerfloatslush.png",
+    "image": "https://slushiq.com/public/images/rootbeerfloatslush.jpg",
     "volume": "62oz (1.9L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -328,7 +328,7 @@
   {
     "name": "Rum & Cola Slush",
     "category": "spikedSlush",
-    "image": "https://slushiq.com/public/images/rumcolaslush.png",
+    "image": "https://slushiq.com/public/images/rumcolaslush.jpg",
     "volume": "80oz (2.3L)",
     "abv": "7.5% ABV",
     "difficulty": "Easy",
@@ -346,7 +346,7 @@
   {
     "name": "Vodka Lemonade Slush",
     "category": "spikedSlush",
-    "image": "https://slushiq.com/public/images/vodkalemonadeslush.png",
+    "image": "https://slushiq.com/public/images/vodkalemonadeslush.jpg",
     "volume": "64oz (1.9L)",
     "abv": "7.5% ABV",
     "difficulty": "Easy",
@@ -365,7 +365,7 @@
   {
     "name": "Frosé",
     "category": "spikedSlush",
-    "image": "https://slushiq.com/public/images/frose.png",
+    "image": "https://slushiq.com/public/images/frose.jpg",
     "volume": "78oz (1.9L)",
     "abv": "6.5% ABV",
     "difficulty": "Easy",
@@ -383,7 +383,7 @@
   {
     "name": "Whiskey Ginger Slush",
     "category": "spikedSlush",
-    "image": "https://slushiq.com/public/images/whiskeygingerslush.png",
+    "image": "https://slushiq.com/public/images/whiskeygingerslush.jpg",
     "volume": "72oz (1.9L)",
     "abv": "7.5% ABV",
     "difficulty": "Easy",
@@ -401,7 +401,7 @@
   {
     "name": "Tequila Sunrise Slush",
     "category": "spikedSlush",
-    "image": "https://slushiq.com/public/images/tequilasunriseslush.png",
+    "image": "https://slushiq.com/public/images/tequilasunriseslush.jpg",
     "volume": "72oz (1.9L)",
     "abv": "7.5% ABV",
     "difficulty": "Easy",
@@ -420,7 +420,7 @@
   {
     "name": "Sangria Slush",
     "category": "spikedSlush",
-    "image": "https://slushiq.com/public/images/sangriaslush.png",
+    "image": "https://slushiq.com/public/images/sangriaslush.jpg",
     "volume": "78oz (1.9L)",
     "abv": "6.5% ABV",
     "difficulty": "Easy",
@@ -439,7 +439,7 @@
   {
     "name": "Peach Bellini Slush",
     "category": "spikedSlush",
-    "image": "https://slushiq.com/public/images/peachbellini.png",
+    "image": "https://slushiq.com/public/images/peachbellini.jpg",
     "volume": "74oz (2L)",
     "abv": "4.5% ABV",
     "difficulty": "Easy",
@@ -457,7 +457,7 @@
   {
     "name": "Mocha Frappe",
     "category": "frappe",
-    "image": "https://slushiq.com/public/images/mochafrappe.png",
+    "image": "https://slushiq.com/public/images/mochafrappe.jpg",
     "volume": "67oz (2L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -475,7 +475,7 @@
   {
     "name": "Vanilla Latte Frappe",
     "category": "frappe",
-    "image": "https://slushiq.com/public/images/vanillalattefrappe.png",
+    "image": "https://slushiq.com/public/images/vanillalattefrappe.jpg",
     "volume": "67oz (2L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -493,7 +493,7 @@
   {
     "name": "Caramel Coffee Frappe",
     "category": "frappe",
-    "image": "https://slushiq.com/public/images/carmelcoffeefrappe.png",
+    "image": "https://slushiq.com/public/images/carmelcoffeefrappe.jpg",
     "volume": "67oz (2L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -511,7 +511,7 @@
   {
     "name": "Hazelnut Mocha Frappe",
     "category": "frappe",
-    "image": "https://slushiq.com/public/images/hazelnutmochafrappe.png",
+    "image": "https://slushiq.com/public/images/hazelnutmochafrappe.jpg",
     "volume": "67oz (2L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -529,7 +529,7 @@
   {
     "name": "Coconut Vanilla Frappe",
     "category": "frappe",
-    "image": "https://slushiq.com/public/images/coconutvanilla.png",
+    "image": "https://slushiq.com/public/images/coconutvanilla.jpg",
     "volume": "67oz (2L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -547,7 +547,7 @@
   {
     "name": "White Chocolate Frappe",
     "category": "frappe",
-    "image": "https://slushiq.com/public/images/whitechocolatefrappe.png",
+    "image": "https://slushiq.com/public/images/whitechocolatefrappe.jpg",
     "volume": "67oz (2L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -565,7 +565,7 @@
   {
     "name": "Toffee Crunch Frappe",
     "category": "frappe",
-    "image": "https://slushiq.com/public/images/toffeecrunchfrappe.png",
+    "image": "https://slushiq.com/public/images/toffeecrunchfrappe.jpg",
     "volume": "67oz (2L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -583,7 +583,7 @@
   {
     "name": "Classic Vanilla Shake",
     "category": "milkshake",
-    "image": "https://slushiq.com/public/images/classicvanillamilkshake.png",
+    "image": "https://slushiq.com/public/images/classicvanillamilkshake.jpg",
     "volume": "64oz (1.9L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -601,7 +601,7 @@
   {
     "name": "Brixley's Strawberry Milkshake",
     "category": "milkshake",
-    "image": "https://slushiq.com/public/images/strawberrymilkshake.png",
+    "image": "https://slushiq.com/public/images/strawberrymilkshake.jpg",
     "volume": "62oz (1.9L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -619,7 +619,7 @@
   {
     "name": "Peanut Butter Cup Shake",
     "category": "milkshake",
-    "image": "https://slushiq.com/public/images/peanutbuttermilkshake.png",
+    "image": "https://slushiq.com/public/images/peanutbuttermilkshake.jpg",
     "volume": "60oz (1.8L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -637,7 +637,7 @@
   {
     "name": "Banana Cream Shake",
     "category": "milkshake",
-    "image": "https://slushiq.com/public/images/bananamilkshake.png",
+    "image": "https://slushiq.com/public/images/bananamilkshake.jpg",
     "volume": "60oz (1.8L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -655,7 +655,7 @@
   {
     "name": "Caramel Swirl Shake",
     "category": "milkshake",
-    "image": "https://slushiq.com/public/images/carmelswirlmilkshake.png",
+    "image": "https://slushiq.com/public/images/carmelswirlmilkshake.jpg",
     "volume": "60oz (1.8L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -673,7 +673,7 @@
   {
     "name": "Mudslide",
     "category": "milkshake",
-    "image": "https://slushiq.com/public/images/Mudslide.png",
+    "image": "https://slushiq.com/public/images/Mudslide.jpg",
     "volume": "46oz (1.4L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -692,7 +692,7 @@
   {
     "name": "Brixley's Grinchmas Slush",
     "category": "topMade",
-    "image": "https://slushiq.com/public/images/grinchmas.png",
+    "image": "https://slushiq.com/public/images/grinchmas.jpg",
     "volume": "72oz (1.9L)",
     "abv": "0% ABV",
     "difficulty": "Easy",
@@ -711,7 +711,7 @@
   {
     "name": "Arctic Sleigh Ride",
     "category": "seasonal",
-    "image": "https://slushiq.com/public/images/arcticsleighride.png",
+    "image": "https://slushiq.com/public/images/arcticsleighride.jpg",
     "volume": "66oz (2L)",
     "abv": "5.4% ABV",
     "difficulty": "Easy",
@@ -730,7 +730,7 @@
   {
     "name": "Winter Ice Vodka Slush",
     "category": "topMade",
-    "image": "https://slushiq.com/public/images/wintericevodka.png",
+    "image": "https://slushiq.com/public/images/wintericevodka.jpg",
     "volume": "59oz (1.7L)",
     "abv": "6% ABV",
     "difficulty": "Easy",
@@ -750,7 +750,7 @@
   {
     "name": "Coconut Bay Freeze",
     "category": "spikedSlush",
-    "image": "https://slushiq.com/public/images/coconutbayfreeze.png",
+    "image": "https://slushiq.com/public/images/coconutbayfreeze.jpg",
     "volume": "68oz (2.1L)",
     "abv": "7% ABV",
     "difficulty": "Easy",
@@ -769,7 +769,7 @@
   {
     "name": "Midnight Lagoon",
     "category": "topMade",
-    "image": "https://slushiq.com/public/images/midnightlagoon.png",
+    "image": "https://slushiq.com/public/images/midnightlagoon.jpg",
     "volume": "44oz (1.3L)",
     "abv": "6% ABV",
     "difficulty": "Easy",
@@ -791,7 +791,7 @@
   {
     "name": "Blue Crush Margarita",
     "category": "topMade",
-    "image": "https://slushiq.com/public/images/bluecrushmargarita.png",
+    "image": "https://slushiq.com/public/images/bluecrushmargarita.jpg",
     "volume": "64oz (2.1L)",
     "abv": "8% ABV",
     "difficulty": "Easy",
@@ -811,7 +811,7 @@
   {
     "name": "Electric Frostbite",
     "category": "topMade",
-    "image": "https://slushiq.com/public/images/electricfrostbite.png",
+    "image": "https://slushiq.com/public/images/electricfrostbite.jpg",
     "volume": "56oz (1.6L)",
     "abv": "7% ABV",
     "difficulty": "Easy",
@@ -832,7 +832,7 @@
   {
     "name": "Pineapple Drift",
     "category": "topMade",
-    "image": "https://slushiq.com/public/images/pineappledrift.png",
+    "image": "https://slushiq.com/public/images/pineappledrift.jpg",
     "volume": "48oz (1.4L)",
     "abv": "5.3% ABV",
     "difficulty": "Easy",
@@ -851,7 +851,7 @@
   {
     "name": "Classic Strawberry Daiquiri",
     "category": "topMade",
-    "image": "https://slushiq.com/public/images/classicstrawberrydaquiri.png",
+    "image": "https://slushiq.com/public/images/classicstrawberrydaquiri.jpg",
     "volume": "64oz (1.9L)",
     "abv": "8% ABV",
     "difficulty": "Easy",
@@ -869,7 +869,7 @@
   {
     "name": "Classic Pina Colada",
     "category": "topMade",
-    "image": "https://slushiq.com/public/images/classicpinacolada.png",
+    "image": "https://slushiq.com/public/images/classicpinacolada.jpg",
     "volume": "64oz (1.9L)",
     "abv": "8% ABV",
     "difficulty": "Easy",
@@ -887,7 +887,7 @@
   {
     "name": "Lemon Drop",
     "category": "topMade",
-    "image": "https://slushiq.com/public/images/lemondrop.png",
+    "image": "https://slushiq.com/public/images/lemondrop.jpg",
     "volume": "64oz (1.9L)",
     "abv": "8% ABV",
     "difficulty": "Easy",
@@ -907,7 +907,7 @@
   {
     "name": "Sex on the Beach",
     "category": "topMade",
-    "image": "https://slushiq.com/public/images/sexonthebeach.png",
+    "image": "https://slushiq.com/public/images/sexonthebeach.jpg",
     "volume": "64oz (1.9L)",
     "abv": "8% ABV",
     "difficulty": "Easy",
@@ -928,7 +928,7 @@
   {
     "name": "Brixley’s Chocolate Milkshake Spiked",
     "category": "topMade",
-    "image": "https://slushiq.com/public/images/spikedmilkshake.png",
+    "image": "https://slushiq.com/public/images/spikedmilkshake.jpg",
     "volume": "70oz (2.1L)",
     "abv": "5% ABV",
     "difficulty": "Easy",
@@ -947,7 +947,7 @@
   {
     "name": "Brixley’s Cran-Apple Cocktail",
     "category": "topMade",
-    "image": "https://slushiq.com/public/images/cranapplecocktail.png",
+    "image": "https://slushiq.com/public/images/cranapplecocktail.jpg",
     "volume": "88oz (2.6L)",
     "abv": "8% ABV",
     "difficulty": "Easy",
