@@ -1454,19 +1454,90 @@
   ]
 },
 {
-    "id": "7F4C5B1E-6A0E-4C9A-9B3C-5F8E9D3E9F2A",
-    "name": "Emerald Punch Freeze",
-    "category": "classics",
-    "image": "https://slushiq.com/public/images/emeraldpunchfreeze.jpg",
-    "difficulty": "Easy",
-    "ingredients": [
-      "8 cups Green Hawaiian Punch (1.9L)",
-      "4 oz 2:1 Simple Syrup (120ml)"
-    ],
+  "id": "7F4C5B1E-6A0E-4C9A-9B3C-5F8E9D3E9F2A",
+  "name": "Emerald Punch Freeze",
+  "category": "classics",
+  "image": "https://slushiq.com/public/images/emeraldpunchfreeze.jpg",
+  "difficulty": "Easy",
+  "ingredients": [
+    "8 cups Green Hawaiian Punch (1.9L)",
+    "4 oz 2:1 Simple Syrup (120ml)"
+  ],
+  "instructions": [
+    "Mix all ingredients together.",
+    "Pour into your machine.",
+    "Press the appropriate Slush button on your machine."
+  ]
+},
+{
+   "id": "2A8C4E91-3F7B-4F8A-9F2D-1C7B6A4A4D90",
+   "name": "Brixley's Hawaiian Lava Flow",
+   "category": "featured",
+    "image": "https://slushiq.com/public/images/brixleychocolateshake.jpg",
+    "variants": {
+      "nonAlcoholic": {
+        "ingredients": [
+          "½ cup Banana Puree Syrup (120ml)",
+          "½ cup Strawberry Mix (120ml)",
+          "½ cup Pineapple Juice (120ml)",
+          "¼ cup Cream of Coconut (60ml)",
+          "5 cups Water (1.2L)"
+        ]
+      },
+      "alcoholic": {
+        "ingredients": [
+          "1 cup White Rum (240ml)",
+          "½ cup Coconut Rum (120ml)",
+          "½ cup Banana Puree Syrup (120ml)",
+          "½ cup Strawberry Mix (120ml)",
+          "½ cup Pineapple Juice (120ml)",
+          "¼ cup Cream of Coconut (60ml)",
+          "3 cups Water (840ml)"
+        ]
+      }
+    },
     "instructions": [
       "Mix all ingredients together.",
       "Pour into your machine.",
       "Press the appropriate Slush button on your machine."
     ]
+},
+{
+  "id": "2A7E1B5A-9D64-4F38-8A90-D6EBC5F21479",
+  "name": "Brixley's Classic Mango Margarita",
+  "category": "featured",
+  "image": "https://slushiq.com/public/images/frose.jpg",
+  "ingredients": [
+      "1¼ cups Tequila (300ml)",
+      "¼ cup Orange Liqueur (60ml)",
+      "1¼ cups Lime Juice (300ml)",
+      "¾ cup 2:1 Simple Syrup (180ml)",
+      "¾ cup Mango Mix (180ml)",
+      "4 cups Water"
+  ],
+  "instructions": [
+    "Mix all ingredients together.",
+    "Pour into your machine.",
+    "Press the appropriate Slush button on your machine."
+  ]
+},
+{
+  "id": "2C7E1A5A-9F54-4F38-8A90-D6EBC5F21479",
+  "name": "Brixley's Classic Strawberry Margarita",
+  "category": "featured",
+  "image": "https://slushiq.com/public/images/frose.jpg",
+  "ingredients": [
+      "1¼ cups Tequila (300ml)",
+      "¼ cup Orange Liqueur (60ml)",
+      "1¼ cups Lime Juice (300ml)",
+      "¾ cup 2:1 Simple Syrup (180ml)",
+      "¾ cup Strawberry Mix (180ml)",
+      "4 cups Water"
+  ],
+  "instructions": [
+    "Mix all ingredients together.",
+    "Pour into your machine.",
+    "Press the appropriate Slush button on your machine."
+  ]
 }
 ]
