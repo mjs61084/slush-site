@@ -235,7 +235,7 @@
   {
     "id": "A6C9E1F5-7D2B-4A38-9E54-0F8B1D6C9273",
     "name": "Candy Cane Cocoa Slush",
-    "category": "featured",
+    "category": "slush",
     "image": "https://slushiq.com/public/images/candycanecocoaslush.jpg",
     "difficulty": "Easy",
     "variants": {
@@ -994,7 +994,7 @@
 {
   "id": "9E5A1B4C-6F27-48D3-90A8-C2F7D6B145E9",
   "name": "Brixley's Grinchmas Slush",
-  "category": "featured",
+  "category": "seasonal",
   "image": "https://slushiq.com/public/images/grinchmas.jpg",
   "difficulty": "Easy",
   "variants": {
@@ -1055,7 +1055,7 @@
 {
   "id": "F1D9A5C6-2B7E-48A3-90C4-5B8E7F61429D",
   "name": "Winter Ice Vodka Slush",
-  "category": "featured",
+  "category": "slush",
   "image": "https://slushiq.com/public/images/wintericevodka.jpg",
   "volume": "59oz (1.7L)",
   "abv": "6% ABV",
@@ -1178,7 +1178,7 @@
 {
   "id": "5E9A7C2D-1F6B-4A83-90C4-D8B215E6F749",
   "name": "Electric Frostbite",
-  "category": "featured",
+  "category": "slush",
   "image": "https://slushiq.com/public/images/electricfrostbite.jpg",
   "volume": "56oz (1.6L)",
   "abv": "7% ABV",
@@ -1369,7 +1369,7 @@
 {
   "id": "F8C7A2E1-5D6B-4A93-90E4-9B2F1C76D845",
   "name": "Brixley’s Cran-Apple Cocktail",
-  "category": "featured",
+  "category": "slush",
   "image": "https://slushiq.com/public/images/cranapplecocktail.jpg",
   "volume": "88oz (2.6L)",
   "abv": "8% ABV",
@@ -1426,7 +1426,7 @@
 {
   "id": "9A2F6C21-4F8E-4A7A-92F1-5E7C0B8D6A44",
   "name": "Brixley’s Blue Coconut Slush",
-  "category": "featured",
+  "category": "slush",
   "image": "https://slushiq.com/public/images/bluecoconut.jpg",
   "variants": {
     "alcoholic": {
@@ -1470,10 +1470,10 @@
   ]
 },
 {
-   "id": "2A8C4E91-3F7B-4F8A-9F2D-1C7B6A4A4D90",
+   "id": "2A8C4E91-3F7B-4F8A-9F2D-1C7B6A5A4D90",
    "name": "Brixley's Hawaiian Lava Flow",
    "category": "featured",
-    "image": "https://slushiq.com/public/images/brixleychocolateshake.jpg",
+    "image": "https://slushiq.com/public/images/lavaflow.jpg",
     "variants": {
       "nonAlcoholic": {
         "ingredients": [
@@ -1503,10 +1503,10 @@
     ]
 },
 {
-  "id": "2A7E1B5A-9D64-4F38-8A90-D6EBC5F21479",
+  "id": "2A7E1B5A-9D64-4F38-8A90-D6EFC5F21479",
   "name": "Brixley's Classic Mango Margarita",
   "category": "featured",
-  "image": "https://slushiq.com/public/images/frose.jpg",
+  "image": "https://slushiq.com/public/images/mangomargarita.jpg",
   "ingredients": [
       "1¼ cups Tequila (300ml)",
       "¼ cup Orange Liqueur (60ml)",
@@ -1522,10 +1522,10 @@
   ]
 },
 {
-  "id": "2C7E1A5A-9F54-4F38-8A90-D6EBC5F21479",
+  "id": "2C7E1A5A-9Z54-4F38-8A90-D6EBC5F21479",
   "name": "Brixley's Classic Strawberry Margarita",
   "category": "featured",
-  "image": "https://slushiq.com/public/images/frose.jpg",
+  "image": "https://slushiq.com/public/images/strawberrymargarita.jpg",
   "ingredients": [
       "1¼ cups Tequila (300ml)",
       "¼ cup Orange Liqueur (60ml)",
