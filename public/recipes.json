@@ -1549,5 +1549,333 @@
     "Pour into your machine.",
     "Press the appropriate Slush button on your machine."
   ]
+},
+{
+  "id": "B3F9D6C1-71B2-4A09-AE84-8C7F5E4A2193",
+  "name": "Frosted Lemonade",
+  "category": "featured",
+  "image": "https://slushiq.com/public/images/frostedlemonade.jpg",
+  "variants": {
+    "alcoholic": {
+      "ingredients": [
+        "7½ cups Cold Water (1775ml)",
+        "1 Pitcher Packet Crystal Light Lemonade",
+        "1 (14oz) Can Sweetened Condensed Milk (414ml)",
+        "1 cup Vodka (240ml)"
+      ]
+    },
+    "nonAlcoholic": {
+      "ingredients": [
+        "8½ cups Cold Water (2010ml)",
+        "1 Pitcher Packet Crystal Light Lemonade",
+        "1 (14oz) Can Sweetened Condensed Milk (414ml)"
+      ]
+    }
+  },
+  "instructions": [
+    "Mix all ingredients together.",
+    "Pour into your machine.",
+    "Press the appropriate Slush button on your machine."
+  ]
+},
+{
+  "id": "E7C2B4A9-9F31-4A5E-B8F4-2F3E6C91D8A2",
+  "name": "Violet Eclipse",
+  "category": "featured",
+  "image": "https://slushiq.com/public/images/violeteclipse.jpg",
+  "variants": {
+    "alcoholic": {
+      "ingredients": [
+        "1¼ cups Vodka (300ml)",
+        "¾ cup Blue Curaçao (180ml)",
+        "¾ cup Raspberry Cordial (180ml)",
+        "5½ cups Cold Water (1300ml)"
+      ]
+    },
+    "nonAlcoholic": {
+      "ingredients": [
+        "1½ cups Blue Curaçao Syrup (Non-Alcoholic) (360ml)",
+        "1½ cups Raspberry Cordial (360ml)",
+        "5 cups Cold Water (1180ml)"
+      ]
+    }
+  },
+  "instructions": [
+    "Mix all ingredients together.",
+    "Pour into your machine.",
+    "Press the appropriate Slush button on your machine."
+  ]
+},
+{
+  "id": "4E9F6A3D-2B81-4C9E-9F3A-6E2D1A7C8B54",
+  "name": "Brixley’s Blue Razz Blitz",
+  "category": "featured",
+  "image": "https://slushiq.com/public/images/bluerazzblitz.jpg",
+  "variants": {
+    "alcoholic": {
+      "ingredients": [
+        "¾ cup Blueberry Vodka (180ml)",
+        "½ cup Blue Curaçao Syrup (120ml)",
+        "1¼ cups Sweet & Sour Mix (300ml)",
+        "3 cups Cold Water (720ml)"
+      ]
+    },
+    "nonAlcoholic": {
+      "ingredients": [
+        "½ cup Blue Curaçao Syrup (120ml)",
+        "1¼ cups Sweet & Sour Mix (300ml)",
+        "3¾ cups Cold Water (900ml)"
+      ]
+    }
+  },
+  "instructions": [
+    "Mix all ingredients together.",
+    "Pour into your machine.",
+    "Press the appropriate Slush button on your machine."
+  ]
+},
+{
+  "id": "5D7E3A1C-92F6-4C84-B0E5-6F1A9C8D234B",
+  "name": "Brixley’s Velvet Shake",
+  "category": "featured",
+  "image": "https://slushiq.com/public/images/velvetshake.jpg",
+  "variants": {
+    "alcoholic": {
+      "ingredients": [
+        "4 cups Strawberry Milk (960ml)",
+        "1 cup Sweetened Condensed Milk (240ml)",
+        "1½ cups Whipped Topping (360ml)",
+        "1 cup Milk (240ml)",
+        "½ cup Vodka (120ml)"
+      ]
+    },
+    "nonAlcoholic": {
+      "ingredients": [
+        "4½ cups Strawberry Milk (1080ml)",
+        "1 cup Sweetened Condensed Milk (240ml)",
+        "1½ cups Whipped Topping (360ml)",
+        "1 cup Milk (240ml)"
+      ]
+    }
+  },
+  "instructions": [
+    "Mix all ingredients together.",
+    "Pour into your machine.",
+    "Press the appropriate Slush button on your machine."
+  ]
+},
+{
+  "id": "C3F94E12-8B65-4E0D-9A71-5D2F7C81A6B9",
+  "name": "Brixley’s Velvet Slush",
+  "category": "featured",
+  "image": "https://slushiq.com/public/images/velvetslush.jpg",
+  "variants": {
+    "alcoholic": {
+      "ingredients": [
+        "4 cups Strawberry Juice (960ml)",
+        "½ can Sweetened Condensed Milk (~200ml)",
+        "¾ cup Vodka (180ml)",
+        "2¼ cups Cold Water (540ml)"
+      ]
+    },
+    "nonAlcoholic": {
+      "ingredients": [
+        "4 cups Strawberry Juice (960ml)",
+        "½ can Sweetened Condensed Milk (~200ml)",
+        "3 cups Cold Water (720ml)"
+      ]
+    }
+  },
+  "instructions": [
+    "Mix all ingredients together.",
+    "Pour into your machine.",
+    "Press the appropriate Slush button on your machine."
+  ]
+},
+{
+  "id": "7A0D6F9E-4C83-42B7-9E51-13A8D5C2F6B4",
+  "name": "Brixley’s Midori Illusion",
+  "category": "featured",
+  "image": "https://slushiq.com/public/images/midoriillusion.jpg",
+  "variants": {
+    "alcoholic": {
+      "ingredients": [
+        "1 cup Midori (240ml)",
+        "½ cup Vodka (120ml)",
+        "¼ cup Triple Sec (60ml)",
+        "2 cups Lemonade (480ml)",
+        "2 cups Pineapple Juice (480ml)",
+        "2½ cups Cold Water (600ml)"
+      ]
+    },
+    "nonAlcoholic": {
+      "ingredients": [
+        "1 cup Midori-Style Melon Syrup (240ml)",
+        "2 cups Lemonade (480ml)",
+        "2 cups Pineapple Juice (480ml)",
+        "3 cups Cold Water (720ml)"
+      ]
+    }
+  },
+  "instructions": [
+    "Mix all ingredients together.",
+    "Pour into your machine.",
+    "Press the appropriate Slush button on your machine."
+  ]
+},
+{
+  "id": "A1E7C3B9-6D42-4E58-8F0C-9D25B741A6F3",
+  "name": "Brixley’s White Russian Shake",
+  "category": "featured",
+  "image": "https://slushiq.com/public/images/whiterussian.jpg",
+  "variants": {
+    "alcoholic": {
+      "ingredients": [
+        "6 cups Milk (1420ml)",
+        "½ cup Heavy Cream (120ml)",
+        "½ cup 2:1 Simple Syrup (120ml)",
+        "2 Tbsp Vanilla Extract (30ml)",
+        "1 cup Coffee Liqueur (240ml)",
+        "1 cup Vodka (240ml)",
+        "½ cup Cold Water (120ml)"
+      ]
+    },
+    "nonAlcoholic": {
+      "ingredients": [
+        "6 cups Milk (1420ml)",
+        "½ cup Heavy Cream (120ml)",
+        "1 cup Strong Cold-Brew Coffee (240ml)",
+        "½ cup Coffee Syrup (120ml)",
+        "2 Tbsp Vanilla Extract (30ml)",
+        "½ cup Cold Water (120ml)"
+      ]
+    }
+  },
+  "instructions": [
+    "Mix all ingredients together.",
+    "Pour into your machine.",
+    "Press the appropriate Slush button on your machine."
+  ]
+},
+{
+  "id": "9B6F4C28-3E75-4A19-8F6D-71A0C5D9E243",
+  "name": "Brixley’s Eggnog Delight",
+  "category": "featured",
+  "image": "https://slushiq.com/public/images/eggnogdelight.jpg",
+  "variants": {
+    "alcoholic": {
+      "ingredients": [
+        "6 cups Eggnog (1420ml)",
+        "1¼ cups Liquor (300ml)",
+        "4 oz Water (120ml)"
+      ]
+    },
+    "nonAlcoholic": {
+      "ingredients": [
+        "6 cups Eggnog (1420ml)",
+        "½ cup Cold Water (120ml)"
+      ]
+    }
+  },
+  "instructions": [
+    "Mix all ingredients together.",
+    "Pour into your machine.",
+    "Press the appropriate Slush button on your machine."
+  ]
+},
+{
+  "id": "2F8C6D3B-A94E-41F7-8E02-7C5A91D64B0E",
+  "name": "Brixley’s Blue Hawaiian",
+  "category": "featured",
+  "image": "https://slushiq.com/public/images/bluehawaiian.jpg",
+  "variants": {
+    "alcoholic": {
+      "ingredients": [
+        "3 cups Pineapple Juice (720ml)",
+        "¾ cup White Rum (180ml)",
+        "¾ cup Blue Curaçao (180ml)",
+        "½ cup Cream of Coconut (120ml)",
+        "2½ cups Cold Water (600ml)"
+      ]
+    },
+    "nonAlcoholic": {
+      "ingredients": [
+        "3 cups Pineapple Juice (720ml)",
+        "¾ cup Blue Curaçao Syrup (180ml)",
+        "½ cup Cream of Coconut (120ml)",
+        "3 cups Cold Water (720ml)"
+      ]
+    }
+  },
+  "instructions": [
+    "Mix all ingredients together.",
+    "Pour into your machine.",
+    "Press the appropriate Slush button on your machine."
+  ]
+},
+{
+  "id": "D5A91F6E-BC82-47E3-A90F-26D8C4B751E0",
+  "name": "Brixley’s Classic Orange Julius Slush",
+  "category": "featured",
+  "image": "https://slushiq.com/public/images/orangejulius.jpg",
+  "variants": {
+    "alcoholic": {
+      "ingredients": [
+        "5 cups Orange Juice (1200ml)",
+        "½ cup 2:1 Simple Syrup (120ml)",
+        "1 cup Milk (240ml)",
+        "1 Tbsp Vanilla (15ml)",
+        "¾ cup Vodka (180ml)",
+        "1¾ cups Cold Water (420ml)"
+      ]
+    },
+    "nonAlcoholic": {
+      "ingredients": [
+        "5 cups Orange Juice (1200ml)",
+        "½ cup 2:1 Simple Syrup (120ml)",
+        "1 cup Milk (240ml)",
+        "1 Tbsp Vanilla (15ml)",
+        "1½ cups Cold Water (360ml)"
+      ]
+    }
+  },
+  "instructions": [
+    "Mix all ingredients together.",
+    "Pour into your machine.",
+    "Press the appropriate Slush button on your machine."
+  ]
+},
+{
+  "id": "4C8F2A9D-7B6E-4A31-90C5-D8E1F6B92754",
+  "name": "Butterbeer",
+  "category": "featured",
+  "image": "https://slushiq.com/public/images/butterbeer.jpg",
+  "variants": {
+    "nonAlcoholic": {
+      "ingredients": [
+        "7 cups Cream Soda (1650ml)",
+        "1½ tablespoons Butter Extract (22ml)",
+        "2 tablespoons Butterscotch Syrup (30ml)",
+        "1 tablespoon Caramel Syrup (15ml)",
+        "Small pinch Fine Salt"
+      ]
+    },
+    "alcoholic": {
+      "ingredients": [
+        "7 cups Cream Soda (1650ml)",
+        "1½ tablespoons Butter Extract (22ml)",
+        "2 tablespoons Butterscotch Syrup (30ml)",
+        "1 tablespoon Caramel Syrup (15ml)",
+        "Small pinch Fine Salt",
+        "¾ cup Vanilla Vodka (180ml)",
+        "½ cup Butterscotch Schnapps (120ml)"
+      ]
+    }
+  },
+  "instructions": [
+    "Mix all ingredients together.",
+    "Pour into your machine.",
+    "Press the appropriate Slush button on your machine."
+  ]
 }
 ]
