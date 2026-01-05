@@ -1121,7 +1121,7 @@
 {
   "id": "8B5C2D9F-7A1E-4E64-93A0-6F41D2C9E875",
   "name": "Midnight Lagoon",
-  "category": "featured",
+  "category": "slush",
   "image": "https://slushiq.com/public/images/midnightlagoon.jpg",
   "volume": "44oz (1.3L)",
   "abv": "6% ABV",
@@ -1157,7 +1157,7 @@
 {
   "id": "C7A6E5B9-1D2F-48A4-90C3-8F4B625D79E1",
   "name": "Blue Crush Margarita",
-  "category": "featured",
+  "category": "slush",
   "image": "https://slushiq.com/public/images/bluecrushmargarita.jpg",
   "volume": "64oz (2.1L)",
   "abv": "8% ABV",
@@ -1335,7 +1335,7 @@
 {
   "id": "6C1F9A2E-8D7B-45A3-90E4-5F2C7B96D814",
   "name": "Sex on the Beach",
-  "category": "featured",
+  "category": "slush",
   "image": "https://slushiq.com/public/images/sexonthebeach.jpg",
   "volume": "64oz (1.9L)",
   "abv": "8% ABV",
@@ -1515,7 +1515,7 @@
 {
   "id": "2A7E1B5A-9D64-4F38-8A90-D6EFC5F21479",
   "name": "Brixley's Classic Mango Margarita",
-  "category": "featured",
+  "category": "slush",
   "image": "https://slushiq.com/public/images/mangomargarita.jpg",
   "ingredients": [
       "1¼ cups Tequila (300ml)",
@@ -1730,7 +1730,7 @@
 {
   "id": "9B6F4C28-3E75-4A19-8F6D-71A0C5D9E243",
   "name": "Brixley’s Eggnog Delight",
-  "category": "featured",
+  "category": "seasonal",
   "image": "https://slushiq.com/public/images/eggnogdelight.jpg",
   "variants": {
     "alcoholic": {
