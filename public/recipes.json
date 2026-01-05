@@ -1635,36 +1635,6 @@
   ]
 },
 {
-  "id": "5D7E3A1C-92F6-4C84-B0E5-6F1A9C8D234B",
-  "name": "Brixley’s Velvet Shake",
-  "category": "featured",
-  "image": "https://slushiq.com/public/images/velvetshake.jpg",
-  "variants": {
-    "alcoholic": {
-      "ingredients": [
-        "4 cups Strawberry Milk (960ml)",
-        "1 cup Sweetened Condensed Milk (240ml)",
-        "1½ cups Whipped Topping (360ml)",
-        "1 cup Milk (240ml)",
-        "½ cup Vodka (120ml)"
-      ]
-    },
-    "nonAlcoholic": {
-      "ingredients": [
-        "4½ cups Strawberry Milk (1080ml)",
-        "1 cup Sweetened Condensed Milk (240ml)",
-        "1½ cups Whipped Topping (360ml)",
-        "1 cup Milk (240ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the appropriate Slush button on your machine."
-  ]
-},
-{
   "id": "C3F94E12-8B65-4E0D-9A71-5D2F7C81A6B9",
   "name": "Brixley’s Velvet Slush",
   "category": "featured",
