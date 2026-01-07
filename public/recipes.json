@@ -1847,5 +1847,211 @@
     "Pour into your machine.",
     "Press the appropriate Slush button on your machine."
   ]
-}
+},
+  {
+    "id": "5F2A3B1C-E4D5-4A6B-8C7D-9E0F1A2B3C4D",
+    "name": "Apple Peanut Butter Slush",
+    "category": "classics",
+    "image": "https://slushiq.com/public/images/applepeanutbutter.jpg",
+    "difficulty": "Easy",
+    "variants": {
+      "nonAlcoholic": {
+        "ingredients": [
+          "5½ cups Apple Cider (1,320ml)",
+          "¾ cup Peanut Butter Syrup (180ml)",
+          "¾ cup Simple Syrup (180ml)",
+          "½ cup Water (120ml)"
+        ]
+      },
+      "alcoholic": {
+        "ingredients": [
+          "1 cup Crown Royal Apple (240ml)",
+          "1 cup Peanut Butter Whiskey (240ml)",
+          "5 cups Apple Cider (1.2L)",
+          "¾ cup 2:1 Simple Syrup (180ml)",
+          "½ cup Water (120ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Slush or Spiked Slush button."
+    ]
+  },
+  {
+    "id": "A1B2C3D4-E5F6-4A7B-8C9D-0E1F2A3B4C5D",
+    "name": "Brixley's Island Apple Slush",
+    "category": "classics",
+    "image": "https://slushiq.com/public/images/islandapple.jpg",
+    "difficulty": "Easy",
+    "variants": {
+      "nonAlcoholic": {
+        "ingredients": [
+          "5½ cups Apple Juice (1,080ml)",
+          "2 cups Cream of Coconut (480ml)",
+          "1 cup Water (240ml)"
+        ]
+      },
+      "alcoholic": {
+        "ingredients": [
+          "1½ cups Vodka (360ml)",
+          "4 cups Apple Juice (960ml)",
+          "1¾ cups Cream of Coconut (420ml)",
+          "1 cup Water (240ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Slush or Spiked Slush button."
+    ]
+  },
+  {
+    "id": "B2C3D4E5-F6A7-4B8C-9D0E-1F2A3B4C5D6E",
+    "name": "Pink Sunset Lemonade Slush",
+    "category": "classics",
+    "image": "https://slushiq.com/public/images/pinksunsetlemonade.jpg",
+    "difficulty": "Easy",
+    "variants": {
+      "nonAlcoholic": {
+        "ingredients": [
+          "7 cups Pink Lemonade (1.7L)",
+          "½ cup 2:1 Simple Syrup (120ml)"
+        ]
+      },
+      "alcoholic": {
+        "ingredients": [
+          "6½ cups Pink Lemonade (1.5L)",
+          "½ cup 2:1 Simple Syrup (120ml)",
+          "1½ cups Vodka (360ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Slush or Spiked Slush button."
+    ]
+  },
+  {
+    "id": "C3D4E5F6-A7B8-4C9D-0E1F-2A3B4C5D6E7F",
+    "name": "Royal Lemonade Slush",
+    "category": "classics",
+    "image": "https://slushiq.com/public/images/royallemonade.jpg",
+    "difficulty": "Easy",
+    "variants": {
+      "nonAlcoholic": {
+        "ingredients": [
+          "5 cups Lemonade (1.2L)",
+          "3 cups Citrus Soda (720ml)"
+        ]
+      },
+      "alcoholic": {
+        "ingredients": [
+          "1½ cups Blackberry Crown Royal (360ml)",
+          "5 cups Lemonade (1.2L)",
+          "1½ cups Citrus Soda (360ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Slush or Spiked Slush button."
+    ]
+  },
+  {
+    "id": "D4E5F6A7-B8C9-4D0E-1F2A-3B4C5D6E7F8A",
+    "name": "Brixley's Arnold Palmer",
+    "category": "classics",
+    "image": "https://slushiq.com/public/images/arnoldpalmer.jpg",
+    "difficulty": "Easy",
+    "variants": {
+      "nonAlcoholic": {
+        "ingredients": [
+          "3 cups Sweet Tea (720ml)",
+          "3½ cups Lemonade (840ml)",
+          "1½ cups Water (360ml)"
+        ]
+      },
+      "alcoholic": {
+        "ingredients": [
+          "1½ cups Vodka (360ml)",
+          "3 cups Sweet Tea (720ml)",
+          "4 cups Lemonade (960ml)",
+          "1 cup Water (240ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Slush or Spiked Slush button."
+    ]
+  },
+  {
+    "id": "E5F6A7B8-C9D0-4E1F-2A3B-4C5D6E7F8A9B",
+    "name": "Classic Miami Vice",
+    "category": "classics",
+    "image": "https://slushiq.com/public/images/miamivice.jpg",
+    "difficulty": "Easy",
+    "variants": {
+      "nonAlcoholic": {
+        "ingredients": [
+          "3½ cups Pineapple Juice (840ml)",
+          "3 cups Coconut Milk (720ml)",
+          "1 cup 2:1 Simple Syrup (240ml)",
+          "Add 1-2 oz Strawberry Syrup to the bottom of the cup (30-60ml)"
+        ]
+      },
+      "alcoholic": {
+        "ingredients": [
+          "2 cups Coconut Rum (480ml)",
+          "3 cups Pineapple Juice (720ml)",
+          "2½ cups Coconut Milk (600ml)",
+          "¾ cup 2:1 Simple Syrup (180ml)",
+          "Add 1-2 oz Strawberry Syrup to the bottom of the cup (30-60ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together (except Strawberry Syrup).",
+      "Pour into your machine.",
+      "Add Strawberry Syrup to the bottom of the glass and press the Slush or Spiked Slush button."
+    ]
+  },
+  {
+    "id": "F6A7B8C9-D0E1-4F2A-3B4C-5D6E7F8A9B0C",
+    "name": "Classic Bahama Mama",
+    "category": "classics",
+    "image": "https://slushiq.com/public/images/bahamamama.jpg",
+    "difficulty": "Easy",
+    "variants": {
+      "nonAlcoholic": {
+        "ingredients": [
+          "3½ cups Pineapple Juice (840ml)",
+          "2½ cups Orange Juice (600ml)",
+          "¾ cup Grenadine (180ml)",
+          "¾ cup Water (180ml)"
+        ]
+      },
+      "alcoholic": {
+        "ingredients": [
+          "¾ cup Dark Rum (180ml)",
+          "¾ cup Coconut Rum (180ml)",
+          "3 cups Pineapple Juice (720ml)",
+          "2 cups Orange Juice (480ml)",
+          "¾ cup Grenadine (180ml)",
+          "½ cup Water (120ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Slush or Spiked Slush button."
+    ]
+  }
 ]
