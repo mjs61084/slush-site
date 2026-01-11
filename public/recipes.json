@@ -2055,30 +2055,35 @@
     ]
   },
   {
-    "id": "7F3C2B6A-9E14-4C8D-A5F1-62B0E9D4A7C3",
-    "name": "Lavender Lemon Drop",
-    "category": "featured",
-    "image": "https://slushiq.com/public/images/lavenderlemondrop.jpg",
-    "difficulty": "Easy",
-    "variants": {
-      "nonAlcoholic": {
-        "ingredients": [
-          "3 cups Lemonade (720ml)",
-          "¾ cup Lavender Syrup (180ml)",
-          "½ cup fresh Lemon Juice (120ml)",
-          "2 cups Citrus Soda (480ml)"
-        ]
-      },
-      "alcoholic": {
-        "ingredients": [
-          "1½ cups Vodka (360ml)",
-          "¾ cup Triple Sec (180ml)",
-          "2½ cups Lemonade (600ml)",
-          "½ cup Lemon Juice (120ml)",
-          "½ cup Lavender Syrup (120ml)",
-          "2 cups Water (480ml)"
-        ]
-      }
+  "id": "7F3C2B6A-9E14-4C8D-A5F1-62B0E9D4A7C3",
+  "name": "Lavender Lemon Drop",
+  "category": "featured",
+  "image": "https://slushiq.com/public/images/lavenderlemondrop.jpg",
+  "difficulty": "Easy",
+  "variants": {
+    "nonAlcoholic": {
+      "ingredients": [
+        "3 cups Lemonade (720ml)",
+        "¾ cup Lavender Syrup (180ml)",
+        "½ cup fresh Lemon Juice (120ml)",
+        "2 cups Citrus Soda (480ml)"
+      ]
+    },
+    "alcoholic": {
+      "ingredients": [
+        "1½ cups Vodka (360ml)",
+        "¾ cup Triple Sec (180ml)",
+        "2½ cups Lemonade (600ml)",
+        "½ cup Lemon Juice (120ml)",
+        "½ cup Lavender Syrup (120ml)",
+        "2 cups Water (480ml)"
+      ]
     }
+  },
+  "instructions": [
+    "Mix all ingredients together.",
+    "Pour into your machine.",
+    "Press the Slush or Spiked Slush button."
+  ]
   }
 ]
