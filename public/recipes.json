@@ -2085,5 +2085,33 @@
     "Pour into your machine.",
     "Press the Slush or Spiked Slush button."
   ]
+},
+{
+  "id": "C8D4F2A1-6B9E-4D73-9F5A-2E1B7C6A4D8F",
+  "name": "Test Low Sugar",
+  "category": "lowsugar",
+  "image": "https://slushiq.com/public/images/mangomargarita.jpg",
+  "ingredients": [
+      "4 cups Water"
+  ],
+  "instructions": [
+    "Mix all ingredients together.",
+    "Pour into your machine.",
+    "Press the appropriate Slush button on your machine."
+  ]
+},
+{
+  "id": "7F3C9A4D-1B82-4E6E-9A2F-6E4B0C1A9F3D",
+  "name": "Test Store Mixer",
+  "category": "storeMixer",
+  "image": "https://slushiq.com/public/images/mangomargarita.jpg",
+  "ingredients": [
+      "4 cups Water"
+  ],
+  "instructions": [
+    "Mix all ingredients together.",
+    "Pour into your machine.",
+    "Press the appropriate Slush button on your machine."
+  ]
   }
 ]
