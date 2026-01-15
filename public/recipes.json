@@ -2089,7 +2089,7 @@
 {
   "id": "C8D4F2A1-6B9E-4D73-9F5A-2E1B7C6A4D8F",
   "name": "Test Low Sugar",
-  "category": "lowsugar",
+  "category": "lowSugar",
   "image": "https://slushiq.com/public/images/mangomargarita.jpg",
   "ingredients": [
       "4 cups Water"
@@ -2103,7 +2103,7 @@
 {
   "id": "7F3C9A4D-1B82-4E6E-9A2F-6E4B0C1A9F3D",
   "name": "Test Store Mixer",
-  "category": "storeMixer",
+  "category": "storeMixers",
   "image": "https://slushiq.com/public/images/mangomargarita.jpg",
   "ingredients": [
       "4 cups Water"
