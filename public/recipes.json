@@ -26,6 +26,7 @@
     "difficulty": "Easy",
     "variants": {
       "nonAlcoholic": {
+      "volume": "64 oz",
         "ingredients": [
           "5¼ cups Chocolate Milk (1.25L)",
           "1¼ cups Sweetened Condensed Milk (300ml)",
@@ -33,6 +34,7 @@
         ]
       },
       "alcoholic": {
+      "volume": "64 oz",
         "ingredients": [
           "5¼ cups Chocolate Milk (1,240ml)",
           "1¼ cups Sweetened Condensed Milk (295ml)",
