@@ -51,7 +51,7 @@
   {
     "id": "7C1E9F3B-5A4D-4C8E-9B62-0F2A1D6E7C54",
     "name": "Steph's Tres Agaves Margarita",
-    "category": "classics",
+    "category": "storeMixers",
     "image": "https://slushiq.com/public/images/tresagaves.jpg",
     "difficulty": "Easy",
     "variants": {
@@ -485,7 +485,7 @@
 {
   "id": "9E7B2A6D-5F14-4C38-90D1-A8FBC65E2479",
   "name": "Rum & Cola Slush",
-  "category": "slush",
+  "category": "classics",
   "image": "https://slushiq.com/public/images/rumcolaslush.jpg",
   "variants": {
     "alcoholic": {
@@ -589,7 +589,7 @@
 {
   "id": "B9E6D3F1-0A5C-47A8-92E4-7C8F215D6B94",
   "name": "Tequila Sunrise Slush",
-  "category": "slush",
+  "category": "classics",
   "image": "https://slushiq.com/public/images/tequilasunriseslush.jpg",
   "variants": {
     "alcoholic": {
@@ -996,7 +996,7 @@
 {
   "id": "1C6F2E9A-7D4B-45A8-9E30-5C8D17BF6294",
   "name": "Mudslide",
-  "category": "milkshake",
+  "category": "classics",
   "image": "https://slushiq.com/public/images/mudslide.jpg",
   "variants": {
     "alcoholic": {
@@ -1241,7 +1241,7 @@
 {
   "id": "8F1C2E9D-7A5B-46A4-93E0-C6D4B529781F",
   "name": "Brixley's Classic Pina Colada",
-  "category": "featured",
+  "category": "classics",
   "image": "https://slushiq.com/public/images/pineappledrift.jpg",
   "variants": {
     "alcoholic": {
@@ -1272,7 +1272,7 @@
   {
   "id": "C2D6A9F4-8B1E-4E75-90A3-5F7C1B829D64",
   "name": "Easy Strawberry Daiquiri",
-  "category": "classics",
+  "category": "storeMixers",
   "image": "https://slushiq.com/public/images/classicstrawberrydaquiri.jpg",
   "variants": {
     "alcoholic": {
@@ -1300,7 +1300,7 @@
 {
   "id": "1B7E5D2A-9C6F-4A38-90E4-F82D61C5974B",
   "name": "Easy Pina Colada",
-  "category": "classics",
+  "category": "storeMixers",
   "image": "https://slushiq.com/public/images/classicpinacolada.jpg",
   "variants": {
     "alcoholic": {
@@ -1328,7 +1328,7 @@
 {
   "id": "9A6F2C8E-5D1B-47A4-93C0-E7F4B129D865",
   "name": "Lemon Drop",
-  "category": "featured",
+  "category": "classics",
   "image": "https://slushiq.com/public/images/lemondrop.jpg",
   "variants": {
     "alcoholic": {
@@ -1565,7 +1565,7 @@
 },
 {
   "id": "2C7E1A5A-9A54-4F38-8A90-D6EBC5F21479",
-  "name": "Brixley's Classic Strawberry Margarita",
+  "name": "Brixley's Strawberry Margarita",
   "category": "featured",
   "image": "https://slushiq.com/public/images/strawberrymargarita.jpg",
   "volume": "67oz (2.0L)",
@@ -1834,7 +1834,7 @@
 },
 {
   "id": "D5A91F6E-BC82-47E3-A90F-26D8C4B751E0",
-  "name": "Brixley’s Classic Orange Julius Slush",
+  "name": "Classic Orange Julius Slush",
   "category": "classics",
   "image": "https://slushiq.com/public/images/orangejulius.jpg",
   "variants": {
@@ -1869,7 +1869,7 @@
 {
   "id": "4C8F2A9D-7B6E-4A31-90C5-D8E1F6B92754",
   "name": "Butterbeer",
-  "category": "classics",
+  "category": "slush",
   "image": "https://slushiq.com/public/images/butterbeer.jpg",
   "variants": {
     "nonAlcoholic": {
@@ -1904,7 +1904,7 @@
   {
     "id": "5F2A3B1C-E4D5-4A6B-8C7D-9E0F1A2B3C4D",
     "name": "Apple Peanut Butter Slush",
-    "category": "featured",
+    "category": "seasonal",
     "image": "https://slushiq.com/public/images/applepeanutbutter.jpg",
     "difficulty": "Easy",
     "variants": {
@@ -2023,7 +2023,7 @@
   {
     "id": "D4E5F6A7-B8C9-4D0E-1F2A-3B4C5D6E7F8A",
     "name": "Brixley's Arnold Palmer",
-    "category": "featured",
+    "category": "classics",
     "image": "https://slushiq.com/public/images/arnoldpalmer.jpg",
     "variants": {
       "nonAlcoholic": {
@@ -2118,7 +2118,7 @@
   {
   "id": "7F3C2B6A-9E14-4C8D-A5F1-62B0E9D4A7C3",
   "name": "Lavender Lemon Drop",
-  "category": "featured",
+  "category": "slush",
   "image": "https://slushiq.com/public/images/lavenderlemondrop.jpg",
   "variants": {
     "nonAlcoholic": {
@@ -2152,21 +2152,6 @@
   "id": "C8D4F2A1-6B9E-4D73-9F5A-2E1B7C6A4D8F",
   "name": "Test Low Sugar",
   "category": "lowSugar",
-  "image": "https://slushiq.com/public/images/comingsoon.jpg",
-  "volume": "64 oz",
-  "ingredients": [
-      "4 cups Water"
-  ],
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the appropriate Slush button on your machine."
-  ]
-},
-{
-  "id": "7F3C9A4D-1B82-4E6E-9A2F-6E4B0C1A9F3D",
-  "name": "Test Store Mixer",
-  "category": "storeMixers",
   "image": "https://slushiq.com/public/images/comingsoon.jpg",
   "volume": "64 oz",
   "ingredients": [
