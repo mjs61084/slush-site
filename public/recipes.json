@@ -2149,21 +2149,6 @@
   ]
 },
 {
-  "id": "C8D4F2A1-6B9E-4D73-9F5A-2E1B7C6A4D8F",
-  "name": "Test Low Sugar",
-  "category": "lowSugar",
-  "image": "https://slushiq.com/public/images/comingsoon.jpg",
-  "volume": "64 oz",
-  "ingredients": [
-      "4 cups Water"
-  ],
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the appropriate Slush button on your machine."
-  ]
-},
-{
   "id": "1F3A9C2E-6B74-4D18-9A5F-2E8C7B4D91A6",
   "name": "Apple Orchard Slush",
   "category": "featured",
