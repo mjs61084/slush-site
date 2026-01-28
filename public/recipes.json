@@ -2152,7 +2152,7 @@
   "id": "1F3A9C2E-6B74-4D18-9A5F-2E8C7B4D91A6",
   "name": "Apple Orchard Slush",
   "category": "featured",
-  "image": "https://slushiq.com/public/images/appleorchard.jpeg",
+  "image": "https://slushiq.com/public/images/appleorchard.jpg",
   "variants": {
     "nonAlcoholic": {
       "volume": "64oz (1,800ml)",
@@ -2180,7 +2180,7 @@
   "id": "A7C4E91B-5F2D-48A6-9E73-0B6D1C8F5429",
   "name": "Banana Pineapple Slush",
   "category": "featured",
-  "image": "https://slushiq.com/public/images/bananapineapple.jpeg",
+  "image": "https://slushiq.com/public/images/bananapineapple.jpg",
   "variants": {
     "nonAlcoholic": {
       "volume": "64oz (1,920ml)",
@@ -2212,7 +2212,7 @@
   "id": "6D2A9F4B-C731-4E85-8A0C-5F19E7B2436D",
   "name": "Blue Lightning Slush",
   "category": "featured",
-  "image": "https://slushiq.com/public/images/bluelightning.jpeg",
+  "image": "https://slushiq.com/public/images/bluelightning.jpg",
   "variants": {
     "nonAlcoholic": {
       "volume": "64oz (1,875ml)",
@@ -2242,7 +2242,7 @@
   "id": "9C5E1A72-8D4F-4B36-AE90-7B2F64C18D5A",
   "name": "Island Sour Slush",
   "category": "featured",
-  "image": "https://slushiq.com/public/images/islandsour.jpeg",
+  "image": "https://slushiq.com/public/images/islandsour.jpg",
   "variants": {
     "nonAlcoholic": {
       "volume": "56oz (1,680ml)",
@@ -2274,7 +2274,7 @@
   "id": "E4B7D91F-2A6C-4F85-9C30-1A8E5D72B649",
   "name": "Ocean Breeze Blue Slush",
   "category": "featured",
-  "image": "https://slushiq.com/public/images/oceanbreeze.jpeg",
+  "image": "https://slushiq.com/public/images/oceanbreeze.jpg",
   "variants": {
     "nonAlcoholic": {
       "volume": "64oz (1,905ml)",
@@ -2307,7 +2307,7 @@
   "id": "3F8A6D2C-9E15-4B74-A5C1-7D490B8E26F3",
   "name": "Homemade Base Slush",
   "category": "featured",
-  "image": "https://slushiq.com/public/images/homemadebase.jpeg",
+  "image": "https://slushiq.com/public/images/homemadebase.jpg",
   "variants": {
     "nonAlcoholic": {
       "volume": "64oz (1,895ml)",
@@ -2337,7 +2337,7 @@
   "id": "B6C4A5F9-1E8D-4A73-9F20-5D7B2E6C418A",
   "name": "Cran-Citrus Slush",
   "category": "featured",
-  "image": "https://slushiq.com/public/images/crancitrus.jpeg",
+  "image": "https://slushiq.com/public/images/crancitrus.jpg",
   "variants": {
     "nonAlcoholic": {
       "volume": "56oz (1,920ml)",
@@ -2367,7 +2367,7 @@
   "id": "2E7D5C1A-8F94-4B36-A091-C6B4F3E5297D",
   "name": "Lemon Margarita",
   "category": "featured",
-  "image": "https://slushiq.com/public/images/lemonmargarita.jpeg",
+  "image": "https://slushiq.com/public/images/lemonmargarita.jpg",
   "variants": {
     "nonAlcoholic": {
       "volume": "64oz (1,905ml)",
@@ -2400,7 +2400,7 @@
   "id": "8A4E5D6F-C2B1-4F97-9A30-17D8B6C25E49",
   "name": "Mango Paradise",
   "category": "featured",
-  "image": "https://slushiq.com/public/images/mangoparadise.jpeg",
+  "image": "https://slushiq.com/public/images/mangoparadise.jpg",
   "variants": {
     "nonAlcoholic": {
       "volume": "64oz (1,900ml)",
@@ -2431,7 +2431,7 @@
   "id": "C9E7B2A4-6D51-4F83-A0C8-5D419F6E2B73",
   "name": "Classic Jack Frost Slush",
   "category": "featured",
-  "image": "https://slushiq.com/public/images/jackfrost.jpeg",
+  "image": "https://slushiq.com/public/images/jackfrost.jpg",
   "variants": {
     "nonAlcoholic": {
       "volume": "60oz (1,800ml)",
@@ -2463,7 +2463,7 @@
   "id": "5D4E7C9F-1A2B-4A86-8F30-C6EBD527419A",
   "name": "Classic Hurricane Slush",
   "category": "featured",
-  "image": "https://slushiq.com/public/images/hurricane.jpeg",
+  "image": "https://slushiq.com/public/images/hurricane.jpg",
   "variants": {
     "nonAlcoholic": {
       "volume": "50oz (1,500ml)",
@@ -2498,7 +2498,7 @@
   "id": "7B1E8D5F-4A92-4C36-A0E7-29F6D5C18B43",
   "name": "Royal Cherry Cola Slush",
   "category": "featured",
-  "image": "https://slushiq.com/public/images/royalcherry.jpeg",
+  "image": "https://slushiq.com/public/images/royalcherry.jpg",
   "variants": {
     "alcoholic": {
       "volume": "64oz (1,920ml)",
@@ -2540,7 +2540,7 @@
   "id": "E1D6C94A-5F72-4B38-A0E9-82C7F5B3461D",
   "name": "Royal Cola Slush",
   "category": "featured",
-  "image": "https://slushiq.com/public/images/royalcola.jpeg",
+  "image": "https://slushiq.com/public/images/royalcola.jpg",
   "variants": {
     "alcoholic": {
       "volume": "64oz (1,920ml)",
@@ -2561,7 +2561,7 @@
   "id": "A2F8D7E1-9C5B-4A63-8E40-6D5C3B719F24",
   "name": "Sugar Free Shirley",
   "category": "lowSugar",
-  "image": "https://slushiq.com/public/images/sugarfreeshirley.1.jpeg",
+  "image": "https://slushiq.com/public/images/sugarfreeshirley.1.jpg",
   "variants": {
     "nonAlcoholic": {
       "volume": "64oz (1,920ml)",
@@ -2589,7 +2589,7 @@
   "id": "6E4C1A7D-5B98-4F32-A0E9-82F3D5C7196B",
   "name": "Shamrock Milkshake",
   "category": "milkshake",
-  "image": "https://slushiq.com/public/images/shamrockmilkshake.jpeg",
+  "image": "https://slushiq.com/public/images/shamrockmilkshake.jpg",
   "variants": {
     "nonAlcoholic": {
       "volume": "64oz (1,926ml)",
@@ -2625,7 +2625,7 @@
   "id": "F2C7A8D9-1B5E-4A36-8E40-6D3C9F5172B4",
   "name": "Royal vanilla Cola Slush",
   "category": "featured",
-  "image": "https://slushiq.com/public/images/royalvanilla.jpeg",
+  "image": "https://slushiq.com/public/images/royalvanilla.jpg",
   "variants": {
     "alcoholic": {
       "volume": "64oz (1,920ml)",
@@ -2646,7 +2646,7 @@
   "id": "9A6E1F5C-D7B4-4B82-A309-ECF25D4817C6",
   "name": "Sugar Free Royal Cola",
   "category": "lowSugar",
-  "image": "https://slushiq.com/public/images/sugarfreeroyal.jpeg",
+  "image": "https://slushiq.com/public/images/sugarfreeroyal.jpg",
   "variants": {
     "alcoholic": {
       "volume": "64oz (1,920ml)",
