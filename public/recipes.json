@@ -2519,7 +2519,7 @@
   "id": "4C5F2E9D-8A17-4B63-A901-7D6B3CFE5284",
   "name": "Sugar Free Vanilla Royal Cola",
   "category": "lowSugar",
-  "image": "https://slushiq.com/public/images/sugarfreevanillaroyal.jpeg",
+  "image": "https://slushiq.com/public/images/sugarfreevanillaroyal.jpg",
   "variants": {
     "alcoholic": {
       "volume": "64oz (1,920ml)",
@@ -2561,7 +2561,7 @@
   "id": "A2F8D7E1-9C5B-4A63-8E40-6D5C3B719F24",
   "name": "Sugar Free Shirley",
   "category": "lowSugar",
-  "image": "https://slushiq.com/public/images/sugarfreeshirley.1.jpg",
+  "image": "https://slushiq.com/public/images/sugarfreeshirley.jpg",
   "variants": {
     "nonAlcoholic": {
       "volume": "64oz (1,920ml)",
