@@ -2,7 +2,7 @@
   {
     "id": "9F4C7B1E-6A0E-4C9A-9A3C-5F8E9D3E9F2A",
     "name": "Brixley's Classic Margarita Slush",
-    "category": "classics",
+    "category": "featured",
     "image": "https://slushiq.com/public/images/brixleysclassicmargarita.jpg",
     "volume": "65 oz (1.9 L)",
     "ingredients": [
@@ -2211,7 +2211,7 @@
 {
   "id": "6D2A9F4B-C731-4E85-8A0C-5F19E7B2436D",
   "name": "Blue Lightning Slush",
-  "category": "featured",
+  "category": "slush",
   "image": "https://slushiq.com/public/images/bluelightning.jpg",
   "variants": {
     "nonAlcoholic": {
@@ -2273,7 +2273,7 @@
 {
   "id": "E4B7D91F-2A6C-4F85-9C30-1A8E5D72B649",
   "name": "Ocean Breeze Blue Slush",
-  "category": "featured",
+  "category": "slush",
   "image": "https://slushiq.com/public/images/oceanbreeze.jpg",
   "variants": {
     "nonAlcoholic": {
@@ -2497,7 +2497,7 @@
 {
   "id": "7B1E8D5F-4A92-4C36-A0E7-29F6D5C18B43",
   "name": "Royal Cherry Cola Slush",
-  "category": "featured",
+  "category": "slush",
   "image": "https://slushiq.com/public/images/royalcherry.jpg",
   "variants": {
     "alcoholic": {
@@ -2555,7 +2555,7 @@
     "Mix all ingredients together.",
     "Pour into your machine.",
     "Press the appropriate Slush button.",
-    "Sugar-free tip: These mixes freeze better a bit warmer. If your machine has a temp setting, aim for ~30°F. If it uses bars, just bump the temperature up slightly from the standard setting."
+    "Sugar-free tip: These mixes freeze better a bit warmer. If your machine has a temp setting, aim for ~30°F. If it uses bars, bump the temperature up slightly from the standard setting."
   ]
 },
 {
@@ -2584,7 +2584,7 @@
     "Mix all ingredients together.",
     "Pour into your machine.",
     "Press the Slush button.",
-    "Sugar-free tip: These mixes freeze better a bit warmer. If your machine has a temp setting, aim for ~30°F. If it uses bars, just bump the temperature up slightly from the standard setting."
+    "Sugar-free tip: These mixes freeze better a bit warmer. If your machine has a temp setting, aim for ~30°F. If it uses bars, bump the temperature up slightly from the standard setting."
   ]
 },
 {
@@ -2626,7 +2626,7 @@
 {
   "id": "F2C7A8D9-1B5E-4A36-8E40-6D3C9F5172B4",
   "name": "Royal Vanilla Cola Slush",
-  "category": "featured",
+  "category": "slush",
   "image": "https://slushiq.com/public/images/royalvanilla.jpg",
   "variants": {
     "alcoholic": {
@@ -2663,7 +2663,7 @@
     "Mix all ingredients together.",
     "Pour into your machine.",
     "Press the appropriate Slush button.",
-    "Sugar-free tip: These mixes freeze better a bit warmer. If your machine has a temp setting, aim for ~30°F. If it uses bars, just bump the temperature up slightly from the standard setting."
+    "Sugar-free tip: These mixes freeze better a bit warmer. If your machine has a temp setting, aim for ~30°F. If it uses bars, bump the temperature up slightly from the standard setting."
   ]
 }
 ]
