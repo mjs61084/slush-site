@@ -1245,21 +1245,22 @@
   "image": "https://slushiq.com/public/images/pineappledrift.jpg",
   "variants": {
     "alcoholic": {
-    "volume": "49oz (1.4L)",
+    "volume": "64oz (1.9L)",
       "ingredients": [
         "1½ cups Malibu (360ml)",
         "2 cups pineapple juice (480ml)",
-        "2 cups coconut milk (480ml)",
-        "½ cup 2:1 simple syrup (120ml)"
+        "2 cups unsweetened coconut milk (480ml)",
+        "¾ cup 2:1 simple syrup (180ml)",
+        "1 cup Water (240ml)"
       ]
     },
     "nonAlcoholic": {
-    "volume": "53oz (1.6L)",
+    "volume": "64oz (1.9L)",
       "ingredients": [
-        "2 cups pineapple juice (480ml)",
-        "2 cups coconut milk (480ml)",
-        "2 cups Cold Water (480ml)",
-        "½ cup 2:1 simple syrup (120ml)"
+        "2½ cups pineapple juice (590ml)",
+        "2 cups unsweetened coconut milk (480ml)",
+        "1 cups Cold Water (240ml)",
+        "¾ cup 2:1 simple syrup (120ml)"
       ]
     }
   },
