@@ -2605,7 +2605,7 @@
       ]
     },
     "alcoholic": {
-      "volume": "69oz (2,045ml)",
+      "volume": "69oz (2.0L)",
       "ingredients": [
         "4 cups Milk (960ml)",
         "1½ cups Half & Half (360ml)",
@@ -2630,7 +2630,7 @@
   "image": "https://slushiq.com/public/images/royalvanilla.jpg",
   "variants": {
     "alcoholic": {
-      "volume": "64oz (1,920ml)",
+      "volume": "64oz (1.9L)",
       "ingredients": [
         "1½ cups Crown Royal Vanilla (360ml)",
         "5 cups Cola (1,200ml)",
@@ -2651,7 +2651,7 @@
   "image": "https://slushiq.com/public/images/royalcola.jpg",
   "variants": {
     "alcoholic": {
-      "volume": "64oz (1,920ml)",
+      "volume": "64oz (1.9L)",
       "ingredients": [
         "1½ cups Crown Royal (360ml)",
         "6½ cups Cola Zero (1,560ml)",
@@ -2664,6 +2664,85 @@
     "Pour into your machine.",
     "Press the appropriate Slush button.",
     "Sugar-free tip: These mixes freeze better a bit warmer. If your machine has a temp setting, aim for ~30°F. If it uses bars, bump the temperature up slightly from the standard setting."
+  ]
+},
+{
+  "id": "E6B2D94F-0A73-4C8E-87F1-5A3D9C21B604",
+  "name": "Sugar Free Classic Margarita",
+  "category": "lowSugar",
+  "image": "https://slushiq.com/public/images/sugarfreeclassicmargarita.jpg",
+  "volume": "64oz (1.8L)",
+  "ingredients": [
+    "1¾ cups Tequila (420ml)",
+    "3½ oz Sugar-Free Orange Syrup (100ml)",
+    "1½ cups Lime Juice (360ml)",
+    "7½ tbsp Powdered Allulose (95g) or ½ cup Liquid Allulose (120ml)",
+    "3¼ cups Water (780ml)"
+  ],
+  "instructions": [
+    "Mix all ingredients together.",
+    "Pour into your machine.",
+    "Press the Spiked Slush button on your machine.",
+    "Sugar-free tip: These mixes freeze better a bit warmer. If your machine has a temp setting, aim for ~27°F. If it uses bars, bump the temperature up slightly from the standard setting."
+  ]
+},
+{
+  "id": "3C8E5A1D-74F2-4B0C-9D6E-FA21B8C45790",
+  "name": "Low Sugar Classic Margarita",
+  "category": "lowSugar",
+  "image": "https://slushiq.com/public/images/lowsugarclassicmargarita.jpg",
+  "volume": "60oz (1.7L)",
+  "ingredients": [
+    "2 cups Tequila (480ml)",
+    "¾ cup Orange Liqueur (180ml)",
+    "1¾ cups Lime Juice (420ml)",
+    "7½ tbsp Powdered Allulose (95g) or ½ cup Liquid Allulose (120ml)",
+    "4 cups Water (960ml)"
+  ],
+  "instructions": [
+    "Mix all ingredients together.",
+    "Pour into your machine.",
+    "Press the Spiked Slush button on your machine.",
+    "Sugar-free tip: These mixes freeze better a bit warmer. If your machine has a temp setting, aim for ~27°F. If it uses bars, bump the temperature up slightly from the standard setting."
+  ]
+},
+{
+  "id": "A1D9F6E8-3B42-4F7A-8E5C-91C0B2D4A6EF",
+  "name": "Sugar Free Strawberry Margarita",
+  "category": "lowSugar",
+  "image": "https://slushiq.com/public/images/sugarfreestrawberrymargarita.jpg",
+  "volume": "64oz (1.8L)",
+  "ingredients": [
+    "1¾ cups Tequila (420ml)",
+    "3½ oz Sugar-Free Strawberry Syrup (100ml)",
+    "1½ cups Lime Juice (360ml)",
+    "7½ tbsp Powdered Allulose (95g) or ½ cup Liquid Allulose (120ml)",
+    "3¼ cups Water (780ml)"
+  ],
+  "instructions": [
+    "Mix all ingredients together.",
+    "Pour into your machine.",
+    "Press the Spiked Slush button on your machine.",
+    "Sugar-free tip: These mixes freeze better a bit warmer. If your machine has a temp setting, aim for ~27°F. If it uses bars, bump the temperature up slightly from the standard setting."
+  ]
+},
+{
+  "id": "7F4A9C32-1E6B-4B9A-9C21-5E8D3A0F6C44",
+  "name": "Strawberry Cream Chill",
+  "category": "slush",
+  "image": "https://slushiq.com/public/images/strawberrycreamchill.jpg",
+  "volume": "56oz (1.7L)",
+  "ingredients": [
+    "2 cups Strawberries & Cream Baileys (480ml)",
+    "2 cups Strawberry Puree (480ml)",
+    "1½ cups Whole Milk (360ml)",
+    "1 cup Water (240ml)",
+    "½ cup 2:1 Simple Syrup (120ml)"
+  ],
+  "instructions": [
+    "Mix all ingredients together.",
+    "Pour into your machine.",
+    "Press the Spiked Slush button on your machine."
   ]
 }
 ]
