@@ -2745,42 +2745,5 @@
     "Pour into your machine.",
     "Press the Spiked Slush button on your machine."
   ]
-},
-{
-  "id": "7F3B2D4A-9C81-4E6F-A2D7-5B9E1C3F8A60",
-  "name": "King Cake Inspired Slush",
-  "category": "featured",
-  "image": "https://slushiq.com/public/images/kingcake.jpg",
-  "variants": {
-    "nonAlcoholic": {
-    "volume": "68oz (2.0L)",
-      "ingredients": [
-        "5 cups White Grape Juice (1.2L)",
-        "½ cup 2:1 Brown Sugar Syrup (120ml)",
-        "3 cups Water (950ml)",
-        "½ Tsp Cinnamon",
-        "½ Tsp Almond Extract",
-        "¼ Tsp Imitation Butter Flavor"
-      ]
-    },
-    "alcoholic": {
-    "volume": "70oz (2.0L)",
-      "ingredients": [
-        "1½ cups Vanilla Vodka (360ml)",
-        "½ cup Cinnamon Schnapps (120ml)",
-        "5½ cups White Grape Juice (1.3L)",
-        "¾ cup Water (180ml)",
-        "½ cup 2:1 Brown Sugar Syrup (120ml)",
-        "½ Tsp Cinnamon",
-        "½ Tsp Almond Extract",
-        "¼ Tsp Imitation Butter Flavor"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the appropriate Slush button."
-  ]
 }
 ]
