@@ -1,6 +1,14 @@
 {
   "routes": [
     {
+      "src": "^/$",
+      "status": 302,
+      "headers": {
+        "Location": "https://www.slushiq.com"
+      }
+    },
+
+    {
       "src": "/privacy$",
       "dest": "/privacy.html"
     },
