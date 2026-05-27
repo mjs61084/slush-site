@@ -10,7 +10,7 @@
       "¼ cup Orange Liqueur (60ml)",
       "1¼ cups Lime Juice (300ml)",
       "1¼ cups 2:1 Simple Syrup (300ml)",
-      "4 cups Water"
+      "4 cups Water (960ml)"
     ],
     "instructions": [
       "Mix all ingredients together.",
@@ -25,15 +25,15 @@
     "image": "https://slushiq.com/public/images/brixleychocolateshake.jpg",
     "variants": {
       "nonAlcoholic": {
-      "volume": "64oz (1.9L)",
+        "volume": "64 oz (1.9 L)",
         "ingredients": [
-          "5½ cups Chocolate Milk (1.3L)",
+          "5½ cups Chocolate Milk (1,320ml)",
           "1¼ cups Sweetened Condensed Milk (300ml)",
           "1¼ cups Whipped Topping (300ml)"
         ]
       },
       "alcoholic": {
-      "volume": "64oz (1.9L)",
+        "volume": "64 oz (1.9 L)",
         "ingredients": [
           "4¼ cups Chocolate Milk (1,020ml)",
           "1 cup Sweetened Condensed Milk (240ml)",
@@ -46,7 +46,8 @@
       "Mix all ingredients together.",
       "Pour into your machine.",
       "Press the Milkshake button."
-    ]
+    ],
+    "volume": "64 oz (1.9 L)"
   },
   {
     "id": "7C1E9F3B-5A4D-4C8E-9B62-0F2A1D6E7C54",
@@ -56,17 +57,17 @@
     "difficulty": "Easy",
     "variants": {
       "alcoholic": {
-      "volume": "64oz (1.9L)",
+        "volume": "64 oz (1.9 L)",
         "ingredients": [
-          "5¾ cups Tres Agaves Margarita Mix (1.3L)",
+          "5¾ cups Tres Agaves Margarita Mix (1,380ml)",
           "1½ cups Tequila (360ml)",
-          "¾ cups Water (180ml)"
+          "¾ cup Water (180ml)"
         ]
       },
       "nonAlcoholic": {
-      "volume": "64oz (1.9L)",
+        "volume": "64 oz (1.9 L)",
         "ingredients": [
-          "6½ cups Tres Agaves Margarita Mix (1.5L)",
+          "6½ cups Tres Agaves Margarita Mix (1,560ml)",
           "1½ cups Water (360ml)"
         ]
       }
@@ -75,7 +76,8 @@
       "Mix all ingredients together.",
       "Pour into your machine.",
       "Press the appropriate Slush button on your machine."
-    ]
+    ],
+    "volume": "64 oz (1.9 L)"
   },
   {
     "id": "B5E8A1D9-3F6C-4C2B-9E74-6A0D1F5B8C92",
@@ -84,18 +86,18 @@
     "image": "https://slushiq.com/public/images/coconutvanilla.jpg",
     "variants": {
       "nonAlcoholic": {
-      "volume": "64oz (1.9L)",
+        "volume": "64 oz (1.9 L)",
         "ingredients": [
-          "6½ cups Cream Soda (1.5L)",
+          "6½ cups Cream Soda (1,560ml)",
           "1 cup Light Coconut Milk (240ml)",
           "1 tsp Vanilla Extract (5ml)",
           "½ cup 2:1 Simple Syrup (120ml)"
         ]
       },
       "alcoholic": {
-      "volume": "64oz (1.9L)",
+        "volume": "64 oz (1.9 L)",
         "ingredients": [
-          "5½ cups Cream Soda (1.3L)",
+          "5½ cups Cream Soda (1,320ml)",
           "1 cup Light Coconut Milk (240ml)",
           "1¼ cups Vodka (300ml)",
           "1 tsp Vanilla Extract (5ml)",
@@ -107,7 +109,8 @@
       "Mix all ingredients together.",
       "Pour into your machine.",
       "Press the Slush button."
-    ]
+    ],
+    "volume": "64 oz (1.9 L)"
   },
   {
     "id": "4F9A0E6B-7D2C-41E8-9B53-5A1D3F6C2E90",
@@ -116,10 +119,10 @@
     "image": "https://slushiq.com/public/images/bloodorangemarg.jpg",
     "variants": {
       "alcoholic": {
-      "volume": "64oz (1.9L)",
+        "volume": "64 oz (1.9 L)",
         "ingredients": [
           "1¾ cups Orange Juice (420ml)",
-          "1 cup Tequila Blanco (300ml)",
+          "1 cup Tequila Blanco (240ml)",
           "¾ cup Triple Sec (180ml)",
           "1 cup Lime Juice (240ml)",
           "2¾ cups Water (660ml)",
@@ -127,7 +130,7 @@
         ]
       },
       "nonAlcoholic": {
-      "volume": "64oz (1.9L)",
+        "volume": "64 oz (1.9 L)",
         "ingredients": [
           "2¼ cups Orange Juice (540ml)",
           "1 cup Lime Juice (240ml)",
@@ -140,7 +143,8 @@
       "Mix all ingredients together.",
       "Pour into your machine.",
       "Press the appropriate Slush button on your machine."
-    ]
+    ],
+    "volume": "64 oz (1.9 L)"
   },
   {
     "id": "C3D5F7A9-1B2E-4E68-9A4C-8D0F5B1E7264",
@@ -149,21 +153,21 @@
     "image": "https://slushiq.com/public/images/strawberrygincolada.jpg",
     "variants": {
       "alcoholic": {
-      "volume": "64oz (1.9L)",
+        "volume": "64 oz (1.9 L)",
         "ingredients": [
           "1½ cups Gin (360ml)",
           "2½ cups Piña Colada Mix (600ml)",
           "¾ cup Strawberry Purée (180ml)",
-          "1¼ cup Lemon Juice (480ml)",
+          "1¼ cups Lemon Juice (300ml)",
           "2 cups Water (480ml)"
         ]
       },
       "nonAlcoholic": {
-      "volume": "64oz (1.9L)",
+        "volume": "64 oz (1.9 L)",
         "ingredients": [
           "2½ cups Piña Colada Mix (600ml)",
           "¾ cup Strawberry Purée (180ml)",
-          "1¼ cup Lemon Juice (300ml)",
+          "1¼ cups Lemon Juice (300ml)",
           "3½ cups Water (840ml)"
         ]
       }
@@ -172,7 +176,8 @@
       "Mix all ingredients together.",
       "Pour into your machine.",
       "Press the appropriate Slush button on your machine."
-    ]
+    ],
+    "volume": "64 oz (1.9 L)"
   },
   {
     "id": "E7A9B4D2-5C6F-48E1-9A30-1D8F2B6C7E54",
@@ -181,24 +186,24 @@
     "image": "https://slushiq.com/public/images/cranapplegin.jpg",
     "variants": {
       "alcoholic": {
-      "volume": "53oz (1.6L)",
+        "volume": "64 oz (1.9 L)",
         "ingredients": [
-          "1¼ cups Gin (300ml)",
-          "1½ cups Cranberry Juice (360ml)",
-          "1½ cups Apple Juice (360ml)",
-          "1 cup Lime Juice (240ml)",
-          "1 cup 2:1 Simple Syrup (240ml)",
+          "1½ cups Gin (360ml)",
+          "1¾ cups Cranberry Juice (420ml)",
+          "1¾ cups Apple Juice (420ml)",
+          "1¼ cups Lime Juice (300ml)",
+          "1¼ cups 2:1 Simple Syrup (300ml)",
           "¼ cup Water (60ml)"
         ]
       },
       "nonAlcoholic": {
-      "volume": "63oz (1.9L)",
+        "volume": "64 oz (1.9 L)",
         "ingredients": [
           "1½ cups Cranberry Juice (360ml)",
           "1½ cups Apple Juice (360ml)",
           "1 cup Lime Juice (240ml)",
           "1 cup 2:1 Simple Syrup (240ml)",
-          "2¾ cup Water (660ml)"
+          "2¾ cups Water (660ml)"
         ]
       }
     },
@@ -206,7 +211,8 @@
       "Mix all ingredients together.",
       "Pour into your machine.",
       "Press the appropriate Slush button on your machine."
-    ]
+    ],
+    "volume": "64 oz (1.9 L)"
   },
   {
     "id": "1F8D5A9E-6B3C-4E72-9A0F-C5D2B7E16439",
@@ -215,22 +221,22 @@
     "image": "https://slushiq.com/public/images/strawberryapplegin.jpg",
     "variants": {
       "alcoholic": {
-      "volume": "57oz (1.7L)",
+        "volume": "64 oz (1.9 L)",
         "ingredients": [
-          "1¼ cups Gin (300ml)",
+          "1½ cups Gin (360ml)",
           "¾ cup Strawberry Purée (180ml)",
-          "1 cup Apple Juice (240ml)",
-          "1 cup Lemon Juice (240ml)",
-          "3 cups Water (720ml)"
+          "1¼ cups Apple Juice (300ml)",
+          "1¼ cups Lemon Juice (300ml)",
+          "3½ cups Water (840ml)"
         ]
       },
       "nonAlcoholic": {
-      "volume": "49oz (1.4L)",
+        "volume": "64 oz (1.9 L)",
         "ingredients": [
-          "¾ cup Strawberry Purée (180ml)",
-          "1 cup Apple Juice (240ml)",
-          "1 cup Lemon Juice (240ml)",
-          "3¼ cups Water (780ml)"
+          "1 cup Strawberry Purée (240ml)",
+          "1¼ cups Apple Juice (300ml)",
+          "1¼ cups Lemon Juice (300ml)",
+          "4¼ cups Water (1,020ml)"
         ]
       }
     },
@@ -238,7 +244,8 @@
       "Mix all ingredients together.",
       "Pour into your machine.",
       "Press the appropriate Slush button on your machine."
-    ]
+    ],
+    "volume": "64 oz (1.9 L)"
   },
   {
     "id": "A6C9E1F5-7D2B-4A38-9E54-0F8B1D6C9273",
@@ -247,20 +254,20 @@
     "image": "https://slushiq.com/public/images/candycanecocoaslush.jpg",
     "variants": {
       "nonAlcoholic": {
-      "volume": "72oz (2.1L)",
+        "volume": "64 oz (1.9 L)",
         "ingredients": [
-          "6½ cups Peppermint Hot Cocoa prepared and cooled (1.55L)",
+          "6¼ cups Peppermint Hot Cocoa prepared and cooled (1,500ml)",
           "1½ cups Milk (360ml)",
-          "2oz Simple Syrup (60ml)"
+          "¼ cup Simple Syrup (60ml)"
         ]
       },
       "alcoholic": {
-      "volume": "67oz (2.0L)",
+        "volume": "64 oz (1.9 L)",
         "ingredients": [
-          "6 cups Peppermint Hot Cocoa prepared and cooled (1.4L)",
-          "1½ cups Milk (360ml)",
-          "1¼ cups Vodka (300ml)",
-          "2oz Simple Syrup (60ml)"
+          "5¼ cups Peppermint Hot Cocoa prepared and cooled (1,260ml)",
+          "1¼ cups Milk (300ml)",
+          "1 cup Vodka (240ml)",
+          "¼ cup Simple Syrup (60ml)"
         ]
       }
     },
@@ -268,7 +275,8 @@
       "Mix all ingredients together.",
       "Pour into your machine.",
       "Press the Slush button."
-    ]
+    ],
+    "volume": "64 oz (1.9 L)"
   },
   {
     "id": "5B9D0A8F-1C6E-4E73-92F4-A7D3B1C865E9",
@@ -277,22 +285,22 @@
     "image": "https://slushiq.com/public/images/pineappleholidaypunch.jpg",
     "variants": {
       "nonAlcoholic": {
-      "volume": "84oz (2.5L)",
+        "volume": "64 oz (1.9 L)",
         "ingredients": [
-          "5¾ cups Pineapple Juice (1.4L)",
-          "2¾ cups Orange Juice (660ml)",
-          "3 oz Grenadine (90ml)",
-          "2 cups Water (480ml)"
+          "4¼ cups Pineapple Juice (1,020ml)",
+          "2 cups Orange Juice (480ml)",
+          "¼ cup Grenadine (60ml)",
+          "1½ cups Water (360ml)"
         ]
       },
       "alcoholic": {
-      "volume": "89oz (2.6L)",
+        "volume": "64 oz (1.9 L)",
         "ingredients": [
-          "5 cups Pineapple Juice (1.2L)",
-          "2½ cups Orange Juice (600ml)",
-          "3 oz Grenadine (90ml)",
-          "1¼ cups Vodka (300ml)",
-          "1¼ cups Cold Water (300ml)"
+          "3¾ cups Pineapple Juice (900ml)",
+          "2 cups Orange Juice (480ml)",
+          "¼ cup Grenadine (60ml)",
+          "1 cup Vodka (240ml)",
+          "1 cup Cold Water (240ml)"
         ]
       }
     },
@@ -300,7 +308,8 @@
       "Mix all ingredients together.",
       "Pour into your machine.",
       "Press the Slush button."
-    ]
+    ],
+    "volume": "64 oz (1.9 L)"
   },
   {
     "id": "8C2A9E4F-6D1B-4E75-9A30-F5B7C2D68194",
@@ -309,7 +318,7 @@
     "image": "https://slushiq.com/public/images/northpoleexpress.jpg",
     "variants": {
       "alcoholic": {
-      "volume": "65oz (1.9L)",
+        "volume": "64 oz (1.9 L)",
         "ingredients": [
           "1½ cups Vodka (360ml)",
           "3½ cups Lemonade (840ml)",
@@ -318,7 +327,7 @@
         ]
       },
       "nonAlcoholic": {
-      "volume": "65oz (1.9L)",
+        "volume": "64 oz (1.9 L)",
         "ingredients": [
           "3½ cups Lemonade (840ml)",
           "¾ cup Blue Raspberry Syrup (180ml)",
@@ -330,1174 +339,1211 @@
       "Mix all ingredients together.",
       "Pour into your machine.",
       "Press the appropriate Slush button on your machine."
-    ]
+    ],
+    "volume": "64 oz (1.9 L)"
   },
   {
-  "id": "3F6C9A5D-2B8E-4A71-9D40-1E7FBC528A96",
-  "name": "Tropical Mango Slush",
-  "category": "slush",
-  "image": "https://slushiq.com/public/images/tropicalmangoslush.jpg",
-  "variants": {
-    "nonAlcoholic": {
-    "volume": "81oz (2.4L)",
-      "ingredients": [
-        "6 cups Mango Nectar (1.4L)",
-        "3 cups Pineapple Juice (720ml)",
-        "3 oz Lime Juice (90ml)",
-        "¾ cup Water (180ml)"
-      ]
-    },
-    "alcoholic": {
-    "volume": "83oz (2.5L)",
-      "ingredients": [
-        "5½ cups Mango Nectar (1.3L)",
-        "2¾ cups Pineapple Juice (660ml)",
-        "3 oz Lime Juice (90ml)",
-        "1¼ cups Vodka (300 ml)",
-        "½ cup Water (120ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the Slush button."
-  ]
-},
-{
-  "id": "D7A4E9B6-2F3C-48A5-9C10-6B8D1E5F7294",
-  "name": "Cherry Cola Slush",
-  "category": "slush",
-  "image": "https://slushiq.com/public/images/cherrycolaslush.jpg",
-  "variants": {
-    "nonAlcoholic": {
-    "volume": "79oz (2.3L)",
-      "ingredients": [
-        "8¼ cups Cola (2L)",
-        "1¼ cups Cherry Syrup (300ml)"
-      ]
-    },
-    "alcoholic": {
-    "volume": "78oz (2.3L)",
-      "ingredients": [
-        "7 cups Cola (1.6L)",
-        "1¼ cups Cherry Syrup (300ml)",
-        "1¼ cups Vodka (300 ml)",
-        "½ cup Water (120 ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the Slush button."
-  ]
-},
-{
-  "id": "0E5C7D2B-9A6F-4E38-91F4-A8C6B3D572E9",
-  "name": "Orange Cream Slush",
-  "category": "slush",
-  "image": "https://slushiq.com/public/images/creamyorangeslush.jpg",
-  "variants": {
-    "nonAlcoholic": {
-    "volume": "68oz (2.0L)",
-      "ingredients": [
-        "5 cups Orange Soda (1.2L)",
-        "2½ cups Whole Milk (600ml)",
-        "4 oz 2:1 Simple Syrup (120ml)"
-      ]
-    },
-    "alcoholic": {
-    "volume": "65oz (1.9L)",
-      "ingredients": [
-        "4½ cups Orange Soda (1.0L)",
-        "2½ cups Whole Milk (600ml)",
-        "1¼ cups Vodka — plain or vanilla (300 ml)",
-        "4 oz 2:1 Simple Syrup (120ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the Slush button."
-  ]
-},
-{
-  "id": "A1D8F9C4-6E7B-4A52-9B30-5C2F0D9E7816",
-  "name": "Strawberry Lemonade Slush",
-  "category": "slush",
-  "image": "https://slushiq.com/public/images/strawberrylemonadeslush.jpg",
-  "variants": {
-    "nonAlcoholic": {
-    "volume": "70oz (2.1L)",
-      "ingredients": [
-        "6½ cups Strawberry Lemonade (1.55L)",
-        "1½ cups Water (360ml)",
-        "5 oz 2:1 Simple Syrup (150ml)"
-      ]
-    },
-    "alcoholic": {
-    "volume": "69oz (2.1L)",
-      "ingredients": [
-        "5¾ cups Strawberry Lemonade (1.3L)",
-        "1¼ cups Water (300ml)",
-        "1¼ cups Vodka (300 ml)",
-        "5 oz 2:1 Simple Syrup (150ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the Slush button."
-  ]
-},
-{
-  "id": "6B4E9C0D-5A1F-4728-9E63-8D2C7BFA5194",
-  "name": "Root Beer Float Slush",
-  "category": "slush",
-  "image": "https://slushiq.com/public/images/rootbeerfloatslush.jpg",
-  "variants": {
-    "nonAlcoholic": {
-    "volume": "74oz (2.2L)",
-      "ingredients": [
-        "7½ cups Root Beer (1.75L)",
-        "1½ cups Milk (360ml)"
-      ]
-    },
-    "alcoholic": {
-    "volume": "71oz (2.1L)",
-      "ingredients": [
-        "6½ cups Root Beer (1.5L)",
-        "1½ cups Milk (360ml)",
-        "1¼ cups Vodka — plain or vanilla (300 ml)",
-        "¼ cup Water (60 ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the Slush button."
-  ]
-},
-{
-  "id": "9E7B2A6D-5F14-4C38-90D1-A8FBC65E2479",
-  "name": "Rum & Cola Slush",
-  "category": "classics",
-  "image": "https://slushiq.com/public/images/rumcolaslush.jpg",
-  "variants": {
-    "alcoholic": {
-    "volume": "83oz (2.4L)",
-      "ingredients": [
-        "8 cups Cola (1.9L)",
-        "1 cup White Rum (300ml)",
-        "1 cup Water (240ml)"
-      ]
-    },
-    "nonAlcoholic": {
-    "volume": "64oz (1.9L)",
-      "ingredients": [
-        "7 cups Cola (1.6L)",
-        "1¼ cups Cold Water (300 ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the appropriate Slush button on your machine."
-  ]
-},
-{
-  "id": "F5D9A2C1-8E4B-4760-9A3D-6C7E0B215948",
-  "name": "Vodka Lemonade Slush",
-  "category": "slush",
-  "image": "https://slushiq.com/public/images/vodkalemonadeslush.jpg",
-  "variants": {
-    "alcoholic": {
-    "volume": "65oz (1.9L)",
-      "ingredients": [
-        "5¼ cups Lemonade (1.25L)",
-        "1½ cups Vodka (360ml)",
-        "3½ oz 2:1 Syrup (105ml)",
-        "6½ oz Water (195ml)"
-      ]
-    },
-    "nonAlcoholic": {
-    "volume": "64oz (1.9L)",
-      "ingredients": [
-        "5¼ cups Lemonade (1.25L)",
-        "3½ oz 2:1 Syrup (105ml)",
-        "2¼ cups Water (540ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the appropriate Slush button on your machine."
-  ]
-},
-{
-  "id": "2C7E1B5A-9D64-4F38-8A90-D6EBC5F21479",
-  "name": "Frosé",
-  "category": "slush",
-  "image": "https://slushiq.com/public/images/frose.jpg",
-  "volume": "70oz (2.1L)",
-  "ingredients": [
-    "5¾ cups Sweet Rosé Wine (1.35L)",
-    "1¼ cups Strawberry Syrup (300ml)",
-    "1¾ cups Water (420ml)"
-  ],
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the appropriate Slush button on your machine."
-  ]
-},
-{
-  "id": "2D9C1F6A-7E8B-4A35-90C4-5B2E8F7D1694",
-  "name": "Whiskey Ginger Slush",
-  "category": "slush",
-  "image": "https://slushiq.com/public/images/whiskeygingerslush.jpg",
-  "variants": {
-    "alcoholic": {
-    "volume": "75oz (2.2L)",
-      "ingredients": [
-        "8 cups Ginger Ale (1.9L)",
-        "1 cup Whiskey (240ml)",
-        "3 oz 2:1 Simple Syrup (90ml)"
-      ]
-    },
-    "nonAlcoholic": {
-    "volume": "69oz (2.0L)",
-      "ingredients": [
-        "7 cups Ginger Ale (1.65 L)",
-        "1¼ cups Cold Water (300 ml)",
-        "3 oz 2:1 Simple Syrup (90ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the appropriate Slush button on your machine."
-  ]
-},
-{
-  "id": "B9E6D3F1-0A5C-47A8-92E4-7C8F215D6B94",
-  "name": "Tequila Sunrise Slush",
-  "category": "classics",
-  "image": "https://slushiq.com/public/images/tequilasunriseslush.jpg",
-  "variants": {
-    "alcoholic": {
-    "volume": "66oz (2.0L)",
-      "ingredients": [
-        "6½ cups Orange Juice (1.5L)",
-        "1 cup Tequila (240ml)",
-        "3 oz Grenadine (90ml)",
-        "½ cup Water (120ml)"
-      ]
-    },
-    "nonAlcoholic": {
-    "volume": "66oz (2.0L)",
-      "ingredients": [
-        "6½ cups Orange Juice (1.5L)",
-        "3 oz Grenadine (90ml)",
-        "1½ cup Water (360ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the appropriate Slush button on your machine."
-  ]
-},
-  {
-  "id": "14E9B7C2-5A8D-4F63-9C01-B6A2D8E9475F",
-  "name": "Sangria Slush",
-  "category": "slush",
-  "image": "https://slushiq.com/public/images/sangriaslush.jpg",
-  "volume": "70oz (2.1L)",
-  "ingredients": [
-    "5 cups Sweet Red Wine (1.2L)",
-    "1¼ cups Orange Juice (300ml)",
-    "3 oz 2:1 Simple Syrup (90ml)",
-    "2 cups Water (480ml)"
-  ],
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the appropriate Slush button on your machine."
-  ]
-},
-{
-  "id": "7A5C2E9F-1D4B-4863-9E08-CF6A2B75D419",
-  "name": "Peach Bellini Slush",
-  "category": "slush",
-  "image": "https://slushiq.com/public/images/peachbellini.jpg",
-  "variants": {
-    "alcoholic": {
-    "volume": "73oz (2.2L)",
-      "ingredients": [
-        "5½ cups Peach Nectar (1.3L)",
-        "3 cups Dry Sparkling Wine (720ml)",
-        "5 oz 2:1 Simple Syrup (150ml)"
-      ]
-    },
-    "nonAlcoholic": {
-    "volume": "63oz (1.9L)",
-      "ingredients": [
-        "5½ cups Peach Nectar (1.3L)",
-        "1¾ cups Water (420ml)",
-        "5 oz 2:1 Simple Syrup (150ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the Slush button."
-  ]
-},
-{
-  "id": "C8F4E9A6-2B7D-4A35-9D10-51EBC267F894",
-  "name": "Mocha Frappe",
-  "category": "frappe",
-  "image": "https://slushiq.com/public/images/mochafrappe.jpg",
-  "variants": {
-    "alcoholic": {
-    "volume": "69oz (2.1L)",
-      "ingredients": [
-        "4½ cups Cold Brew Coffee (1.0L)",
-        "2¾ cups Chocolate Milk (660ml)",
-        "1 cup Vodka — plain or vanilla (240ml)",
-        "5 oz 2:1 Simple Syrup (150ml)"
-      ]
-    },
-    "nonAlcoholic": {
-    "volume": "68oz (2.0L)",
-      "ingredients": [
-        "5 cups Cold Brew Coffee (1.2L)",
-        "2¾ cups Chocolate Milk (660ml)",
-        "5 oz 2:1 Simple Syrup (150ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the Frappe button."
-  ]
-},
-{
-  "id": "0B7E9C2A-6F1D-4E85-9A34-5C8F2146D97B",
-  "name": "Vanilla Latte Frappe",
-  "category": "frappe",
-  "image": "https://slushiq.com/public/images/vanillalattefrappe.jpg",
-  "variants": {
-    "nonAlcoholic": {
-    "volume": "68oz (2.0L)",
-      "ingredients": [
-        "5 cups Cold Brew Coffee (1.2L)",
-        "2¾ cups Milk (660ml)",
-        "5 oz Vanilla Syrup (150ml)"
-      ]
-    },
-    "alcoholic": {
-    "volume": "69oz (2.1L)",
-      "ingredients": [
-        "4½ cups Cold Brew Coffee (1.0L)",
-        "2¾ cups Milk (660ml)",
-        "1 cup Vodka — plain or vanilla (240 ml)",
-        "5 oz Vanilla Syrup (150ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the Frappe button."
-  ]
-},
-{
-  "id": "A5D7E1C9-8F4B-4726-90E3-2B6C9F14A8D5",
-  "name": "Caramel Coffee Frappe",
-  "category": "frappe",
-  "image": "https://slushiq.com/public/images/carmelcoffeefrappe.jpg",
-  "variants": {
-    "nonAlcoholic": {
-    "volume": "68oz (2.0L)",
-      "ingredients": [
-        "5 cups Cold Brew Coffee (1.2L)",
-        "2¾ cups Milk (660ml)",
-        "5 oz Caramel Syrup (150ml)"
-      ]
-    },
-    "alcoholic": {
-    "volume": "69oz (2.1L)",
-      "ingredients": [
-        "4½ cups Cold Brew Coffee (1.0L)",
-        "2¾ cups Milk (660ml)",
-        "1 cup Vodka — plain or vanilla (240 ml)",
-        "5 oz Caramel Syrup (150ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the Frappe button."
-  ]
-},
-{
-  "id": "9F2E6B8D-4C5A-4713-9D01-7AFC5E216B94",
-  "name": "Hazelnut Mocha Frappe",
-  "category": "frappe",
-  "image": "https://slushiq.com/public/images/hazelnutmochafrappe.jpg",
-  "variants": {
-    "nonAlcoholic": {
-    "volume": "68oz (2.0L)",
-      "ingredients": [
-        "5 cups Cold Brew Coffee (1.2L)",
-        "2¾ cups Chocolate Milk (660ml)",
-        "5 oz Hazelnut Syrup (150ml)"
-      ]
-    },
-    "alcoholic": {
-    "volume": "69oz (2.1L)",
-      "ingredients": [
-        "4½ cups Cold Brew Coffee (1.0L)",
-        "2¾ cups Chocolate Milk (660ml)",
-        "1 cup Vodka — plain or vanilla (240 ml)",
-        "5 oz Hazelnut Syrup (150ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the Frappe button."
-  ]
-},
-{
-  "id": "3E8F7A1C-9D2B-4564-A0C5-6E4BFD927815",
-  "name": "Coconut Vanilla Frappe",
-  "category": "frappe",
-  "image": "https://slushiq.com/public/images/coconutvanilla.jpg",
-  "variants": {
-    "nonAlcoholic": {
-    "volume": "61oz (1.8L)",
-      "ingredients": [
-        "4½ cups Cold Brew Coffee (1.0L)",
-        "2¾ cups Coconut Milk (660ml)",
-        "5 oz Vanilla Syrup (150ml)"
-      ]
-    },
-    "alcoholic": {
-    "volume": "69oz (2.1L)",
-      "ingredients": [
-        "4½ cups Cold Brew Coffee (1.0L)",
-        "2¾ cups Coconut Milk (660ml)",
-        "1 cup Vodka — plain or vanilla (240 ml)",
-        "5 oz Vanilla Syrup (150ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the Frappe button."
-  ]
-},
-{
-  "id": "6C9D4A7E-1F52-48B3-90E6-5A2BC8D79F14",
-  "name": "White Chocolate Frappe",
-  "category": "frappe",
-  "image": "https://slushiq.com/public/images/whitechocolatefrappe.jpg",
-  "variants": {
-    "nonAlcoholic": {
-    "volume": "69oz (2.1L)",
-      "ingredients": [
-        "5 cups Cold Brew Coffee (1.2L)",
-        "2¾ cups Milk (660ml)",
-        "5 oz White Chocolate Syrup (150ml)"
-      ]
-    },
-    "alcoholic": {
-    "volume": "68oz (2.0L)",
-      "ingredients": [
-        "4½ cups Cold Brew Coffee (1.0L)",
-        "2¾ cups Milk (660ml)",
-        "1 cup Vodka — plain or vanilla (240 ml)",
-        "5 oz White Chocolate Syrup (150ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the Frappe button."
-  ]
-},
-{
-  "id": "F7C8E6D1-2B4A-4935-9E50-A8D1B6C27F94",
-  "name": "Classic Vanilla Shake",
-  "category": "milkshake",
-  "image": "https://slushiq.com/public/images/classicvanillamilkshake.jpg",
-  "variants": {
-    "nonAlcoholic": {
-    "volume": "64oz (1.9L)",
-      "ingredients": [
-        "5½ cups Whole Milk (1.3L)",
-        "1¼ cups Vanilla Syrup (300ml)",
-        "1¼ cups Whipped Topping (300ml)"
-      ]
-    },
-    "alcoholic": {
-    "volume": "69oz (2.0L)",
-      "ingredients": [
-        "5 cups Whole Milk (1.2L)",
-        "1¼ cups Vanilla Syrup (300ml)",
-        "1¼ cups Whipped Topping (300ml)",
-        "1 cup Vodka — plain or vanilla (240ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the Milkshake button."
-  ]
-},
-{
-  "id": "2D1A9F8E-7C6B-45A4-93E0-BFC6D8257149",
-  "name": "Brixley's Strawberry Milkshake",
-  "category": "milkshake",
-  "image": "https://slushiq.com/public/images/strawberrymilkshake.jpg",
-  "variants": {
-    "nonAlcoholic": {
-    "volume": "69oz (2.0L)",
-      "ingredients": [
-        "5¼ cups Strawberry Milk (1.25L)",
-        "1¼ cups Sweetened Condensed Milk (300ml)",
-        "1¼ cups Whipped Topping (300ml)"
-      ]
-    },
-    "alcoholic": {
-    "volume": "63oz (1.9L)",
-      "ingredients": [
-        "5 cups Strawberry Milk (1.2L)",
-        "1¼ cups Sweetened Condensed Milk (300ml)",
-        "1¼ cups Whipped Topping (300ml)",
-        "1 cup Vodka — plain or vanilla (240ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the Milkshake button."
-  ]
-},
-{
-  "id": "A9C1E4D7-5B6F-4E28-93A0-7D2F8C5B6149",
-  "name": "Peanut Butter Cup Shake",
-  "category": "milkshake",
-  "image": "https://slushiq.com/public/images/peanutbuttermilkshake.jpg",
-  "variants": {
-    "nonAlcoholic": {
-    "volume": "60oz (1.8L)",
-      "ingredients": [
-        "5½ cups Chocolate Milk (1.3L)",
-        "¾ cup Peanut Butter Syrup (180ml)",
-        "1¼ cups Whipped Topping (300ml)"
-      ]
-    },
-    "alcoholic": {
-    "volume": "65oz (1.9L)",
-      "ingredients": [
-        "5 cups Chocolate Milk (1.2L)",
-        "¾ cup Peanut Butter Syrup (180ml)",
-        "1¼ cups Whipped Topping (300ml)",
-        "1 cup Vodka — plain or vanilla (240ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the Milkshake button."
-  ]
-},
-{
-  "id": "4E7D9A2B-6F1C-48A5-9E03-B8D5C214F976",
-  "name": "Banana Cream Shake",
-  "category": "milkshake",
-  "image": "https://slushiq.com/public/images/bananamilkshake.jpg",
-  "variants": {
-    "nonAlcoholic": {
-    "volume": "65oz (1.9L)",
-      "ingredients": [
-        "5½ cups Banana Milk (1.3L)",
-        "¾ cup Vanilla Syrup (180ml)",
-        "1¼ cups Whipped Topping (300ml)"
-      ]
-    },
-    "alcoholic": {
-    "volume": "60oz (1.8L)",
-      "ingredients": [
-        "5 cups Banana Milk (1.2L)",
-        "¾ cup Vanilla Syrup (180ml)",
-        "1¼ cups Whipped Topping (300ml)",
-        "1 cup Vodka — plain or vanilla (240ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the Milkshake button."
-  ]
-},
- {
-  "id": "D5B8C1A9-7E2F-4A64-90E3-6F42D9C7815A",
-  "name": "Caramel Swirl Shake",
-  "category": "milkshake",
-  "image": "https://slushiq.com/public/images/carmelswirlmilkshake.jpg",
-  "variants": {
-    "nonAlcoholic": {
-    "volume": "65oz (1.9L)",
-      "ingredients": [
-        "5½ cups Whole Milk (1.3L)",
-        "¾ cup Caramel Syrup (180ml)",
-        "1¼ cups Whipped Topping (300ml)"
-      ]
-    },
-    "alcoholic": {
-    "volume": "60oz (1.8L)",
-      "ingredients": [
-        "5 cups Whole Milk (1.2L)",
-        "¾ cup Caramel Syrup (180ml)",
-        "1¼ cups Whipped Topping (300ml)",
-        "1 cup Vodka — plain or vanilla (240ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the Milkshake button."
-  ]
-},
-{
-  "id": "1C6F2E9A-7D4B-45A8-9E30-5C8D17BF6294",
-  "name": "Mudslide",
-  "category": "classics",
-  "image": "https://slushiq.com/public/images/mudslide.jpg",
-  "variants": {
-    "alcoholic": {
-    "volume": "47oz (1.4L)",
-      "ingredients": [
-        "4½ cups Chocolate Milk (1.1L)",
-        "½ cup Coffee Liqueur (120ml)",
-        "½ cup Irish Cream Liqueur (120ml)",
-        "¼ cup Sweetened Condensed Milk (60ml)"
-      ]
-    },
-    "nonAlcoholic": {
-    "volume": "47oz (1.4L)",
-      "ingredients": [
-        "4½ cups Chocolate Milk (1.1L)",
-        "¼ cup Coffee Concentrate Syrup (60ml)",
-        "½ cup Sweetened Condensed Milk (120ml)",
-        "½ cup Whipped Topping (120ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the Milkshake button."
-  ]
-},
-{
-  "id": "9E5A1B4C-6F27-48D3-90A8-C2F7D6B145E9",
-  "name": "Brixley's Grinchmas Slush",
-  "category": "seasonal",
-  "image": "https://slushiq.com/public/images/grinchmas.jpg",
-  "variants": {
-    "nonAlcoholic": {
-    "volume": "69oz (2.0L)",
-      "ingredients": [
-        "4 cups Green Hawaiian Punch (960ml)",
-        "1 cup Pineapple Juice (240ml)",
-        "2 cups Lemon-Lime Soda (480ml)",
-        "1½ cups Water (360ml)"
-      ]
-    },
-    "alcoholic": {
-    "volume": "69oz (2.0L)",
-      "ingredients": [
-        "3½ cups Green Hawaiian Punch (840ml)",
-        "1 cup Pineapple Juice (240ml)",
-        "2 cups Lemon-Lime Soda (480ml)",
-        "1¼ cups Vodka (300ml)",
-        "¾ cup Water (180ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the Slush button."
-  ]
-},
-{
-  "id": "6D2F9C7B-5A14-4E83-9A60-1E8C4BD725F9",
-  "name": "Arctic Sleigh Ride",
-  "category": "seasonal",
-  "image": "https://slushiq.com/public/images/arcticsleighride.jpg",
-  "variants": {
-    "alcoholic": {
-    "volume": "68oz (2.0L)",
-      "ingredients": [
-        "1 cup Vodka (240ml)",
-        "½ cup Blue Curacao (120ml)",
-        "1 cup Pineapple Juice (240ml)",
-        "6 cups Lemon-Lime Soda (1.4L)"
-      ]
-    },
-    "nonAlcoholic": {
-    "volume": "70oz (2.1L)",
-      "ingredients": [
-        "¼ cup Blue Raspberry Syrup (60ml)",
-        "1 cup Pineapple Juice (240ml)",
-        "6 cups Lemon-Lime Soda (1.4L)",
-        "1½ cups Water (360ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the appropriate Slush button on your machine."
-  ]
-},
-{
-  "id": "F1D9A5C6-2B7E-48A3-90C4-5B8E7F61429D",
-  "name": "Winter Ice Vodka Slush",
-  "category": "slush",
-  "image": "https://slushiq.com/public/images/wintericevodka.jpg",
-  "variants": {
-    "alcoholic": {
-    "volume": "60oz (1.8L)",
-      "ingredients": [
-        "3 cups Lemonade (720ml)",
-        "2 cups Citrus Soda (480ml)",
-        "1 cup Vodka (240ml)",
-        "1 cup Blue Hawaiian Punch (240ml)",
-        "3½ oz 2:1 Simple Syrup (105ml)"
-      ]
-    },
-    "nonAlcoholic": {
-    "volume": "64oz (1.9L)",
-      "ingredients": [
-        "3 cups Lemonade (720ml)",
-        "2 cups Citrus Soda (480ml)",
-        "1 cup Blue Hawaiian Punch (240ml)",
-        "1½ cups Water (360ml)",
-        "3½ oz 2:1 Simple Syrup (105ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the appropriate Slush button on your machine."
-  ]
-},
-{
-  "id": "2E7C8F1A-9D5B-4A63-90E4-C6D2B715849F",
-  "name": "Coconut Bay Freeze",
-  "category": "slush",
-  "image": "https://slushiq.com/public/images/coconutbayfreeze.jpg",
-  "variants": {
-    "alcoholic": {
-    "volume": "70oz (2.1L)",
-      "ingredients": [
-        "2 cups Malibu Rum (480ml)",
-        "3 cups Pineapple Juice (700ml)",
-        "3 cups Coconut Milk (750ml)",
-        "½ cup 2:1 Simple Syrup (125ml)"
-      ]
-    },
-    "nonAlcoholic": {
-    "volume": "65oz (1.9L)",
-      "ingredients": [
-        "3 cups Pineapple Juice (720ml)",
-        "3 cups Coconut Milk (720ml)",
-        "1½ cups Water (360ml)",
-        "½ cup 2:1 Simple Syrup (125ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the appropriate Slush button on your machine."
-  ]
-},
-{
-  "id": "8B5C2D9F-7A1E-4E64-93A0-6F41D2C9E875",
-  "name": "Midnight Lagoon",
-  "category": "slush",
-  "image": "https://slushiq.com/public/images/midnightlagoon.jpg",
-  "variants": {
-    "alcoholic": {
-    "volume": "46oz (1.3L)",
-      "ingredients": [
-        "½ cup Midori (120ml)",
-        "½ cup Blue Curaçao (120ml)",
-        "1½ cups Pineapple Juice (360ml)",
-        "¾ cup Sprite (180ml)",
-        "½ cup Pineapple Cîroc (120ml)",
-        "1½ cups Water (360ml)",
-        "¼ cup 2:1 Simple Syrup (60ml)"
-      ]
-    },
-    "nonAlcoholic": {
-    "volume": "37oz (1.1L)",
-      "ingredients": [
-        "1½ cups Pineapple Juice (360ml)",
-        "¾ cup Lemon-Lime Soda (180ml)",
-        "¼ cup Blue Raspberry Syrup (60ml)",
-        "1¾ cups Water (420ml)",
-        "¼ cup 2:1 Simple Syrup (60ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the appropriate Slush button on your machine."
-  ]
-},
-{
-  "id": "C7A6E5B9-1D2F-48A4-90C3-8F4B625D79E1",
-  "name": "Blue Crush Margarita",
-  "category": "slush",
-  "image": "https://slushiq.com/public/images/bluecrushmargarita.jpg",
-  "volume": "73oz (2.2L)",
-  "ingredients": [
-    "1½ cups tequila (360ml)",
-    "¾ cup blue curaçao (180ml)",
-    "1½ cups lime juice (360ml)",
-    "¾ cup 2:1 simple syrup (180ml)",
-    "4½ cups cold water (1,080ml)"
-  ],
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the appropriate Slush button on your machine."
-  ]
-},
-{
-  "id": "5E9A7C2D-1F6B-4A83-90C4-D8B215E6F749",
-  "name": "Electric Frostbite",
-  "category": "slush",
-  "image": "https://slushiq.com/public/images/electricfrostbite.jpg",
-  "variants": {
-    "alcoholic": {
-    "volume": "57oz (1.7L)",
-      "ingredients": [
-        "1 cup Vodka — (240ml)",
-        "¾ cup White Cranberry Juice — (180ml)",
-        "¾ cup Lemon Juice — (180ml)",
-        "¼ cup Orange Liqueur — (60ml)",
-        "¾ cup 2:1 Simple Syrup — (180ml)",
-        "3½ cups Cold Water — (840ml)"
-      ]
-    },
-    "nonAlcoholic": {
-    "volume": "56oz (1.6L)",
-      "ingredients": [
-        "¾ cup White Cranberry Juice — (180ml)",
-        "¾ cup Lemon Juice — (180ml)",
-        "¾ cup 2:1 Simple Syrup — (180ml)",
-        "4¾ cups Cold Water (1.1L)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the appropriate Slush button on your machine."
-  ]
-},
-{
-  "id": "8F1C2E9D-7A5B-46A4-93E0-C6D4B529781F",
-  "name": "Brixley's Classic Pina Colada",
-  "category": "classics",
-  "image": "https://slushiq.com/public/images/pineappledrift.jpg",
-  "variants": {
-    "alcoholic": {
-    "volume": "64oz (1.9L)",
-      "ingredients": [
-        "1½ cups Malibu (360ml)",
-        "2 cups pineapple juice (480ml)",
-        "2 cups unsweetened coconut milk (480ml)",
-        "¾ cup 2:1 simple syrup (180ml)",
-        "1 cup Water (240ml)"
-      ]
-    },
-    "nonAlcoholic": {
-    "volume": "64oz (1.9L)",
-      "ingredients": [
-        "2½ cups pineapple juice (590ml)",
-        "2 cups unsweetened coconut milk (480ml)",
-        "1 cups Cold Water (240ml)",
-        "¾ cup 2:1 simple syrup (120ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the appropriate Slush button on your machine."
-  ]
-},
-  {
-  "id": "C2D6A9F4-8B1E-4E75-90A3-5F7C1B829D64",
-  "name": "Easy Strawberry Daiquiri",
-  "category": "storeMixers",
-  "image": "https://slushiq.com/public/images/classicstrawberrydaquiri.jpg",
-  "variants": {
-    "alcoholic": {
-    "volume": "68oz (2.0L)",
-      "ingredients": [
-        "1½ cups Rum (355ml)",
-        "3 cups Strawberry Daiquiri Mix (710ml)",
-        "4 cups Water (946ml)"
-      ]
-    },
-    "nonAlcoholic": {
-    "volume": "68oz (2.0L)",
-      "ingredients": [
-        "3 cups Strawberry Daiquiri Mix (710ml)",
-        "5½ cups Cold Water (1.3L)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the appropriate Slush button on your machine."
-  ]
-},
-{
-  "id": "1B7E5D2A-9C6F-4A38-90E4-F82D61C5974B",
-  "name": "Easy Pina Colada",
-  "category": "storeMixers",
-  "image": "https://slushiq.com/public/images/classicpinacolada.jpg",
-  "variants": {
-    "alcoholic": {
-    "volume": "68oz (2.0L)",
-      "ingredients": [
-        "1½ cups Rum (355ml)",
-        "3 cups Pina Colada Mix (710ml)",
-        "4 cups Water (946ml)"
-      ]
-    },
-    "nonAlcoholic": {
-    "volume": "68oz (2.0L)",
-      "ingredients": [
-        "3 cups Pina Colada Mix (710ml)",
-        "5½ cups Cold Water (1.3L)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the appropriate Slush button on your machine."
-  ]
-},
-{
-  "id": "9A6F2C8E-5D1B-47A4-93C0-E7F4B129D865",
-  "name": "Lemon Drop",
-  "category": "classics",
-  "image": "https://slushiq.com/public/images/lemondrop.jpg",
-  "variants": {
-    "alcoholic": {
-    "volume": "73oz (2.2L)",
-      "ingredients": [
-        "3½ cups Lemonade (840ml)",
-        "¾ cup Sweet & Sour Mix (180ml)",
-        "1 cup Triple Sec (240ml)",
-        "1¼ cups Vodka (300ml)",
-        "2½ cups Water (590ml)"
-      ]
-    },
-    "nonAlcoholic": {
-    "volume": "71oz (2.1L)",
-      "ingredients": [
-        "4 cups Lemonade (960ml)",
-        "¾ cup Sweet & Sour Mix (180ml)",
-        "¾ cup Lemon Juice (180ml)",
-        "3¼ cups Citrus Soda (780ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the appropriate Slush button on your machine."
-  ]
-},
-{
-  "id": "6C1F9A2E-8D7B-45A3-90E4-5F2C7B96D814",
-  "name": "Sex on the Beach",
-  "category": "slush",
-  "image": "https://slushiq.com/public/images/sexonthebeach.jpg",
-  "variants": {
-    "alcoholic": {
-    "volume": "68oz (2.0L)",
-      "ingredients": [
-        "1 cup Vodka (235ml)",
-        "1 cup Malibu Rum (235ml)",
-        "½ cup Peach Schnapps (120ml)",
-        "2½ cups Cranberry Juice (590ml)",
-        "2½ cups Orange Juice (590ml)",
-        "1 cup Water (235ml)"
-      ]
-    },
-    "nonAlcoholic": {
-    "volume": "58oz (1.7L)",
-      "ingredients": [
-        "2½ cups Cranberry Juice (590ml)",
-        "2½ cups Orange Juice (590ml)",
-        "¼ cup Peach Syrup (60ml)",
-        "2 cups Cold Water (480ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the appropriate Slush button on your machine."
-  ]
-},
-{
-  "id": "F8C7A2E1-5D6B-4A93-90E4-9B2F1C76D845",
-  "name": "Brixley’s Cran-Apple Cocktail",
-  "category": "slush",
-  "image": "https://slushiq.com/public/images/cranapplecocktail.jpg",
-  "variants": {
-    "alcoholic": {
-    "volume": "85oz (2.5L)",
-      "ingredients": [
-        "7½ cups Cran-Apple Cocktail (1.7L)",
-        "1¼ cups Water (295ml)",
-        "2¼ cups Vodka (530ml)"
-      ]
-    },
-    "nonAlcoholic": {
-    "volume": "86oz (2.5L)",
-      "ingredients": [
-        "7½ cups Cran-Apple Cocktail (1.7L)",
-        "3½ cups Cold Water (830ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the appropriate Slush button on your machine."
-  ]
-},
-{
-  "id": "9A3F6C21-4D8E-4B7A-92F1-5E7C0B8D6A44",
-  "name": "Brixley’s Dirty Shirley Temple",
-  "category": "featured",
-  "image": "https://slushiq.com/public/images/dirtyshirley.jpg",
-  "variants": {
-    "alcoholic": {
-    "volume": "74oz (2.2L)",
-      "ingredients": [
-        "1½ cups Vodka (360 mL)",
-        "6 cups Lemon-lime Soda (1,420 mL)",
-        "¾ cup Grenadine (180 mL)",
-        "1 cup Water (240 mL)"
-      ]
-    },
-    "nonAlcoholic": {
-    "volume": "72oz (2.1L)",
-      "ingredients": [
-        "7 cups Lemon-lime Soda (1,650 mL)",
-        "¾ cup Grenadine (180 mL)",
-        "1¼ cups Water (300 mL)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the appropriate Slush button on your machine."
-  ]
-},
-{
-  "id": "9A2F6C21-4F8E-4A7A-92F1-5E7C0B8D6A44",
-  "name": "Brixley’s Blue Coconut Slush",
-  "category": "slush",
-  "image": "https://slushiq.com/public/images/bluecoconut.jpg",
-  "variants": {
-    "alcoholic": {
-    "volume": "57oz (1.7L)",
-      "ingredients": [
-        "1 cup Coconut Rum (240 mL)",
-        "1 cup Blue Curaçao (240 mL)",
-        "2 cups Pineapple Juice (480 mL)",
-        "½ cup Cream of Coconut (120 mL)",
-        "2½ cups Water (600 mL)"
-      ]
-    },
-    "nonAlcoholic": {
-    "volume": "49oz (1.4L)",
-      "ingredients": [
-        "2 cups Pineapple Juice (480 mL)",
-        "½ cup Cream of Coconut (120 mL)",
-        "½ cup Blue Curaçao Syrup (120 mL)",
-        "3 cups Water (720 mL)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the appropriate Slush button on your machine."
-  ]
-},
-{
-   "id": "7F4C5B1E-6A0E-4C9A-9B3C-5F8E9D3E9F2A",
-   "name": "Brixley's Emerald Punch Freeze",
-   "category": "classics",
-    "image": "https://slushiq.com/public/images/emeraldpunchfreeze.jpg",
+    "id": "3F6C9A5D-2B8E-4A71-9D40-1E7FBC528A96",
+    "name": "Tropical Mango Slush",
+    "category": "slush",
+    "image": "https://slushiq.com/public/images/tropicalmangoslush.jpg",
     "variants": {
       "nonAlcoholic": {
-      "volume": "68oz (2.0L)",
+        "volume": "64 oz (1.9 L)",
         "ingredients": [
-          "8 cups Green Hawaiian Punch (1.9L)",
-          "4 oz 2:1 Simple Syrup (120ml)"
+          "4¾ cups Mango Nectar (1,140ml)",
+          "2¼ cups Pineapple Juice (540ml)",
+          "¼ cup Lime Juice (60ml)",
+          "½ cup Water (120ml)"
         ]
       },
       "alcoholic": {
-      "volume": "69oz (2.0L)",
+        "volume": "64 oz (1.9 L)",
         "ingredients": [
-          "6½ cups Green Hawaiian Punch (1560ml)",
+          "4¼ cups Mango Nectar (1,020ml)",
+          "2 cups Pineapple Juice (480ml)",
+          "¼ cup Lime Juice (60ml)",
+          "1 cup Vodka (240ml)",
+          "½ cup Water (120ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Slush button."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "D7A4E9B6-2F3C-48A5-9C10-6B8D1E5F7294",
+    "name": "Cherry Cola Slush",
+    "category": "slush",
+    "image": "https://slushiq.com/public/images/cherrycolaslush.jpg",
+    "variants": {
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "7 cups Cola (1,680ml)",
+          "1 cup Cherry Syrup (240ml)"
+        ]
+      },
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "5½ cups Cola (1,320ml)",
+          "1 cup Cherry Syrup (240ml)",
+          "1 cup Vodka (240ml)",
+          "½ cup Water (120ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Slush button."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "0E5C7D2B-9A6F-4E38-91F4-A8C6B3D572E9",
+    "name": "Orange Cream Slush",
+    "category": "slush",
+    "image": "https://slushiq.com/public/images/creamyorangeslush.jpg",
+    "variants": {
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "5 cups Orange Soda (1,200ml)",
+          "2½ cups Whole Milk (600ml)",
+          "½ cup 2:1 Simple Syrup (120ml)"
+        ]
+      },
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "4 cups Orange Soda (960ml)",
+          "2¼ cups Whole Milk (540ml)",
+          "1¼ cups Vodka — plain or vanilla (300ml)",
+          "½ cup 2:1 Simple Syrup (120ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Slush button."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "A1D8F9C4-6E7B-4A52-9B30-5C2F0D9E7816",
+    "name": "Strawberry Lemonade Slush",
+    "category": "slush",
+    "image": "https://slushiq.com/public/images/strawberrylemonadeslush.jpg",
+    "variants": {
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "6 cups Strawberry Lemonade (1,440ml)",
+          "1½ cups Water (360ml)",
+          "½ cup 2:1 Simple Syrup (120ml)"
+        ]
+      },
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "5¼ cups Strawberry Lemonade (1,260ml)",
+          "1¼ cups Water (300ml)",
+          "1¼ cups Vodka (300ml)",
+          "½ cup 2:1 Simple Syrup (120ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Slush button."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "6B4E9C0D-5A1F-4728-9E63-8D2C7BFA5194",
+    "name": "Root Beer Float Slush",
+    "category": "slush",
+    "image": "https://slushiq.com/public/images/rootbeerfloatslush.jpg",
+    "variants": {
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "6¾ cups Root Beer (1,620ml)",
+          "1¼ cups Milk (300ml)"
+        ]
+      },
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "5½ cups Root Beer (1,320ml)",
+          "1¼ cups Milk (300ml)",
+          "1 cup Vodka — plain or vanilla (240ml)",
+          "¼ cup Water (60ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Slush button."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "9E7B2A6D-5F14-4C38-90D1-A8FBC65E2479",
+    "name": "Rum & Cola Slush",
+    "category": "classics",
+    "image": "https://slushiq.com/public/images/rumcolaslush.jpg",
+    "variants": {
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "6½ cups Cola (1,560ml)",
+          "¾ cup White Rum (180ml)",
+          "¾ cup Water (180ml)"
+        ]
+      },
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "6¾ cups Cola (1,620ml)",
+          "1¼ cups Cold Water (300ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the appropriate Slush button on your machine."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "F5D9A2C1-8E4B-4760-9A3D-6C7E0B215948",
+    "name": "Vodka Lemonade Slush",
+    "category": "slush",
+    "image": "https://slushiq.com/public/images/vodkalemonadeslush.jpg",
+    "variants": {
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "5¼ cups Lemonade (1,260ml)",
+          "1½ cups Vodka (360ml)",
+          "½ cup 2:1 Syrup (120ml)",
+          "¾ cup Water (180ml)"
+        ]
+      },
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "5¼ cups Lemonade (1,260ml)",
+          "½ cup 2:1 Syrup (120ml)",
+          "2¼ cups Water (540ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the appropriate Slush button on your machine."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "2C7E1B5A-9D64-4F38-8A90-D6EBC5F21479",
+    "name": "Frosé",
+    "category": "slush",
+    "image": "https://slushiq.com/public/images/frose.jpg",
+    "volume": "64 oz (1.9 L)",
+    "ingredients": [
+      "5¼ cups Sweet Rosé Wine (1,260ml)",
+      "1¼ cups Strawberry Syrup (300ml)",
+      "1½ cups Water (360ml)"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the appropriate Slush button on your machine."
+    ]
+  },
+  {
+    "id": "2D9C1F6A-7E8B-4A35-90C4-5B2E8F7D1694",
+    "name": "Whiskey Ginger Slush",
+    "category": "slush",
+    "image": "https://slushiq.com/public/images/whiskeygingerslush.jpg",
+    "variants": {
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "6¾ cups Ginger Ale (1,620ml)",
+          "¾ cup Whiskey (180ml)",
+          "¼ cup 2:1 Simple Syrup (60ml)"
+        ]
+      },
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "6½ cups Ginger Ale (1,560ml)",
+          "1¼ cups Cold Water (300ml)",
+          "¼ cup 2:1 Simple Syrup (60ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the appropriate Slush button on your machine."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "B9E6D3F1-0A5C-47A8-92E4-7C8F215D6B94",
+    "name": "Tequila Sunrise Slush",
+    "category": "classics",
+    "image": "https://slushiq.com/public/images/tequilasunriseslush.jpg",
+    "variants": {
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "6¼ cups Orange Juice (1,500ml)",
+          "1 cup Tequila (240ml)",
+          "¼ cup Grenadine (60ml)",
+          "½ cup Water (120ml)"
+        ]
+      },
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "6¼ cups Orange Juice (1,500ml)",
+          "¼ cup Grenadine (60ml)",
+          "1½ cups Water (360ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the appropriate Slush button on your machine."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "14E9B7C2-5A8D-4F63-9C01-B6A2D8E9475F",
+    "name": "Sangria Slush",
+    "category": "slush",
+    "image": "https://slushiq.com/public/images/sangriaslush.jpg",
+    "volume": "64 oz (1.9 L)",
+    "ingredients": [
+      "4¾ cups Sweet Red Wine (1,140ml)",
+      "1¼ cups Orange Juice (300ml)",
+      "¼ cup 2:1 Simple Syrup (60ml)",
+      "1¾ cups Water (420ml)"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the appropriate Slush button on your machine."
+    ]
+  },
+  {
+    "id": "7A5C2E9F-1D4B-4863-9E08-CF6A2B75D419",
+    "name": "Peach Bellini Slush",
+    "category": "slush",
+    "image": "https://slushiq.com/public/images/peachbellini.jpg",
+    "variants": {
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "4¾ cups Peach Nectar (1,140ml)",
+          "2¾ cups Dry Sparkling Wine (660ml)",
+          "½ cup 2:1 Simple Syrup (120ml)"
+        ]
+      },
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "5½ cups Peach Nectar (1,320ml)",
+          "1¾ cups Water (420ml)",
+          "¾ cup 2:1 Simple Syrup (180ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Slush button."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "C8F4E9A6-2B7D-4A35-9D10-51EBC267F894",
+    "name": "Mocha Frappe",
+    "category": "frappe",
+    "image": "https://slushiq.com/public/images/mochafrappe.jpg",
+    "variants": {
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "4 cups Cold Brew Coffee (960ml)",
+          "2½ cups Chocolate Milk (600ml)",
+          "1 cup Vodka — plain or vanilla (240ml)",
+          "½ cup 2:1 Simple Syrup (120ml)"
+        ]
+      },
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "4¾ cups Cold Brew Coffee (1,140ml)",
+          "2¾ cups Chocolate Milk (660ml)",
+          "½ cup 2:1 Simple Syrup (120ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Frappe button."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "0B7E9C2A-6F1D-4E85-9A34-5C8F2146D97B",
+    "name": "Vanilla Latte Frappe",
+    "category": "frappe",
+    "image": "https://slushiq.com/public/images/vanillalattefrappe.jpg",
+    "variants": {
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "4¾ cups Cold Brew Coffee (1,140ml)",
+          "2¾ cups Milk (660ml)",
+          "½ cup Vanilla Syrup (120ml)"
+        ]
+      },
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "4 cups Cold Brew Coffee (960ml)",
+          "2½ cups Milk (600ml)",
+          "1 cup Vodka — plain or vanilla (240ml)",
+          "½ cup Vanilla Syrup (120ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Frappe button."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "A5D7E1C9-8F4B-4726-90E3-2B6C9F14A8D5",
+    "name": "Caramel Coffee Frappe",
+    "category": "frappe",
+    "image": "https://slushiq.com/public/images/carmelcoffeefrappe.jpg",
+    "variants": {
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "4¾ cups Cold Brew Coffee (1,140ml)",
+          "2¾ cups Milk (660ml)",
+          "½ cup Caramel Syrup (120ml)"
+        ]
+      },
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "4 cups Cold Brew Coffee (960ml)",
+          "2½ cups Milk (600ml)",
+          "1 cup Vodka — plain or vanilla (240ml)",
+          "½ cup Caramel Syrup (120ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Frappe button."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "9F2E6B8D-4C5A-4713-9D01-7AFC5E216B94",
+    "name": "Hazelnut Mocha Frappe",
+    "category": "frappe",
+    "image": "https://slushiq.com/public/images/hazelnutmochafrappe.jpg",
+    "variants": {
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "4¾ cups Cold Brew Coffee (1,140ml)",
+          "2¾ cups Chocolate Milk (660ml)",
+          "½ cup Hazelnut Syrup (120ml)"
+        ]
+      },
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "4 cups Cold Brew Coffee (960ml)",
+          "2½ cups Chocolate Milk (600ml)",
+          "1 cup Vodka — plain or vanilla (240ml)",
+          "½ cup Hazelnut Syrup (120ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Frappe button."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "3E8F7A1C-9D2B-4564-A0C5-6E4BFD927815",
+    "name": "Coconut Vanilla Frappe",
+    "category": "frappe",
+    "image": "https://slushiq.com/public/images/coconutvanilla.jpg",
+    "variants": {
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "4½ cups Cold Brew Coffee (1,080ml)",
+          "2¾ cups Coconut Milk (660ml)",
+          "¾ cup Vanilla Syrup (180ml)"
+        ]
+      },
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "4 cups Cold Brew Coffee (960ml)",
+          "2½ cups Coconut Milk (600ml)",
+          "1 cup Vodka — plain or vanilla (240ml)",
+          "½ cup Vanilla Syrup (120ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Frappe button."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "6C9D4A7E-1F52-48B3-90E6-5A2BC8D79F14",
+    "name": "White Chocolate Frappe",
+    "category": "frappe",
+    "image": "https://slushiq.com/public/images/whitechocolatefrappe.jpg",
+    "variants": {
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "4¾ cups Cold Brew Coffee (1,140ml)",
+          "2¾ cups Milk (660ml)",
+          "½ cup White Chocolate Syrup (120ml)"
+        ]
+      },
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "4 cups Cold Brew Coffee (960ml)",
+          "2½ cups Milk (600ml)",
+          "1 cup Vodka — plain or vanilla (240ml)",
+          "½ cup White Chocolate Syrup (120ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Frappe button."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "F7C8E6D1-2B4A-4935-9E50-A8D1B6C27F94",
+    "name": "Classic Vanilla Shake",
+    "category": "milkshake",
+    "image": "https://slushiq.com/public/images/classicvanillamilkshake.jpg",
+    "variants": {
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "5½ cups Whole Milk (1,320ml)",
+          "1¼ cups Vanilla Syrup (300ml)",
+          "1¼ cups Whipped Topping (300ml)"
+        ]
+      },
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "4¾ cups Whole Milk (1,140ml)",
+          "1¼ cups Vanilla Syrup (300ml)",
+          "1¼ cups Whipped Topping (300ml)",
+          "1 cup Vodka — plain or vanilla (240ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Milkshake button."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "2D1A9F8E-7C6B-45A4-93E0-BFC6D8257149",
+    "name": "Brixley's Strawberry Milkshake",
+    "category": "milkshake",
+    "image": "https://slushiq.com/public/images/strawberrymilkshake.jpg",
+    "variants": {
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "5½ cups Strawberry Milk (1,320ml)",
+          "1¼ cups Sweetened Condensed Milk (300ml)",
+          "1¼ cups Whipped Topping (300ml)"
+        ]
+      },
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "4¾ cups Strawberry Milk (1,140ml)",
+          "1¼ cups Sweetened Condensed Milk (300ml)",
+          "1¼ cups Whipped Topping (300ml)",
+          "1 cup Vodka — plain or vanilla (240ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Milkshake button."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "A9C1E4D7-5B6F-4E28-93A0-7D2F8C5B6149",
+    "name": "Peanut Butter Cup Shake",
+    "category": "milkshake",
+    "image": "https://slushiq.com/public/images/peanutbuttermilkshake.jpg",
+    "variants": {
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "5¾ cups Chocolate Milk (1,380ml)",
+          "¾ cup Peanut Butter Syrup (180ml)",
+          "1¼ cups Whipped Topping (300ml)"
+        ]
+      },
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "5 cups Chocolate Milk (1,200ml)",
+          "¾ cup Peanut Butter Syrup (180ml)",
+          "1¼ cups Whipped Topping (300ml)",
+          "1 cup Vodka — plain or vanilla (240ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Milkshake button."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "4E7D9A2B-6F1C-48A5-9E03-B8D5C214F976",
+    "name": "Banana Cream Shake",
+    "category": "milkshake",
+    "image": "https://slushiq.com/public/images/bananamilkshake.jpg",
+    "variants": {
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "5¾ cups Banana Milk (1,380ml)",
+          "¾ cup Vanilla Syrup (180ml)",
+          "1¼ cups Whipped Topping (300ml)"
+        ]
+      },
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "5 cups Banana Milk (1,200ml)",
+          "¾ cup Vanilla Syrup (180ml)",
+          "1¼ cups Whipped Topping (300ml)",
+          "1 cup Vodka — plain or vanilla (240ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Milkshake button."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "D5B8C1A9-7E2F-4A64-90E3-6F42D9C7815A",
+    "name": "Caramel Swirl Shake",
+    "category": "milkshake",
+    "image": "https://slushiq.com/public/images/carmelswirlmilkshake.jpg",
+    "variants": {
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "5¾ cups Whole Milk (1,380ml)",
+          "¾ cup Caramel Syrup (180ml)",
+          "1¼ cups Whipped Topping (300ml)"
+        ]
+      },
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "5 cups Whole Milk (1,200ml)",
+          "¾ cup Caramel Syrup (180ml)",
+          "1¼ cups Whipped Topping (300ml)",
+          "1 cup Vodka — plain or vanilla (240ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Milkshake button."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "1C6F2E9A-7D4B-45A8-9E30-5C8D17BF6294",
+    "name": "Mudslide",
+    "category": "classics",
+    "image": "https://slushiq.com/public/images/mudslide.jpg",
+    "variants": {
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "6¼ cups Chocolate Milk (1,500ml)",
+          "¾ cup Coffee Liqueur (180ml)",
+          "¾ cup Irish Cream Liqueur (180ml)",
+          "¼ cup Sweetened Condensed Milk (60ml)"
+        ]
+      },
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "6¼ cups Chocolate Milk (1,500ml)",
+          "¼ cup Coffee Concentrate Syrup (60ml)",
+          "¾ cup Sweetened Condensed Milk (180ml)",
+          "¾ cup Whipped Topping (180ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Milkshake button."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "9E5A1B4C-6F27-48D3-90A8-C2F7D6B145E9",
+    "name": "Brixley's Grinchmas Slush",
+    "category": "seasonal",
+    "image": "https://slushiq.com/public/images/grinchmas.jpg",
+    "variants": {
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "3¾ cups Green Hawaiian Punch (900ml)",
+          "1 cup Pineapple Juice (240ml)",
+          "2 cups Lemon-Lime Soda (480ml)",
+          "1½ cups Water (360ml)"
+        ]
+      },
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "3¼ cups Green Hawaiian Punch (780ml)",
+          "1 cup Pineapple Juice (240ml)",
+          "2 cups Lemon-Lime Soda (480ml)",
+          "1¼ cups Vodka (300ml)",
+          "¾ cup Water (180ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Slush button."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "6D2F9C7B-5A14-4E83-9A60-1E8C4BD725F9",
+    "name": "Arctic Sleigh Ride",
+    "category": "seasonal",
+    "image": "https://slushiq.com/public/images/arcticsleighride.jpg",
+    "variants": {
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "1 cup Vodka (240ml)",
+          "½ cup Blue Curacao (120ml)",
+          "1 cup Pineapple Juice (240ml)",
+          "5¾ cups Lemon-Lime Soda (1,380ml)"
+        ]
+      },
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "¼ cup Blue Raspberry Syrup (60ml)",
+          "1 cup Pineapple Juice (240ml)",
+          "5½ cups Lemon-Lime Soda (1,320ml)",
+          "1¼ cups Water (300ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the appropriate Slush button on your machine."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "F1D9A5C6-2B7E-48A3-90C4-5B8E7F61429D",
+    "name": "Winter Ice Vodka Slush",
+    "category": "slush",
+    "image": "https://slushiq.com/public/images/wintericevodka.jpg",
+    "variants": {
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "3¼ cups Lemonade (780ml)",
+          "2¼ cups Citrus Soda (540ml)",
+          "1 cup Vodka (240ml)",
+          "1 cup Blue Hawaiian Punch (240ml)",
+          "½ cup 2:1 Simple Syrup (120ml)"
+        ]
+      },
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "3 cups Lemonade (720ml)",
+          "2 cups Citrus Soda (480ml)",
+          "1 cup Blue Hawaiian Punch (240ml)",
+          "1½ cups Water (360ml)",
+          "½ cup 2:1 Simple Syrup (120ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the appropriate Slush button on your machine."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "2E7C8F1A-9D5B-4A63-90E4-C6D2B715849F",
+    "name": "Coconut Bay Freeze",
+    "category": "slush",
+    "image": "https://slushiq.com/public/images/coconutbayfreeze.jpg",
+    "variants": {
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "2 cups Malibu Rum (480ml)",
+          "2¾ cups Pineapple Juice (660ml)",
+          "2¾ cups Coconut Milk (660ml)",
+          "½ cup 2:1 Simple Syrup (120ml)"
+        ]
+      },
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "3 cups Pineapple Juice (720ml)",
+          "3 cups Coconut Milk (720ml)",
+          "1½ cups Water (360ml)",
+          "½ cup 2:1 Simple Syrup (120ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the appropriate Slush button on your machine."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "8B5C2D9F-7A1E-4E64-93A0-6F41D2C9E875",
+    "name": "Midnight Lagoon",
+    "category": "slush",
+    "image": "https://slushiq.com/public/images/midnightlagoon.jpg",
+    "variants": {
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "¾ cup Midori (180ml)",
+          "¾ cup Blue Curaçao (180ml)",
+          "2¼ cups Pineapple Juice (540ml)",
+          "1 cup Sprite (240ml)",
+          "¾ cup Pineapple Cîroc (180ml)",
+          "2¼ cups Water (540ml)",
+          "¼ cup 2:1 Simple Syrup (60ml)"
+        ]
+      },
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "2¾ cups Pineapple Juice (660ml)",
+          "1¼ cups Lemon-Lime Soda (300ml)",
+          "½ cup Blue Raspberry Syrup (120ml)",
+          "3 cups Water (720ml)",
+          "½ cup 2:1 Simple Syrup (120ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the appropriate Slush button on your machine."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "C7A6E5B9-1D2F-48A4-90C3-8F4B625D79E1",
+    "name": "Blue Crush Margarita",
+    "category": "slush",
+    "image": "https://slushiq.com/public/images/bluecrushmargarita.jpg",
+    "volume": "64 oz (1.9 L)",
+    "ingredients": [
+      "1¼ cups tequila (300ml)",
+      "¾ cup blue curaçao (180ml)",
+      "1¼ cups lime juice (300ml)",
+      "¾ cup 2:1 simple syrup (180ml)",
+      "4 cups cold water (960ml)"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the appropriate Slush button on your machine."
+    ]
+  },
+  {
+    "id": "5E9A7C2D-1F6B-4A83-90C4-D8B215E6F749",
+    "name": "Electric Frostbite",
+    "category": "slush",
+    "image": "https://slushiq.com/public/images/electricfrostbite.jpg",
+    "variants": {
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "1¼ cups Vodka — (300ml)",
+          "¾ cup White Cranberry Juice — (180ml)",
+          "¾ cup Lemon Juice — (180ml)",
+          "¼ cup Orange Liqueur — (60ml)",
+          "¾ cup 2:1 Simple Syrup — (180ml)",
+          "4 cups Cold Water — (960ml)"
+        ]
+      },
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "¾ cup White Cranberry Juice — (180ml)",
+          "¾ cup Lemon Juice — (180ml)",
+          "¾ cup 2:1 Simple Syrup — (180ml)",
+          "5½ cups Cold Water (1,320ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the appropriate Slush button on your machine."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "8F1C2E9D-7A5B-46A4-93E0-C6D4B529781F",
+    "name": "Brixley's Classic Pina Colada",
+    "category": "classics",
+    "image": "https://slushiq.com/public/images/pineappledrift.jpg",
+    "variants": {
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "1¾ cups Malibu (420ml)",
+          "2¼ cups pineapple juice (540ml)",
+          "2¼ cups unsweetened coconut milk (540ml)",
+          "¾ cup 2:1 simple syrup (180ml)",
+          "1 cup Water (240ml)"
+        ]
+      },
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "3¼ cups pineapple juice (780ml)",
+          "2½ cups unsweetened coconut milk (600ml)",
+          "1¼ cups Cold Water (300ml)",
+          "1 cup 2:1 simple syrup (240ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the appropriate Slush button on your machine."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "C2D6A9F4-8B1E-4E75-90A3-5F7C1B829D64",
+    "name": "Easy Strawberry Daiquiri",
+    "category": "storeMixers",
+    "image": "https://slushiq.com/public/images/classicstrawberrydaquiri.jpg",
+    "variants": {
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "1½ cups Rum (360ml)",
+          "2¾ cups Strawberry Daiquiri Mix (660ml)",
+          "3¾ cups Water (900ml)"
+        ]
+      },
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "2¾ cups Strawberry Daiquiri Mix (660ml)",
+          "5¼ cups Cold Water (1,260ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the appropriate Slush button on your machine."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "1B7E5D2A-9C6F-4A38-90E4-F82D61C5974B",
+    "name": "Easy Pina Colada",
+    "category": "storeMixers",
+    "image": "https://slushiq.com/public/images/classicpinacolada.jpg",
+    "variants": {
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "1½ cups Rum (360ml)",
+          "2¾ cups Pina Colada Mix (660ml)",
+          "3¾ cups Water (900ml)"
+        ]
+      },
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "2¾ cups Pina Colada Mix (660ml)",
+          "5¼ cups Cold Water (1,260ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the appropriate Slush button on your machine."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "9A6F2C8E-5D1B-47A4-93C0-E7F4B129D865",
+    "name": "Lemon Drop",
+    "category": "classics",
+    "image": "https://slushiq.com/public/images/lemondrop.jpg",
+    "variants": {
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "3 cups Lemonade (720ml)",
+          "¾ cup Sweet & Sour Mix (180ml)",
+          "1 cup Triple Sec (240ml)",
+          "1 cup Vodka (240ml)",
+          "2¼ cups Water (540ml)"
+        ]
+      },
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "3¾ cups Lemonade (900ml)",
+          "¾ cup Sweet & Sour Mix (180ml)",
+          "¾ cup Lemon Juice (180ml)",
+          "3 cups Citrus Soda (720ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the appropriate Slush button on your machine."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "6C1F9A2E-8D7B-45A3-90E4-5F2C7B96D814",
+    "name": "Sex on the Beach",
+    "category": "slush",
+    "image": "https://slushiq.com/public/images/sexonthebeach.jpg",
+    "variants": {
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "1 cup Vodka (240ml)",
+          "1 cup Malibu Rum (240ml)",
+          "½ cup Peach Schnapps (120ml)",
+          "2¼ cups Cranberry Juice (540ml)",
+          "2¼ cups Orange Juice (540ml)",
+          "1 cup Water (240ml)"
+        ]
+      },
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "2¾ cups Cranberry Juice (660ml)",
+          "2¾ cups Orange Juice (660ml)",
+          "¼ cup Peach Syrup (60ml)",
+          "2¼ cups Cold Water (540ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the appropriate Slush button on your machine."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "F8C7A2E1-5D6B-4A93-90E4-9B2F1C76D845",
+    "name": "Brixley’s Cran-Apple Cocktail",
+    "category": "slush",
+    "image": "https://slushiq.com/public/images/cranapplecocktail.jpg",
+    "variants": {
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "5½ cups Cran-Apple Cocktail (1,320ml)",
+          "1 cup Water (240ml)",
+          "1¾ cups Vodka (420ml)"
+        ]
+      },
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "5½ cups Cran-Apple Cocktail (1,320ml)",
+          "2½ cups Cold Water (600ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the appropriate Slush button on your machine."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "9A3F6C21-4D8E-4B7A-92F1-5E7C0B8D6A44",
+    "name": "Brixley’s Dirty Shirley Temple",
+    "category": "featured",
+    "image": "https://slushiq.com/public/images/dirtyshirley.jpg",
+    "variants": {
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "1¼ cups Vodka (300ml)",
+          "5¼ cups Lemon-lime Soda (1,260ml)",
+          "¾ cup Grenadine (180ml)",
+          "¾ cup Water (180ml)"
+        ]
+      },
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "6¼ cups Lemon-lime Soda (1,500ml)",
+          "¾ cup Grenadine (180ml)",
+          "1 cup Water (240ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the appropriate Slush button on your machine."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "9A2F6C21-4F8E-4A7A-92F1-5E7C0B8D6A44",
+    "name": "Brixley’s Blue Coconut Slush",
+    "category": "slush",
+    "image": "https://slushiq.com/public/images/bluecoconut.jpg",
+    "variants": {
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "1¼ cups Coconut Rum (300ml)",
+          "1¼ cups Blue Curaçao (300ml)",
+          "2¼ cups Pineapple Juice (540ml)",
+          "½ cup Cream of Coconut (120ml)",
+          "2¾ cups Water (660ml)"
+        ]
+      },
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "2¾ cups Pineapple Juice (660ml)",
+          "¾ cup Cream of Coconut (180ml)",
+          "¾ cup Blue Curaçao Syrup (180ml)",
+          "4 cups Water (960ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the appropriate Slush button on your machine."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "7F4C5B1E-6A0E-4C9A-9B3C-5F8E9D3E9F2A",
+    "name": "Brixley's Emerald Punch Freeze",
+    "category": "classics",
+    "image": "https://slushiq.com/public/images/emeraldpunchfreeze.jpg",
+    "variants": {
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "7½ cups Green Hawaiian Punch (1,800ml)",
+          "½ cup 2:1 Simple Syrup (120ml)"
+        ]
+      },
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "6 cups Green Hawaiian Punch (1,440ml)",
           "¾ cup 2:1 Simple Syrup (180ml)",
           "1¼ cups Vodka (300ml)"
         ]
@@ -1507,34 +1553,35 @@
       "Mix all ingredients together.",
       "Pour into your machine.",
       "Press the appropriate Slush button on your machine."
-    ]
-},
-{
-   "id": "8E3F6A2C-7D94-4B51-9C08-A1F6D5B72E49",
-   "name": "Brixley's Hawaiian Lava Flow",
-   "category": "slush",
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "8E3F6A2C-7D94-4B51-9C08-A1F6D5B72E49",
+    "name": "Brixley's Hawaiian Lava Flow",
+    "category": "slush",
     "image": "https://slushiq.com/public/images/lavaflow.jpg",
     "variants": {
       "nonAlcoholic": {
-      "volume": "55oz (1.6L)",
+        "volume": "64 oz (1.9 L)",
         "ingredients": [
           "½ cup Banana Puree Syrup (120ml)",
           "½ cup Strawberry Mix (120ml)",
           "½ cup Pineapple Juice (120ml)",
           "¼ cup Cream of Coconut (60ml)",
-          "5 cups Water (1.2L)"
+          "6 cups Water (1,440ml)"
         ]
       },
       "alcoholic": {
-      "volume": "55oz (1.6L)",
+        "volume": "64 oz (1.9 L)",
         "ingredients": [
-          "1 cup White Rum (240ml)",
-          "½ cup Coconut Rum (120ml)",
-          "½ cup Banana Puree Syrup (120ml)",
-          "½ cup Strawberry Mix (120ml)",
-          "½ cup Pineapple Juice (120ml)",
+          "1¼ cups White Rum (300ml)",
+          "¾ cup Coconut Rum (180ml)",
+          "¾ cup Banana Puree Syrup (180ml)",
+          "¾ cup Strawberry Mix (180ml)",
+          "¾ cup Pineapple Juice (180ml)",
           "¼ cup Cream of Coconut (60ml)",
-          "3 cups Water (840ml)"
+          "3¾ cups Water (900ml)"
         ]
       }
     },
@@ -1542,366 +1589,377 @@
       "Mix all ingredients together.",
       "Pour into your machine.",
       "Press the appropriate Slush button on your machine."
-    ]
-},
-{
-  "id": "2A7E1B5A-9D64-4F38-8A90-D6EFC5F21479",
-  "name": "Brixley's Classic Mango Margarita",
-  "category": "slush",
-  "image": "https://slushiq.com/public/images/mangomargarita.jpg",
-  "volume": "67oz (2.0L)",
-  "ingredients": [
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "2A7E1B5A-9D64-4F38-8A90-D6EFC5F21479",
+    "name": "Brixley's Classic Mango Margarita",
+    "category": "slush",
+    "image": "https://slushiq.com/public/images/mangomargarita.jpg",
+    "volume": "64 oz (1.9 L)",
+    "ingredients": [
       "1¼ cups Tequila (300ml)",
       "¼ cup Orange Liqueur (60ml)",
       "1¼ cups Lime Juice (300ml)",
       "¾ cup 2:1 Simple Syrup (180ml)",
       "¾ cup Mango Mix (180ml)",
-      "4 cups Water"
-  ],
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the appropriate Slush button on your machine."
-  ]
-},
-{
-  "id": "2C7E1A5A-9A54-4F38-8A90-D6EBC5F21479",
-  "name": "Brixley's Strawberry Margarita",
-  "category": "featured",
-  "image": "https://slushiq.com/public/images/strawberrymargarita.jpg",
-  "volume": "67oz (2.0L)",
-  "ingredients": [
+      "4 cups Water (960ml)"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the appropriate Slush button on your machine."
+    ]
+  },
+  {
+    "id": "2C7E1A5A-9A54-4F38-8A90-D6EBC5F21479",
+    "name": "Brixley's Strawberry Margarita",
+    "category": "featured",
+    "image": "https://slushiq.com/public/images/strawberrymargarita.jpg",
+    "volume": "64 oz (1.9 L)",
+    "ingredients": [
       "1¼ cups Tequila (300ml)",
       "¼ cup Orange Liqueur (60ml)",
       "1¼ cups Lime Juice (300ml)",
       "¾ cup 2:1 Simple Syrup (180ml)",
       "¾ cup Strawberry Mix (180ml)",
-      "4 cups Water"
-  ],
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the appropriate Slush button on your machine."
-  ]
-},
-{
-  "id": "B3F9D6C1-71B2-4A09-AE84-8C7F5E4A2193",
-  "name": "Frosted Lemonade",
-  "category": "slush",
-  "image": "https://slushiq.com/public/images/frostedlemonade.jpg",
-  "variants": {
-    "alcoholic": {
-    "volume": "82oz (2.4L)",
-      "ingredients": [
-        "7½ cups Cold Water (1775ml)",
-        "1 Pitcher Packet Crystal Light Lemonade",
-        "1 (14oz) Can Sweetened Condensed Milk (414ml)",
-        "1 cup Vodka (240ml)"
-      ]
-    },
-    "nonAlcoholic": {
-    "volume": "82oz (2.4L)",
-      "ingredients": [
-        "8½ cups Cold Water (2010ml)",
-        "1 Pitcher Packet Crystal Light Lemonade",
-        "1 (14oz) Can Sweetened Condensed Milk (414ml)"
-      ]
-    }
+      "4 cups Water (960ml)"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the appropriate Slush button on your machine."
+    ]
   },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the appropriate Slush button on your machine."
-  ]
-},
-{
-  "id": "E7C2B4A9-9F31-4A5E-B8F4-2F3E6C91D8A2",
-  "name": "Violet Eclipse",
-  "category": "slush",
-  "image": "https://slushiq.com/public/images/violeteclipse.jpg",
-  "variants": {
-    "alcoholic": {
-    "volume": "66oz (2.0L)",
-      "ingredients": [
-        "1¼ cups Vodka (300ml)",
-        "¾ cup Blue Curaçao (180ml)",
-        "¾ cup Raspberry Cordial (180ml)",
-        "5½ cups Cold Water (1300ml)"
-      ]
+  {
+    "id": "B3F9D6C1-71B2-4A09-AE84-8C7F5E4A2193",
+    "name": "Frosted Lemonade",
+    "category": "slush",
+    "image": "https://slushiq.com/public/images/frostedlemonade.jpg",
+    "variants": {
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "5¾ cups Cold Water (1,380ml)",
+          "1 Pitcher Packet Crystal Light Lemonade",
+          "1¼ cups Sweetened Condensed Milk (300ml)",
+          "¾ cup Vodka (180ml)"
+        ]
+      },
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "6¾ cups Cold Water (1,620ml)",
+          "1 Pitcher Packet Crystal Light Lemonade",
+          "1¼ cups Sweetened Condensed Milk (300ml)"
+        ]
+      }
     },
-    "nonAlcoholic": {
-    "volume": "64oz (1.9L)",
-      "ingredients": [
-        "1½ cups Blue Curaçao Syrup (Non-Alcoholic) (360ml)",
-        "1½ cups Raspberry Cordial (360ml)",
-        "5 cups Cold Water (1180ml)"
-      ]
-    }
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the appropriate Slush button on your machine."
+    ],
+    "volume": "64 oz (1.9 L)"
   },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the appropriate Slush button on your machine."
-  ]
-},
-{
-  "id": "4E9F6A3D-2B81-4C9E-9F3A-6E2D1A7C8B54",
-  "name": "Brixley’s Blue Razz Blitz",
-  "category": "slush",
-  "image": "https://slushiq.com/public/images/bluerazzblitz.jpg",
-  "variants": {
-    "alcoholic": {
-    "volume": "45oz (1.3L)",
-      "ingredients": [
-        "¾ cup Blueberry Vodka (180ml)",
-        "½ cup Blue Curaçao Syrup (120ml)",
-        "1¼ cups Sweet & Sour Mix (300ml)",
-        "3 cups Cold Water (720ml)"
-      ]
+  {
+    "id": "E7C2B4A9-9F31-4A5E-B8F4-2F3E6C91D8A2",
+    "name": "Violet Eclipse",
+    "category": "slush",
+    "image": "https://slushiq.com/public/images/violeteclipse.jpg",
+    "variants": {
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "1¼ cups Vodka (300ml)",
+          "¾ cup Blue Curaçao (180ml)",
+          "¾ cup Raspberry Cordial (180ml)",
+          "5¼ cups Cold Water (1,260ml)"
+        ]
+      },
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "1½ cups Blue Curaçao Syrup (360ml)",
+          "1½ cups Raspberry Cordial (360ml)",
+          "5 cups Cold Water (1,200ml)"
+        ]
+      }
     },
-    "nonAlcoholic": {
-    "volume": "45oz (1.3L)",
-      "ingredients": [
-        "½ cup Blue Curaçao Syrup (120ml)",
-        "1¼ cups Sweet & Sour Mix (300ml)",
-        "3¾ cups Cold Water (900ml)"
-      ]
-    }
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the appropriate Slush button on your machine."
+    ],
+    "volume": "64 oz (1.9 L)"
   },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the appropriate Slush button on your machine."
-  ]
-},
-{
-  "id": "C3F94E12-8B65-4E0D-9A71-5D2F7C81A6B9",
-  "name": "Brixley’s Velvet Slush",
-  "category": "slush",
-  "image": "https://slushiq.com/public/images/velvetslush.jpg",
-  "variants": {
-    "alcoholic": {
-    "volume": "64oz (1.9L)",
-      "ingredients": [
-        "4 cups Strawberry Juice (960ml)",
-        "½ can Sweetened Condensed Milk (~200ml)",
-        "¾ cup Vodka (180ml)",
-        "2¼ cups Cold Water (540ml)"
-      ]
+  {
+    "id": "4E9F6A3D-2B81-4C9E-9F3A-6E2D1A7C8B54",
+    "name": "Brixley’s Blue Razz Blitz",
+    "category": "slush",
+    "image": "https://slushiq.com/public/images/bluerazzblitz.jpg",
+    "variants": {
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "1 cup Blueberry Vodka (240ml)",
+          "¾ cup Blue Curaçao Syrup (180ml)",
+          "1¾ cups Sweet & Sour Mix (420ml)",
+          "4¼ cups Cold Water (1,020ml)"
+        ]
+      },
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "¾ cup Blue Curaçao Syrup (180ml)",
+          "1¾ cups Sweet & Sour Mix (420ml)",
+          "5½ cups Cold Water (1,320ml)"
+        ]
+      }
     },
-    "nonAlcoholic": {
-    "volume": "64oz (1.9L)",
-      "ingredients": [
-        "4 cups Strawberry Juice (960ml)",
-        "½ can Sweetened Condensed Milk (~200ml)",
-        "3 cups Cold Water (720ml)"
-      ]
-    }
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the appropriate Slush button on your machine."
+    ],
+    "volume": "64 oz (1.9 L)"
   },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the appropriate Slush button on your machine."
-  ]
-},
-{
-  "id": "7A0D6F9E-4C83-42B7-9E51-13A8D5C2F6B4",
-  "name": "Brixley’s Midori Illusion",
-  "category": "slush",
-  "image": "https://slushiq.com/public/images/midoriillusion.jpg",
-  "variants": {
-    "alcoholic": {
-    "volume": "67oz (2.0L)",
-      "ingredients": [
-        "1 cup Midori (240ml)",
-        "½ cup Vodka (120ml)",
-        "¼ cup Triple Sec (60ml)",
-        "2 cups Lemonade (480ml)",
-        "2 cups Pineapple Juice (480ml)",
-        "2½ cups Cold Water (600ml)"
-      ]
+  {
+    "id": "C3F94E12-8B65-4E0D-9A71-5D2F7C81A6B9",
+    "name": "Brixley’s Velvet Slush",
+    "category": "slush",
+    "image": "https://slushiq.com/public/images/velvetslush.jpg",
+    "variants": {
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "4½ cups Strawberry Juice (1,080ml)",
+          "½ can Sweetened Condensed Milk (~200ml)",
+          "¾ cup Vodka (180ml)",
+          "2½ cups Cold Water (600ml)"
+        ]
+      },
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "4½ cups Strawberry Juice (1,080ml)",
+          "½ can Sweetened Condensed Milk (~200ml)",
+          "3½ cups Cold Water (840ml)"
+        ]
+      }
     },
-    "nonAlcoholic": {
-    "volume": "65oz (1.9L)",
-      "ingredients": [
-        "1 cup Midori-Style Melon Syrup (240ml)",
-        "2 cups Lemonade (480ml)",
-        "2 cups Pineapple Juice (480ml)",
-        "3 cups Cold Water (720ml)"
-      ]
-    }
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the appropriate Slush button on your machine."
+    ],
+    "volume": "64 oz (1.9 L)"
   },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the appropriate Slush button on your machine."
-  ]
-},
-{
-  "id": "A1E7C3B9-6D42-4E58-8F0C-9D25B741A6F3",
-  "name": "Brixley’s White Russian Shake",
-  "category": "classics",
-  "image": "https://slushiq.com/public/images/whiterussian.jpg",
-  "variants": {
-    "alcoholic": {
-    "volume": "77oz (2.3L)",
-      "ingredients": [
-        "6 cups Milk (1420ml)",
-        "½ cup Heavy Cream (120ml)",
-        "½ cup 2:1 Simple Syrup (120ml)",
-        "2 Tbsp Vanilla Extract (30ml)",
-        "1 cup Coffee Liqueur (240ml)",
-        "1 cup Vodka (240ml)",
-        "½ cup Cold Water (120ml)"
-      ]
+  {
+    "id": "7A0D6F9E-4C83-42B7-9E51-13A8D5C2F6B4",
+    "name": "Brixley’s Midori Illusion",
+    "category": "slush",
+    "image": "https://slushiq.com/public/images/midoriillusion.jpg",
+    "variants": {
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "1 cup Midori (240ml)",
+          "½ cup Vodka (120ml)",
+          "¼ cup Triple Sec (60ml)",
+          "2 cups Lemonade (480ml)",
+          "2 cups Pineapple Juice (480ml)",
+          "2½ cups Cold Water (600ml)"
+        ]
+      },
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "1 cup Midori-Style Melon Syrup (240ml)",
+          "2 cups Lemonade (480ml)",
+          "2 cups Pineapple Juice (480ml)",
+          "3 cups Cold Water (720ml)"
+        ]
+      }
     },
-    "nonAlcoholic": {
-    "volume": "69oz (2.1L)",
-      "ingredients": [
-        "6 cups Milk (1420ml)",
-        "½ cup Heavy Cream (120ml)",
-        "1 cup Strong Cold-Brew Coffee (240ml)",
-        "½ cup Coffee Syrup (120ml)",
-        "2 Tbsp Vanilla Extract (30ml)",
-        "½ cup Cold Water (120ml)"
-      ]
-    }
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the appropriate Slush button on your machine."
+    ],
+    "volume": "64 oz (1.9 L)"
   },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the appropriate Slush button on your machine."
-  ]
-},
-{
-  "id": "9B6F4C28-3E75-4A19-8F6D-71A0C5D9E243",
-  "name": "Brixley’s Eggnog Delight",
-  "category": "seasonal",
-  "image": "https://slushiq.com/public/images/eggnogdelight.jpg",
-  "variants": {
-    "alcoholic": {
-    "volume": "62oz (1.8L)",
-      "ingredients": [
-        "6 cups Eggnog (1420ml)",
-        "1¼ cups Liquor (300ml)",
-        "4 oz Water (120ml)"
-      ]
+  {
+    "id": "A1E7C3B9-6D42-4E58-8F0C-9D25B741A6F3",
+    "name": "Brixley’s White Russian Shake",
+    "category": "classics",
+    "image": "https://slushiq.com/public/images/whiterussian.jpg",
+    "variants": {
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "5 cups Milk (1,200ml)",
+          "½ cup Heavy Cream (120ml)",
+          "½ cup 2:1 Simple Syrup (120ml)",
+          "1¾ tbsp Vanilla Extract (26ml)",
+          "¾ cup Coffee Liqueur (180ml)",
+          "¾ cup Vodka (180ml)",
+          "½ cup Cold Water (120ml)"
+        ]
+      },
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "5½ cups Milk (1,320ml)",
+          "½ cup Heavy Cream (120ml)",
+          "1 cup Strong Cold-Brew Coffee (240ml)",
+          "½ cup Coffee Syrup (120ml)",
+          "1¾ tbsp Vanilla Extract (26ml)",
+          "½ cup Cold Water (120ml)"
+        ]
+      }
     },
-    "nonAlcoholic": {
-    "volume": "52oz (1.5L)",
-      "ingredients": [
-        "6 cups Eggnog (1420ml)",
-        "½ cup Cold Water (120ml)"
-      ]
-    }
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the appropriate Slush button on your machine."
+    ],
+    "volume": "64 oz (1.9 L)"
   },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the appropriate Slush button on your machine."
-  ]
-},
-{
-  "id": "2F8C6D3B-A94E-41F7-8E02-7C5A91D64B0E",
-  "name": "Brixley’s Blue Hawaiian",
-  "category": "classics",
-  "image": "https://slushiq.com/public/images/bluehawaiian.jpg",
-  "variants": {
-    "alcoholic": {
-    "volume": "61oz (1.8L)",
-      "ingredients": [
-        "3 cups Pineapple Juice (720ml)",
-        "¾ cup White Rum (180ml)",
-        "¾ cup Blue Curaçao (180ml)",
-        "½ cup Cream of Coconut (120ml)",
-        "2½ cups Cold Water (600ml)"
-      ]
+  {
+    "id": "9B6F4C28-3E75-4A19-8F6D-71A0C5D9E243",
+    "name": "Brixley’s Eggnog Delight",
+    "category": "seasonal",
+    "image": "https://slushiq.com/public/images/eggnogdelight.jpg",
+    "variants": {
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "6¼ cups Eggnog (1,500ml)",
+          "1¼ cups Liquor (300ml)",
+          "½ cup Water (120ml)"
+        ]
+      },
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "7½ cups Eggnog (1,800ml)",
+          "½ cup Cold Water (120ml)"
+        ]
+      }
     },
-    "nonAlcoholic": {
-    "volume": "59oz (1.7L)",
-      "ingredients": [
-        "3 cups Pineapple Juice (720ml)",
-        "¾ cup Blue Curaçao Syrup (180ml)",
-        "½ cup Cream of Coconut (120ml)",
-        "3 cups Cold Water (720ml)"
-      ]
-    }
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the appropriate Slush button on your machine."
+    ],
+    "volume": "64 oz (1.9 L)"
   },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the appropriate Slush button on your machine."
-  ]
-},
-{
-  "id": "D5A91F6E-BC82-47E3-A90F-26D8C4B751E0",
-  "name": "Classic Orange Julius Slush",
-  "category": "classics",
-  "image": "https://slushiq.com/public/images/orangejulius.jpg",
-  "variants": {
-    "alcoholic": {
-    "volume": "74oz (2.2L)",
-      "ingredients": [
-        "5 cups Orange Juice (1200ml)",
-        "½ cup 2:1 Simple Syrup (120ml)",
-        "1 cup Milk (240ml)",
-        "1 Tbsp Vanilla (15ml)",
-        "¾ cup Vodka (180ml)",
-        "1¾ cups Cold Water (420ml)"
-      ]
+  {
+    "id": "2F8C6D3B-A94E-41F7-8E02-7C5A91D64B0E",
+    "name": "Brixley’s Blue Hawaiian",
+    "category": "classics",
+    "image": "https://slushiq.com/public/images/bluehawaiian.jpg",
+    "variants": {
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "3¼ cups Pineapple Juice (780ml)",
+          "¾ cup White Rum (180ml)",
+          "¾ cup Blue Curaçao (180ml)",
+          "½ cup Cream of Coconut (120ml)",
+          "2¾ cups Cold Water (660ml)"
+        ]
+      },
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "3¼ cups Pineapple Juice (780ml)",
+          "¾ cup Blue Curaçao Syrup (180ml)",
+          "½ cup Cream of Coconut (120ml)",
+          "3¼ cups Cold Water (780ml)"
+        ]
+      }
     },
-    "nonAlcoholic": {
-    "volume": "65oz (1.9L)",
-      "ingredients": [
-        "5 cups Orange Juice (1200ml)",
-        "½ cup 2:1 Simple Syrup (120ml)",
-        "1 cup Milk (240ml)",
-        "1 Tbsp Vanilla (15ml)",
-        "1½ cups Cold Water (360ml)"
-      ]
-    }
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the appropriate Slush button on your machine."
+    ],
+    "volume": "64 oz (1.9 L)"
   },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the appropriate Slush button on your machine."
-  ]
-},
-{
-  "id": "4C8F2A9D-7B6E-4A31-90C5-D8E1F6B92754",
-  "name": "Butterbeer",
-  "category": "slush",
-  "image": "https://slushiq.com/public/images/butterbeer.jpg",
-  "variants": {
-    "nonAlcoholic": {
-    "volume": "58oz (1.7L)",
-      "ingredients": [
-        "7 cups Cream Soda (1650ml)",
-        "1½ tablespoons Butter Extract (22ml)",
-        "2 tablespoons Butterscotch Syrup (30ml)",
-        "1 tablespoon Caramel Syrup (15ml)",
-        "Small pinch Fine Salt"
-      ]
+  {
+    "id": "D5A91F6E-BC82-47E3-A90F-26D8C4B751E0",
+    "name": "Classic Orange Julius Slush",
+    "category": "classics",
+    "image": "https://slushiq.com/public/images/orangejulius.jpg",
+    "variants": {
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "4½ cups Orange Juice (1,080ml)",
+          "½ cup 2:1 Simple Syrup (120ml)",
+          "1 cup Milk (240ml)",
+          "2¾ tsp Vanilla (14ml)",
+          "¾ cup Vodka (180ml)",
+          "1½ cups Cold Water (360ml)"
+        ]
+      },
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "5 cups Orange Juice (1,200ml)",
+          "½ cup 2:1 Simple Syrup (120ml)",
+          "1 cup Milk (240ml)",
+          "3 tsp Vanilla (15ml)",
+          "1½ cups Cold Water (360ml)"
+        ]
+      }
     },
-    "alcoholic": {
-    "volume": "68oz (2.0L)",
-      "ingredients": [
-        "7 cups Cream Soda (1650ml)",
-        "1½ tablespoons Butter Extract (22ml)",
-        "2 tablespoons Butterscotch Syrup (30ml)",
-        "1 tablespoon Caramel Syrup (15ml)",
-        "Small pinch Fine Salt",
-        "¾ cup Vanilla Vodka (180ml)",
-        "½ cup Butterscotch Schnapps (120ml)"
-      ]
-    }
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the appropriate Slush button on your machine."
+    ],
+    "volume": "64 oz (1.9 L)"
   },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the appropriate Slush button on your machine."
-  ]
-},
+  {
+    "id": "4C8F2A9D-7B6E-4A31-90C5-D8E1F6B92754",
+    "name": "Butterbeer",
+    "category": "slush",
+    "image": "https://slushiq.com/public/images/butterbeer.jpg",
+    "variants": {
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "7¾ cups Cream Soda (1,860ml)",
+          "1¾ tbsp Butter Extract (26ml)",
+          "2¼ tbsp Butterscotch Syrup (34ml)",
+          "1 tbsp Caramel Syrup (15ml)",
+          "Small pinch Fine Salt"
+        ]
+      },
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "6½ cups Cream Soda (1,560ml)",
+          "1½ tbsp Butter Extract (23ml)",
+          "2 tbsp Butterscotch Syrup (30ml)",
+          "2¾ tsp Caramel Syrup (14ml)",
+          "Small pinch Fine Salt",
+          "¾ cup Vanilla Vodka (180ml)",
+          "½ cup Butterscotch Schnapps (120ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the appropriate Slush button on your machine."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
   {
     "id": "5F2A3B1C-E4D5-4A6B-8C7D-9E0F1A2B3C4D",
     "name": "Apple Peanut Butter Slush",
@@ -1910,20 +1968,20 @@
     "difficulty": "Easy",
     "variants": {
       "nonAlcoholic": {
-      "volume": "61oz (1.8L)",
+        "volume": "64 oz (1.9 L)",
         "ingredients": [
-          "5½ cups Apple Cider (1,320ml)",
+          "5¾ cups Apple Cider (1,380ml)",
           "¾ cup Peanut Butter Syrup (180ml)",
           "¾ cup Simple Syrup (180ml)",
           "½ cup Water (120ml)"
         ]
       },
       "alcoholic": {
-      "volume": "67oz (2.0L)",
+        "volume": "64 oz (1.9 L)",
         "ingredients": [
           "1 cup Crown Royal Apple (240ml)",
           "1 cup Peanut Butter Whiskey (240ml)",
-          "5 cups Apple Cider (1.2L)",
+          "4¾ cups Apple Cider (1,140ml)",
           "¾ cup 2:1 Simple Syrup (180ml)",
           "½ cup Water (120ml)"
         ]
@@ -1933,7 +1991,8 @@
       "Mix all ingredients together.",
       "Pour into your machine.",
       "Press the Slush or Spiked Slush button."
-    ]
+    ],
+    "volume": "64 oz (1.9 L)"
   },
   {
     "id": "A1B2C3D4-E5F6-4A7B-8C9D-0E1F2A3B4C5D",
@@ -1942,15 +2001,15 @@
     "image": "https://slushiq.com/public/images/islandapple.jpg",
     "variants": {
       "nonAlcoholic": {
-      "volume": "68oz (2.0L)",
+        "volume": "64 oz (1.9 L)",
         "ingredients": [
-          "5½ cups Apple Juice (1,080ml)",
+          "5¼ cups Apple Juice (1,260ml)",
           "2 cups Cream of Coconut (480ml)",
           "1 cup Water (240ml)"
         ]
       },
       "alcoholic": {
-      "volume": "66oz (1.9L)",
+        "volume": "64 oz (1.9 L)",
         "ingredients": [
           "1½ cups Vodka (360ml)",
           "4 cups Apple Juice (960ml)",
@@ -1963,7 +2022,8 @@
       "Mix all ingredients together.",
       "Pour into your machine.",
       "Press the Slush or Spiked Slush button."
-    ]
+    ],
+    "volume": "64 oz (1.9 L)"
   },
   {
     "id": "B2C3D4E5-F6A7-4B8C-9D0E-1F2A3B4C5D6E",
@@ -1972,16 +2032,16 @@
     "image": "https://slushiq.com/public/images/pinksunsetlemonade.jpg",
     "variants": {
       "nonAlcoholic": {
-      "volume": "62oz (1.8L)",
+        "volume": "64 oz (1.9 L)",
         "ingredients": [
-          "7 cups Pink Lemonade (1.7L)",
+          "7½ cups Pink Lemonade (1,800ml)",
           "½ cup 2:1 Simple Syrup (120ml)"
         ]
       },
       "alcoholic": {
-      "volume": "67oz (2.0L)",
+        "volume": "64 oz (1.9 L)",
         "ingredients": [
-          "6½ cups Pink Lemonade (1.5L)",
+          "6 cups Pink Lemonade (1,440ml)",
           "½ cup 2:1 Simple Syrup (120ml)",
           "1½ cups Vodka (360ml)"
         ]
@@ -1991,7 +2051,8 @@
       "Mix all ingredients together.",
       "Pour into your machine.",
       "Press the Slush or Spiked Slush button."
-    ]
+    ],
+    "volume": "64 oz (1.9 L)"
   },
   {
     "id": "C3D4E5F6-A7B8-4C9D-0E1F-2A3B4C5D6E7F",
@@ -2000,17 +2061,17 @@
     "image": "https://slushiq.com/public/images/royallemonade.jpg",
     "variants": {
       "nonAlcoholic": {
-      "volume": "65oz (1.9L)",
+        "volume": "64 oz (1.9 L)",
         "ingredients": [
-          "5 cups Lemonade (1.2L)",
+          "5 cups Lemonade (1,200ml)",
           "3 cups Citrus Soda (720ml)"
         ]
       },
       "alcoholic": {
-      "volume": "65oz (1.9L)",
+        "volume": "64 oz (1.9 L)",
         "ingredients": [
           "1½ cups Blackberry Crown Royal (360ml)",
-          "5 cups Lemonade (1.2L)",
+          "5 cups Lemonade (1,200ml)",
           "1½ cups Citrus Soda (360ml)"
         ]
       }
@@ -2019,7 +2080,8 @@
       "Mix all ingredients together.",
       "Pour into your machine.",
       "Press the Slush or Spiked Slush button."
-    ]
+    ],
+    "volume": "64 oz (1.9 L)"
   },
   {
     "id": "D4E5F6A7-B8C9-4D0E-1F2A-3B4C5D6E7F8A",
@@ -2028,7 +2090,7 @@
     "image": "https://slushiq.com/public/images/arnoldpalmer.jpg",
     "variants": {
       "nonAlcoholic": {
-      "volume": "65oz (1.9L)",
+        "volume": "64 oz (1.9 L)",
         "ingredients": [
           "3 cups Sweet Tea (720ml)",
           "3½ cups Lemonade (840ml)",
@@ -2036,12 +2098,12 @@
         ]
       },
       "alcoholic": {
-      "volume": "76oz (2.3L)",
+        "volume": "64 oz (1.9 L)",
         "ingredients": [
-          "1½ cups Vodka (360ml)",
-          "3 cups Sweet Tea (720ml)",
-          "4 cups Lemonade (960ml)",
-          "1 cup Water (240ml)"
+          "1¼ cups Vodka (300ml)",
+          "2½ cups Sweet Tea (600ml)",
+          "3¼ cups Lemonade (780ml)",
+          "¾ cup Water (180ml)"
         ]
       }
     },
@@ -2049,7 +2111,8 @@
       "Mix all ingredients together.",
       "Pour into your machine.",
       "Press the Slush or Spiked Slush button."
-    ]
+    ],
+    "volume": "64 oz (1.9 L)"
   },
   {
     "id": "E5F6A7B8-C9D0-4E1F-2A3B-4C5D6E7F8A9B",
@@ -2058,16 +2121,16 @@
     "image": "https://slushiq.com/public/images/miamivice.jpg",
     "variants": {
       "nonAlcoholic": {
-      "volume": "63oz (1.9L)",
+        "volume": "64 oz (1.9 L)",
         "ingredients": [
-          "3½ cups Pineapple Juice (840ml)",
-          "3 cups Coconut Milk (720ml)",
+          "3¾ cups Pineapple Juice (900ml)",
+          "3¼ cups Coconut Milk (780ml)",
           "1 cup 2:1 Simple Syrup (240ml)",
           "Add 1-2 oz Strawberry Syrup to the bottom of the cup (30-60ml)"
         ]
       },
       "alcoholic": {
-      "volume": "69oz (2.0L)",
+        "volume": "64 oz (1.9 L)",
         "ingredients": [
           "2 cups Coconut Rum (480ml)",
           "3 cups Pineapple Juice (720ml)",
@@ -2081,7 +2144,8 @@
       "Mix all ingredients together (except Strawberry Syrup).",
       "Pour into your machine.",
       "Add Strawberry Syrup to the bottom of the glass and press the Slush or Spiked Slush button."
-    ]
+    ],
+    "volume": "64 oz (1.9 L)"
   },
   {
     "id": "F6A7B8C9-D0E1-4F2A-3B4C-5D6E7F8A9B0C",
@@ -2090,16 +2154,16 @@
     "image": "https://slushiq.com/public/images/bahamamama.jpg",
     "variants": {
       "nonAlcoholic": {
-      "volume": "61oz (1.8L)",
+        "volume": "64 oz (1.9 L)",
         "ingredients": [
-          "3½ cups Pineapple Juice (840ml)",
-          "2½ cups Orange Juice (600ml)",
+          "3¾ cups Pineapple Juice (900ml)",
+          "2¾ cups Orange Juice (660ml)",
           "¾ cup Grenadine (180ml)",
           "¾ cup Water (180ml)"
         ]
       },
       "alcoholic": {
-      "volume": "63oz (1.9L)",
+        "volume": "64 oz (1.9 L)",
         "ingredients": [
           "¾ cup Dark Rum (180ml)",
           "¾ cup Coconut Rum (180ml)",
@@ -2114,673 +2178,694 @@
       "Mix all ingredients together.",
       "Pour into your machine.",
       "Press the Slush or Spiked Slush button."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "7F3C2B6A-9E14-4C8D-A5F1-62B0E9D4A7C3",
+    "name": "Lavender Lemon Drop",
+    "category": "slush",
+    "image": "https://slushiq.com/public/images/lavenderlemondrop.jpg",
+    "variants": {
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "3¾ cups Lemonade (900ml)",
+          "1 cup Lavender Syrup (240ml)",
+          "¾ cup fresh Lemon Juice (180ml)",
+          "2½ cups Citrus Soda (600ml)"
+        ]
+      },
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "1½ cups Vodka (360ml)",
+          "¾ cup Triple Sec (180ml)",
+          "2½ cups Lemonade (600ml)",
+          "½ cup Lemon Juice (120ml)",
+          "½ cup Lavender Syrup (120ml)",
+          "2 cups Water (480ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Slush or Spiked Slush button."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "1F3A9C2E-6B74-4D18-9A5F-2E8C7B4D91A6",
+    "name": "Apple Orchard Slush",
+    "category": "seasonal",
+    "image": "https://slushiq.com/public/images/appleorchard.jpg",
+    "variants": {
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "4 cups Apple Cider (960ml)",
+          "4 cups Water (960ml)"
+        ]
+      },
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "1¼ cups Captain Morgan Apple (300ml)",
+          "4¼ cups Apple Cider (1,020ml)",
+          "2½ cups Water (600ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Slush or Spiked Slush button."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "A7C4E91B-5F2D-48A6-9E73-0B6D1C8F5429",
+    "name": "Banana Pineapple Slush",
+    "category": "slush",
+    "image": "https://slushiq.com/public/images/bananapineapple.jpg",
+    "variants": {
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "½ cup Banana Puree (120ml)",
+          "1½ cups Pineapple Juice (360ml)",
+          "3¾ cups Sugar-Free Lemonade (900ml)",
+          "2¼ cups Water (540ml)"
+        ]
+      },
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "¾ cup banana liqueur (180ml)",
+          "1 cup Coconut Rum (240ml)",
+          "1¼ cups Pineapple Juice (300ml)",
+          "3¼ cups Sugar-Free Lemonade (780ml)",
+          "1¾ cups Water (420ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Slush or Spiked Slush button."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "6D2A9F4B-C731-4E85-8A0C-5F19E7B2436D",
+    "name": "Blue Lightning Slush",
+    "category": "slush",
+    "image": "https://slushiq.com/public/images/bluelightning.jpg",
+    "variants": {
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "1½ cups Blue Raspberry Syrup (360ml)",
+          "3 cups Lemonade (720ml)",
+          "3½ cups Water (840ml)"
+        ]
+      },
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "1¼ cups Vodka (300ml)",
+          "1¼ cups Blue Raspberry Syrup (300ml)",
+          "2¼ cups Lemonade (540ml)",
+          "3¼ cups Water (780ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Slush or Spiked Slush button."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "9C5E1A72-8D4F-4B36-AE90-7B2F64C18D5A",
+    "name": "Island Sour Slush",
+    "category": "slush",
+    "image": "https://slushiq.com/public/images/islandsour.jpg",
+    "variants": {
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "1¼ cups Pineapple Juice (300ml)",
+          "1¼ cups Sweet & Sour Mix (300ml)",
+          "½ cup Orange Syrup (120ml)",
+          "5¼ cups Water (1,260ml)"
+        ]
+      },
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "¾ cup Coconut Rum (180ml)",
+          "½ cup Triple Sec (120ml)",
+          "1 cup Pineapple Juice (240ml)",
+          "1 cup Sweet & Sour Mix (240ml)",
+          "4¾ cups Water (1,140ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Slush or Spiked Slush button."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "E4B7D91F-2A6C-4F85-9C30-1A8E5D72B649",
+    "name": "Ocean Breeze Blue Slush",
+    "category": "slush",
+    "image": "https://slushiq.com/public/images/oceanbreeze.jpg",
+    "variants": {
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "1 cup Blue Curacao Syrup (240ml)",
+          "2 cups Pineapple Juice (480ml)",
+          "½ cup Cream of Coconut (120ml)",
+          "4½ cups Water (1,080ml)"
+        ]
+      },
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "¾ cup Blue Curacao (180ml)",
+          "¾ cup Coconut Rum (180ml)",
+          "¾ cup Vodka (180ml)",
+          "1½ cups Pineapple Juice (360ml)",
+          "¾ cup Cream of Coconut (180ml)",
+          "3½ cups Water (840ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Slush or Spiked Slush button."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "3F8A6D2C-9E15-4B74-A5C1-7D490B8E26F3",
+    "name": "Homemade Base Slush",
+    "category": "featured",
+    "image": "https://slushiq.com/public/images/homemadebase.jpg",
+    "variants": {
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "7½ cups Water (1,800ml)",
+          "½ cup 2:1 Simple Syrup (120ml)",
+          "Add your favorite flavor and mix in cup"
+        ]
+      },
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "2 cups Vodka (480ml)",
+          "5 cups Water (1,200ml)",
+          "1 cup 2:1 Simple Syrup (240ml)",
+          "Add your favorite flavor and mix in cup"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Slush or Spiked Slush button."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "B6C4A5F9-1E8D-4A73-9F20-5D7B2E6C418A",
+    "name": "Cran-Citrus Slush",
+    "category": "slush",
+    "image": "https://slushiq.com/public/images/crancitrus.jpg",
+    "variants": {
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "2 cups White Cran-Strawberry (480ml)",
+          "1½ cups Citrus Soda (360ml)",
+          "4½ cups cold water (1,080ml)"
+        ]
+      },
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "¾ cup silver tequila (180ml)",
+          "2 cups White Cran-Strawberry (480ml)",
+          "1½ cups Citrus Soda (360ml)",
+          "3½ cups cold water (840ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Slush or Spiked Slush button."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "2E7D5C1A-8F94-4B36-A091-C6B4F3E5297D",
+    "name": "Lemon Margarita",
+    "category": "featured",
+    "image": "https://slushiq.com/public/images/lemonmargarita.jpg",
+    "variants": {
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "2 cups Lemonade (480ml)",
+          "1 cup Lemon Juice (240ml)",
+          "¾ cup 2:1 Simple Syrup (180ml)",
+          "4¼ cups Water (1,020ml)"
+        ]
+      },
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "1 cup Tequila (240ml)",
+          "½ cup Triple Sec (120ml)",
+          "1½ cups Lemonade (360ml)",
+          "1 cup Lemon Juice (240ml)",
+          "½ cup 2:1 Simple Syrup (120ml)",
+          "3¼ cups Water (780ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Slush or Spiked Slush button."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "8A4E5D6F-C2B1-4F97-9A30-17D8B6C25E49",
+    "name": "Mango Paradise",
+    "category": "slush",
+    "image": "https://slushiq.com/public/images/mangoparadise.jpg",
+    "variants": {
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "3 cups Mango Nectar (720ml)",
+          "1¼ cups Coconut Milk (300ml)",
+          "3½ cups Water (840ml)"
+        ]
+      },
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "1¼ cups Mango Nectar (300ml)",
+          "1¼ cups Coconut Rum (300ml)",
+          "1¼ cups Vodka (300ml)",
+          "1¼ cups Coconut Milk (300ml)",
+          "3¼ cups Water (780ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Slush or Spiked Slush button."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "C9E7B2A4-6D51-4F83-A0C8-5D419F6E2B73",
+    "name": "Classic Jack Frost Slush",
+    "category": "classics",
+    "image": "https://slushiq.com/public/images/jackfrost.jpg",
+    "variants": {
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "2¾ cups Pineapple Juice (660ml)",
+          "½ cup Blue Curacao Syrup (120ml)",
+          "½ cup Cream of Coconut (120ml)",
+          "4¼ cups Water (1,020ml)"
+        ]
+      },
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "1 cup Vodka (240ml)",
+          "¾ cup Blue Curacao (180ml)",
+          "2 cups Pineapple Juice (480ml)",
+          "½ cup Cream of Coconut (120ml)",
+          "3½ cups Water (840ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Slush or Spiked Slush button."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "5D4E7C9F-1A2B-4A86-8F30-C6EBD527419A",
+    "name": "Classic Hurricane Slush",
+    "category": "featured",
+    "image": "https://slushiq.com/public/images/hurricane.jpg",
+    "variants": {
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "3¼ cups Passion Fruit Juice (780ml)",
+          "2 cups Orange Juice (480ml)",
+          "¾ cup Lemon Juice (180ml)",
+          "1¼ cups 2:1 Simple Syrup (300ml)",
+          "1 cup Water (240ml)"
+        ]
+      },
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "1½ cups Dark Rum (360ml)",
+          "½ cup Light Rum (120ml)",
+          "2 cups Passion Fruit Juice (480ml)",
+          "1½ cups Orange Juice (360ml)",
+          "½ cup Lemon Juice (120ml)",
+          "1¼ cups 2:1 Simple Syrup (300ml)",
+          "½ cup Water (120ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Slush or Spiked Slush button."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "7B1E8D5F-4A92-4C36-A0E7-29F6D5C18B43",
+    "name": "Royal Cherry Cola Slush",
+    "category": "slush",
+    "image": "https://slushiq.com/public/images/royalcherry.jpg",
+    "variants": {
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "1½ cups Crown Royal (360ml)",
+          "5 cups Cherry Cola (1,200ml)",
+          "1½ cups Water (360ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the appropriate Slush button."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "4C5F2E9D-8A17-4B63-A901-7D6B3CFE5284",
+    "name": "Sugar Free Vanilla Royal Cola",
+    "category": "lowSugar",
+    "image": "https://slushiq.com/public/images/sugarfreevanillaroyal.jpg",
+    "variants": {
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "1½ cups Crown Royal Vanilla (360ml)",
+          "6¼ cups Cola Zero (1,500ml)",
+          "¼ cup Powdered Allulose (58g) or ¼ cup Liquid Allulose (60ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the appropriate Slush button."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "E1D6C94A-5F72-4B38-A0E9-82C7F5B3461D",
+    "name": "Royal Cola Slush",
+    "category": "featured",
+    "image": "https://slushiq.com/public/images/royalcola.jpg",
+    "variants": {
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "1½ cups Crown Royal (360ml)",
+          "4½ cups Cola (1,080ml)",
+          "2 cups Water (480ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the appropriate Slush button.",
+      "Sugar-free tip: These mixes freeze better a bit warmer. If your machine has a temp setting, aim for ~30°F. If it uses bars, bump the temperature up slightly from the standard setting."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "A2F8D7E1-9C5B-4A63-8E40-6D5C3B719F24",
+    "name": "Sugar Free Shirley",
+    "category": "lowSugar",
+    "image": "https://slushiq.com/public/images/sugarfreeshirley.jpg",
+    "variants": {
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "7¾ cups Sugar Free Shirley Temple Soda (1,860ml)",
+          "¼ cup Powdered Allulose (58g) or ¼ cup Liquid Allulose (60ml)"
+        ]
+      },
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "1½ cups vodka (360ml)",
+          "6¼ cups Sugar Free Shirley Temple Soda (1,500ml)",
+          "¼ cup Powdered Allulose (58g) or ¼ cup Liquid Allulose (60ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Slush button.",
+      "Sugar-free tip: These mixes freeze better a bit warmer. If your machine has a temp setting, aim for ~30°F. If it uses bars, bump the temperature up slightly from the standard setting."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "6E4C1A7D-5B98-4F32-A0E9-82F3D5C7196B",
+    "name": "Shamrock Milkshake",
+    "category": "milkshake",
+    "image": "https://slushiq.com/public/images/shamrockmilkshake.jpg",
+    "variants": {
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "4¾ cups Milk (1,140ml)",
+          "1¾ cups Half & Half (420ml)",
+          "¾ cup Sweetened Condensed Milk (180ml)",
+          "¾ cup Vanilla Syrup (180ml)",
+          "1¼ tsp Peppermint Extract (6ml)",
+          "Green food coloring, as desired"
+        ]
+      },
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "3¾ cups Milk (900ml)",
+          "1½ cups Half & Half (360ml)",
+          "¾ cup Sweetened Condensed Milk (180ml)",
+          "¾ cup Vanilla Syrup (180ml)",
+          "1½ cups Vanilla Vodka (360ml)",
+          "1¼ tsp Peppermint Extract (6ml)",
+          "Green food coloring, as desired"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Milkshake button."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "F2C7A8D9-1B5E-4A36-8E40-6D3C9F5172B4",
+    "name": "Royal Vanilla Cola Slush",
+    "category": "slush",
+    "image": "https://slushiq.com/public/images/royalvanilla.jpg",
+    "variants": {
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "1½ cups Crown Royal Vanilla (360ml)",
+          "5 cups Cola (1,200ml)",
+          "1½ cups Water (360ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the appropriate Slush button."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "9A6E1F5C-D7B4-4B82-A309-ECF25D4817C6",
+    "name": "Sugar Free Royal Cola",
+    "category": "lowSugar",
+    "image": "https://slushiq.com/public/images/royalcola.jpg",
+    "variants": {
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "1½ cups Crown Royal (360ml)",
+          "6¼ cups Cola Zero (1,500ml)",
+          "¼ cup Powdered Allulose (58g) or ¼ cup Liquid Allulose (60ml)"
+        ]
+      }
+    },
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the appropriate Slush button.",
+      "Sugar-free tip: These mixes freeze better a bit warmer. If your machine has a temp setting, aim for ~30°F. If it uses bars, bump the temperature up slightly from the standard setting."
+    ],
+    "volume": "64 oz (1.9 L)"
+  },
+  {
+    "id": "E6B2D94F-0A73-4C8E-87F1-5A3D9C21B604",
+    "name": "Sugar Free Classic Margarita",
+    "category": "lowSugar",
+    "image": "https://slushiq.com/public/images/sugarfreeclassicmargarita.jpg",
+    "volume": "64 oz (1.9 L)",
+    "ingredients": [
+      "2 cups Tequila (480ml)",
+      "½ cup Sugar-Free Orange Syrup (120ml)",
+      "1½ cups Lime Juice (360ml)",
+      "½ cup Powdered Allulose (95g) or ½ cup Liquid Allulose (120ml)",
+      "3½ cups Water (840ml)"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Spiked Slush button on your machine.",
+      "Sugar-free tip: These mixes freeze better a bit warmer. If your machine has a temp setting, aim for ~27°F. If it uses bars, bump the temperature up slightly from the standard setting."
     ]
   },
   {
-  "id": "7F3C2B6A-9E14-4C8D-A5F1-62B0E9D4A7C3",
-  "name": "Lavender Lemon Drop",
-  "category": "slush",
-  "image": "https://slushiq.com/public/images/lavenderlemondrop.jpg",
-  "variants": {
-    "nonAlcoholic": {
-    "volume": "51oz (1.5L)",
-      "ingredients": [
-        "3 cups Lemonade (720ml)",
-        "¾ cup Lavender Syrup (180ml)",
-        "½ cup fresh Lemon Juice (120ml)",
-        "2 cups Citrus Soda (480ml)"
-      ]
+    "id": "3C8E5A1D-74F2-4B0C-9D6E-FA21B8C45790",
+    "name": "Low Sugar Classic Margarita",
+    "category": "lowSugar",
+    "image": "https://slushiq.com/public/images/lowsugarclassicmargarita.jpg",
+    "volume": "64 oz (1.9 L)",
+    "ingredients": [
+      "1¾ cups Tequila (420ml)",
+      "¾ cup Orange Liqueur (180ml)",
+      "1½ cups Lime Juice (360ml)",
+      "½ cup Powdered Allulose (95g) or ½ cup Liquid Allulose (120ml)",
+      "3½ cups Water (840ml)"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Spiked Slush button on your machine.",
+      "Sugar-free tip: These mixes freeze better a bit warmer. If your machine has a temp setting, aim for ~27°F. If it uses bars, bump the temperature up slightly from the standard setting."
+    ]
+  },
+  {
+    "id": "A1D9F6E8-3B42-4F7A-8E5C-91C0B2D4A6EF",
+    "name": "Sugar Free Strawberry Margarita",
+    "category": "lowSugar",
+    "image": "https://slushiq.com/public/images/sugarfreestrawberrymargarita.jpg",
+    "volume": "64 oz (1.9 L)",
+    "ingredients": [
+      "2 cups Tequila (480ml)",
+      "½ cup Sugar-Free Strawberry Syrup (120ml)",
+      "1½ cups Lime Juice (360ml)",
+      "½ cup Powdered Allulose (95g) or ½ cup Liquid Allulose (120ml)",
+      "3½ cups Water (840ml)"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Spiked Slush button on your machine.",
+      "Sugar-free tip: These mixes freeze better a bit warmer. If your machine has a temp setting, aim for ~27°F. If it uses bars, bump the temperature up slightly from the standard setting."
+    ]
+  },
+  {
+    "id": "7F4A9C32-1E6B-4B9A-9C21-5E8D3A0F6C44",
+    "name": "Strawberry Cream Chill",
+    "category": "slush",
+    "image": "https://slushiq.com/public/images/strawberrycreamchill.jpg",
+    "volume": "64 oz (1.9 L)",
+    "ingredients": [
+      "2¼ cups Strawberries & Cream Baileys (540ml)",
+      "2¼ cups Strawberry Puree (540ml)",
+      "1¾ cups Whole Milk (420ml)",
+      "1¼ cups Water (300ml)",
+      "½ cup 2:1 Simple Syrup (120ml)"
+    ],
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the Spiked Slush button on your machine."
+    ]
+  },
+  {
+    "id": "7F3B2D4A-9C81-4E6F-A2D7-5B9E1C3F8A60",
+    "name": "King Cake Inspired Slush",
+    "category": "featured",
+    "image": "https://slushiq.com/public/images/kingcake.jpg",
+    "variants": {
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "4¾ cups White Grape Juice (1,140ml)",
+          "½ cup 2:1 Brown Sugar Syrup (120ml)",
+          "2¾ cups Water (660ml)",
+          "½ tsp Cinnamon (3ml)",
+          "½ tsp Almond Extract (3ml)",
+          "¼ tsp Imitation Butter Flavor (1ml)"
+        ]
+      },
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "1¼ cups Vanilla Vodka (300ml)",
+          "½ cup Cinnamon Schnapps (120ml)",
+          "5 cups White Grape Juice (1,200ml)",
+          "¾ cup Water (180ml)",
+          "½ cup 2:1 Brown Sugar Syrup (120ml)",
+          "½ tsp Cinnamon (3ml)",
+          "½ tsp Almond Extract (3ml)",
+          "¼ tsp Imitation Butter Flavor (1ml)"
+        ]
+      }
     },
-    "alcoholic": {
-    "volume": "63oz (1.9L)",
-      "ingredients": [
-        "1½ cups Vodka (360ml)",
-        "¾ cup Triple Sec (180ml)",
-        "2½ cups Lemonade (600ml)",
-        "½ cup Lemon Juice (120ml)",
-        "½ cup Lavender Syrup (120ml)",
-        "2 cups Water (480ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the Slush or Spiked Slush button."
-  ]
-},
-{
-  "id": "1F3A9C2E-6B74-4D18-9A5F-2E8C7B4D91A6",
-  "name": "Apple Orchard Slush",
-  "category": "seasonal",
-  "image": "https://slushiq.com/public/images/appleorchard.jpg",
-  "variants": {
-    "nonAlcoholic": {
-      "volume": "64oz (1,800ml)",
-      "ingredients": [
-        "4 cups Apple Cider (950ml)",
-        "4 cups Water (950ml)"
-      ]
-    },
-    "alcoholic": {
-      "volume": "64oz (1,800ml)",
-      "ingredients": [
-        "1¼ cups Captain Morgan Apple (300ml)",
-        "4 cups Apple Cider (950ml)",
-        "2¼ cups Water (530ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the Slush or Spiked Slush button."
-  ]
-},
-{
-  "id": "A7C4E91B-5F2D-48A6-9E73-0B6D1C8F5429",
-  "name": "Banana Pineapple Slush",
-  "category": "slush",
-  "image": "https://slushiq.com/public/images/bananapineapple.jpg",
-  "variants": {
-    "nonAlcoholic": {
-      "volume": "64oz (1,920ml)",
-      "ingredients": [
-        "½ cup Banana Puree (120ml)",
-        "1½ cups Pineapple Juice (360ml)",
-        "3½ cups Sugar-Free Lemonade (840ml)",
-        "2 cups Water (480ml)"
-      ]
-    },
-    "alcoholic": {
-      "volume": "71oz (2,100ml)",
-      "ingredients": [
-        "¾ cup banana liqueur (180ml)",
-        "1 cup Coconut Rum (240ml)",
-        "1½ cups Pineapple Juice (360ml)",
-        "3½ cups Sugar-Free Lemonade (840ml)",
-        "2 cups Water (480ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the Slush or Spiked Slush button."
-  ]
-},
-{
-  "id": "6D2A9F4B-C731-4E85-8A0C-5F19E7B2436D",
-  "name": "Blue Lightning Slush",
-  "category": "slush",
-  "image": "https://slushiq.com/public/images/bluelightning.jpg",
-  "variants": {
-    "nonAlcoholic": {
-      "volume": "64oz (1,875ml)",
-      "ingredients": [
-        "1½ cups Blue Raspberry Syrup (360ml)",
-        "3 cups Lemonade (700ml)",
-        "3½ cups Water (825ml)"
-      ]
-    },
-    "alcoholic": {
-      "volume": "70oz (2,075ml)",
-      "ingredients": [
-        "1½ cups Vodka (360ml)",
-        "1¼ cups Blue Raspberry Syrup (300ml)",
-        "2½ cups Lemonade (600ml)",
-        "3½ cups Water (825ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the Slush or Spiked Slush button."
-  ]
-},
-{
-  "id": "9C5E1A72-8D4F-4B36-AE90-7B2F64C18D5A",
-  "name": "Island Sour Slush",
-  "category": "slush",
-  "image": "https://slushiq.com/public/images/islandsour.jpg",
-  "variants": {
-    "nonAlcoholic": {
-      "volume": "56oz (1,680ml)",
-      "ingredients": [
-        "1 cup Pineapple Juice (240ml)",
-        "1 cup Sweet & Sour Mix (240ml)",
-        "½ cup Orange Syrup (120ml)",
-        "4½ cups Water (1,080ml)"
-      ]
-    },
-    "alcoholic": {
-      "volume": "64oz (1,860ml)",
-      "ingredients": [
-        "¾ cup Coconut Rum (180ml)",
-        "½ cup Triple Sec (120ml)",
-        "1 cup Pineapple Juice (240ml)",
-        "1 cup Sweet & Sour Mix (240ml)",
-        "4½ cups Water (1,080ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the Slush or Spiked Slush button."
-  ]
-},
-{
-  "id": "E4B7D91F-2A6C-4F85-9C30-1A8E5D72B649",
-  "name": "Ocean Breeze Blue Slush",
-  "category": "slush",
-  "image": "https://slushiq.com/public/images/oceanbreeze.jpg",
-  "variants": {
-    "nonAlcoholic": {
-      "volume": "64oz (1,905ml)",
-      "ingredients": [
-        "1 cup Blue Curacao Syrup (240ml)",
-        "2 cups Pineapple Juice (475ml)",
-        "½ cup Cream of Coconut (120ml)",
-        "4½ cups Water (1,065ml)"
-      ]
-    },
-    "alcoholic": {
-      "volume": "64oz (1,905ml)",
-      "ingredients": [
-        "¾ cup Blue Curacao (180ml)",
-        "¾ cup Coconut Rum (180ml)",
-        "¾ cup Vodka (180ml)",
-        "1½ cups Pineapple Juice (350ml)",
-        "¾ cup Cream of Coconut (180ml)",
-        "3½ cups Water (830ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the Slush or Spiked Slush button."
-  ]
-},
-{
-  "id": "3F8A6D2C-9E15-4B74-A5C1-7D490B8E26F3",
-  "name": "Homemade Base Slush",
-  "category": "featured",
-  "image": "https://slushiq.com/public/images/homemadebase.jpg",
-  "variants": {
-    "nonAlcoholic": {
-      "volume": "64oz (1,895ml)",
-      "ingredients": [
-        "7½ cups Water (1,775ml)",
-        "½ cup 2:1 Simple Syrup (120ml)",
-        "Add your favorite flavor and mix in cup"
-      ]
-    },
-    "alcoholic": {
-      "volume": "64oz (1,900ml)",
-      "ingredients": [
-        "2 cups Vodka (480ml)",
-        "5 cups Water (1,180ml)",
-        "1 cup 2:1 Simple Syrup (240ml)",
-        "Add your favorite flavor and mix in cup"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the Slush or Spiked Slush button."
-  ]
-},
-{
-  "id": "B6C4A5F9-1E8D-4A73-9F20-5D7B2E6C418A",
-  "name": "Cran-Citrus Slush",
-  "category": "slush",
-  "image": "https://slushiq.com/public/images/crancitrus.jpg",
-  "variants": {
-    "nonAlcoholic": {
-      "volume": "56oz (1,920ml)",
-      "ingredients": [
-        "2 cups White Cran-Strawberry (480ml)",
-        "1½ cups Citrus Soda (360ml)",
-        "4½ cups cold water (1,080ml)"
-      ]
-    },
-    "alcoholic": {
-      "volume": "64oz (1,860ml)",
-      "ingredients": [
-        "¾ cup silver tequila (180ml)",
-        "2 cups White Cran-Strawberry (480ml)",
-        "1½ cups Citrus Soda (360ml)",
-        "3½ cups cold water (840ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the Slush or Spiked Slush button."
-  ]
-},
-{
-  "id": "2E7D5C1A-8F94-4B36-A091-C6B4F3E5297D",
-  "name": "Lemon Margarita",
-  "category": "featured",
-  "image": "https://slushiq.com/public/images/lemonmargarita.jpg",
-  "variants": {
-    "nonAlcoholic": {
-      "volume": "64oz (1,905ml)",
-      "ingredients": [
-        "2 cups Lemonade (475ml)",
-        "1 cup Lemon Juice (240ml)",
-        "¾ cup 2:1 Simple Syrup (180ml)",
-        "4½ cups Water (1,065ml)"
-      ]
-    },
-    "alcoholic": {
-      "volume": "64oz (1,785ml)",
-      "ingredients": [
-        "1 cup Tequila (240ml)",
-        "½ cup Triple Sec (120ml)",
-        "1½ cups Lemonade (350ml)",
-        "1 cup Lemon Juice (240ml)",
-        "½ cup 2:1 Simple Syrup (120ml)",
-        "3 cups Water (710ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the Slush or Spiked Slush button."
-  ]
-},
-{
-  "id": "8A4E5D6F-C2B1-4F97-9A30-17D8B6C25E49",
-  "name": "Mango Paradise",
-  "category": "slush",
-  "image": "https://slushiq.com/public/images/mangoparadise.jpg",
-  "variants": {
-    "nonAlcoholic": {
-      "volume": "64oz (1,900ml)",
-      "ingredients": [
-        "3 cups Mango Nectar (710ml)",
-        "1¼ cups Coconut Milk (300ml)",
-        "3½ cups Water (830ml)"
-      ]
-    },
-    "alcoholic": {
-      "volume": "70oz (2,085ml)",
-      "ingredients": [
-        "1½ cups Mango Nectar (355ml)",
-        "1¼ cups Coconut Rum (300ml)",
-        "1¼ cups Vodka (300ml)",
-        "1¼ cups Coconut Milk (300ml)",
-        "3½ cups Water (830ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the Slush or Spiked Slush button."
-  ]
-},
-{
-  "id": "C9E7B2A4-6D51-4F83-A0C8-5D419F6E2B73",
-  "name": "Classic Jack Frost Slush",
-  "category": "classics",
-  "image": "https://slushiq.com/public/images/jackfrost.jpg",
-  "variants": {
-    "nonAlcoholic": {
-      "volume": "60oz (1,800ml)",
-      "ingredients": [
-        "2½ cups Pineapple Juice (590ml)",
-        "½ cup Blue Curacao Syrup (120ml)",
-        "½ cup Cream of Coconut (120ml)",
-        "4 cups Water (950ml)"
-      ]
-    },
-    "alcoholic": {
-      "volume": "64oz (1,845ml)",
-      "ingredients": [
-        "1 cup Vodka (240ml)",
-        "¾ cup Blue Curacao (180ml)",
-        "2 cups Pineapple Juice (475ml)",
-        "½ cup Cream of Coconut (120ml)",
-        "3½ cups Water (830ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the Slush or Spiked Slush button."
-  ]
-},
-{
-  "id": "5D4E7C9F-1A2B-4A86-8F30-C6EBD527419A",
-  "name": "Classic Hurricane Slush",
-  "category": "featured",
-  "image": "https://slushiq.com/public/images/hurricane.jpg",
-  "variants": {
-    "nonAlcoholic": {
-      "volume": "50oz (1,500ml)",
-      "ingredients": [
-        "2½ cups Passion Fruit Juice (600ml)",
-        "1½ cups Orange Juice (360ml)",
-        "½ cup Lemon Juice (120ml)",
-        "1 cup 2:1 Simple Syrup (240ml)",
-        "¾ cup Water (180ml)"
-      ]
-    },
-    "alcoholic": {
-      "volume": "62oz (1,860ml)",
-      "ingredients": [
-        "1½ cups Dark Rum (360ml)",
-        "½ cup Light Rum (120ml)",
-        "2 cups Passion Fruit Juice (480ml)",
-        "1½ cups Orange Juice (360ml)",
-        "½ cup Lemon Juice (120ml)",
-        "1¼ cups 2:1 Simple Syrup (300ml)",
-        "½ cup Water (120ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the Slush or Spiked Slush button."
-  ]
-},
-{
-  "id": "7B1E8D5F-4A92-4C36-A0E7-29F6D5C18B43",
-  "name": "Royal Cherry Cola Slush",
-  "category": "slush",
-  "image": "https://slushiq.com/public/images/royalcherry.jpg",
-  "variants": {
-    "alcoholic": {
-      "volume": "64oz (1,920ml)",
-      "ingredients": [
-        "1½ cups Crown Royal (360ml)",
-        "5 cups Cherry Cola (1,200ml)",
-        "1½ cups Water (480ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the appropriate Slush button."
-  ]
-},
-{
-  "id": "4C5F2E9D-8A17-4B63-A901-7D6B3CFE5284",
-  "name": "Sugar Free Vanilla Royal Cola",
-  "category": "lowSugar",
-  "image": "https://slushiq.com/public/images/sugarfreevanillaroyal.jpg",
-  "variants": {
-    "alcoholic": {
-      "volume": "64oz (1,920ml)",
-      "ingredients": [
-        "1½ cups Crown Royal Vanilla (360ml)",
-        "6½ cups Cola Zero (1,560ml)",
-        "4¾ tablespoons Powdered Allulose (58g) or ¼ cup Liquid Allulose (60ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the appropriate Slush button."
-  ]
-},
-{
-  "id": "E1D6C94A-5F72-4B38-A0E9-82C7F5B3461D",
-  "name": "Royal Cola Slush",
-  "category": "featured",
-  "image": "https://slushiq.com/public/images/royalcola.jpg",
-  "variants": {
-    "alcoholic": {
-      "volume": "64oz (1,920ml)",
-      "ingredients": [
-        "1½ cups Crown Royal (360ml)",
-        "4½ cups Cola (1,080ml)",
-        "2 cups Water (480ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the appropriate Slush button.",
-    "Sugar-free tip: These mixes freeze better a bit warmer. If your machine has a temp setting, aim for ~30°F. If it uses bars, bump the temperature up slightly from the standard setting."
-  ]
-},
-{
-  "id": "A2F8D7E1-9C5B-4A63-8E40-6D5C3B719F24",
-  "name": "Sugar Free Shirley",
-  "category": "lowSugar",
-  "image": "https://slushiq.com/public/images/sugarfreeshirley.jpg",
-  "variants": {
-    "nonAlcoholic": {
-      "volume": "64oz (1,920ml)",
-      "ingredients": [
-        "8 cups Sugar Free Shirley Temple Soda (1,560ml)",
-        "4¾ Tbsp Powdered Allulose (58g) or ¼ cup Liquid Allulose (60ml)"
-      ]
-    },
-    "alcoholic": {
-      "volume": "64oz (1,920ml)",
-      "ingredients": [
-        "1½ cups vodka (360ml)",
-        "6½ cups Sugar Free Shirley Temple Soda (1,560ml)",
-        "4¾ Tbsp Powdered Allulose (58g) or ¼ cup Liquid Allulose (60ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the Slush button.",
-    "Sugar-free tip: These mixes freeze better a bit warmer. If your machine has a temp setting, aim for ~30°F. If it uses bars, bump the temperature up slightly from the standard setting."
-  ]
-},
-{
-  "id": "6E4C1A7D-5B98-4F32-A0E9-82F3D5C7196B",
-  "name": "Shamrock Milkshake",
-  "category": "milkshake",
-  "image": "https://slushiq.com/public/images/shamrockmilkshake.jpg",
-  "variants": {
-    "nonAlcoholic": {
-      "volume": "64oz (1,926ml)",
-      "ingredients": [
-        "4¾ cups Milk (1,140ml)",
-        "1¾ cups Half & Half (420ml)",
-        "¾ cup Sweetened Condensed Milk (180ml)",
-        "¾ cup Vanilla Syrup (180ml)",
-        "1¼ tsp Peppermint Extract (6ml)",
-        "Green food coloring, as desired"
-      ]
-    },
-    "alcoholic": {
-      "volume": "69oz (2.0L)",
-      "ingredients": [
-        "4 cups Milk (960ml)",
-        "1½ cups Half & Half (360ml)",
-        "¾ cup Sweetened Condensed Milk (180ml)",
-        "¾ cup Vanilla Syrup (180ml)",
-        "1½ cups Vanilla Vodka (360ml)",
-        "1¼ tsp Peppermint Extract (6ml)",
-        "Green food coloring, as desired"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the Milkshake button."
-  ]
-},
-{
-  "id": "F2C7A8D9-1B5E-4A36-8E40-6D3C9F5172B4",
-  "name": "Royal Vanilla Cola Slush",
-  "category": "slush",
-  "image": "https://slushiq.com/public/images/royalvanilla.jpg",
-  "variants": {
-    "alcoholic": {
-      "volume": "64oz (1.9L)",
-      "ingredients": [
-        "1½ cups Crown Royal Vanilla (360ml)",
-        "5 cups Cola (1,200ml)",
-        "1½ cups Water (480ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the appropriate Slush button."
-  ]
-},
-{
-  "id": "9A6E1F5C-D7B4-4B82-A309-ECF25D4817C6",
-  "name": "Sugar Free Royal Cola",
-  "category": "lowSugar",
-  "image": "https://slushiq.com/public/images/royalcola.jpg",
-  "variants": {
-    "alcoholic": {
-      "volume": "64oz (1.9L)",
-      "ingredients": [
-        "1½ cups Crown Royal (360ml)",
-        "6½ cups Cola Zero (1,560ml)",
-        "4¾ tablespoons Powdered Allulose (58g) or ¼ cup Liquid Allulose (60ml)"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the appropriate Slush button.",
-    "Sugar-free tip: These mixes freeze better a bit warmer. If your machine has a temp setting, aim for ~30°F. If it uses bars, bump the temperature up slightly from the standard setting."
-  ]
-},
-{
-  "id": "E6B2D94F-0A73-4C8E-87F1-5A3D9C21B604",
-  "name": "Sugar Free Classic Margarita",
-  "category": "lowSugar",
-  "image": "https://slushiq.com/public/images/sugarfreeclassicmargarita.jpg",
-  "volume": "64oz (1.8L)",
-  "ingredients": [
-    "1¾ cups Tequila (420ml)",
-    "3½ oz Sugar-Free Orange Syrup (100ml)",
-    "1½ cups Lime Juice (360ml)",
-    "7½ tbsp Powdered Allulose (95g) or ½ cup Liquid Allulose (120ml)",
-    "3¼ cups Water (780ml)"
-  ],
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the Spiked Slush button on your machine.",
-    "Sugar-free tip: These mixes freeze better a bit warmer. If your machine has a temp setting, aim for ~27°F. If it uses bars, bump the temperature up slightly from the standard setting."
-  ]
-},
-{
-  "id": "3C8E5A1D-74F2-4B0C-9D6E-FA21B8C45790",
-  "name": "Low Sugar Classic Margarita",
-  "category": "lowSugar",
-  "image": "https://slushiq.com/public/images/lowsugarclassicmargarita.jpg",
-  "volume": "60oz (1.7L)",
-  "ingredients": [
-    "2 cups Tequila (480ml)",
-    "¾ cup Orange Liqueur (180ml)",
-    "1¾ cups Lime Juice (420ml)",
-    "7½ tbsp Powdered Allulose (95g) or ½ cup Liquid Allulose (120ml)",
-    "4 cups Water (960ml)"
-  ],
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the Spiked Slush button on your machine.",
-    "Sugar-free tip: These mixes freeze better a bit warmer. If your machine has a temp setting, aim for ~27°F. If it uses bars, bump the temperature up slightly from the standard setting."
-  ]
-},
-{
-  "id": "A1D9F6E8-3B42-4F7A-8E5C-91C0B2D4A6EF",
-  "name": "Sugar Free Strawberry Margarita",
-  "category": "lowSugar",
-  "image": "https://slushiq.com/public/images/sugarfreestrawberrymargarita.jpg",
-  "volume": "64oz (1.8L)",
-  "ingredients": [
-    "1¾ cups Tequila (420ml)",
-    "3½ oz Sugar-Free Strawberry Syrup (100ml)",
-    "1½ cups Lime Juice (360ml)",
-    "7½ tbsp Powdered Allulose (95g) or ½ cup Liquid Allulose (120ml)",
-    "3¼ cups Water (780ml)"
-  ],
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the Spiked Slush button on your machine.",
-    "Sugar-free tip: These mixes freeze better a bit warmer. If your machine has a temp setting, aim for ~27°F. If it uses bars, bump the temperature up slightly from the standard setting."
-  ]
-},
-{
-  "id": "7F4A9C32-1E6B-4B9A-9C21-5E8D3A0F6C44",
-  "name": "Strawberry Cream Chill",
-  "category": "slush",
-  "image": "https://slushiq.com/public/images/strawberrycreamchill.jpg",
-  "volume": "56oz (1.7L)",
-  "ingredients": [
-    "2 cups Strawberries & Cream Baileys (480ml)",
-    "2 cups Strawberry Puree (480ml)",
-    "1½ cups Whole Milk (360ml)",
-    "1 cup Water (240ml)",
-    "½ cup 2:1 Simple Syrup (120ml)"
-  ],
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the Spiked Slush button on your machine."
-  ]
-},
-{
-  "id": "7F3B2D4A-9C81-4E6F-A2D7-5B9E1C3F8A60",
-  "name": "King Cake Inspired Slush",
-  "category": "featured",
-  "image": "https://slushiq.com/public/images/kingcake.jpg",
-  "variants": {
-    "nonAlcoholic": {
-    "volume": "68oz (2.0L)",
-      "ingredients": [
-        "5 cups White Grape Juice (1.2L)",
-        "½ cup 2:1 Brown Sugar Syrup (120ml)",
-        "3 cups Water (950ml)",
-        "½ Tsp Cinnamon",
-        "½ Tsp Almond Extract",
-        "¼ Tsp Imitation Butter Flavor"
-      ]
-    },
-    "alcoholic": {
-    "volume": "70oz (2.0L)",
-      "ingredients": [
-        "1½ cups Vanilla Vodka (360ml)",
-        "½ cup Cinnamon Schnapps (120ml)",
-        "5½ cups White Grape Juice (1.3L)",
-        "¾ cup Water (180ml)",
-        "½ cup 2:1 Brown Sugar Syrup (120ml)",
-        "½ Tsp Cinnamon",
-        "½ Tsp Almond Extract",
-        "¼ Tsp Imitation Butter Flavor"
-      ]
-    }
-  },
-  "instructions": [
-    "Mix all ingredients together.",
-    "Pour into your machine.",
-    "Press the appropriate Slush button."
-  ]
-}
+    "instructions": [
+      "Mix all ingredients together.",
+      "Pour into your machine.",
+      "Press the appropriate Slush button."
+    ],
+    "volume": "64 oz (1.9 L)"
+  }
 ]
