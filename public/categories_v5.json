@@ -1,0 +1,65 @@
+[
+  {
+    "id": "featured",
+    "title": "Featured",
+    "subtitle": "Brixley favorites",
+    "image": "https://slushiq.com/public/images/midnightlagoon.jpg",
+    "order": 1
+  },
+  {
+    "id": "communityFinds",
+    "title": "Community Finds",
+    "subtitle": "Popular slush ideas, SlushIQ-tested",
+    "image": "https://slushiq.com/public/images/communityfinds.jpg",
+    "order": 2
+  },
+  {
+    "id": "classics",
+    "title": "Classics",
+    "subtitle": "Alcoholic frozen drinks",
+    "image": "https://slushiq.com/public/images/lemondrop.jpg",
+    "order": 3
+  },
+  {
+    "id": "slush",
+    "title": "Slush",
+    "subtitle": "Classic frozen drinks",
+    "image": "https://slushiq.com/public/images/tresagaves.jpg",
+    "order": 4
+  },
+  {
+    "id": "lowSugar",
+    "title": "Low/Zero Sugar",
+    "subtitle": "Designed to freeze with little to no sugar",
+    "image": "https://slushiq.com/public/images/lowsugar.jpg",
+    "order": 5
+  },
+  {
+    "id": "storeMixers",
+    "title": "Store-Bought Mixers",
+    "subtitle": "Recipes made with bottled mixers and syrups",
+    "image": "https://slushiq.com/public/images/storemixers.jpg",
+    "order": 6
+  },
+  {
+    "id": "seasonal",
+    "title": "Seasonal",
+    "subtitle": "Limited-time favorites",
+    "image": "https://slushiq.com/public/images/seasonal.jpg",
+    "order": 7
+  },
+  {
+    "id": "milkshake",
+    "title": "Milkshake",
+    "subtitle": "Creamy & indulgent",
+    "image": "https://slushiq.com/public/images/classicvanillamilkshake.jpg",
+    "order": 8
+  },
+  {
+    "id": "frappe",
+    "title": "Frappe",
+    "subtitle": "Coffeehouse style",
+    "image": "https://slushiq.com/public/images/coconutvanilla.jpg",
+    "order": 9
+  }
+]
