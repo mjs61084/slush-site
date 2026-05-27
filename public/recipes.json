@@ -4,7 +4,7 @@
     "name": "Brixley's Classic Margarita Slush",
     "category": "featured",
     "image": "https://slushiq.com/public/images/brixleysclassicmargarita.jpg",
-    "volume": "65 oz (1.9 L)",
+    "volume": "64 oz (1.9 L)",
     "ingredients": [
       "1¼ cups Tequila (300ml)",
       "¼ cup Orange Liqueur (60ml)",
@@ -25,20 +25,20 @@
     "image": "https://slushiq.com/public/images/brixleychocolateshake.jpg",
     "variants": {
       "nonAlcoholic": {
-      "volume": "63oz (1.9L)",
+      "volume": "64oz (1.9L)",
         "ingredients": [
-          "5¼ cups Chocolate Milk (1.25L)",
+          "5½ cups Chocolate Milk (1.3L)",
           "1¼ cups Sweetened Condensed Milk (300ml)",
           "1¼ cups Whipped Topping (300ml)"
         ]
       },
       "alcoholic": {
-      "volume": "78oz (2.3L)",
+      "volume": "64oz (1.9L)",
         "ingredients": [
-          "5¼ cups Chocolate Milk (1,240ml)",
-          "1¼ cups Sweetened Condensed Milk (295ml)",
-          "1¼ cups Whipped Topping (295ml)",
-          "2 cups Vodka - Plain or Vanilla (475ml)"
+          "4¼ cups Chocolate Milk (1,020ml)",
+          "1 cup Sweetened Condensed Milk (240ml)",
+          "1 cup Whipped Topping (240ml)",
+          "1¾ cups Vodka - Plain or Vanilla (420ml)"
         ]
       }
     },
@@ -64,10 +64,10 @@
         ]
       },
       "nonAlcoholic": {
-      "volume": "56oz (1.7L)",
+      "volume": "64oz (1.9L)",
         "ingredients": [
-          "5¾ cups Tres Agaves Margarita Mix (1.3L)",
-          "1¼ cups Water (300ml)"
+          "6½ cups Tres Agaves Margarita Mix (1.5L)",
+          "1½ cups Water (360ml)"
         ]
       }
     },
@@ -84,22 +84,22 @@
     "image": "https://slushiq.com/public/images/coconutvanilla.jpg",
     "variants": {
       "nonAlcoholic": {
-      "volume": "59oz (1.7L)",
+      "volume": "64oz (1.9L)",
         "ingredients": [
-          "6 cups Cream Soda (1.4L)",
+          "6½ cups Cream Soda (1.5L)",
           "1 cup Light Coconut Milk (240ml)",
           "1 tsp Vanilla Extract (5ml)",
-          "3oz 2:1 Simple Syrup (90ml)"
+          "½ cup 2:1 Simple Syrup (120ml)"
         ]
       },
       "alcoholic": {
-      "volume": "65oz (1.9L)",
+      "volume": "64oz (1.9L)",
         "ingredients": [
           "5½ cups Cream Soda (1.3L)",
           "1 cup Light Coconut Milk (240ml)",
           "1¼ cups Vodka (300ml)",
           "1 tsp Vanilla Extract (5ml)",
-          "3oz 2:1 Simple Syrup (90ml)"
+          "¼ cup 2:1 Simple Syrup (60ml)"
         ]
       }
     },
@@ -116,22 +116,22 @@
     "image": "https://slushiq.com/public/images/bloodorangemarg.jpg",
     "variants": {
       "alcoholic": {
-      "volume": "71oz (2.1L)",
+      "volume": "64oz (1.9L)",
         "ingredients": [
-          "2 cups Orange Juice (480ml)",
-          "1¼ cups Tequila Blanco (300ml)",
+          "1¾ cups Orange Juice (420ml)",
+          "1 cup Tequila Blanco (300ml)",
           "¾ cup Triple Sec (180ml)",
           "1 cup Lime Juice (240ml)",
-          "3 cups Water (720ml)",
+          "2¾ cups Water (660ml)",
           "¾ cup 2:1 Simple Syrup (180ml)"
         ]
       },
       "nonAlcoholic": {
-      "volume": "59oz (1.7L)",
+      "volume": "64oz (1.9L)",
         "ingredients": [
-          "2 cups Orange Juice (480ml)",
+          "2¼ cups Orange Juice (540ml)",
           "1 cup Lime Juice (240ml)",
-          "3½ cups Water (840ml)",
+          "4 cups Water (960ml)",
           "¾ cup 2:1 Simple Syrup (180ml)"
         ]
       }
@@ -149,22 +149,22 @@
     "image": "https://slushiq.com/public/images/strawberrygincolada.jpg",
     "variants": {
       "alcoholic": {
-      "volume": "41oz (1.2L)",
+      "volume": "64oz (1.9L)",
         "ingredients": [
-          "1 cup Gin (240ml)",
-          "1½ cups Piña Colada Mix (360ml)",
-          "½ cup Strawberry Purée (120ml)",
-          "¾ cup Lemon Juice (180ml)",
-          "1¼ cups Water (300ml)"
+          "1½ cups Gin (360ml)",
+          "2½ cups Piña Colada Mix (600ml)",
+          "¾ cup Strawberry Purée (180ml)",
+          "1¼ cup Lemon Juice (480ml)",
+          "2 cups Water (480ml)"
         ]
       },
       "nonAlcoholic": {
-      "volume": "41oz (1.2L)",
+      "volume": "64oz (1.9L)",
         "ingredients": [
-          "1½ cups Piña Colada Mix (360ml)",
-          "½ cup Strawberry Purée (120ml)",
-          "¾ cup Lemon Juice (180ml)",
-          "2¼ cups Water (540ml)"
+          "2½ cups Piña Colada Mix (600ml)",
+          "¾ cup Strawberry Purée (180ml)",
+          "1¼ cup Lemon Juice (300ml)",
+          "3½ cups Water (840ml)"
         ]
       }
     },
