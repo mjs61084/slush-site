@@ -2481,5 +2481,38 @@
     },
     "volume": "64 oz (1.9 L)",
     "machineMode": "slush"
+  },
+  {
+    "id": "D4A9F6C2-7B3E-4F91-8C6D-2A5E9B7F1C40",
+    "name": "Brixley's Rum Runner",
+    "category": "featured",
+    "image": "https://slushiq.com/public/images/rumrunner.jpg",
+    "variants": {
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "1 cup Pineapple Juice (240ml)",
+          "¾ cup Lime Juice (180ml)",
+          "¾ cup Banana Syrup (180ml)",
+          "¾ cup Blackberry Syrup (180ml)",
+          "½ cup Grenadine (120ml)",
+          "4¼ cups Water (1020ml)"
+        ]
+      },
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "¾ cup Dark Rum (180ml)",
+          "½ cup Banana Liqueur (120ml)",
+          "½ cup Blackberry Liqueur (120ml)",
+          "¾ cup Pineapple Juice (180ml)",
+          "¾ cup Lime Juice (180ml)",
+          "½ cup Grenadine (120ml)",
+          "4¼ cups Water (1,020ml)"
+        ]
+      }
+    },
+    "volume": "64 oz (1.9 L)",
+    "machineMode": "slush"
   }
 ]
