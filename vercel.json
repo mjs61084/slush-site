@@ -7,20 +7,18 @@
         "Location": "https://www.slushiq.com"
       }
     },
-
     {
-      "src": "/privacy$",
+      "src": "/privacy(?:\\.html)?$",
       "dest": "/privacy.html"
     },
     {
-      "src": "/terms$",
+      "src": "/terms(?:\\.html)?$",
       "dest": "/terms.html"
     },
     {
-      "src": "/support$",
+      "src": "/support(?:\\.html)?$",
       "dest": "/support.html"
     },
-
     {
       "src": "/(.+\\.json)$",
       "dest": "/$1"
@@ -29,7 +27,6 @@
       "src": "/(.*\\.(?:png|jpg|jpeg|gif|webp|svg))$",
       "dest": "/$1"
     },
-
     {
       "src": "/(lab|rescue|admin)(/.*)?",
       "headers": {
@@ -38,7 +35,6 @@
       "status": 401,
       "dest": "/lab/index.html"
     },
-
     {
       "src": "/.*",
       "dest": "/index.html"
