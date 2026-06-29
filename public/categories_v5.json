@@ -17,21 +17,21 @@
     "id": "classics",
     "title": "Classics",
     "subtitle": "Alcoholic frozen drinks",
-    "image": "https://slushiq.com/public/images/lemondrop.jpg",
+    "image": "https://slushiq.com/public/images/bahamamama.jpg",
     "order": 3
   },
   {
     "id": "slush",
     "title": "Slush",
     "subtitle": "Classic frozen drinks",
-    "image": "https://slushiq.com/public/images/tresagaves.jpg",
+    "image": "https://slushiq.com/public/images/lemondrop.jpg",
     "order": 4
   },
   {
     "id": "lowSugar",
     "title": "Low/Zero Sugar",
     "subtitle": "Designed to freeze with little to no sugar",
-    "image": "https://slushiq.com/public/images/lowsugar.jpg",
+    "image": "https://slushiq.com/public/images/sugarfreeshirley.jpg",
     "order": 5
   },
   {
