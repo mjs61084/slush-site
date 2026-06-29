@@ -891,7 +891,7 @@
   {
     "id": "1C6F2E9A-7D4B-45A8-9E30-5C8D17BF6294",
     "name": "Mudslide",
-    "category": "classics",
+    "category": "milkshake",
     "image": "https://slushiq.com/public/images/mudslide.jpg",
     "variants": {
       "alcoholic": {
@@ -1557,7 +1557,7 @@
   {
     "id": "A1E7C3B9-6D42-4E58-8F0C-9D25B741A6F3",
     "name": "Brixley’s White Russian Shake",
-    "category": "classics",
+    "category": "milkshake",
     "image": "https://slushiq.com/public/images/whiterussian.jpg",
     "variants": {
       "alcoholic": {
