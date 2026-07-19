@@ -2575,7 +2575,7 @@
     "id": "F9E299C1-D000-5936-9C8F-FA088AECBFCB",
     "name": "Tropical Coconut Mango Slush",
     "category": "featured",
-    "image": "https://slushiq.com/public/images/coconutmangoslush.jpg",
+    "image": "https://slushiq.com/public/images/coconutmango.jpg",
     "variants": {
       "nonAlcoholic": {
         "volume": "64 oz (1.9 L)",
@@ -2748,7 +2748,7 @@
     "id": "1AF9E6CA-1B6A-5837-B922-4652A36210AC",
     "name": "Lychee Lime Slush",
     "category": "featured",
-    "image": "https://slushiq.com/public/images/lycheelime.jpg",
+    "image": "https://slushiq.com/public/images/lycheelimeslush.jpg",
     "variants": {
       "alcoholic": {
         "volume": "64 oz (1.9 L)",
@@ -2934,7 +2934,7 @@
     "id": "9BC1EA71-B627-5B85-8162-85233BBF542B",
     "name": "Blueberry Lemon Drop Freeze",
     "category": "featured",
-    "image": "https://slushiq.com/public/images/blueberrylemondropfreeze.jpg",
+    "image": "https://slushiq.com/public/images/blueberrylemondrop.jpg",
     "variants": {
       "alcoholic": {
         "volume": "64 oz (1.9 L)",
