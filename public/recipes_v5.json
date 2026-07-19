@@ -2514,5 +2514,528 @@
     },
     "volume": "64 oz (1.9 L)",
     "machineMode": "slush"
+  },
+  {
+    "id": "680F21A4-69FA-5EFB-940B-62F19C7C1498",
+    "name": "Carmel Pecan Frappe",
+    "category": "featured",
+    "image": "https://slushiq.com/public/images/carmelpecanfrappe.jpg",
+    "variants": {
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "1 cup Vodka (240ml)",
+          "1 cup Coffee Liqueur (240ml)",
+          "2 oz Sugar-Free Carmel Pecan Syrup (50ml)",
+          "½ cup 2:1 Simple Syrup (160ml)",
+          "5 cups Water (1200ml)"
+        ]
+      },
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "6 cups Cold Brew Coffee (1420ml)",
+          "2 oz Sugar-Free Carmel Pecan Syrup (50ml)",
+          "1 cup 2:1 Simple Syrup (240ml)",
+          "¾ cup Water (170ml)"
+        ]
+      }
+    },
+    "volume": "64 oz (1.9 L)",
+    "machineMode": "slush"
+  },
+  {
+    "id": "AFE8CA1F-0B4B-502F-BF76-7D38B721CC49",
+    "name": "Low Sugar Pineapple Cranberry Fizz",
+    "category": "featured",
+    "image": "https://slushiq.com/public/images/pineapplecranberryfizz.jpg",
+    "variants": {
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "4 cups Pineapple-Cranberry Low Sugar (950ml)",
+          "3½ cups Zero Sugar Citrus Soda (830ml)",
+          "10 tbsp Allulose (120g)"
+        ]
+      },
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "3¼ cups Pineapple Cranberry Low Sugar (770ml)",
+          "2¾ cups Zero Sugar Citrus Soda (650ml)",
+          "1½ cups Vodka (350ml)",
+          "11 tbsp Allulose (130g)"
+        ]
+      }
+    },
+    "volume": "64 oz (1.9 L)",
+    "machineMode": "slush"
+  },
+  {
+    "id": "F9E299C1-D000-5936-9C8F-FA088AECBFCB",
+    "name": "Tropical Coconut Mango Slush",
+    "category": "featured",
+    "image": "https://slushiq.com/public/images/coconutmangoslush.jpg",
+    "variants": {
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "1½ cups Coconut Milk (360ml)",
+          "1½ cups Pineapple Juice (360ml)",
+          "¾ cup Mango Purée (180ml)",
+          "2 tbsp Honey (30ml)",
+          "4 cups Water (950ml)"
+        ]
+      },
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "1½ cups Coconut Milk (350ml)",
+          "1½ cups Pineapple Juice (350ml)",
+          "¾ cup Mango Pureé (180ml)",
+          "2 tbsp Honey (30ml)",
+          "1½ cups White Rum (350ml)",
+          "2½ cups Water (620ml)"
+        ]
+      }
+    },
+    "volume": "64 oz (1.9 L)",
+    "machineMode": "slush"
+  },
+  {
+    "id": "0357DEB9-B732-59E6-9416-11FECF39E026",
+    "name": "Creamy Coffee Frappe",
+    "category": "featured",
+    "image": "https://slushiq.com/public/images/creamycoffeefrappe.jpg",
+    "variants": {
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "3 cups Coffee (710ml)",
+          "3 cups Milk (710ml)",
+          "½ cup Cool Whip (120ml)",
+          "7 oz Sweetened Condensed Milk (210ml)",
+          "2 tbsp 2:1 Simple Syrup (30ml)",
+          "½ cup Water (120ml)"
+        ]
+      },
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "2½ cups Coffee (590ml)",
+          "2¼ cups Milk (530ml)",
+          "½ cup Cool Whip (120ml)",
+          "7 oz Sweetened Condensed Milk (210ml)",
+          "1½ cups Vodka (350ml)",
+          "¼ cup 2:1 Simple Syrup (60ml)",
+          "1 oz Water (30ml)"
+        ]
+      }
+    },
+    "volume": "64 oz (1.9 L)",
+    "machineMode": "slush"
+  },
+  {
+    "id": "FEE346A9-9FB9-5B5F-85B3-5FD7570C8878",
+    "name": "Cookies After Dark",
+    "category": "featured",
+    "image": "https://slushiq.com/public/images/cookiesafterdark.jpg",
+    "variants": {
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "3¾ cups Milk (890ml)",
+          "1 cup Heavy Whipping Cream (240ml)",
+          "½ cup Sweetened Condensed Milk (120ml)",
+          "1 box Oreo Pudding Mix (120g)",
+          "2¼ cups Water (530ml)"
+        ]
+      },
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "3 cups Milk (710ml)",
+          "1 cup Heavy Whipping Cream (240ml)",
+          "½ cup Sweetened Condensed Milk (120ml)",
+          "1 box Oreo Pudding Mix (120g)",
+          "1½ cups Vodka (360ml)",
+          "2 tbsp 2:1 Simple Syrup (30ml)",
+          "1½ cups Water (360ml)"
+        ]
+      }
+    },
+    "volume": "64 oz (1.9 L)",
+    "machineMode": "slush"
+  },
+  {
+    "id": "147E6714-65BD-5CC4-931F-A8E6483F2928",
+    "name": "Brixley's Cape Cod Freeze",
+    "category": "featured",
+    "image": "https://slushiq.com/public/images/capecodfreeze.jpg",
+    "variants": {
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "7¼ cups Cranberry Cocktail Juice (1720ml)",
+          "½ cups Lime Juice (120ml)",
+          "1 oz 2:1 Simple Syrup (30ml)",
+          "1 oz Water (30ml)"
+        ]
+      },
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "1½ cups Vodka (350ml)",
+          "5½ cups Cranberry Juice Cocktail (1300ml)",
+          "½ cup Lime Juice (120ml)",
+          "½ cup 2:1 Simple Syrup (120ml)"
+        ]
+      }
+    },
+    "volume": "64 oz (1.9 L)",
+    "machineMode": "slush"
+  },
+  {
+    "id": "6F20B749-D30F-55EB-A246-450A4C57DF89",
+    "name": "Orange Creamsicle Slush",
+    "category": "featured",
+    "image": "https://slushiq.com/public/images/orangecreamsicle.jpg",
+    "variants": {
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "5½ cups Orange Soda (1300ml)",
+          "½ cup Sweetened Condensed Milk (120ml)",
+          "1½ cups Vodka (350ml)",
+          "1 tsp Vanilla Extract (5ml)",
+          "½ cup Water (110ml)"
+        ]
+      },
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "6 cups Orange Soda (1420ml)",
+          "5 tbsp Sweetened Condensed Milk (70ml)",
+          "1 tsp Vanilla Extract (5ml)",
+          "1½ cups Water (400ml)"
+        ]
+      }
+    },
+    "volume": "64 oz (1.9 L)",
+    "machineMode": "slush"
+  },
+  {
+    "id": "D8025D75-7F1E-5667-AFE9-31DE223A862E",
+    "name": "Midori Coconut Lemonade Slush",
+    "category": "featured",
+    "image": "https://slushiq.com/public/images/midoricoconutlemonade.jpg",
+    "variants": {
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "¾ cup Midori (180ml)",
+          "¾ cup Coconut Rum (180ml)",
+          "¾ cup Vodka (180ml)",
+          "5¼ cups Lemonade (1240ml)",
+          "½ cup Water (120ml)"
+        ]
+      }
+    },
+    "volume": "64 oz (1.9 L)",
+    "machineMode": "slush"
+  },
+  {
+    "id": "1AF9E6CA-1B6A-5837-B922-4652A36210AC",
+    "name": "Lychee Lime Slush",
+    "category": "featured",
+    "image": "https://slushiq.com/public/images/lycheelime.jpg",
+    "variants": {
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "1 cup Vodka (240ml)",
+          "¾ cup Lychee Liqueur (180ml)",
+          "4½ cups Lychee Juice (1060ml)",
+          "¾ cup Lime Juice (180ml)",
+          "½ cup 2:1 Simple Syrup (150ml)",
+          "3 oz Water (90ml)"
+        ]
+      }
+    },
+    "volume": "64 oz (1.9 L)",
+    "machineMode": "slush"
+  },
+  {
+    "id": "00A3E82D-CDC3-50C4-9BC9-8A341045F812",
+    "name": "Brixley's Frostbite Mule",
+    "category": "featured",
+    "image": "https://slushiq.com/public/images/frostbitemule.jpg",
+    "variants": {
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "3¼ cups Ginger Beer (770ml)",
+          "½ cup Lime Juice (120ml)",
+          "½ cup Ginger Syrup (120ml)",
+          "1 oz 2:1 Simple Syrup (30ml)",
+          "3½ cups Water (850ml)"
+        ]
+      },
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "1½ cups Vodka (350ml)",
+          "3 cups Ginger Beer (710ml)",
+          "½ cup Lime Juice (120ml)",
+          "¾ cup Ginger Syrup (180ml)",
+          "2¼ cups Water (530ml)"
+        ]
+      }
+    },
+    "volume": "64 oz (1.9 L)",
+    "machineMode": "slush"
+  },
+  {
+    "id": "5A5F8C27-D782-5733-88D9-F783968B4145",
+    "name": "Brixley's Tropical Chaos",
+    "category": "featured",
+    "image": "https://slushiq.com/public/images/tropicalchaos.jpg",
+    "variants": {
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "½ cup Coconut Rum (120ml)",
+          "½ cup Island Pucker Punch (120ml)",
+          "½ cup Peach Schnapps (120ml)",
+          "½ cup Melon Liqueur (120ml)",
+          "½ cup Vodka (120ml)",
+          "½ cup Sweet & Sour Mix (120ml)",
+          "1 cup Citrus Soda (240ml)",
+          "¾ cup Pineapple Juice (180ml)",
+          "3¼ cups Water (770ml)"
+        ]
+      }
+    },
+    "volume": "64 oz (1.9 L)",
+    "machineMode": "slush"
+  },
+  {
+    "id": "74C73E43-7A30-5497-8553-C7026EDB2FA9",
+    "name": "Peachy Lemon Freeze",
+    "category": "featured",
+    "image": "https://slushiq.com/public/images/peachylemonfreeze.jpg",
+    "variants": {
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "1¾ cups Crown Royal Peach (410ml)",
+          "3 cups Citrus Soda (710ml)",
+          "3 cups Lemonade (710ml)",
+          "¼ cup 2:1 Simple Syrup (60ml)"
+        ]
+      },
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "4 cups Lemonade (950ml)",
+          "3¾ cups Citrus Soda (890ml)",
+          "1 oz Peach Syrup (30ml)",
+          "1 oz 2:1 Simple Syrup (30ml)"
+        ]
+      }
+    },
+    "volume": "64 oz (1.9 L)",
+    "machineMode": "slush"
+  },
+  {
+    "id": "8FB1F248-7B6D-5EB1-9F02-A61BE0561CBB",
+    "name": "Banana Barrel Freeze",
+    "category": "featured",
+    "image": "https://slushiq.com/public/images/bananabarrelfreeze.jpg",
+    "variants": {
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "2½ cups Banana Purée Mix (590ml)",
+          "5½ cups Cold Water (1300ml)"
+        ]
+      },
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "2¾ cups Banana Puree Mix (650ml)",
+          "1½ cups Hennessy (340ml)",
+          "3¾ cups Cold Water (890ml)"
+        ]
+      }
+    },
+    "volume": "64 oz (1.9 L)",
+    "machineMode": "slush"
+  },
+  {
+    "id": "718F1621-C35C-576D-A3E4-03FBC7574A56",
+    "name": "Blushing Vineyard Freeze",
+    "category": "featured",
+    "image": "https://slushiq.com/public/images/blushingvineyard.jpg",
+    "variants": {
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "1 bottle 13% White Wine (750ml)",
+          "3 cups White Cran-Strawberry Juice (710ml)",
+          "¾ cup 2:1 Simple Syrup (180ml)",
+          "1 cup Water (240ml)"
+        ]
+      },
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "7½ cups Cran-Strawberry Juice (1770ml)",
+          "¼ cup 2:1 Simple Syrup (60ml)",
+          "¼ cup Water (60ml)"
+        ]
+      }
+    },
+    "volume": "64 oz (1.9 L)",
+    "machineMode": "slush"
+  },
+  {
+    "id": "4E827ED2-864A-543B-BE64-BA1C4BEC2B5D",
+    "name": "Brixley's Cold Brew Cloud",
+    "category": "featured",
+    "image": "https://slushiq.com/public/images/coldbrewcloud.jpg",
+    "variants": {
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "3 cups Cold Brew Coffee (710ml)",
+          "1½ cups Whole Milk (360ml)",
+          "¾ cup Heavy Cream (180ml)",
+          "1½ cups Vodka (350ml)",
+          "1 cup 2:1 Simple Syrup (240ml)",
+          "¼ cup Water (60ml)"
+        ]
+      },
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "2¾ cups Cold Brew Coffee (650ml)",
+          "2½ cups Whole Milk (590ml)",
+          "¾ cup Heavy Cream (180ml)",
+          "¾ cup 2:1 Simple Syrup (210ml)",
+          "1 cup Water (270ml)"
+        ]
+      }
+    },
+    "volume": "64 oz (1.9 L)",
+    "machineMode": "slush"
+  },
+  {
+    "id": "9BC1EA71-B627-5B85-8162-85233BBF542B",
+    "name": "Blueberry Lemon Drop Freeze",
+    "category": "featured",
+    "image": "https://slushiq.com/public/images/blueberrylemondropfreeze.jpg",
+    "variants": {
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "4 cups Lemonade (950ml)",
+          "1 cup Blueberry Vodka (240ml)",
+          "½ cup Triple Sec (120ml)",
+          "½ cup 2:1 Simple Syrup (120ml)",
+          "2 cups Water (470ml)"
+        ]
+      },
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "7 cups Lemonade (1650ml)",
+          "½ cup Blueberry Syrup (120ml)",
+          "½ cup Water (120ml)"
+        ]
+      }
+    },
+    "volume": "64 oz (1.9 L)",
+    "machineMode": "slush"
+  },
+  {
+    "id": "4B7A9E7F-08D4-5772-B393-92E8BF2C2255",
+    "name": "Electric Blue Lemonade",
+    "category": "featured",
+    "image": "https://slushiq.com/public/images/electricbluelemonade.jpg",
+    "variants": {
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "5¾ cups Lemonade (1360ml)",
+          "1½ cups Vodka (350ml)",
+          "½ cup Blue Raspberry Syrup (120ml)",
+          "¼ cup Water (60ml)"
+        ]
+      }
+    },
+    "volume": "64 oz (1.9 L)",
+    "machineMode": "slush"
+  },
+  {
+    "id": "06C214E0-3554-599F-9621-1ECE9E4140DE",
+    "name": "Golden Hour Sunrise",
+    "category": "featured",
+    "image": "https://slushiq.com/public/images/goldenhoursunrise.jpg",
+    "variants": {
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "3¼ cups Orange Juice (770ml)",
+          "3¼ cups Pineapple Juice (770ml)",
+          "3 oz Grenadine (90ml)",
+          "1 cup Water (260ml)"
+        ]
+      }
+    },
+    "volume": "64 oz (1.9 L)",
+    "machineMode": "slush"
+  },
+  {
+    "id": "B74CAC59-940C-5A5A-A686-0BB95ADD0282",
+    "name": "Long Island Icebox",
+    "category": "featured",
+    "image": "https://slushiq.com/public/images/longislandicebox.jpg",
+    "variants": {
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "¼ cup Vodka (60ml)",
+          "¼ cup Gin (60ml)",
+          "¼ cup White Rum (60ml)",
+          "¼ cup Tequila (60ml)",
+          "¼ cup Triple Sec (60ml)",
+          "4½ cups Lemonade (1070ml)",
+          "2 cups Cola (470ml)",
+          "¼ cup 2:1 Simple Syrup (60ml)"
+        ]
+      }
+    },
+    "volume": "64 oz (1.9 L)",
+    "machineMode": "slush"
+  },
+  {
+    "id": "2DDB9401-F695-5F6E-BD49-3B615AAF4FF0",
+    "name": "Mango Moonrise",
+    "category": "featured",
+    "image": "https://slushiq.com/public/images/mangomoonrise.jpg",
+    "variants": {
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "7¾ cups Cran-Mango Juice (1830ml)",
+          "1 oz Mango Syrup (30ml)",
+          "1 oz Water (30ml)"
+        ]
+      }
+    },
+    "volume": "64 oz (1.9 L)",
+    "machineMode": "slush"
   }
 ]
+
