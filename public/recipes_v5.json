@@ -2,7 +2,7 @@
   {
     "id": "9F4C7B1E-6A0E-4C9A-9A3C-5F8E9D3E9F2A",
     "name": "Brixley's Classic Margarita Slush",
-    "category": "featured",
+    "category": "slush",
     "image": "https://slushiq.com/public/images/brixleysclassicmargarita.jpg",
     "volume": "64 oz (1.9 L)",
     "ingredients": [
@@ -17,7 +17,7 @@
   {
     "id": "2A8C4E91-3D6B-4F8A-9F2D-1C7B6E5A4D90",
     "name": "Brixley's Chocolate Milkshake",
-    "category": "featured",
+    "category": "milkshake",
     "image": "https://slushiq.com/public/images/brixleychocolateshake.jpg",
     "variants": {
       "nonAlcoholic": {
@@ -1274,7 +1274,7 @@
   {
     "id": "9A3F6C21-4D8E-4B7A-92F1-5E7C0B8D6A44",
     "name": "Brixley’s Dirty Shirley Temple",
-    "category": "featured",
+    "category": "slush",
     "image": "https://slushiq.com/public/images/dirtyshirley.jpg",
     "variants": {
       "alcoholic": {
@@ -1403,7 +1403,7 @@
   {
     "id": "2C7E1A5A-9A54-4F38-8A90-D6EBC5F21479",
     "name": "Brixley's Strawberry Margarita",
-    "category": "featured",
+    "category": "slush",
     "image": "https://slushiq.com/public/images/strawberrymargarita.jpg",
     "volume": "64 oz (1.9 L)",
     "ingredients": [
@@ -2070,7 +2070,7 @@
   {
     "id": "3F8A6D2C-9E15-4B74-A5C1-7D490B8E26F3",
     "name": "Homemade Base Slush",
-    "category": "featured",
+    "category": "slush",
     "image": "https://slushiq.com/public/images/homemadebase.jpg",
     "variants": {
       "nonAlcoholic": {
@@ -2124,7 +2124,7 @@
   {
     "id": "2E7D5C1A-8F94-4B36-A091-C6B4F3E5297D",
     "name": "Lemon Margarita",
-    "category": "featured",
+    "category": "slush",
     "image": "https://slushiq.com/public/images/lemonmargarita.jpg",
     "variants": {
       "nonAlcoholic": {
@@ -2211,7 +2211,7 @@
   {
     "id": "5D4E7C9F-1A2B-4A86-8F30-C6EBD527419A",
     "name": "Classic Hurricane Slush",
-    "category": "featured",
+    "category": "slush",
     "image": "https://slushiq.com/public/images/hurricane.jpg",
     "variants": {
       "nonAlcoholic": {
@@ -2279,7 +2279,7 @@
   {
     "id": "E1D6C94A-5F72-4B38-A0E9-82C7F5B3461D",
     "name": "Royal Cola Slush",
-    "category": "featured",
+    "category": "slush",
     "image": "https://slushiq.com/public/images/royalcola.jpg",
     "variants": {
       "alcoholic": {
@@ -2451,7 +2451,7 @@
   {
     "id": "7F3B2D4A-9C81-4E6F-A2D7-5B9E1C3F8A60",
     "name": "King Cake Inspired Slush",
-    "category": "featured",
+    "category": "slush",
     "image": "https://slushiq.com/public/images/kingcake.jpg",
     "variants": {
       "nonAlcoholic": {
@@ -2485,7 +2485,7 @@
   {
     "id": "D4A9F6C2-7B3E-4F91-8C6D-2A5E9B7F1C40",
     "name": "Brixley's Rum Runner",
-    "category": "featured",
+    "category": "slush",
     "image": "https://slushiq.com/public/images/rumrunner.jpg",
     "variants": {
       "nonAlcoholic": {
