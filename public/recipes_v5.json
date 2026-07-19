@@ -3051,7 +3051,7 @@
     "id": "AA1E3B04-D609-5031-8487-F0ED97B051BC",
     "name": "Orchard Barrel Freeze",
     "category": "featured",
-    "image": "https://slushiq.com/public/images/orchardbarrelfreeze.jpg",
+    "image": "https://slushiq.com/public/images/orchardbarrel.jpg",
     "variants": {
       "nonAlcoholic": {
         "volume": "64 oz (1.9 L)",
@@ -3102,7 +3102,7 @@
     "id": "183C4530-79DA-5D92-982A-6F234C4FF82B",
     "name": "Wild Berry Lemonade Freeze",
     "category": "featured",
-    "image": "https://slushiq.com/public/images/wildberrylemonadefreeze.jpg",
+    "image": "https://slushiq.com/public/images/wildberrylemonade.jpg",
     "variants": {
       "nonAlcoholic": {
         "volume": "64 oz (1.9 L)",
@@ -3155,7 +3155,7 @@
     "id": "3D4FE3F1-C1D5-52A5-9041-522F104D0118",
     "name": "Strawberry Rose Freeze",
     "category": "featured",
-    "image": "https://slushiq.com/public/images/strawberryrosefreeze.jpg",
+    "image": "https://slushiq.com/public/images/strawberryrose.jpg",
     "variants": {
       "alcoholic": {
         "volume": "64 oz (1.9 L)",
