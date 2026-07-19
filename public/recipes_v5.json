@@ -3032,10 +3032,145 @@
           "1 oz Mango Syrup (30ml)",
           "1 oz Water (30ml)"
         ]
+      },
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "5¾ cups Cran-Mango Juice (1360ml)",
+          "1 cup Coconut Rum (240ml)",
+          "1 cup Vodka (240ml)",
+          "1 oz Mango Syrup (30ml)",
+          "1 oz Water (30ml)"
+        ]
+      }
+    },
+    "volume": "64 oz (1.9 L)",
+    "machineMode": "slush"
+  },
+  {
+    "id": "AA1E3B04-D609-5031-8487-F0ED97B051BC",
+    "name": "Orchard Barrel Freeze",
+    "category": "featured",
+    "image": "https://slushiq.com/public/images/orchardbarrelfreeze.jpg",
+    "variants": {
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "8 cups Apple Cider (1890ml)"
+        ]
+      },
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "1¼ cups Bourbon (300ml)",
+          "6½ cups Apple Cider (1540ml)",
+          "¼ cup 2:1 Simple Syrup (60ml)"
+        ]
+      }
+    },
+    "volume": "64 oz (1.9 L)",
+    "machineMode": "slush"
+  },
+  {
+    "id": "7C821C3A-C0F5-53B8-B636-A9FA767E1527",
+    "name": "Orchard Pucker Freeze",
+    "category": "featured",
+    "image": "https://slushiq.com/public/images/orchardpuckerfreeze.jpg",
+    "variants": {
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "2½ cups Sour Apple Mixer (590ml)",
+          "2 cups Citrus Soda (470ml)",
+          "3½ cups Water (830ml)"
+        ]
+      },
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "2¾ cups Sour Apple Mixer (650ml)",
+          "2 cups Citrus Soda (470ml)",
+          "1½ cups Crown Royal (360ml)",
+          "1¾ cups Water (420ml)"
+        ]
+      }
+    },
+    "volume": "64 oz (1.9 L)",
+    "machineMode": "slush"
+  },
+  {
+    "id": "183C4530-79DA-5D92-982A-6F234C4FF82B",
+    "name": "Wild Berry Lemonade Freeze",
+    "category": "featured",
+    "image": "https://slushiq.com/public/images/wildberrylemonadefreeze.jpg",
+    "variants": {
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "7¼ cups Lemonade (1720ml)",
+          "¼ cup Wild Berry Syrup (60ml)",
+          "1 oz 2:1 Simple Syrup (30ml)",
+          "3 oz Water (90ml)"
+        ]
+      },
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "6 cups Lemonade (1420ml)",
+          "1½ cups Wild Berry Vodka (350ml)",
+          "½ cup 2:1 Simple Syrup (120ml)"
+        ]
+      }
+    },
+    "volume": "64 oz (1.9 L)",
+    "machineMode": "slush"
+  },
+  {
+    "id": "C1E50DE3-A3B9-52A3-A1EA-2DDB61E085B5",
+    "name": "Pick-Your-Flavor Lemonade Freeze",
+    "category": "featured",
+    "image": "https://slushiq.com/public/images/pickyourflavor.jpg",
+    "variants": {
+      "nonAlcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "7¾ cups Lemonade (1830ml)",
+          "1 oz 2:1 Simple Syrup (30ml)",
+          "1 oz Water (30ml)"
+        ]
+      },
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "6 cups Lemonade (1420ml)",
+          "1½ cups Vodka (360ml)",
+          "½ cup 2:1 Simple Syrup (120ml)"
+        ]
+      }
+    },
+    "volume": "64 oz (1.9 L)",
+    "machineMode": "slush"
+  },
+  {
+    "id": "3D4FE3F1-C1D5-52A5-9041-522F104D0118",
+    "name": "Strawberry Rose Freeze",
+    "category": "featured",
+    "image": "https://slushiq.com/public/images/strawberryrosefreeze.jpg",
+    "variants": {
+      "alcoholic": {
+        "volume": "64 oz (1.9 L)",
+        "ingredients": [
+          "4 cups Rosé Wine (950ml)",
+          "½ cup Strawberry Purée (120ml)",
+          "¼ cup Triple Sec (60ml)",
+          "½ cup 2:1 Simple Syrup (140ml)",
+          "2½ cups Water (620ml)"
+        ]
       }
     },
     "volume": "64 oz (1.9 L)",
     "machineMode": "slush"
   }
 ]
+
 
