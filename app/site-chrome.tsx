@@ -1,8 +1,9 @@
 import Link from "next/link";
 import { MobileMenu } from "./mobile-menu";
+import { BrixleyImage } from "./marketing-image";
 
 export function SiteWordmark() {
-  return <span className="wordmark"><img src="/brixley.png" alt="" />Slush<span>IQ</span></span>;
+  return <span className="wordmark"><BrixleyImage alt="" sizes="46px" />Slush<span>IQ</span></span>;
 }
 
 export function SiteHeader() {
@@ -28,13 +29,13 @@ export function DownloadCta({ id }: { id?: string }) {
       <div className="site-download-inner">
         <div className="site-download-top">
           <p className="section-kicker">READY FOR A BETTER BATCH?</p>
-          <img src="/brixley.png" alt="Brixley holding a frozen drink" />
+          <BrixleyImage alt="Brixley holding a frozen drink" sizes="(max-width: 650px) 82px, 140px" />
         </div>
         <h2>Recipes, slush math,<br /><em>and help when you need it.</em></h2>
         <p>Human-created recipes, frozen-drink calculations, and Brixley troubleshooting in one app. No subscription fees.</p>
         <div className="site-download-buttons">
-          <a href="https://apps.apple.com/us/app/slushiq/id6749187530" target="_blank" rel="noreferrer" aria-label="Download SlushIQ on the App Store"><img src="/app-store-badge.svg" alt="Download on the App Store" /></a>
-          <a href="https://play.google.com/store/apps/details?id=com.slushiq.app" target="_blank" rel="noreferrer" aria-label="Get SlushIQ on Google Play"><img src="/google-play-badge.png" alt="Get it on Google Play" /></a>
+          <a href="https://apps.apple.com/us/app/slushiq/id6749187530" target="_blank" rel="noreferrer" aria-label="Download SlushIQ on the App Store"><img src="/app-store-badge.svg" width="120" height="40" alt="Download on the App Store" /></a>
+          <a href="https://play.google.com/store/apps/details?id=com.slushiq.app" target="_blank" rel="noreferrer" aria-label="Get SlushIQ on Google Play"><img src="/google-play-badge.png" width="478" height="142" alt="Get it on Google Play" /></a>
         </div>
       </div>
     </section>

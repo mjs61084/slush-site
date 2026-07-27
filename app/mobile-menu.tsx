@@ -31,8 +31,8 @@ export function MobileMenu() {
         </div>
         <p className="mobile-menu-download-label">GET THE APP</p>
         <div className="mobile-menu-downloads">
-          <a href={appStore} target="_blank" rel="noreferrer" onClick={close} aria-label="Download SlushIQ on the App Store"><img src="/app-store-badge.svg" alt="Download on the App Store" /></a>
-          <a href={playStore} target="_blank" rel="noreferrer" onClick={close} aria-label="Get SlushIQ on Google Play"><img src="/google-play-badge.png" alt="Get it on Google Play" /></a>
+          <a href={appStore} target="_blank" rel="noreferrer" onClick={close} aria-label="Download SlushIQ on the App Store"><img src="/app-store-badge.svg" width="120" height="40" alt="Download on the App Store" /></a>
+          <a href={playStore} target="_blank" rel="noreferrer" onClick={close} aria-label="Get SlushIQ on Google Play"><img src="/google-play-badge.png" width="478" height="142" alt="Get it on Google Play" /></a>
         </div>
       </nav>
       {open && <button className="mobile-menu-scrim" type="button" aria-label="Close menu" onClick={close} />}
