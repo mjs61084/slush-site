@@ -125,6 +125,11 @@ export default function Home() {
             <ReturnLink href="/learn/alcohol-and-slush" returnHash="#learn"><span>03</span><div><small>SPIKED SLUSH</small><b>How alcohol changes the freeze</b></div><i>→</i></ReturnLink>
             <ReturnLink href="/learn/slush-machine-calculator" returnHash="#learn"><span>04</span><div><small>CALCULATOR GUIDE</small><b>How a slush machine calculator works</b></div><i>→</i></ReturnLink>
             <ReturnLink href="/learn/frozen-drink-recipes" returnHash="#learn"><span>05</span><div><small>RECIPE GUIDE</small><b>What makes a frozen drink recipe work?</b></div><i>→</i></ReturnLink>
+            <ReturnLink href="/learn/sugar-free-ninja-slushi" returnHash="#learn"><span>06</span><div><small>SUGAR-FREE SLUSH</small><b>Why diet drinks need a different freeze plan</b></div><i>→</i></ReturnLink>
+            <ReturnLink href="/learn/ninja-slushi-foamy" returnHash="#learn"><span>07</span><div><small>FRAPPÉ + MILKSHAKE HELP</small><b>Why is my Ninja SLUSHi foamy?</b></div><i>→</i></ReturnLink>
+            <ReturnLink href="/learn/ninja-slushi-errors" returnHash="#learn"><span>08</span><div><small>MACHINE ALERTS</small><b>Understand Ninja SLUSHi warnings</b></div><i>→</i></ReturnLink>
+            <ReturnLink href="/learn/how-to-scale-slush-recipes" returnHash="#learn"><span>09</span><div><small>RECIPE SCALING</small><b>Resize a batch without changing it</b></div><i>→</i></ReturnLink>
+            <ReturnLink href="/learn/ninja-slushi-noise-leaking" returnHash="#learn"><span>10</span><div><small>MACHINE HELP</small><b>Noise, clicking, and leaking guide</b></div><i>→</i></ReturnLink>
           </div>
         </section>
 
