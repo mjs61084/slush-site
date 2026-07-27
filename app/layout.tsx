@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import FloatingDownload from "./floating-download";
+import FirebaseAnalytics from "./firebase-analytics";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://slushiq.com"),
@@ -13,5 +14,5 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="en"><body>{children}<FloatingDownload /></body></html>;
+  return <html lang="en"><body>{children}<FloatingDownload /><FirebaseAnalytics /></body></html>;
 }

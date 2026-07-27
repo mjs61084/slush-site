@@ -39,10 +39,10 @@ function Wordmark() {
 function StoreButtons({ compact = false }: { compact?: boolean }) {
   return (
     <div className={`store-buttons ${compact ? "compact" : ""}`}>
-      <a href={appStore} target="_blank" rel="noreferrer" aria-label="Download SlushIQ on the App Store">
+      <a href={appStore} target="_blank" rel="noreferrer" aria-label="Download SlushIQ on the App Store" data-analytics-event="app_store_click" data-analytics-placement="store_buttons">
         <img src="/app-store-badge.svg" width="120" height="40" alt="Download on the App Store" />
       </a>
-      <a href={playStore} target="_blank" rel="noreferrer" aria-label="Get SlushIQ on Google Play">
+      <a href={playStore} target="_blank" rel="noreferrer" aria-label="Get SlushIQ on Google Play" data-analytics-event="google_play_click" data-analytics-placement="store_buttons">
         <img src="/google-play-badge.png" width="478" height="142" alt="Get it on Google Play" />
       </a>
     </div>
