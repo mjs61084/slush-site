@@ -10,7 +10,16 @@ export const metadata: Metadata = {
   keywords: ["slush machine calculator", "frozen drink calculator", "Ninja SLUSHi calculator", "Iceman Slush Ease calculator", "Brix calculator", "frozen cocktail app", "slush recipe calculator"],
   openGraph: { title: "Better slush. Zero guesswork.", description: "The frozen drink intelligence app for home slush machines.", url: "https://slushiq.com", siteName: "SlushIQ", type: "website", images: [{ url: "/og.png", width: 1200, height: 630, alt: "SlushIQ — Better slush. Zero guesswork." }] },
   twitter: { card: "summary_large_image", title: "Better slush. Zero guesswork.", description: "Build, balance, and rescue frozen drinks with SlushIQ.", images: [{ url: "/og.png", width: 1200, height: 630, alt: "SlushIQ — Better slush. Zero guesswork." }] },
-  icons: { icon: "/favicon.svg", shortcut: "/favicon.svg" },
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "48x48" },
+      { url: "/favicon-32.png", type: "image/png", sizes: "32x32" },
+      { url: "/favicon-48.png", type: "image/png", sizes: "48x48" },
+      { url: "/favicon-512.png", type: "image/png", sizes: "512x512" },
+    ],
+    shortcut: "/favicon.ico",
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
+  },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
