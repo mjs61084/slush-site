@@ -24,5 +24,5 @@ export default function FloatingDownload() {
     };
   }, []);
 
-  return <aside className={`floating-download ${visible ? "is-visible" : ""}`} aria-hidden={!visible} aria-label="Download SlushIQ"><b>Get SlushIQ</b><a href={appStore} target="_blank" rel="noreferrer" tabIndex={visible ? 0 : -1}>iOS</a><a href={playStore} target="_blank" rel="noreferrer" tabIndex={visible ? 0 : -1}>Android</a></aside>;
+  return <aside className={`floating-download ${visible ? "is-visible" : ""}`} aria-hidden={!visible} aria-label="Download SlushIQ"><b>Get SlushIQ</b><a href={appStore} target="_blank" rel="noreferrer" tabIndex={visible ? 0 : -1} data-analytics-event="app_store_click" data-analytics-placement="floating_download">iOS</a><a href={playStore} target="_blank" rel="noreferrer" tabIndex={visible ? 0 : -1} data-analytics-event="google_play_click" data-analytics-placement="floating_download">Android</a></aside>;
 }
