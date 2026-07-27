@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { DownloadCta, SiteFooter, SiteHeader } from "../site-chrome";
+import { AppScreenshot } from "../marketing-image";
 
 export const metadata: Metadata = {
   title: "SimpleLAB, DesignLAB & Brixley | SlushIQ Tools",
   description: "Compare SlushIQ’s frozen drink tools: convert a store-bought mixer with SimpleLAB, build a custom slush recipe in DesignLAB, or troubleshoot a batch with Brixley.",
-  alternates: { canonical: "https://www.slushiq.com/labs" },
+  alternates: { canonical: "https://slushiq.com/labs" },
 };
 
 const tools = [
@@ -21,7 +22,7 @@ export default function LabsPage() {
       <div><p className="section-kicker">HOW THE LABS USE TARGETS</p><h2>One target.<br /><em>The whole batch in context.</em></h2><p>SimpleLAB uses the mixer’s nutrition label and complete batch size to calculate a freeze-ready formula. For alcoholic batches, SlushIQ aims for 11.8 Brix and 8–9% final-batch ABV. DesignLAB lets you choose a different freeze behavior, while Brixley evaluates the mixture already in your bowl rather than forcing every drink toward one number.</p></div>
       <div className="labs-target"><small>EXAMPLE SIMPLELAB TARGET</small><strong>11.8</strong><span>BRIX</span><p>Alcoholic batches also target 8–9% final-batch ABV.</p></div>
     </section>
-    <div className="labs-tool-list">{tools.map((tool, index) => <section className={`labs-tool ${index % 2 ? "reverse" : ""}`} id={tool.name.toLowerCase()} key={tool.name}><article><span>{tool.index} / {tool.kicker}</span><h2>{tool.headline}</h2><p>{tool.copy}</p><ul>{tool.points.map(point => <li key={point}>{point}</li>)}</ul>{tool.name === "Brixley" && <Link className="text-cta" href="/brixley">See the Brixley walkthrough <span>→</span></Link>}</article><div className="labs-tool-screen"><img src={tool.image} alt={tool.alt} /></div></section>)}</div>
+    <div className="labs-tool-list">{tools.map((tool, index) => <section className={`labs-tool ${index % 2 ? "reverse" : ""}`} id={tool.name.toLowerCase()} key={tool.name}><article><span>{tool.index} / {tool.kicker}</span><h2>{tool.headline}</h2><p>{tool.copy}</p><ul>{tool.points.map(point => <li key={point}>{point}</li>)}</ul>{tool.name === "Brixley" && <Link className="text-cta" href="/brixley">See the Brixley walkthrough <span>→</span></Link>}</article><div className="labs-tool-screen"><AppScreenshot src={tool.image} alt={tool.alt} sizes="(max-width: 800px) 68vw, 360px" /></div></section>)}</div>
     <DownloadCta />
   </main><SiteFooter /></>;
 }

@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Terms of Service",
   description:
     "Terms governing use of the SlushIQ website and mobile applications.",
-  alternates: { canonical: "https://www.slushiq.com/terms" },
+  alternates: { canonical: "https://slushiq.com/terms" },
 };
 
 export default function TermsPage() {

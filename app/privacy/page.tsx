@@ -4,7 +4,7 @@ import { SiteFooter, SiteHeader } from "../site-chrome";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description: "SlushIQ privacy policy for the website and mobile applications.",
-  alternates: { canonical: "https://www.slushiq.com/privacy" },
+  alternates: { canonical: "https://slushiq.com/privacy" },
 };
 
 export default function PrivacyPage() {
