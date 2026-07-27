@@ -95,17 +95,17 @@ export default function PrivacyPage() {
             own terms and privacy policies.
           </p>
 
-          <h2>Website analytics choices</h2>
+          <h2>Website analytics</h2>
           <p>
-            The SlushIQ website asks for permission before enabling Google
-            Analytics for Firebase. If you allow analytics, Google Firebase
-            may process information such as pages viewed, approximate
-            location derived from an IP address, device and browser
-            information, referral source, and interactions with app-download
-            links or the support form. SlushIQ uses this information to
-            understand website performance and improve its content. You may
-            decline analytics, and SlushIQ does not use this information for
-            advertising or sell it.
+            The SlushIQ website uses Google Analytics for Firebase. When you
+            visit the website, Google Firebase may process information such as
+            pages viewed, approximate location derived from an IP address,
+            device and browser information, referral source, and interactions
+            with app-download links or the support form. SlushIQ uses this
+            information to understand website performance and improve its
+            content. SlushIQ does not use this information for advertising or
+            sell it. You can limit analytics cookies through your browser
+            settings.
           </p>
 
           <h2>Advertising and information we do not seek</h2>

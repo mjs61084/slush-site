@@ -1,9 +1,8 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import type { Analytics } from "firebase/analytics";
 
-const consentKey = "slushiq-analytics-consent";
 let analyticsInstance: Analytics | null = null;
 
 const firebaseConfig = {
@@ -29,19 +28,12 @@ async function startAnalytics() {
 }
 
 export default function FirebaseAnalytics() {
-  const [consent, setConsent] = useState<"accepted" | "declined" | null>(null);
-
   useEffect(() => {
-    const saved = window.localStorage.getItem(consentKey);
-    if (saved === "accepted" || saved === "declined") setConsent(saved);
-    if (saved === "accepted") void startAnalytics();
-  }, []);
-
-  useEffect(() => {
+    void startAnalytics();
     const trackClick = async (event: MouseEvent) => {
       const target = event.target instanceof Element ? event.target.closest<HTMLElement>("[data-analytics-event]") : null;
       const eventName = target?.dataset.analyticsEvent;
-      if (!eventName || consent !== "accepted") return;
+      if (!eventName) return;
       const analytics = await startAnalytics();
       if (!analytics) return;
       const { logEvent } = await import("firebase/analytics");
@@ -50,7 +42,7 @@ export default function FirebaseAnalytics() {
     const trackSubmit = async (event: SubmitEvent) => {
       const form = event.target instanceof HTMLFormElement ? event.target : null;
       const eventName = form?.dataset.analyticsEvent;
-      if (!eventName || consent !== "accepted") return;
+      if (!eventName) return;
       const analytics = await startAnalytics();
       if (!analytics) return;
       const { logEvent } = await import("firebase/analytics");
@@ -62,20 +54,7 @@ export default function FirebaseAnalytics() {
       document.removeEventListener("click", trackClick);
       document.removeEventListener("submit", trackSubmit);
     };
-  }, [consent]);
+  }, []);
 
-  if (consent !== null) return null;
-
-  const choose = (value: "accepted" | "declined") => {
-    window.localStorage.setItem(consentKey, value);
-    setConsent(value);
-    if (value === "accepted") void startAnalytics();
-  };
-
-  return (
-    <aside className="analytics-consent" aria-label="Analytics preferences">
-      <p><b>Help improve SlushIQ</b><span>Allow anonymous analytics so we can understand which guides and download links are useful. No advertising or sale of personal information.</span></p>
-      <div><button type="button" onClick={() => choose("declined")}>Not now</button><button type="button" onClick={() => choose("accepted")}>Allow analytics</button></div>
-    </aside>
-  );
+  return null;
 }
