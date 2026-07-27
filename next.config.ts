@@ -1,6 +1,26 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  async redirects() {
+    return [
+      {
+        source: "/simplelab",
+        destination: "/labs",
+        permanent: true,
+      },
+      {
+        source: "/designlab",
+        destination: "/labs",
+        permanent: true,
+      },
+      {
+        source: "/recipe-library",
+        destination: "/recipes-and-library",
+        permanent: true,
+      },
+    ];
+  },
+
   async rewrites() {
     return [
       {
