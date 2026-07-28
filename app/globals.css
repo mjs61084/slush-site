@@ -597,8 +597,6 @@ footer{background:#030910}.footer-links b{color:#4d88aa}
 }
 
 /* Learning center */
-.section-text-link{display:inline-flex;align-items:center;gap:10px;margin-top:24px;color:#65cfff;font-size:12px;font-weight:850;text-decoration:underline;text-underline-offset:5px}
-.section-text-link span{font-size:16px;text-decoration:none}
 .learn-library{min-height:100vh;background:#070e18;color:white}
 .learn-library-hero{padding:105px max(28px,calc((100% - 1120px)/2)) 82px;text-align:center;background:radial-gradient(circle at 50% 42%,rgba(50,173,230,.17),transparent 36%),linear-gradient(180deg,#0b2035,#070e18);border-bottom:1px solid rgba(101,207,255,.16)}
 .learn-library-hero h1{max-width:900px;margin:23px auto 24px;font-size:clamp(58px,7vw,92px);font-weight:850;letter-spacing:-5px;line-height:.94}

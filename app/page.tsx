@@ -118,7 +118,7 @@ export default function Home() {
         </section>
 
         <section className="learn" id="learn">
-          <div className="learn-copy"><p className="section-kicker">LEARN THE “WHY”</p><h2>Slush science<br /><em>in plain English.</em></h2><p>Helpful guides answer the questions people ask before and after they fill the machine. No full recipes required.</p><a className="section-text-link" href="/learn">Browse all SlushIQ guides <span>→</span></a></div>
+          <div className="learn-copy"><p className="section-kicker">LEARN THE “WHY”</p><h2>Slush science<br /><em>in plain English.</em></h2><p>Helpful guides answer the questions people ask before and after they fill the machine. No full recipes required.</p><a className="tool-learn-link" href="/learn">Browse all SlushIQ guides →</a></div>
           <div className="article-list">
             <ReturnLink href="/learn/fix-my-slush" returnHash="#learn"><span>01</span><div><small>TROUBLESHOOTING</small><b>Why won’t my slush freeze?</b></div><i>→</i></ReturnLink>
             <ReturnLink href="/learn/what-is-brix" returnHash="#learn"><span>02</span><div><small>SLUSH BASICS</small><b>What Brix means for frozen drinks</b></div><i>→</i></ReturnLink>
@@ -126,7 +126,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="faq" id="faq"><p className="section-kicker">QUICK ANSWERS</p><div className="faq-layout"><div className="faq-intro"><h2>Frequently Asked<br /><em>questions.</em></h2><p>Home slush machines look simple, but the mixture inside them is doing several things at once. Sugar, alcohol, dilution, temperature, and batch size all affect whether a frozen drink stays liquid, turns icy, or reaches a smooth texture.</p><a className="section-text-link" href="/learn">Explore every learning guide <span>→</span></a></div><div className="faq-list">{faqs.map(([q, a], index) => <details key={q}><summary><i>{String(index + 1).padStart(2, "0")}</i><b>{q}</b><span>+</span></summary><p>{a}{index === 0 && <a className="faq-learn-link" href="/learn/fix-my-slush">Read the complete troubleshooting guide →</a>}</p></details>)}</div></div></section>
+        <section className="faq" id="faq"><p className="section-kicker">QUICK ANSWERS</p><div className="faq-layout"><div className="faq-intro"><h2>Frequently Asked<br /><em>questions.</em></h2><p>Home slush machines look simple, but the mixture inside them is doing several things at once. Sugar, alcohol, dilution, temperature, and batch size all affect whether a frozen drink stays liquid, turns icy, or reaches a smooth texture.</p></div><div className="faq-list">{faqs.map(([q, a], index) => <details key={q}><summary><i>{String(index + 1).padStart(2, "0")}</i><b>{q}</b><span>+</span></summary><p>{a}{index === 0 && <a className="faq-learn-link" href="/learn/fix-my-slush">Read the complete troubleshooting guide →</a>}</p></details>)}</div></div></section>
 
         <DownloadCta id="download" />
       </main>
