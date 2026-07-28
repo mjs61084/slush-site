@@ -3,13 +3,13 @@ import { GuideShell } from "../guide-shell";
 
 const url = "https://slushiq.com/learn/ninja-slushi-foamy";
 export const metadata: Metadata = {
-  title: "Why Is My Ninja SLUSHi Foamy?",
-  description: "Learn why Ninja SLUSHi frappés and milkshakes become foamy, how dairy and protein trap air, and what to check before changing the recipe.",
+  title: "Why Is My Frozen Drink Foamy?",
+  description: "Learn why machine-made frappés and milkshakes become foamy, how dairy and protein trap air, and what to check before changing the recipe.",
   alternates: { canonical: url },
-  openGraph: { title: "Why Is My Ninja SLUSHi Foamy?", description: "Troubleshoot foamy frozen coffee, frappés, milkshakes, dairy, and non-dairy mixtures.", url, type: "article" },
+  openGraph: { title: "Why Is My Frozen Drink Foamy?", description: "Troubleshoot foamy frozen coffee, frappés, milkshakes, dairy, and non-dairy mixtures.", url, type: "article" },
 };
 export default function FoamyGuide() {
-  const schema = { "@context": "https://schema.org", "@type": "Article", headline: "Why Is My Ninja SLUSHi Foamy?", description: metadata.description, author: { "@type": "Organization", name: "SlushIQ" }, publisher: { "@type": "Organization", name: "SlushIQ" }, mainEntityOfPage: url };
+  const schema = { "@context": "https://schema.org", "@type": "Article", headline: "Why Is My Frozen Drink Foamy?", description: metadata.description, author: { "@type": "Organization", name: "SlushIQ" }, publisher: { "@type": "Organization", name: "SlushIQ" }, mainEntityOfPage: url };
   return <GuideShell kicker="FRAPPÉ + MILKSHAKE HELP" title="Frozen and fluffy" accent="are not the same texture."
     intro="The auger continuously moves the mixture while it freezes. Dairy proteins, coffee ingredients, stabilizers, and some non-dairy products can trap that air until a drink becomes light, bulky, or separated instead of smooth."
     lede="Foam is often an ingredient-and-time problem rather than a failure of the refrigeration system."
@@ -24,5 +24,5 @@ export default function FoamyGuide() {
     afterBody="Some owners report better results with particular oat milks or added cream, but brand formulations vary and neither is a universal remedy. Use only ingredients allowed by your machine’s documentation, confirm dietary needs and allergens, and test a small compliant batch before scaling."
     safetyHeading="When separation is more than foam"
     safetyBody="Stop the machine before inspecting or removing parts. If a mixture develops unexpected solids, an unusual odor, leakage, or signs of curdling, do not serve it simply because it froze. Follow food-safety guidance and the cleaning instructions supplied with the machine."
-    links={[{ href: "/learn/frozen-drink-recipes", label: "What makes a frozen drink recipe work?" }, { href: "/learn/fix-my-slush", label: "Why won’t my slush freeze?" }, { href: "/learn/ninja-slushi-errors", label: "Understand Ninja SLUSHi alerts" }]} schema={schema} />;
+    links={[{ href: "/learn/frozen-drink-recipes", label: "What makes a frozen drink recipe work?" }, { href: "/learn/fix-my-slush", label: "Why won’t my slush freeze?" }, { href: "/learn/ninja-slushi-errors", label: "Understand machine alerts" }]} schema={schema} />;
 }

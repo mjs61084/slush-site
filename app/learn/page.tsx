@@ -23,7 +23,7 @@ const categories = [
       { href: "/learn/what-is-brix", label: "What Brix means for frozen drinks", note: "Use Brix as one part of the answer—not a universal target." },
       { href: "/learn/2-to-1-simple-syrup", label: "How to make 2:1 simple syrup", note: "Why SlushIQ uses rich syrup for more sugar with less added water." },
       { href: "/learn/alcohol-and-slush", label: "How alcohol changes the freeze", note: "Understand final-batch ABV and why strong mixtures stay liquid." },
-      { href: "/learn/sugar-free-ninja-slushi", label: "Sugar-free Ninja SLUSHi guide", note: "Why diet drinks, allulose, and intense sweeteners behave differently." },
+      { href: "/learn/sugar-free-ninja-slushi", label: "Sugar-free slush machine guide", note: "Why diet drinks, allulose, and intense sweeteners behave differently." },
     ],
   },
   {
@@ -33,8 +33,8 @@ const categories = [
     description: "Start with the symptom, preserve the recipe, and make one informed adjustment.",
     guides: [
       { href: "/learn/fix-my-slush", label: "Why won’t my slush freeze?", note: "Work through liquid, overly hard, and icy results." },
-      { href: "/learn/ninja-slushi-foamy", label: "Why is my Ninja SLUSHi foamy?", note: "Troubleshoot frappés, milkshakes, dairy, and stabilized foam." },
-      { href: "/learn/ninja-slushi-errors", label: "Ninja SLUSHi alerts and warnings", note: "Separate formula alerts from repeated machine behavior." },
+      { href: "/learn/ninja-slushi-foamy", label: "Why is my frozen drink foamy?", note: "Troubleshoot frappés, milkshakes, dairy, and stabilized foam." },
+      { href: "/learn/ninja-slushi-errors", label: "Slush machine alerts and warnings", note: "Separate formula alerts from repeated machine behavior." },
     ],
   },
   {
@@ -50,7 +50,7 @@ const categories = [
 
 export const metadata: Metadata = {
   title: "Slush Machine Guides & Troubleshooting",
-  description: "Explore SlushIQ guides for Ninja SLUSHi and home frozen-drink machines: Brix, 2:1 simple syrup, sugar-free slush, alcohol, recipe scaling, foam, alerts, and troubleshooting.",
+  description: "Explore SlushIQ guides for home frozen-drink machines: Brix, 2:1 simple syrup, sugar-free slush, alcohol, recipe scaling, foam, alerts, and troubleshooting.",
   alternates: { canonical: "https://slushiq.com/learn" },
   openGraph: {
     title: "SlushIQ Learning Center",
@@ -83,7 +83,7 @@ export default function LearnPage() {
     <header className="learn-library-hero">
       <p className="section-kicker">SLUSHIQ LEARNING CENTER</p>
       <h1>Better batches start<br /><em>with the “why.”</em></h1>
-      <p>Clear explanations for building, balancing, scaling, and troubleshooting frozen drinks in Ninja SLUSHi and other home slush machines.</p>
+      <p>Clear explanations for building, balancing, scaling, and troubleshooting frozen drinks in home slush machines.</p>
       <nav aria-label="Learning center categories">
         {categories.map(category => <a href={`#category-${category.index}`} key={category.index}>{category.kicker}</a>)}
       </nav>

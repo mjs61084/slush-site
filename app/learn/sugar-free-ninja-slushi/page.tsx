@@ -3,15 +3,15 @@ import { GuideShell } from "../guide-shell";
 
 const url = "https://slushiq.com/learn/sugar-free-ninja-slushi";
 export const metadata: Metadata = {
-  title: "Sugar-Free Ninja SLUSHi Guide",
-  description: "Learn why diet drinks can turn icy in a Ninja SLUSHi, how allulose differs from ordinary sweeteners, and what to check before adjusting a batch.",
+  title: "Sugar-Free Slush Machine Guide",
+  description: "Learn why diet drinks can turn icy in a home slush machine, how allulose differs from ordinary sweeteners, and what to check before adjusting a batch.",
   alternates: { canonical: url },
-  openGraph: { title: "Sugar-Free Ninja SLUSHi Guide", description: "A practical guide to diet drinks, allulose, icy texture, foam, and sugar-free slush troubleshooting.", url, type: "article" },
+  openGraph: { title: "Sugar-Free Slush Machine Guide", description: "A practical guide to diet drinks, allulose, icy texture, foam, and sugar-free slush troubleshooting.", url, type: "article" },
 };
 export default function SugarFreeGuide() {
-  const schema = { "@context": "https://schema.org", "@type": "Article", headline: "Sugar-Free Ninja SLUSHi Guide", description: metadata.description, author: { "@type": "Organization", name: "SlushIQ" }, publisher: { "@type": "Organization", name: "SlushIQ" }, mainEntityOfPage: url };
+  const schema = { "@context": "https://schema.org", "@type": "Article", headline: "Sugar-Free Slush Machine Guide", description: metadata.description, author: { "@type": "Organization", name: "SlushIQ" }, publisher: { "@type": "Organization", name: "SlushIQ" }, mainEntityOfPage: url };
   return <GuideShell kicker="SUGAR-FREE SLUSH" title="Diet drinks need" accent="a different freeze plan."
-    intro="Removing sugar changes more than sweetness. It changes freezing point, ice-crystal formation, body, and how easily a mixture dispenses from a Ninja SLUSHi or another compressor-style frozen-drink machine."
+    intro="Removing sugar changes more than sweetness. It changes freezing point, ice-crystal formation, body, and how easily a mixture dispenses from a compressor-style home frozen-drink machine."
     lede="A zero-sugar drink can taste ready before it is physically balanced for slush. Start with the complete mixture and make one measured change at a time."
     sectionHeading="Why sugar-free batches behave differently" sections={[
       { title: "Most intense sweeteners do not replace sugar’s function", body: "Sucralose, stevia, monk-fruit extracts, and similar sweeteners provide sweetness in very small quantities. They usually do not add enough dissolved material to affect freezing the way a substantial amount of sugar does." },

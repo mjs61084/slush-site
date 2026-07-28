@@ -4,7 +4,7 @@ import { GuideShell } from "../guide-shell";
 const url = "https://slushiq.com/learn/how-to-scale-slush-recipes";
 export const metadata: Metadata = {
   title: "How to Scale a Slush Machine Recipe",
-  description: "Scale a Ninja SLUSHi or frozen-drink recipe without changing sugar, alcohol, dilution, or machine capacity balance.",
+  description: "Scale a home slush machine recipe without changing sugar, alcohol, dilution, or machine capacity balance.",
   alternates: { canonical: url },
   openGraph: { title: "How to Scale a Slush Machine Recipe", description: "Learn how to resize a frozen-drink batch while preserving its complete formula.", url, type: "article" },
 };
@@ -19,7 +19,7 @@ export default function ScalingGuide() {
     intro="A frozen-drink recipe is a complete ratio. Scaling works when every ingredient changes together and the resulting volume remains inside the permitted range for your exact machine."
     lede="Do not scale from the vessel’s advertised size alone. Usable fill limits and minimum batch requirements can differ from total vessel capacity."
     sectionHeading="The reliable four-step method" sections={[
-      { title: "Choose a permitted final batch size", body: "Check the owner’s guide for your exact model and leave room for safe operation. Capacity figures from another SLUSHi, XL, Max, or competing machine may not apply." },
+      { title: "Choose a permitted final batch size", body: "Check the owner’s guide for your exact model and leave room for safe operation. Capacity figures from another model or competing machine may not apply." },
       { title: "Calculate one scale factor", body: "Divide the desired final volume by the original recipe’s final volume. For example, moving from 40 ounces to 60 ounces uses a scale factor of 1.5." },
       { title: "Multiply every ingredient by that factor", body: "Scale water, juice, soda, syrup, spirits, liqueurs, purées, and minor additions together. Increasing only the alcohol or mixer produces a different recipe." },
       { title: "Verify measurements and the final formula", body: "Round only to a quantity you can measure consistently, then confirm total volume, estimated sugar, final-batch alcohol, and ingredient restrictions before pouring." },
