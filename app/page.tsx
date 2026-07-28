@@ -118,12 +118,11 @@ export default function Home() {
         </section>
 
         <section className="learn" id="learn">
-          <div className="learn-copy"><p className="section-kicker">LEARN THE “WHY”</p><h2>Slush science<br /><em>in plain English.</em></h2><p>Helpful guides answer the questions people ask before and after they fill the machine. No full recipes required.</p></div>
+          <div className="learn-copy"><p className="section-kicker">LEARN THE “WHY”</p><h2>Slush science<br /><em>in plain English.</em></h2><p>Helpful guides answer the questions people ask before and after they fill the machine. No full recipes required.</p><a className="section-text-link" href="/learn">Browse all SlushIQ guides <span>→</span></a></div>
           <div className="article-list">
             <ReturnLink href="/learn/fix-my-slush" returnHash="#learn"><span>01</span><div><small>TROUBLESHOOTING</small><b>Why won’t my slush freeze?</b></div><i>→</i></ReturnLink>
             <ReturnLink href="/learn/what-is-brix" returnHash="#learn"><span>02</span><div><small>SLUSH BASICS</small><b>What Brix means for frozen drinks</b></div><i>→</i></ReturnLink>
             <ReturnLink href="/learn/sugar-free-ninja-slushi" returnHash="#learn"><span>03</span><div><small>SUGAR-FREE SLUSH</small><b>Why diet drinks need a different freeze plan</b></div><i>→</i></ReturnLink>
-            <a className="learn-all-link" href="/learn"><span>10</span><div><small>COMPLETE LEARNING CENTER</small><b>Browse all SlushIQ guides</b></div><i>→</i></a>
           </div>
         </section>
 
