@@ -26,7 +26,7 @@ export function MobileMenu() {
         <div className="mobile-menu-grid">
           <Link href="/#features" onClick={close}><span>01</span><b>Tools</b><small>Build, save, or fix a batch</small></Link>
           <Link href="/labs" onClick={close}><span>02</span><b>How it works</b><small>See the SlushIQ workflow</small></Link>
-          <Link href="/#learn" onClick={close}><span>03</span><b>Learn</b><small>Understand the slush science</small></Link>
+          <Link href="/learn" onClick={close}><span>03</span><b>Learn</b><small>Browse every slush guide</small></Link>
           <Link href="/#faq" onClick={close}><span>04</span><b>FAQ</b><small>Get a quick answer</small></Link>
         </div>
         <p className="mobile-menu-download-label">GET THE APP</p>

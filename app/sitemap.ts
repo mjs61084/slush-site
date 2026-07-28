@@ -7,6 +7,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/labs`, changeFrequency: "monthly", priority: 0.9 },
     { url: `${base}/recipes-and-library`, changeFrequency: "monthly", priority: 0.9 },
     { url: `${base}/brixley`, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/learn`, changeFrequency: "weekly", priority: 0.9 },
     { url: `${base}/learn/fix-my-slush`, changeFrequency: "monthly", priority: 0.9 },
     { url: `${base}/learn/what-is-brix`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/learn/alcohol-and-slush`, changeFrequency: "monthly", priority: 0.8 },

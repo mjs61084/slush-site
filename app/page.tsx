@@ -78,7 +78,7 @@ export default function Home() {
         </nav>
         <a href="#top" className="logo-link header-brand" aria-label="SlushIQ home"><Wordmark /></a>
         <div className="header-nav header-nav-secondary">
-          <a href="#top">Home</a><a href="#features">Tools</a><a href="/labs">How it works</a><a href="#learn">Learn</a><a href="#faq">FAQ</a>
+          <a href="#top">Home</a><a href="#features">Tools</a><a href="/labs">How it works</a><a href="/learn">Learn</a><a href="#faq">FAQ</a>
         </div>
         <MobileMenu />
       </header>
@@ -122,23 +122,17 @@ export default function Home() {
           <div className="article-list">
             <ReturnLink href="/learn/fix-my-slush" returnHash="#learn"><span>01</span><div><small>TROUBLESHOOTING</small><b>Why won’t my slush freeze?</b></div><i>→</i></ReturnLink>
             <ReturnLink href="/learn/what-is-brix" returnHash="#learn"><span>02</span><div><small>SLUSH BASICS</small><b>What Brix means for frozen drinks</b></div><i>→</i></ReturnLink>
-            <ReturnLink href="/learn/alcohol-and-slush" returnHash="#learn"><span>03</span><div><small>SPIKED SLUSH</small><b>How alcohol changes the freeze</b></div><i>→</i></ReturnLink>
-            <ReturnLink href="/learn/slush-machine-calculator" returnHash="#learn"><span>04</span><div><small>CALCULATOR GUIDE</small><b>How a slush machine calculator works</b></div><i>→</i></ReturnLink>
-            <ReturnLink href="/learn/frozen-drink-recipes" returnHash="#learn"><span>05</span><div><small>RECIPE GUIDE</small><b>What makes a frozen drink recipe work?</b></div><i>→</i></ReturnLink>
-            <ReturnLink href="/learn/sugar-free-ninja-slushi" returnHash="#learn"><span>06</span><div><small>SUGAR-FREE SLUSH</small><b>Why diet drinks need a different freeze plan</b></div><i>→</i></ReturnLink>
-            <ReturnLink href="/learn/ninja-slushi-foamy" returnHash="#learn"><span>07</span><div><small>FRAPPÉ + MILKSHAKE HELP</small><b>Why is my Ninja SLUSHi foamy?</b></div><i>→</i></ReturnLink>
-            <ReturnLink href="/learn/ninja-slushi-errors" returnHash="#learn"><span>08</span><div><small>MACHINE ALERTS</small><b>Understand Ninja SLUSHi warnings</b></div><i>→</i></ReturnLink>
-            <ReturnLink href="/learn/how-to-scale-slush-recipes" returnHash="#learn"><span>09</span><div><small>RECIPE SCALING</small><b>Resize a batch without changing it</b></div><i>→</i></ReturnLink>
-            <ReturnLink href="/learn/ninja-slushi-noise-leaking" returnHash="#learn"><span>10</span><div><small>MACHINE HELP</small><b>Noise, clicking, and leaking guide</b></div><i>→</i></ReturnLink>
+            <ReturnLink href="/learn/sugar-free-ninja-slushi" returnHash="#learn"><span>03</span><div><small>SUGAR-FREE SLUSH</small><b>Why diet drinks need a different freeze plan</b></div><i>→</i></ReturnLink>
+            <a className="learn-all-link" href="/learn"><span>10</span><div><small>COMPLETE LEARNING CENTER</small><b>Browse all SlushIQ guides</b></div><i>→</i></a>
           </div>
         </section>
 
-        <section className="faq" id="faq"><p className="section-kicker">QUICK ANSWERS</p><div className="faq-layout"><div className="faq-intro"><h2>Frequently Asked<br /><em>Questions</em></h2><p>Home slush machines look simple, but the mixture inside them is doing several things at once. Sugar, alcohol, dilution, temperature, and batch size all affect whether a frozen drink stays liquid, turns icy, or reaches a smooth texture. These answers cover common questions from Ninja SLUSHi, Iceman, and other home slushie-machine owners.</p></div><div className="faq-list">{faqs.map(([q, a], index) => <details key={q}><summary><i>{String(index + 1).padStart(2, "0")}</i><b>{q}</b><span>+</span></summary><p>{a}{index === 0 && <a className="faq-learn-link" href="/learn/fix-my-slush">Read the complete troubleshooting guide →</a>}</p></details>)}</div></div></section>
+        <section className="faq" id="faq"><p className="section-kicker">QUICK ANSWERS</p><div className="faq-layout"><div className="faq-intro"><h2>Frequently Asked<br /><em>questions.</em></h2><p>Home slush machines look simple, but the mixture inside them is doing several things at once. Sugar, alcohol, dilution, temperature, and batch size all affect whether a frozen drink stays liquid, turns icy, or reaches a smooth texture.</p><a className="section-text-link" href="/learn">Explore every learning guide <span>→</span></a></div><div className="faq-list">{faqs.map(([q, a], index) => <details key={q}><summary><i>{String(index + 1).padStart(2, "0")}</i><b>{q}</b><span>+</span></summary><p>{a}{index === 0 && <a className="faq-learn-link" href="/learn/fix-my-slush">Read the complete troubleshooting guide →</a>}</p></details>)}</div></div></section>
 
         <DownloadCta id="download" />
       </main>
 
-      <footer><div><Wordmark /><p>Frozen drink recipes and slush math.</p></div><div className="footer-links"><div><b>EXPLORE SLUSHIQ</b><a href="#features">Tools</a><a href="/recipes-and-library">Recipes &amp; My Library</a><a href="/labs">How It Works</a><a href="#learn">Learn</a><a href="#faq">FAQ</a></div><div><b>CONNECT</b><a href="https://www.tiktok.com/@slushiqapp" target="_blank" rel="noreferrer">TikTok</a><a href="https://www.reddit.com/r/slushrecipes/" target="_blank" rel="noreferrer">Reddit community</a><a href="/support">Support</a></div><div><b>LEGAL</b><a href="/privacy">Privacy</a><a href="/terms">Terms</a></div></div><p className="legal">© 2026 SlushIQ. SlushIQ is an independent product and is not affiliated with or endorsed by Ninja, Iceman, VEVOR, or GreenPan. All third-party product names and trademarks belong to their respective owners.</p></footer>
+      <footer><div><Wordmark /><p>Frozen drink recipes and slush math.</p></div><div className="footer-links"><div><b>EXPLORE SLUSHIQ</b><a href="#features">Tools</a><a href="/recipes-and-library">Recipes &amp; My Library</a><a href="/labs">How It Works</a><a href="/learn">Learn</a><a href="#faq">FAQ</a></div><div><b>CONNECT</b><a href="https://www.tiktok.com/@slushiqapp" target="_blank" rel="noreferrer">TikTok</a><a href="https://www.reddit.com/r/slushrecipes/" target="_blank" rel="noreferrer">Reddit community</a><a href="/support">Support</a></div><div><b>LEGAL</b><a href="/privacy">Privacy</a><a href="/terms">Terms</a></div></div><p className="legal">© 2026 SlushIQ. SlushIQ is an independent product and is not affiliated with or endorsed by Ninja, Iceman, VEVOR, or GreenPan. All third-party product names and trademarks belong to their respective owners.</p></footer>
     </>
   );
 }
