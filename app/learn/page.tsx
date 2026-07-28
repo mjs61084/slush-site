@@ -21,6 +21,7 @@ const categories = [
     description: "Learn why a drink’s sugar, alcohol, and dissolved ingredients change its texture.",
     guides: [
       { href: "/learn/what-is-brix", label: "What Brix means for frozen drinks", note: "Use Brix as one part of the answer—not a universal target." },
+      { href: "/learn/why-11-8-brix", label: "Why SlushIQ targets 11.8 Brix", note: "The reasoning behind SimpleLAB’s alcoholic-batch starting point." },
       { href: "/learn/2-to-1-simple-syrup", label: "How to make 2:1 simple syrup", note: "Why SlushIQ uses rich syrup for more sugar with less added water." },
       { href: "/learn/alcohol-and-slush", label: "How alcohol changes the freeze", note: "Understand final-batch ABV and why strong mixtures stay liquid." },
       { href: "/learn/sugar-free-ninja-slushi", label: "Sugar-free slush machine guide", note: "Why diet drinks, allulose, and intense sweeteners behave differently." },

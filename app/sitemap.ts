@@ -10,6 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/learn`, changeFrequency: "weekly", priority: 0.9 },
     { url: `${base}/learn/fix-my-slush`, changeFrequency: "monthly", priority: 0.9 },
     { url: `${base}/learn/what-is-brix`, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/learn/why-11-8-brix`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/learn/2-to-1-simple-syrup`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/learn/alcohol-and-slush`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/learn/slush-machine-calculator`, changeFrequency: "monthly", priority: 0.9 },
