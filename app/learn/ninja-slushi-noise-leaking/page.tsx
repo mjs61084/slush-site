@@ -3,10 +3,10 @@ import { GuideShell } from "../guide-shell";
 
 const url = "https://slushiq.com/learn/ninja-slushi-noise-leaking";
 export const metadata: Metadata = {
-  title: "Slush Machine Noise, Clicking & Leaking Guide",
-  description: "Learn what to check when a home slush machine squeaks, clicks, or appears to leak—and when to stop the machine and contact official support.",
+  title: "Ninja Slushi Noise, Clicking or Leaking?",
+  description: "Troubleshoot Ninja Slushi squeaking, clicking, grinding, or leaking. Follow safe checks for residue, seals, condensation, and damaged parts.",
   alternates: { canonical: url },
-  openGraph: { title: "Slush Machine Noise, Clicking & Leaking Guide", description: "A safety-first checklist for unusual sounds, residue, condensation, seals, and damaged parts.", url, type: "article" },
+  openGraph: { title: "Ninja Slushi Noise, Clicking or Leaking?", description: "A safety-first checklist for unusual sounds, residue, condensation, seals, and damaged parts.", url, type: "article" },
 };
 export default function NoiseGuide() {
   const schema = { "@context": "https://schema.org", "@type": "Article", headline: "Slush Machine Noise, Clicking and Leaking Guide", description: metadata.description, author: { "@type": "Organization", name: "SlushIQ" }, publisher: { "@type": "Organization", name: "SlushIQ" }, mainEntityOfPage: url };

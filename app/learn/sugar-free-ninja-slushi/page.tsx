@@ -3,10 +3,10 @@ import { GuideShell } from "../guide-shell";
 
 const url = "https://slushiq.com/learn/sugar-free-ninja-slushi";
 export const metadata: Metadata = {
-  title: "Sugar-Free Slush Machine Guide",
-  description: "Learn why diet drinks can turn icy in a home slush machine, how allulose differs from ordinary sweeteners, and what to check before adjusting a batch.",
+  title: "Sugar-Free Ninja Slushi: Fix Icy Diet Drinks",
+  description: "Fix icy sugar-free Ninja Slushi drinks. Learn why diet sweeteners freeze differently, how liquid allulose helps, and what to adjust safely.",
   alternates: { canonical: url },
-  openGraph: { title: "Sugar-Free Slush Machine Guide", description: "A practical guide to diet drinks, allulose, icy texture, foam, and sugar-free slush troubleshooting.", url, type: "article" },
+  openGraph: { title: "Sugar-Free Ninja Slushi: Fix Icy Diet Drinks", description: "A practical guide to diet drinks, liquid allulose, icy texture, foam, and sugar-free slush troubleshooting.", url, type: "article" },
 };
 export default function SugarFreeGuide() {
   const schema = { "@context": "https://schema.org", "@type": "Article", headline: "Sugar-Free Slush Machine Guide", description: metadata.description, author: { "@type": "Organization", name: "SlushIQ" }, publisher: { "@type": "Organization", name: "SlushIQ" }, mainEntityOfPage: url };
@@ -24,5 +24,5 @@ export default function SugarFreeGuide() {
     afterBody="Alcohol also lowers the freezing point, but it is not a direct replacement for sugar. A sugar-free cocktail can still remain liquid when final-batch alcohol is too high, and frozen drinks can disguise their strength. Calculate the entire batch and serve alcohol only to adults of legal drinking age."
     safetyHeading="A safer troubleshooting sequence"
     safetyBody="Confirm that the recipe and ingredients are permitted by the guide for your exact machine. Record every brand and amount, begin with cold ingredients, allow the selected program to work, and change only one measured variable at a time. SlushIQ can model the complete ingredient list instead of treating every diet drink as identical."
-    links={[{ href: "/learn/fix-my-slush", label: "Why won’t my slush freeze?" }, { href: "/learn/what-is-brix", label: "What Brix means for frozen drinks" }, { href: "/learn/alcohol-and-slush", label: "How alcohol changes the freeze" }]} schema={schema} />;
+    links={[{ href: "/learn/fix-my-slush", label: "Why won’t my slush freeze?" }, { href: "/learn/ninja-slushi-foamy", label: "Why is my Ninja Slushi drink foamy?" }, { href: "/learn/frozen-drink-recipes", label: "What makes a frozen drink recipe work?" }, { href: "/learn/what-is-brix", label: "What Brix means for frozen drinks" }]} schema={schema} />;
 }

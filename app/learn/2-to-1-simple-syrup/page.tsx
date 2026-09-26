@@ -4,12 +4,12 @@ import { GuideShell } from "../guide-shell";
 const url = "https://slushiq.com/learn/2-to-1-simple-syrup";
 
 export const metadata: Metadata = {
-  title: "How to Make 2:1 Simple Syrup for Slush Recipes",
-  description: "Learn how to make 2:1 rich simple syrup, why SlushIQ recipes use it, how it reduces added water, and how to store it safely.",
+  title: "2:1 Simple Syrup for Slush Machines",
+  description: "Make 2:1 rich simple syrup for frozen drinks. Learn the exact ratio, why it improves slush-machine recipes, and how to store it safely.",
   alternates: { canonical: url },
   openGraph: {
-    title: "How to Make 2:1 Simple Syrup",
-    description: "Why SlushIQ standardizes on rich simple syrup—and how to make, measure, refrigerate, and replace it correctly.",
+    title: "2:1 Simple Syrup for Slush Machines",
+    description: "Make and use rich simple syrup for frozen drinks while controlling sugar, dilution, Brix, and final batch volume.",
     url,
     type: "article",
   },
